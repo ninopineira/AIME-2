@@ -26,6 +26,8 @@ PINEIRA Nino : nino.pineira@ensta.fr
 
 Logiciel déja existant : https://www.aideaucodage.fr/cim
 
+## pourquoi le main serqit une branche protegee
+
 ## Add your files
 
 - [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
