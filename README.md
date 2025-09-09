@@ -2,11 +2,19 @@
 
 
 
-## Getting started
+## Encadrants du projet
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+THOMAS Gilles : gilles2.thomas@intradef.gouv.fr \
+RIOU Anne : Anne1.riou@intradef.gouv.fr \
+INIZAN Pascal : pascal.inizan@intradef.gouv.fr \
+MANSOUR Ali : ali.mansour@ensta.fr 
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+## Membres élèves 
+BERNUCHON--MONCOUTIÉ Renée : renee.bernuchon--moncoutie@ensta.fr \
+GHALEM Romaissae : romaissae.ghalem@ensta.fr \
+HAMAD Sana : sana.hamad@ensta.fr \
+PINEIRA Nino : nino.pineira@ensta.fr 
+
 
 ## Add your files
 
