@@ -10,11 +10,15 @@ INIZAN Pascal : pascal.inizan@intradef.gouv.fr \
 MANSOUR Ali : ali.mansour@ensta.fr 
 
 ## Membres élèves 
+
 BERNUCHON--MONCOUTIÉ Renée : renee.bernuchon--moncoutie@ensta.fr \
 GHALEM Romaissae : romaissae.ghalem@ensta.fr \
 HAMAD Sana : sana.hamad@ensta.fr \
 PINEIRA Nino : nino.pineira@ensta.fr 
 
+## Ressources 
+
+Logiciel déja existant : https://www.aideaucodage.fr/cim
 
 ## Add your files
 
