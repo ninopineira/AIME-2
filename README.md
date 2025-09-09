@@ -19,7 +19,7 @@ MANSOUR Ali : ali.mansour@ensta.fr
 
 BERNUCHON--MONCOUTIÉ Renée : renee.bernuchon--moncoutie@ensta.fr \
 GHALEM Romaissae : romaissae.ghalem@ensta.fr \
-HAMAD Sana : sana.hamad@ensta.fr \
+HAMAD Sana <3 >: sana.hamad@ensta.fr \
 PINEIRA Nino : nino.pineira@ensta.fr 
 
 ## Ressources 
