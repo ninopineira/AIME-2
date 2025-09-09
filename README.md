@@ -30,6 +30,8 @@ Logiciel déja existant : https://www.aideaucodage.fr/cim
 
 Forcer le switch: ```git switch -f branch_name```
 
+## encore des tests 
+
 ## Add your files
 
 - [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
