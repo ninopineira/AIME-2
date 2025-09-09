@@ -28,7 +28,9 @@ Logiciel déja existant : https://www.aideaucodage.fr/cim
 
 ## Commandes utiles
 
-Forcer le switch: ```git switch -f branch_name```
+Forcer le switch: ```git switch -f branch_name``` \
+Voir où git fait ses push/pull : ```git remote -v``` \
+Changer l'endroit où git fait ses push/pull : ```git remote set-url https://gitlab.ensta-bretagne.fr/username/project.git```
 
 ## Add your files
 
