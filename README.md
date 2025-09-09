@@ -26,7 +26,7 @@ PINEIRA Nino : nino.pineira@ensta.fr
 
 Logiciel déja existant : https://www.aideaucodage.fr/cim
 
-## pourquoi le main serqit une branche protegee
+## et so etre owner changeait TOUT
 
 ## Add your files
 
