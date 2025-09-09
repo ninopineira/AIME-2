@@ -5,6 +5,7 @@
 ## Encadrants du projet
 
 THOMAS Gilles : gilles2.thomas@intradef.gouv.fr \
+SIMSON Jean-pierre : jean-pierre.simson@intradef.gouv.fr \
 RIOU Anne : Anne1.riou@intradef.gouv.fr \
 INIZAN Pascal : pascal.inizan@intradef.gouv.fr \
 MANSOUR Ali : ali.mansour@ensta.fr 
