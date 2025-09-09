@@ -25,6 +25,7 @@ PINEIRA Nino : nino.pineira@ensta.fr
 ## Ressources 
 
 Logiciel déja existant : https://www.aideaucodage.fr/cim
+Liste des Codes CIM-X : https://almed.org/fr/cim-10.php 
 
 ## Commandes utiles
 
