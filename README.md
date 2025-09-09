@@ -19,14 +19,16 @@ MANSOUR Ali : ali.mansour@ensta.fr
 
 BERNUCHON--MONCOUTIÉ Renée : renee.bernuchon--moncoutie@ensta.fr \
 GHALEM Romaissae : romaissae.ghalem@ensta.fr \
-HAMAD Sana <3 >: sana.hamad@ensta.fr \
+HAMAD Sana : sana.hamad@ensta.fr \
 PINEIRA Nino : nino.pineira@ensta.fr 
 
 ## Ressources 
 
 Logiciel déja existant : https://www.aideaucodage.fr/cim
 
-## et so etre owner changeait TOUT
+## Commandes utiles
+
+Forcer le switch: ```git switch -f branch_name```
 
 ## Add your files
 
