@@ -40,3 +40,7 @@ Liste des Codes CIM-X : https://almed.org/fr/cim-10.php
 Forcer le switch: ```git switch -f branch_name``` \
 Voir où git fait ses push/pull : ```git remote -v``` \
 Changer l'endroit où git fait ses push/pull : ```git remote set-url https://gitlab.ensta-bretagne.fr/username/project.git```
+
+
+## tests à faire
+"Le patient ne présente pas que des signes de dépression mais aussi d’anxiété".
