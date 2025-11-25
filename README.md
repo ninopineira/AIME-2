@@ -27,12 +27,12 @@ PINEIRA Nino : nino.pineira@ensta.fr
 Travail effectué l'année précédente : https://github.com/Pallandos/aime 
 
 Logiciel déja existant : https://www.aideaucodage.fr/cim
-Liste des Codes CIM-X : https://almed.org/fr/cim-10.php 
+Liste des Codes CIM-X : https://almed.org/fr/cim-10.php + Document donné par l'hopital
 
 ## Emplacement des documents 
 
-- [ ] Diagramme de Ganttt : Notion
-- [ ] interview encadrant : PLMLatex
+- [ ] Diagramme de Gantt : Notion
+- [ ] interview encadrant : ~~PLMLatex~~ Zip file
 
 
 ## Commandes utiles
