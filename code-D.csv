@@ -1,0 +1,464 @@
+D00.0;Lèvre, cavité buccale et pharynx.
+D00.1;Œsophage.
+D00.2;Estomac.
+D01.0;Côlon.
+D01.1;Jonction rectosigmoïdienne.
+D01.2;Rectum.
+D01.3;Anus et canal anal.
+D01.4;Parties de l'intestin, autres et non précisées.
+D01.5;Foie, vésicule et voies biliaires.
+D01.7;Autres organes digestifs précisés.
+D01.9;Organe digestif, sans précision.
+D02.0;Larynx.
+D02.1;Trachée.
+D02.2;Bronches et poumon.
+D02.3;Autres parties de l'appareil respiratoire.
+D02.4;Appareil respiratoire, sans précision.
+D03.0;Mélanome in situ de la lèvre.
+D03.1;Mélanome in situ de la paupière, y compris le canthus.
+D03.2;Mélanome in situ de l'oreille et du conduit auditif externe.
+D03.3;Mélanome in situ de parties de la face, autres et non précisées.
+D03.4;Mélanome in situ du cuir chevelu et du cou.
+D03.5;Mélanome in situ du tronc.
+D03.6;Mélanome in situ du membre supérieur, y compris l'épaule.
+D03.7;Mélanome in situ du membre inférieur, y compris la hanche.
+D03.8;Mélanome in situ d'autres sièges.
+D03.9;Mélanome in situ, sans précision.
+D04.0;Peau de la lèvre.
+D04.1;Peau de la paupière, y compris le canthus.
+D04.2;Peau de l'oreille et du conduit auditif externe.
+D04.3;Peau des parties de la face, autres et non précisées.
+D04.4;Peau du cuir chevelu et du cou.
+D04.5;Peau du tronc.
+D04.6;Peau du membre supérieur, y compris l'épaule.
+D04.7;Peau du membre inférieur, y compris la hanche.
+D04.8;Peau d'autres sièges.
+D04.9;Peau, sans précision.
+D05.0;Carcinome in situ lobulaire.
+D05.1;Carcinome in situ intracanalaire.
+D05.7;Autres carcinomes in situ du sein.
+D05.9;Carcinome in situ du sein, sans précision.
+D06.0;Endocol.
+D06.1;Exocol.
+D06.7;Autres parties du col de l'utérus.
+D06.9;Col de l'utérus, sans précision.
+D07.0;Endomètre.
+D07.1;Vulve.
+D07.2;Vagin.
+D07.3;Organes génitaux de la femme, autres et non précisés.
+D07.4;Verge.
+D07.5;Prostate.
+D07.6;Organes génitaux de l'homme, autres et non précisés.
+D09.0;Vessie.
+D09.1;Organes urinaires, autres et non précisés.
+D09.2;Œil.
+D09.3;Thyroïde et autres glandes endocrines.
+D09.7;Carcinome in situ d'autres sièges précisés.
+D09.9;Carcinome in situ, sans précision.
+D10.0;Lèvre.
+D10.1;Langue.
+D10.2;Plancher de la bouche.
+D10.3;Parties de la bouche, autres et non précisées.
+D10.4;Amygdale.
+D10.5;Autres parties de l'oropharynx.
+D10.6;Rhinopharynx.
+D10.7;Hypopharynx.
+D10.9;Pharynx, sans précision.
+D11.0;Glande parotide.
+D11.7;Autres glandes salivaires principales.
+D11.9;Glande salivaire principale, sans précision.
+D12.0;Cæcum.
+D12.1;Appendice.
+D12.2;Côlon ascendant.
+D12.3;Côlon transverse.
+D12.4;Côlon descendant.
+D12.5;Côlon sigmoïde.
+D12.6;Côlon, sans précision.
+D12.6;0 Polypose (colique) familiale adénomateuse.
+D12.6;1 Polypose (colique) liée au gène APC.
+D12.6;2 Polypose (colique) liée au gène MYH.
+D12.6;3 Polypose (colique) festonnée.
+D12.6;4 Polypose (colique) juvénile.
+D12.6;5 Polypose (colique) au cours du syndrome de Peutz–Jeghers.
+D12.6;6 Polypose (colique) au cours de la maladie de Cowden.
+D12.6;8 Côlon, tumeurs bénignes autres et non précisées.
+D12.7;Jonction rectosigmoïdienne.
+D12.8;Rectum.
+D12.9;Anus et canal anal.
+D13.0;Œsophage.
+D13.1;Estomac.
+D13.2;Duodénum.
+D13.3;Parties de l'intestin grêle, autres et non précisées.
+D13.4;Foie.
+D13.5;Voies biliaires extrahépatiques.
+D13.6;Pancréas.
+D13.7;Pancréas endocrine.
+D13.9;Sièges mal définis de l'appareil digestif.
+D13.9; Rate.
+D14.0;Oreille moyenne, fosses nasales et sinus de la face.
+D14.1;Larynx.
+D14.2;Trachée.
+D14.3;Bronches et poumon.
+D14.4;Appareil respiratoire, sans précision.
+D15.0;Thymus.
+D15.1;Cœur.
+D15.2;Médiastin.
+D15.7;Autres organes intrathoraciques précisés.
+D15.9;Organe intrathoracique, sans précision.
+D16.0;Omoplate et os longs du membre supérieur.
+D16.1;Os courts du membre supérieur.
+D16.2;Os longs du membre inférieur.
+D16.3;Os courts du membre inférieur.
+D16.4;Os du crâne et de la face.
+D16.5;Maxillaire inférieur.
+D16.6;Rachis.
+D16.7;Côtes, sternum et clavicule.
+D16.8;Bassin, sacrum et coccyx.
+D16.9;Os et cartilage articulaire, sans précision.
+D17.0;Tumeur lipomateuse bénigne de la peau et du tissu souscutané de la tête, de la face.
+D17.1;Tumeur lipomateuse bénigne de la peau et du tissu souscutané du tronc.
+D17.2;Tumeur lipomateuse bénigne de la peau et du tissu souscutané des membres.
+D17.3;Tumeur lipomateuse bénigne de la peau et du tissu souscutané, de sièges autres et.
+D17.4;Tumeur lipomateuse bénigne des organes intrathoraciques.
+D17.5;Tumeur lipomateuse bénigne des organes intraabdominaux.
+D17.6;Tumeur lipomateuse bénigne du cordon spermatique.
+D17.7;Tumeur lipomateuse bénigne d'autres sièges.
+D17.9;Tumeur lipomateuse bénigne, sans précision.
+D18.0;Hémangiome, tout siège.
+D18.1;Lymphangiome, tout siège.
+D19.0;Tissu mésothélial de la plèvre.
+D19.1;Tissu mésothélial du péritoine.
+D19.7;Tissu mésothélial d'autres sièges.
+D19.9;Tissu mésothélial, sans précision.
+D20.0;Rétropéritoine.
+D20.1;Péritoine.
+D21.0;Tissu conjonctif et autres tissus mous de la tête, de la face et du cou.
+D21.1;Tissu conjonctif et autres tissus mous du membre supérieur, y compris l'épaule.
+D21.2;Tissu conjonctif et autres tissus mous du membre inférieur, y compris la hanche.
+D21.3;Tissu conjonctif et autres tissus mous du thorax.
+D21.3; Vaisseaux (sanguins) (lymphatiques) du thorax.
+D21.3; Tissu conjonctif et autres tissus mous du thorax, autres.
+D21.4;Tissu conjonctif et autres tissus mous de l'abdomen.
+D21.4; Vaisseaux (sanguins) (lymphatiques) de l’abdomen.
+D21.4; Tissu conjonctif et autres tissus mous de l’abdomen, autres.
+D21.5;Tissu conjonctif et autres tissus mous du bassin.
+D21.5; Vaisseaux (sanguins) (lymphatiques) du bassin.
+D21.5; Tissu conjonctif et autres tissus mous du bassin, autres.
+D21.6;Tissu conjonctif et autres tissus mous du tronc, sans précision.
+D21.9;Tissu conjonctif et autres tissus mous, sans précision.
+D22.0;Nævus à mélanocytes de la lèvre.
+D22.1;Nævus à mélanocytes de la paupière, y compris le canthus.
+D22.2;Nævus à mélanocytes de l'oreille et du conduit auditif externe.
+D22.3;Nævus à mélanocytes des parties de la face, autres et non précisées.
+D22.4;Nævus à mélanocytes du cuir chevelu et du cou.
+D22.5;Nævus à mélanocytes du tronc.
+D22.6;Nævus à mélanocytes du membre supérieur, y compris l'épaule.
+D22.7;Nævus à mélanocytes du membre inférieur, y compris la hanche.
+D22.9;Nævus à mélanocytes, sans précision.
+D23.0;Peau de la lèvre.
+D23.1;Peau de la paupière, y compris le canthus.
+D23.2;Peau de l'oreille et du conduit auditif externe.
+D23.3;Peau des parties de la face, autres et non précisées.
+D23.4;Peau du cuir chevelu et du cou.
+D23.5;Peau du tronc.
+D23.6;Peau du membre supérieur, y compris l'épaule.
+D23.7;Peau du membre inférieur, y compris la hanche.
+D23.9;Peau, sans précision.
+D25.0;Léiomyome sousmuqueux de l'utérus.
+D25.1;Léiomyome intramural de l'utérus.
+D25.2;Léiomyome sousséreux de l'utérus.
+D25.9;Léiomyome de l'utérus, sans précision.
+D26.0;Col de l'utérus.
+D26.1;Corps de l'utérus 198.
+D26.7;Autres parties de l'utérus.
+D26.9;Utérus, sans précision.
+D28.0;Vulve.
+D28.1;Vagin.
+D28.2;Trompe et ligaments de l'utérus.
+D28.7;Autres organes génitaux de la femme précisés.
+D28.9;Organe génital de la femme, sans précision.
+D29.0;Verge.
+D29.1;Prostate.
+D29.2;Testicule.
+D29.3;Épididyme.
+D29.4;Scrotum.
+D29.7;Autres organes génitaux de l'homme.
+D29.9;Organe génital de l'homme, sans précision.
+D30.0;Rein.
+D30.1;Bassinet rénal.
+D30.2;Uretère.
+D30.3;Vessie.
+D30.4;Urètre.
+D30.7;Autres organes urinaires.
+D30.9;Organe urinaire, sans précision.
+D31.0;Conjonctive.
+D31.1;Cornée.
+D31.2;Rétine.
+D31.3;Choroïde.
+D31.4;Corps ciliaire.
+D31.5;Glande lacrymale et canal lacrymal.
+D31.6;Orbite, sans précision.
+D31.9;Œil, sans précision.
+D32.0;Méninges cérébrales.
+D32.1;Méninges rachidiennes.
+D32.9;Méninges, sans précision.
+D33.0;Encéphale, supratentoriel.
+D33.1;Encéphale, infratentoriel.
+D33.2;Encéphale, sans précision.
+D33.3;Nerfs crâniens.
+D33.4;Moelle épinière.
+D33.7;Autres parties précisées du système nerveux central.
+D33.9;Système nerveux central, sans précision.
+D35.0;Surrénale.
+D35.1;Parathyroïde.
+D35.2;Hypophyse.
+D35.3;Canal craniopharyngien.
+D35.4;Épiphyse.
+D35.5;Corpuscule carotidien.
+D35.6;Glomus aortique et autres paraganglions.
+D35.7;Autres glandes endocrines précisées.
+D35.8;Atteinte pluriglandulaire.
+D35.9;Glande endocrine, sans précision.
+D36.0;Ganglions lymphatiques.
+D36.1;Nerfs périphériques et du système nerveux autonome.
+D36.7;Autres sièges précisés.
+D36.9;Tumeur bénigne de siège non précisé.
+D37.0;Lèvre, cavité buccale et pharynx.
+D37.1;Estomac.
+D37.2;Intestin grêle.
+D37.3;Appendice.
+D37.4;Côlon.
+D37.5;Rectum.
+D37.6;Foie, vésicule et voies biliaires.
+D37.7;Autres organes digestifs.
+D37.9;Appareil digestif, sans précision.
+D38.0;Larynx.
+D38.1;Trachée, bronches et poumon.
+D38.2;Plèvre.
+D38.3;Médiastin.
+D38.4;Thymus.
+D38.5;Autres organes respiratoires.
+D38.6;Appareil respiratoire, sans précision.
+D39.0;Utérus.
+D39.1;Ovaire.
+D39.2;Placenta.
+D39.7;Autres organes génitaux de la femme.
+D39.9;Organe génital de la femme, sans précision.
+D40.0;Prostate.
+D40.1;Testicule.
+D40.7;Autres organes génitaux de l'homme.
+D40.9;Organe génital de l'homme, sans précision.
+D41.0;Rein.
+D41.1;Bassinet.
+D41.2;Uretère.
+D41.3;Urètre.
+D41.4;Vessie.
+D41.7;Autres organes urinaires.
+D41.9;Organe urinaire, sans précision.
+D42.0;Méninges cérébrales.
+D42.1;Méninges rachidiennes.
+D42.9;Méninges, sans précision.
+D43.0;Encéphale, supratentoriel.
+D43.1;Encéphale, infratentoriel.
+D43.2;Encéphale, sans précision.
+D43.3;Nerfs crâniens.
+D43.4;Moelle épinière.
+D43.7;Autres parties du système nerveux central.
+D43.9;Système nerveux central, sans précision.
+D44.0;Thyroïde.
+D44.1;Surrénale.
+D44.2;Parathyroïde.
+D44.3;Hypophyse.
+D44.4;Canal craniopharyngien.
+D44.4; Craniopharyngiome.
+D44.4; Autres tumeurs du canal craniopharyngien.
+D44.5;Épiphyse.
+D44.6;Corpuscule carotidien.
+D44.7;Glomus aortique et autres paraganglions.
+D44.8;Atteinte pluriglandulaire.
+D44.9;Glande endocrine, sans précision.
+D46.0;Anémie réfractaire sans sidéroblastes en couronne, ainsi précisée.
+D46.1;Anémie réfractaire avec sidéroblastes en couronne.
+D46.2;Anémie réfractaire avec excès de blastes [AREB].
+D46.4;Anémie réfractaire, non précisée.
+D46.5;Anémie réfractaire avec dysplasie de plusieurs lignées cellulaires.
+D46.6;Syndrome myélodysplasique avec syndrome de délétion isolée du chromosome 5.
+D46.7;Autres syndromes myélodysplasiques.
+D46.9;Syndrome myélodysplasique, sans précision.
+D47.0;Tumeurs à histiocytes et mastocytes à évolution imprévisible et inconnue.
+D47.1;Maladie myéloproliférative chronique.
+D47.2;Gammapathie monoclonale de signification indéterminée [GMSI].
+D47.3;Thrombocytémie essentielle (hémorragique).
+D47.4;Ostéomyélofibrose.
+D47.5;Leucémie chronique à éosinophiles [syndrome hyperéosinophilique].
+D47.7;Autres tumeurs précisées des tissus lymphoïde, hématopoïétique et apparentés à.
+D47.9;Tumeur des tissus lymphoïde, hématopoïétique et apparentés à évolution.
+D48.0;Os et cartilage articulaire.
+D48.1;Tissu conjonctif et autres tissus mous.
+D48.2;Nerfs périphériques et du système nerveux autonome.
+D48.3;Rétropéritoine.
+D48.3; Tératome [dysembryome] sacrococcygien.
+D48.3; Autres tumeurs du rétropéritoine.
+D48.4;Péritoine.
+D48.5;Peau.
+D48.6;Sein.
+D48.7;Autres sièges précisés.
+D48.9;Tumeur à évolution imprévisible ou inconnue, sans précision.
+D50.0;Anémie par carence en fer secondaire à une perte de sang (chronique).
+D50.1;Dysphagie sidéropénique.
+D50.8;Autres anémies par carence en fer.
+D50.9;Anémie par carence en fer, sans précision.
+D51.0;Anémie par carence en vitamine B due à une carence en facteur intrinsèque.
+D51.1;Anémie par carence en vitamine B due à une malabsorption sélective de la.
+D51.2;Carence en transcobalamine II.
+D51.3;Autres anémies par carence alimentaire en vitamine B.
+D51.8;Autres anémies par carence en vitamine B.
+D51.9;Anémie par carence en vitamine B , sans précision.
+D52.0;Anémie par carence alimentaire en acide folique.
+D52.1;Anémie par carence en acide folique due à des médicaments.
+D52.8;Autres anémies par carence en acide folique.
+D52.9;Anémie par carence en acide folique, sans précision.
+D53.0;Anémie par carence en protéines.
+D53.1;Autres anémies mégaloblastiques, non classées ailleurs.
+D53.2;Anémie scorbutique.
+D53.8;Autres anémies nutritionnelles précisées.
+D53.9;Anémie nutritionnelle, sans précision.
+D55.0;Anémie due à une carence en glucose-6-phosphate déshydrogénase [G6PD].
+D55.1;Anémie due à d'autres anomalies du métabolisme du glutathion.
+D55.2;Anémie due à des anomalies des enzymes glycolytiques.
+D55.3;Anémie due à des anomalies du métabolisme des nucléotides.
+D55.8;Autres anémies dues à des anomalies enzymatiques.
+D55.9;Anémie due à des anomalies enzymatiques, sans précision.
+D56.0;Alphathalassémie.
+D56.1;Bêtathalassémie.
+D56.2;Deltabêtathalassémie.
+D56.3;Trait thalassémique.
+D56.4;Persistance héréditaire de l'hémoglobine fœtale [HbF].
+D56.8;Autres thalassémies.
+D56.9;Thalassémie, sans précision.
+D57.0;Anémie à hématies falciformes [anémie drépanocytaire] avec crises.
+D57.1;Anémie à hématies falciformes sans crises.
+D57.2;Affections à hématies falciformes [drépanocytaires] hétérozygotes doubles.
+D57.3;Trait de la maladie des hématies falciformes [drépanocytaire].
+D57.8;Autres affections à hématies falciformes [drépanocytaires].
+D58.0;Sphérocytose héréditaire.
+D58.1;Elliptocytose héréditaire.
+D58.2;Autres hémoglobinopathies.
+D58.8;Autres anémies hémolytiques héréditaires précisées.
+D58.9;Anémie hémolytique héréditaire, sans précision.
+D59.0;Anémie hémolytique auto-immune, due à des médicaments.
+D59.1;Autres anémies hémolytiques auto-immunes.
+D59.2;Anémie hémolytique non auto-immune, due à des médicaments.
+D59.3;Syndrome hémolytique et urémique.
+D59.4;Autres anémies hémolytiques non auto-immunes.
+D59.5;Hémoglobinurie nocturne paroxystique [Marchiafava–Micheli].
+D59.6;Hémoglobinurie due à une hémolyse relevant d'autres causes externes.
+D59.8;Autres anémies hémolytiques acquises.
+D59.9;Anémie hémolytique acquise, sans précision.
+D60.0;Aplasie médullaire acquise pure des globules rouges, chronique.
+D60.1;Aplasie médullaire acquise pure des globules rouges, transitoire.
+D60.8;Autres aplasies médullaires acquises pures des globules rouges.
+D60.9;Aplasie médullaire acquise pure des globules rouges, sans précision.
+D61.0;Aplasie médullaire constitutionnelle.
+D61.1;Aplasie médullaire médicamenteuse.
+D61.2;Aplasie médullaire due à d'autres agents externes.
+D61.3;Aplasie médullaire idiopathique.
+D61.8;Autres aplasies médullaires précisées.
+D61.9;Aplasie médullaire, sans précision.
+D63.0; Anémie au cours de maladies tumorales (C00-D48†).
+D63.8; Anémie au cours d'autres maladies chroniques classées ailleurs.
+D64.0;Anémie sidéroblastique héréditaire.
+D64.1;Anémie sidéroblastique secondaire, due à une maladie.
+D64.2;Anémie sidéroblastique secondaire, due à des médicaments et des toxines.
+D64.3;Autres anémies sidéroblastiques.
+D64.4;Anémie dysérythropoïétique congénitale.
+D64.8;Autres anémies précisées.
+D64.9;Anémie, sans précision.
+D68.0;Maladie de von Willebrand.
+D68.1;Carence héréditaire en facteur XI.
+D68.2;Carence héréditaire en autres facteurs de coagulation.
+D68.3;Troubles hémorragiques dus à des anticoagulants circulants.
+D68.4;Carence acquise en facteur de coagulation.
+D68.5;Thrombophilie primaire.
+D68.6;Autres thrombophilies.
+D68.8;Autres anomalies précisées de la coagulation.
+D68.9;Anomalie de la coagulation, sans précision.
+D69.0;Purpura allergique.
+D69.1;Modifications qualitatives des plaquettes.
+D69.2;Autres purpuras non thrombopéniques.
+D69.3;Purpura thrombopénique idiopathique.
+D69.4;Autres thrombopénies primaires.
+D69.5;Thrombopénie secondaire.
+D69.6;Thrombopénie, sans précision.
+D69.8;Autres affections hémorragiques précisées.
+D69.9;Affection hémorragique, sans précision.
+D72.0;Anomalies génétiques des leucocytes.
+D72.1;Éosinophilie.
+D72.8;Autres anomalies précisées des leucocytes.
+D72.9;Anomalie des leucocytes, sans précision.
+D73.0;Hyposplénisme.
+D73.1;Hypersplénisme.
+D73.2;Splénomégalie congestive chronique.
+D73.3;Abcès de la rate.
+D73.4;Kyste de la rate.
+D73.5;Infarctus de la rate.
+D73.8;Autres maladies de la rate.
+D73.9;Maladie de la rate, sans précision.
+D74.0;Méthémoglobinémie congénitale.
+D74.8;Autres méthémoglobinémies.
+D74.9;Méthémoglobinémie, sans précision.
+D75.0;Érythrocytose familiale.
+D75.1;Polycythémie secondaire.
+D75.8;Autres maladies précisées du sang et des organes hématopoïétiques.
+D75.9;Maladie du sang et des organes hématopoïétiques, sans précision.
+D76.1;Lymphohistiocytose hémophagocytaire.
+D76.2;Syndrome hémophagocytaire associé à une infection.
+D76.3;Autres syndromes histiocytaires.
+D80.0;Hypogammaglobulinémie héréditaire.
+D80.1;Hypogammaglobulinémie non familiale.
+D80.2;Déficit sélectif en immunoglobuline A [IgA].
+D80.3;Déficit sélectif en sousclasses d'immunoglobulines G [IgG].
+D80.4;Déficit sélectif en immunoglobuline M [IgM].
+D80.5;Déficit immunitaire avec augmentation de l'immunoglobuline M [IgM].
+D80.6;Déficit en anticorps avec immunoglobulines presque normales ou avec.
+D80.7;Hypogammaglobulinémie transitoire du nourrisson.
+D80.8;Autres déficits immunitaires avec déficit prédominant de la production d'anticorps.
+D80.9;Déficit immunitaire avec déficit prédominant de la production d'anticorps, sans.
+D81.0;Déficit immunitaire combiné sévère [DICS] avec dysgénésie réticulaire.
+D81.1;Déficit immunitaire combiné sévère [DICS] avec nombre faible de cellules B et T.
+D81.2;Déficit immunitaire combiné sévère [DICS] avec nombre faible ou normal de cellules.
+D81.3;Déficit en adénosine-désaminase [ADA].
+D81.4;Syndrome de Nézelof.
+D81.5;Déficit en purine-nucléoside-phosphorylase [PNP].
+D81.6;Déficit en complexe majeur d'histocompatibilité classe I.
+D81.7;Déficit en complexe majeur d'histocompatibilité classe II.
+D81.8;Autres déficits immunitaires combinés.
+D81.9;Déficit immunitaire combiné, sans précision.
+D82.0;Syndrome de Wiskott–Aldrich.
+D82.1;Syndrome de Di George.
+D82.2;Déficit immunitaire avec micromélie.
+D82.3;Déficit immunitaire avec réponse héréditaire anormale au virus d'Epstein–Barr.
+D82.4;Syndrome d'hyperimmunoglobuline E [IgE].
+D82.8;Déficit immunitaire associé à d'autres anomalies majeures précisées.
+D82.9;Déficit immunitaire associé à une anomalie majeure, sans précision.
+D83.0;Déficit immunitaire commun variable avec anomalies prédominantes du nombre et.
+D83.1;Déficit immunitaire commun variable avec anomalies prédominantes des.
+D83.2;Déficit immunitaire commun variable avec autoanticorps antilymphocytes B ou T.
+D83.8;Autres déficits immunitaires communs variables.
+D83.9;Déficit immunitaire commun variable, sans précision.
+D84.0;Anomalie de la fonction lymphocytaire associée à l'antigène 1 [lymphocyte function-.
+D84.1;Déficit du complément.
+D84.8;Autres déficits immunitaires précisés.
+D84.9;Déficit immunitaire, sans précision.
+D86.0;Sarcoïdose du poumon.
+D86.1;Sarcoïdose des ganglions lymphatiques.
+D86.2;Sarcoïdose du poumon avec sarcoïdose des ganglions lymphatiques.
+D86.3;Sarcoïdose de la peau.
+D86.8;Sarcoïdose de localisations autres et associées.
+D86.9;Sarcoïdose, sans précision.
+D89.0;Hypergammaglobulinémie polyclonale.
+D89.1;Cryoglobulinémie.
+D89.2;Hypergammaglobulinémie, sans précision.
+D89.3;Syndrome de restauration immunitaire.
+D89.8;Autres anomalies précisées du système immunitaire, non classées ailleurs.
+D89.9;Anomalie du système immunitaire, sans précision.
