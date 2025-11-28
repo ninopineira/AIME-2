@@ -1,0 +1,374 @@
+H00.0;Orgelet et autres inflammations profondes de la paupière.
+H00.1;Chalazion.
+H01.0;Blépharite.
+H01.1;Dermatoses non infectieuses de la paupière.
+H01.8;Autres inflammations précisées de la paupière.
+H01.9;Inflammation de la paupière, sans précision.
+H02.0;Entropion et trichiasis de la paupière.
+H02.1;Ectropion palpébral.
+H02.2;Lagophtalmie.
+H02.3;Blépharochalasis.
+H02.4;Ptosis de la paupière.
+H02.5;Autres troubles affectant la fonction palpébrale.
+H02.6;Xanthélasma de la paupière.
+H02.7;Autres affections dégénératives des paupières et de la région périoculaire.
+H02.8;Autres affections précisées des paupières.
+H02.9;Affection des paupières, sans précision.
+H03.0; Infection parasitaire de la paupière au cours de maladies classées ailleurs.
+H03.1; Atteinte de la paupière au cours d'autres maladies infectieuses classées ailleurs.
+H03.8; Atteinte de la paupière au cours d'autres maladies classées ailleurs.
+H04.0;Dacryoadénite.
+H04.1;Autres affections des glandes lacrymales.
+H04.2;Épiphora.
+H04.3;Inflammation aigüe et sans précision des voies lacrymales.
+H04.4;Inflammation chronique des voies lacrymales.
+H04.5;Sténose et insuffisance des voies lacrymales.
+H04.6;Autres lésions des voies lacrymales.
+H04.8;Autres affections de l'appareil lacrymal.
+H04.9;Affection de l'appareil lacrymal, sans précision.
+H05.0;Inflammation aigüe de l'orbite.
+H05.1;Affections inflammatoires chroniques de l'orbite.
+H05.2;Exophtalmie.
+H05.3;Déformation de l'orbite.
+H05.4;Énophtalmie.
+H05.5;Rétention (ancienne) de corps étranger secondaire à une plaie pénétrante de l'orbite.
+H05.8;Autres affections de l'orbite.
+H05.9;Affection de l'orbite, sans précision.
+H06.0; Affections de l'appareil lacrymal au cours de maladies classées ailleurs.
+H06.1; Infection parasitaire de l'orbite au cours de maladies classées ailleurs.
+H06.2; Exophtalmie thyréotoxique (E05.-†).
+H06.3; Autres affections de l'orbite au cours de maladies classées ailleurs.
+H10.0;Conjonctivite mucopurulente.
+H10.1;Conjonctivite atopique aigüe.
+H10.2;Autres conjonctivites aigües.
+H10.3;Conjonctivite aigüe, sans précision.
+H10.4;Conjonctivite chronique.
+H10.5;Blépharoconjonctivite.
+H10.8;Autres conjonctivites.
+H10.9;Conjonctivite, sans précision.
+H11.0;Ptérygion.
+H11.1;Dépôts et affections dégénératives de la conjonctive.
+H11.2;Cicatrices de la conjonctive.
+H11.3;Hémorragie conjonctivale.
+H11.4;Autres troubles vasculaires et kystes de la conjonctive.
+H11.8;Autres affections précisées de la conjonctive.
+H11.9;Affection de la conjonctive, sans précision.
+H13.0; Parasitose filarienne de la conjonctive (B74.-†).
+H13.1; Conjonctivite au cours de maladies infectieuses et parasitaires classées ailleurs.
+H13.2; Conjonctivite au cours d'autres maladies classées ailleurs.
+H13.3; Pemphigoïde oculaire (L12.-†).
+H13.8; Autres affections de la conjonctive au cours de maladies classées ailleurs.
+H15.0;Sclérite.
+H15.1;Épisclérite.
+H15.8;Autres affections de la sclérotique.
+H15.9;Affection de la sclérotique, sans précision.
+H16.0;Ulcère de la cornée.
+H16.1;Autres kératites superficielles sans conjonctivite.
+H16.2;Kératoconjonctivite.
+H16.3;Kératite interstitielle et profonde.
+H16.4;Néovascularisation cornéenne.
+H16.8;Autres kératites.
+H16.9;Kératite, sans précision 363.
+H17.0;Leucome adhérent.
+H17.1;Autres opacités cornéennes centrales.
+H17.8;Autres cicatrices et opacités cornéennes.
+H17.9;Cicatrice et opacité cornéennes, sans précision.
+H18.0;Pigmentation et dépôts cornéens.
+H18.1;Kératopathie bulleuse.
+H18.2;Autre œdème de la cornée.
+H18.3;Lésions des membranes cornéennes.
+H18.4;Dégénérescence de la cornée.
+H18.5;Dystrophies cornéennes héréditaires.
+H18.6;Kératocône.
+H18.7;Autres déformations de la cornée.
+H18.8;Autres affections précisées de la cornée.
+H18.9;Affection de la cornée, sans précision.
+H19.0; Sclérite et épisclérite au cours de maladies classées ailleurs.
+H19.1; Kératite et kératoconjonctivite dues au virus de l'herpès (B00.5†).
+H19.2; Kératite et kératoconjonctivite au cours d'autres maladies infectieuses et.
+H19.3; Kératite et kératoconjonctivite au cours d'autres maladies classées ailleurs.
+H19.8; Autres affections de la sclérotique et de la cornée au cours de maladies classées.
+H20.0;Iridocyclite aigüe et subaigüe.
+H20.1;Iridocyclite chronique.
+H20.2;Iridocyclite due aux lentilles de contact.
+H20.8;Autres iridocyclites.
+H20.9;Iridocyclite, sans précision.
+H21.0;Hyphéma.
+H21.1;Autres affections vasculaires de l'iris et du corps ciliaire.
+H21.2;Affections dégénératives de l'iris et du corps ciliaire.
+H21.3;Kystes de l'iris, du corps ciliaire et de la chambre antérieure de l'œil.
+H21.4;Membranes pupillaires.
+H21.5;Autres adhérences et perturbations de l'iris et du corps ciliaire.
+H21.8;Autres affections précisées de l'iris et du corps ciliaire.
+H21.9;Affection de l'iris et du corps ciliaire, sans précision.
+H22.0; Iridocyclite au cours de maladies infectieuses et parasitaires classées ailleurs.
+H22.1; Iridocyclite au cours d'autres maladies classées ailleurs.
+H22.8; Autres affections de l'iris et du corps ciliaire au cours de maladies classées ailleurs.
+H25.0;Cataracte incipiente sénile.
+H25.1;Cataracte sénile nucléaire.
+H25.2;Cataracte sénile, de type Morgagni.
+H25.8;Autres cataractes séniles.
+H25.9;Cataracte sénile, sans précision.
+H26.0;Cataracte infantile, juvénile et présénile.
+H26.1;Cataracte traumatique.
+H26.2;Cataracte compliquée.
+H26.3;Cataracte médicamenteuse.
+H26.4;Séquelles de cataracte.
+H26.8;Autres cataractes précisées.
+H26.9;Cataracte, sans précision.
+H27.0;Aphakie.
+H27.1;Luxation du cristallin.
+H27.8;Autres affections précisées du cristallin.
+H27.9;Affection du cristallin, sans précision.
+H28.0; Cataracte diabétique ( E10-E14†avec le quatrième caractère .3).
+H28.1; Cataracte au cours d'autres maladies endocriniennes, nutritionnelles et.
+H28.2; Cataracte au cours d'autres maladies classées ailleurs.
+H28.8; Autres affections du cristallin au cours de maladies classées ailleurs.
+H30.0;Choriorétinite en foyer.
+H30.1;Choriorétinite disséminée.
+H30.2;Cyclite postérieure.
+H30.8;Autres choriorétinites.
+H30.9;Choriorétinite, sans précision.
+H31.0;Cicatrices choriorétiniennes.
+H31.1;Dégénérescence choroïdienne.
+H31.2;Dystrophie héréditaire de la choroïde.
+H31.3;Hémorragie et rupture de la choroïde.
+H31.4;Décollement de la choroïde.
+H31.8;Autres affections précisées de la choroïde.
+H31.9;Affection de la choroïde, sans précision.
+H32.0; Affections choriorétiniennes au cours de maladies infectieuses et parasitaires.
+H32.0;* Rétinite à cytomégalovirus (B25.8†).
+H32.0;* Rétinite à Toxoplasma (B58.0†).
+H32.0;* Affections choriorétiniennes au cours d’autres maladies infectieuses et parasitaires.
+H32.8; Autres affections choriorétiniennes au cours de maladies classées ailleurs.
+H33.0;Décollement de la rétine avec déchirure rétinienne.
+H33.1;Rétinoschisis et kystes rétiniens.
+H33.2;Décollement séreux de la rétine.
+H33.3;Déchirures rétiniennes sans décollement.
+H33.4;Décollement par traction de la rétine.
+H33.5;Autres décollements rétiniens.
+H34.0;Occlusion transitoire de l'artère de la rétine.
+H34.1;Occlusion de l'artère centrale de la rétine.
+H34.2;Autres occlusions de l'artère de la rétine.
+H34.8;Autres occlusions vasculaires rétiniennes.
+H34.9;Occlusion vasculaire rétinienne, sans précision.
+H35.0;Autres rétinopathies et altérations vasculaires rétiniennes.
+H35.1;Rétinopathie de la prématurité.
+H35.2;Autres rétinopathies proliférantes.
+H35.3;Dégénérescence de la macula et du pôle postérieur.
+H35.4;Dégénérescence rétinienne périphérique.
+H35.5;Dystrophie rétinienne héréditaire.
+H35.6;Hémorragie rétinienne.
+H35.7;Décollement des couches de la rétine.
+H35.8;Autres affections rétiniennes précisées.
+H35.9;Affection rétinienne, sans précision.
+H36.0; Rétinopathie diabétique ( E10-E14† avec le quatrième caractère .3).
+H36.8; Autres affections rétiniennes au cours de maladies classées ailleurs.
+H40.0;Glaucome limite.
+H40.1;Glaucome primitif à angle ouvert.
+H40.2;Glaucome primitif à angle étroit.
+H40.3;Glaucome secondaire à un traumatisme oculaire.
+H40.4;Glaucome secondaire à une inflammation de l'œil.
+H40.5;Glaucome secondaire à d'autres affections oculaires.
+H40.6;Glaucome médicamenteux.
+H40.8;Autres glaucomes.
+H40.9;Glaucome, sans précision.
+H42.0; Glaucome au cours de maladies endocriniennes, nutritionnelles et métaboliques.
+H42.8; Glaucome au cours d'autres maladies classées ailleurs.
+H43.0;Prolapsus du corps vitré.
+H43.1;Hémorragie du corps vitré.
+H43.2;Opacités cristallines du corps vitré.
+H43.3;Autres opacités du corps vitré.
+H43.8;Autres affections du corps vitré.
+H43.9;Affection du corps vitré, sans précision.
+H44.0;Endophtalmie purulente.
+H44.1;Autres endophtalmies.
+H44.2;Myopie dégénérative.
+H44.3;Autres affections dégénératives du globe oculaire.
+H44.4;Hypotonie de l'œil.
+H44.5;Dégénérescence du globe oculaire.
+H44.6;Rétention (ancienne) intraoculaire de corps étranger magnétique.
+H44.7;Rétention (ancienne) intraoculaire de corps étranger non magnétique.
+H44.8;Autres affections du globe oculaire.
+H44.9;Affection du globe oculaire, sans précision.
+H45.0; Hémorragie du corps vitré au cours de maladies classées ailleurs.
+H45.1; Endophtalmie au cours de maladies classées ailleurs.
+H45.8; Autres affections du corps vitré et du globe oculaire au cours de maladies classées.
+H47.0;Affections du nerf optique, non classées ailleurs.
+H47.1;Œdème papillaire, sans précision.
+H47.2;Atrophie optique.
+H47.3;Autres affections de la papille optique.
+H47.4;Affections du chiasma optique.
+H47.5;Affections des autres voies optiques.
+H47.6;Affections du cortex visuel.
+H47.7;Affection des voies optiques, sans précision.
+H48.0; Atrophie optique au cours de maladies classées ailleurs.
+H48.1; Névrite rétrobulbaire au cours de maladies classées ailleurs.
+H48.8; Autres affections du nerf et des voies optiques au cours de maladies classées.
+H49.0;Paralysie du nerf moteur oculaire commun [III].
+H49.1;Paralysie du nerf pathétique [IV].
+H49.2;Paralysie du nerf moteur oculaire externe [VI].
+H49.3;Ophtalmoplégie totale (externe).
+H49.4;Ophtalmoplégie externe progressive.
+H49.8;Autres strabismes paralytiques.
+H49.9;Strabisme paralytique, sans précision.
+H50.0;Strabisme convergent concomitant.
+H50.1;Strabisme divergent concomitant.
+H50.2;Strabisme vertical.
+H50.3;Hétérotropie intermittente.
+H50.4;Hétérotropies, autres et sans précision.
+H50.5;Hétérophorie.
+H50.6;Strabisme mécanique.
+H50.8;Autres strabismes précisés.
+H50.9;Strabisme, sans précision.
+H51.0;Paralysie de la conjugaison du regard.
+H51.1;Excès et insuffisance de convergence.
+H51.2;Ophtalmoplégie internucléaire.
+H51.8;Autres anomalies précisées des mouvements binoculaires.
+H51.9;Anomalie des mouvements binoculaires, sans précision.
+H52.0;Hypermétropie.
+H52.1;Myopie.
+H52.2;Astigmatisme.
+H52.3;Anisométrie et aniséiconie.
+H52.4;Presbytie.
+H52.5;Troubles de l'accommodation.
+H52.6;Autres vices de réfraction.
+H52.7;Vice de réfraction, sans précision.
+H53.0;Amblyopie ex anopsia.
+H53.1;Troubles subjectifs de la vision.
+H53.2;Diplopie.
+H53.3;Autres troubles de la vision binoculaire.
+H53.4;Anomalies du champ visuel.
+H53.5;Troubles de la vision des couleurs.
+H53.6;Cécité nocturne.
+H53.8;Autres troubles de la vision.
+H53.9;Trouble de la vision, sans précision.
+H54.0;Cécité binoculaire.
+H54.1;Déficience visuelle sévère, binoculaire.
+H54.2;Déficience visuelle modérée, binoculaire.
+H54.3;Déficience visuelle légère ou absente, binoculaire.
+H54.4;Cécité monoculaire.
+H54.5;Déficience visuelle sévère, monoculaire.
+H54.6;Déficience visuelle modérée, monoculaire.
+H54.9;Déficience visuelle non précisée (binoculaire).
+H57.0;Anomalies fonctionnelles de la pupille.
+H57.1;Douleur oculaire.
+H57.8;Autres affections précisées de l'œil et de ses annexes.
+H57.9;Affection de l'œil et de ses annexes, sans précision.
+H58.0; Anomalies fonctionnelles de la pupille au cours de maladies classées ailleurs.
+H58.1; Troubles de la vue au cours de maladies classées ailleurs.
+H58.8; Autres affections précisées de l'œil et de ses annexes au cours de maladies.
+H59.0;Kératopathie (bulleuse) après chirurgie de la cataracte [de l’aphaque].
+H59.8;Autres affections de l'œil et de ses annexes après un acte à visée diagnostique et.
+H59.9;Affection de l'œil et de ses annexes après un acte à visée diagnostique et.
+H60.0;Abcès de l'oreille externe.
+H60.1;Cellulite de l'oreille externe.
+H60.2;Otite externe maligne.
+H60.3;Autres otites externes infectieuses.
+H60.4;Cholestéatome de l'oreille externe.
+H60.5;Otite externe aigüe, non infectieuse.
+H60.8;Autres otites externes.
+H60.9;Otite externe, sans précision.
+H61.0;Périchondrite de l'oreille externe.
+H61.1;Affections non infectieuses du pavillon de l'oreille.
+H61.2;Bouchon de cérumen.
+H61.3;Sténose acquise du conduit auditif externe.
+H61.8;Autres affections précisées de l'oreille externe.
+H61.9;Affection de l'oreille externe, sans précision.
+H62.0; Otite externe au cours de maladies bactériennes classées ailleurs.
+H62.1; Otite externe au cours de maladies virales classées ailleurs.
+H62.2; Otite externe au cours de mycoses.
+H62.3; Otite externe au cours d'autres maladies infectieuses et parasitaires classées.
+H62.4; Otite externe au cours d'autres maladies classées ailleurs.
+H62.8; Autres affections de l'oreille externe au cours de maladies classées ailleurs.
+H65.0;Otite moyenne séreuse aigüe.
+H65.1;Autres otites moyennes aigües, non suppurées.
+H65.2;Otite moyenne séreuse chronique.
+H65.3;Otite moyenne mucoïde chronique.
+H65.4;Autres otites moyennes chroniques, non suppurées.
+H65.9;Otite moyenne non suppurée, sans précision.
+H66.0;Otite moyenne aigüe suppurée.
+H66.1;Otite moyenne suppurée chronique tubotympanique.
+H66.2;Otite moyenne chronique atticoantrale suppurée.
+H66.3;Autres otites moyennes suppurées chroniques.
+H66.4;Otite moyenne suppurée, sans précision.
+H66.9;Otite moyenne, sans précision.
+H67.0; Otite moyenne au cours de maladies bactériennes classées ailleurs.
+H67.1; Otite moyenne au cours de maladies virales classées ailleurs.
+H67.8; Otite moyenne au cours d'autres maladies classées ailleurs.
+H68.0;Salpingite de la trompe d'Eustache.
+H68.1;Obstruction de la trompe d'Eustache.
+H69.0;Distension de la trompe d'Eustache.
+H69.8;Autres affections précisées de la trompe d'Eustache.
+H69.9;Affection de la trompe d'Eustache, sans précision.
+H70.0;Mastoïdite aigüe.
+H70.1;Mastoïdite chronique.
+H70.2;Apexite [pétrosite].
+H70.8;Autres mastoïdites et affections apparentées.
+H70.9;Mastoïdite, sans précision.
+H72.0;Perforation centrale du tympan.
+H72.1;Perforation du tympan, partie attique.
+H72.2;Autres perforations marginales du tympan.
+H72.8;Autres perforations du tympan.
+H72.9;Perforation du tympan, sans précision.
+H73.0;Myringite [tympanite] aigüe.
+H73.1;Myringite chronique.
+H73.8;Autres affections précisées du tympan.
+H73.9;Affection du tympan, sans précision.
+H74.0;Tympanosclérose.
+H74.1;Maladie adhésive de l'oreille moyenne.
+H74.2;Dissociation et dislocation des osselets.
+H74.3;Autres anomalies acquises des osselets.
+H74.4;Polype de l'oreille moyenne.
+H74.8;Autres affections précisées de l'oreille moyenne et de l'apophyse mastoïde.
+H74.9;Affection de l'oreille moyenne et de l'apophyse mastoïde, sans précision.
+H75.0; Mastoïdite au cours de maladies infectieuses et parasitaires classées ailleurs.
+H75.8; Autres affections précisées de l'oreille moyenne et de l'apophyse mastoïde au cours.
+H80.0;Otosclérose intéressant la fenêtre ovale, non oblitérante.
+H80.1;Otosclérose intéressant la fenêtre ovale, oblitérante.
+H80.2;Otosclérose cochléaire.
+H80.8;Autres otoscléroses.
+H80.9;Otosclérose, sans précision.
+H81.0;Maladie de Ménière.
+H81.1;Vertige bénin paroxystique.
+H81.2;Neuronite vestibulaire.
+H81.3;Autres vertiges périphériques.
+H81.4;Vertige d'origine centrale.
+H81.8;Autres atteintes des fonctions vestibulaires.
+H81.9;Atteinte des fonctions vestibulaires, sans précision.
+H83.0;Labyrinthite.
+H83.1;Fistule labyrinthique.
+H83.2;Troubles des fonctions labyrinthiques.
+H83.3;Conséquences du bruit sur l'oreille interne.
+H83.8;Autres maladies précisées de l'oreille interne.
+H83.9;Maladie de l'oreille interne, sans précision.
+H90.0;Surdité bilatérale de transmission.
+H90.1;Surdité unilatérale de transmission sans altération de l'audition de l'autre oreille 390.
+H90.2;Surdité de transmission, sans précision.
+H90.3;Surdité neurosensorielle bilatérale.
+H90.4;Surdité neurosensorielle unilatérale sans altération de l'audition de l'autre oreille.
+H90.5;Surdité neurosensorielle, sans précision.
+H90.6;Surdité bilatérale mixte de transmission et neurosensorielle.
+H90.7;Surdité unilatérale mixte de transmission et neurosensorielle sans altération de.
+H90.8;Surdité mixte de transmission et neurosensorielle, sans précision.
+H91.0;Perte de l'audition par ototoxicité.
+H91.1;Presbyacousie.
+H91.2;Perte auditive soudaine idiopathique.
+H91.3;Surdimutité, non classée ailleurs.
+H91.8;Autres pertes précisées de l'audition.
+H91.9;Perte de l'audition, sans précision.
+H92.0;Otalgie.
+H92.1;Otorrhée.
+H92.2;Otorragie.
+H93.0;Affections vasculaires et dégénératives de l'oreille.
+H93.1;Acouphènes.
+H93.2;Autres perceptions auditives anormales.
+H93.3;Affections du nerf auditif.
+H93.8;Autres affections précisées de l'oreille.
+H93.9;Affection de l'oreille, sans précision.
+H94.0; Névrite acoustique au cours de maladies infectieuses et parasitaires classées.
+H94.8; Autres affections précisées de l'oreille au cours de maladies classées ailleurs.
+H95.0;Cholestéatome récidivant après mastoïdectomie.
+H95.1;Autres affections survenant après mastoïdectomie.
+H95.8;Autres affections de l'oreille et de l'apophyse mastoïde après un acte à visée.
+H95.9;Affection de l'oreille et de l'apophyse mastoïde après un acte à visée diagnostique et.
