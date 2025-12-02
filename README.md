@@ -34,3 +34,5 @@ The goal is to transform all codes in a readable file
 - X\\
 - Y\\
 - Z\\
+
+## Temps de chargements
