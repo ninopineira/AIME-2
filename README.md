@@ -35,4 +35,11 @@ The goal is to transform all codes in a readable file
 - Y\\
 - Z\\
 
-## Temps de chargements
+## Temps de chargements des données
+
+sans calcul des embeddings
+
+| fonction      | PC fixe       | PC portable   |
+| ------------- | ------------- | ------------- |
+| chargement_ancien() | 0.0006 | 0.0005 |
+| Cell 1, Row 2 | Cell 1, Row 2 |
