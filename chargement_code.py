@@ -1,6 +1,7 @@
 import numpy as np
+import csv
 
-def chargement_ancien() :
+def chargement_txt() :
     D = []  # Descriptions des codes ICD-10
     C = []  # Codes ICD-10
     #current_dir = Path(__file__).resolve().parent  # Obtenir le répertoire où le script est situé
@@ -17,13 +18,25 @@ def chargement_ancien() :
             C.append(ligne.strip())  # Ajouter chaque ligne comme un code
     return (C,D)
 
-def chargement_csv():
-    return 
+def chargement_csv(alphabet):
+    D = []  # Descriptions des codes ICD-10
+    C = []  # Codes ICD-10
 
-def export_csv_numpy():
+    for letter in alphabet :
+        path = './code-csv/code-'+letter+'.csv'
+        with open(path, newline='\n') as csvfile:
+            reader = csv.reader(csvfile, delimiter=';', quotechar='"')
+            for row in reader:
+                C.append(row[0])
+                D.append(row[1])
+    return (C,D)
+
+def export_numpy(C,D,path):
+    icd10 = np.array([C,D])
+    np.save(path,icd10)    
     return
 
-def chargement_numpy():
-    return
+def chargement_numpy(path):
+    [C,D] = np.load(path)
+    return (C,D)
     
-chargement_ancien()
