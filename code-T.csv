@@ -1,0 +1,692 @@
+T00.0;Lésions traumatiques superficielles de la tête avec lésions traumatiques.
+T00.1;Lésions traumatiques superficielles du thorax, de l'abdomen, des lombes et du.
+T00.2;Lésions traumatiques superficielles de plusieurs parties de(s) membre(s).
+T00.3;Lésions traumatiques superficielles de plusieurs parties de(s) membre(s) inférieur(s).
+T00.6;Lésions traumatiques superficielles de plusieurs parties de(s) membre(s).
+T00.8;Lésions traumatiques superficielles comprenant d'autres associations de parties du.
+T00.9;Lésions traumatiques superficielles multiples, sans précision.
+T01.0;Plaies ouvertes de la tête avec plaies ouvertes du cou.
+T01.1;Plaies ouvertes du thorax avec plaies ouvertes de l'abdomen, des lombes et du.
+T01.2;Plaies ouvertes de plusieurs parties de(s) membre(s) supérieur(s).
+T01.3;Plaies ouvertes de plusieurs parties de(s) membre(s) inférieur(s).
+T01.6;Plaies ouvertes de plusieurs parties de(s) membre(s) supérieur(s) avec plaies.
+T01.8;Plaies ouvertes avec d'autres associations de parties du corps.
+T01.9;Plaies ouvertes multiples, sans précision.
+T02.0;Fractures de la tête avec fractures du cou.
+T02.1;Fractures du thorax avec fractures des lombes et du bassin.
+T02.2;Fractures de plusieurs parties d'un membre supérieur.
+T02.3;Fractures de plusieurs parties d'un membre inférieur.
+T02.4;Fractures de plusieurs parties des deux membres supérieurs.
+T02.5;Fractures de plusieurs parties des deux membres inférieurs.
+T02.6;Fractures de plusieurs parties de(s) membre(s) supérieur(s) avec membre(s).
+T02.7;Fractures du thorax avec fractures des lombes, du bassin et de(s) membre(s).
+T02.8;Fractures avec d'autres associations de parties du corps.
+T02.9;Fractures multiples, sans précision.
+T03.0;Luxations, entorses et foulures de la tête avec luxations, entorses et foulures du cou.
+T03.1;Luxations, entorses et foulures du thorax avec luxations, entorses et foulures des.
+T03.2;Luxations, entorses et foulures de plusieurs parties de(s) membre(s) supérieur(s).
+T03.3;Luxations, entorses et foulures de plusieurs parties de(s) membre(s) inférieur(s).
+T03.4;Luxations, entorses et foulures de plusieurs parties de(s) membre(s) supérieur(s).
+T03.8;Luxations, entorses et foulures avec d'autres associations de parties du corps.
+T03.9;Luxations, entorses et foulures multiples, sans précision.
+T04.0;Écrasement de la tête avec écrasement du cou.
+T04.1;Écrasement du thorax avec écrasement de l'abdomen, des lombes et du bassin.
+T04.2;Écrasement de plusieurs parties de(s) membre(s) supérieur(s).
+T04.3;Écrasement de plusieurs parties de(s) membre(s) inférieur(s).
+T04.4;Écrasement de plusieurs parties de(s) membre(s) supérieur(s) avec membre(s).
+T04.7;Écrasement du thorax avec écrasement de l'abdomen, des lombes, du bassin et.
+T04.8;Écrasement d'autres associations de parties du corps.
+T04.9;Écrasements multiples, sans précision.
+T05.0;Amputation traumatique des deux mains.
+T05.1;Amputation traumatique d'une main et de l'autre membre supérieur [tout niveau sauf.
+T05.2;Amputation traumatique des deux membres supérieurs [tout niveau].
+T05.3;Amputation traumatique des deux pieds.
+T05.4;Amputation traumatique d'un pied et de l'autre membre inférieur [tout niveau, sauf le.
+T05.5;Amputation traumatique des deux membres inférieurs [tout niveau].
+T05.6;Amputation traumatique de membres supérieurs et inférieurs, toute association [tout.
+T05.8;Amputation traumatique avec d'autres associations de parties du corps.
+T05.9;Amputations traumatiques multiples, sans précision.
+T06.0;Lésions traumatiques du cerveau et des nerfs crâniens avec lésions traumatiques.
+T06.1;Lésions traumatiques des nerfs et de la moelle épinière de plusieurs autres parties.
+T06.2;Lésions traumatiques des nerfs de plusieurs parties du corps.
+T06.3;Lésions traumatiques de vaisseaux sanguins de plusieurs parties du corps.
+T06.4;Lésions traumatiques de muscles et de tendons de plusieurs parties du corps.
+T06.5;Lésions traumatiques des organes intrathoraciques avec lésions traumatiques des.
+T06.8;Autres lésions traumatiques précisées de plusieurs parties du corps.
+T09.0;Lésion traumatique superficielle du tronc, niveau non précisé.
+T09.1;Plaie ouverte du tronc, niveau non précisé.
+T09.2;Luxation, entorse et foulure d'articulation et de ligament non précisés du tronc.
+T09.3;Lésion traumatique de la moelle épinière, niveau non précisé.
+T09.4;Lésion traumatique de nerf, de racine nerveuse et de plexus rachidien du tronc, non.
+T09.5;Lésion traumatique de muscle et de tendon non précisés du tronc 791.
+T09.6;Amputation traumatique du tronc, niveau non précisé.
+T09.8;Autres lésions traumatiques précisées du tronc, niveau non précisé.
+T09.9;Lésion traumatique non précisée du tronc, niveau non précisé.
+T11.0;Lésion traumatique superficielle du membre supérieur, niveau non précisé.
+T11.1;Plaie ouverte du membre supérieur, niveau non précisé.
+T11.2;Luxation, entorse et foulure d'une articulation et d'un ligament non précisés du.
+T11.3;Lésion traumatique d'un nerf non précisé du membre supérieur, niveau non précisé.
+T11.4;Lésion traumatique d'un vaisseau sanguin non précisé du membre supérieur, niveau.
+T11.5;Lésion traumatique d'un muscle et d'un tendon non précisés du membre supérieur,.
+T11.6;Amputation traumatique du membre supérieur, niveau non précisé.
+T11.8;Autres lésions traumatiques précisées du membre supérieur, niveau non précisé.
+T11.9;Lésion traumatique non précisée du membre supérieur, niveau non précisé.
+T13.0;Lésion traumatique superficielle du membre inférieur, niveau non précisé.
+T13.1;Plaie ouverte du membre inférieur, niveau non précisé.
+T13.2;Luxation, entorse et foulure d'une articulation et d'un ligament non précisés du.
+T13.3;Lésion traumatique d'un nerf non précisé du membre inférieur, niveau non précisé.
+T13.4;Lésion traumatique d'un vaisseau sanguin non précisé du membre inférieur, niveau.
+T13.5;Lésion traumatique d'un muscle et d'un tendon non précisés du membre inférieur,.
+T13.6;Amputation traumatique du membre inférieur, niveau non précisé.
+T13.8;Autres lésions traumatiques précisées du membre inférieur, niveau non précisé.
+T13.9;Lésion traumatique non précisée du membre inférieur, niveau non précisé.
+T14.0;Lésion traumatique superficielle d'une partie du corps non précisée.
+T14.1;Plaie ouverte d'une partie du corps non précisée.
+T14.2;Fracture d'une partie du corps non précisée.
+T14.3;Luxation, entorse et foulure d'une partie du corps non précisée.
+T14.4;Lésion traumatique de nerf(s) d'une partie du corps non précisée.
+T14.5;Lésion traumatique de vaisseau(x) sanguin(s) d'une partie du corps non précisée.
+T14.6;Lésion traumatique de muscles et de tendons d'une partie du corps non précisée.
+T14.7;Écrasement et amputation traumatique d'une partie du corps non précisée.
+T14.8;Autres lésions traumatiques d'une partie du corps non précisée.
+T14.9;Lésion traumatique, sans précision.
+T15.0;Corps étranger dans la cornée.
+T15.1;Corps étranger dans le sac conjonctival.
+T15.8;Corps étranger de localisations autres et multiples dans la partie externe de l'œil.
+T15.9;Corps étranger dans la partie externe de l'œil, sans précision.
+T17.0;Corps étranger dans un sinus nasal.
+T17.1;Corps étranger dans une narine.
+T17.2;Corps étranger dans le pharynx.
+T17.3;Corps étranger dans le larynx.
+T17.4;Corps étranger dans la trachée.
+T17.5;Corps étranger dans les bronches.
+T17.8;Corps étranger de localisations autres et multiples dans les voies respiratoires.
+T17.9;Corps étranger dans les voies respiratoires, partie non précisée.
+T18.0;Corps étranger dans la bouche.
+T18.1;Corps étranger dans l'œsophage.
+T18.2;Corps étranger dans l'estomac.
+T18.3;Corps étranger dans l'intestin grêle.
+T18.4;Corps étranger dans le côlon.
+T18.5;Corps étranger dans l'anus et le rectum.
+T18.8;Corps étranger de localisations autres et multiples dans les voies digestives.
+T18.9;Corps étranger dans les voies digestives, partie non précisée.
+T19.0;Corps étranger dans l'urètre.
+T19.1;Corps étranger dans la vessie.
+T19.2;Corps étranger dans la vulve et le vagin.
+T19.3;Corps étranger dans l'utérus [toute partie].
+T19.8;Corps étranger de localisations autres et multiples dans les voies génito-urinaires.
+T19.9;Corps étranger dans les voies génito-urinaires, partie non précisée.
+T20.0;Brulure de la tête et du cou, degré non précisé.
+T20.1;Brulure du premier degré de la tête et du cou.
+T20.2;Brulure du deuxième degré de la tête et du cou.
+T20.3;Brulure du troisième degré de la tête et du cou.
+T20.4;Corrosion de la tête et du cou, degré non précisé.
+T20.5;Corrosion du premier degré de la tête et du cou.
+T20.6;Corrosion du deuxième degré de la tête et du cou.
+T20.7;Corrosion du troisième degré de la tête et du cou 797.
+T21.0;Brulure du tronc, degré non précisé.
+T21.1;Brulure du premier degré du tronc.
+T21.2;Brulure du deuxième degré du tronc.
+T21.3;Brulure du troisième degré du tronc.
+T21.4;Corrosion du tronc, degré non précisé.
+T21.5;Corrosion du premier degré du tronc.
+T21.6;Corrosion du deuxième degré du tronc.
+T21.7;Corrosion du troisième degré du tronc.
+T22.0;Brulure de l'épaule et du membre supérieur, sauf poignet et main, degré non précisé.
+T22.1;Brulure du premier degré de l'épaule et du membre supérieur, sauf poignet et main.
+T22.2;Brulure du deuxième degré de l'épaule et du membre supérieur, sauf poignet et main.
+T22.3;Brulure du troisième degré de l'épaule et du membre supérieur, sauf poignet et main.
+T22.4;Corrosion de l'épaule et du membre supérieur, sauf poignet et main, degré non.
+T22.5;Corrosion du premier degré de l'épaule et du membre supérieur, sauf poignet et.
+T22.6;Corrosion du deuxième degré de l'épaule et du membre supérieur, sauf poignet et.
+T22.7;Corrosion du troisième degré de l'épaule et du membre supérieur, sauf poignet et.
+T23.0;Brulure du poignet et de la main, degré non précisé.
+T23.1;Brulure du premier degré du poignet et de la main.
+T23.2;Brulure du deuxième degré du poignet et de la main.
+T23.3;Brulure du troisième degré du poignet et de la main.
+T23.4;Corrosion du poignet et de la main, degré non précisé.
+T23.5;Corrosion du premier degré du poignet et de la main.
+T23.6;Corrosion du deuxième degré du poignet et de la main.
+T23.7;Corrosion du troisième degré du poignet et de la main.
+T24.0;Brulure de la hanche et du membre inférieur, sauf cheville et pied, degré non précisé.
+T24.1;Brulure du premier degré de la hanche et du membre inférieur, sauf cheville et pied.
+T24.2;Brulure du deuxième degré de la hanche et du membre inférieur, sauf cheville et.
+T24.3;Brulure du troisième degré de la hanche et du membre inférieur, sauf cheville et pied.
+T24.4;Corrosion de la hanche et du membre inférieur, sauf cheville et pied, degré non.
+T24.5;Corrosion du premier degré de la hanche et du membre inférieur, sauf cheville et.
+T24.6;Corrosion du deuxième degré de la hanche et du membre inférieur, sauf cheville et.
+T24.7;Corrosion du troisième degré de la hanche et du membre inférieur, sauf cheville et.
+T25.0;Brulure de la cheville et du pied, degré non précisé.
+T25.1;Brulure du premier degré de la cheville et du pied 799.
+T25.2;Brulure du deuxième degré de la cheville et du pied.
+T25.3;Brulure du troisième degré de la cheville et du pied.
+T25.4;Corrosion de la cheville et du pied, degré non précisé.
+T25.5;Corrosion du premier degré de la cheville et du pied.
+T25.6;Corrosion du deuxième degré de la cheville et du pied.
+T25.7;Corrosion du troisième degré de la cheville et du pied.
+T26.0;Brulure de la paupière et de la région périoculaire.
+T26.1;Brulure de la cornée et du sac conjonctival.
+T26.2;Brulure provoquant la rupture et la destruction du globe oculaire.
+T26.3;Brulure d'autres parties de l'œil et de ses annexes.
+T26.4;Brulure de l'œil et de ses annexes, partie non précisée.
+T26.5;Corrosion de la paupière et de la région périoculaire.
+T26.6;Corrosion de la cornée et du sac conjonctival.
+T26.7;Corrosion provoquant la rupture et la destruction du globe oculaire.
+T26.8;Corrosion d'autres parties de l'œil et de ses annexes.
+T26.9;Corrosion de l'œil et de ses annexes, partie non précisée.
+T27.0;Brulure du larynx et de la trachée.
+T27.1;Brulure comprenant le larynx et la trachée avec les poumons.
+T27.2;Brulure d'autres parties des voies respiratoires.
+T27.3;Brulure des voies respiratoires, partie non précisée.
+T27.4;Corrosion du larynx et de la trachée.
+T27.5;Corrosion comprenant le larynx et la trachée avec les poumons.
+T27.6;Corrosion d'autres parties des voies respiratoires.
+T27.7;Corrosion des voies respiratoires, partie non précisée.
+T28.0;Brulure de la bouche et du pharynx 800.
+T28.1;Brulure de l'œsophage.
+T28.2;Brulure d'autres parties des voies digestives.
+T28.3;Brulure des organes génito-urinaires internes.
+T28.4;Brulure des organes internes, autres et sans précision.
+T28.5;Corrosion de la bouche et du pharynx.
+T28.6;Corrosion de l'œsophage.
+T28.7;Corrosion d'autres parties des voies digestives.
+T28.8;Corrosion des organes génito-urinaires internes.
+T28.9;Corrosion des organes internes, autres et sans précision.
+T29.0;Brulures de parties multiples du corps, degré non précisé.
+T29.1;Brulures de parties multiples du corps, pas de brulures mentionnées dépassant le.
+T29.2;Brulures de parties multiples du corps, pas de brulures mentionnées dépassant le.
+T29.3;Brulures de parties multiples du corps, au moins une brulure du troisième degré.
+T29.4;Corrosions de parties multiples du corps, degré non précisé.
+T29.5;Corrosions de parties multiples du corps, pas de corrosions mentionnées dépassant.
+T29.6;Corrosions de parties multiples du corps, pas de corrosions mentionnées dépassant.
+T29.7;Corrosions de parties multiples du corps, au moins une corrosion du troisième.
+T30.0;Brulure, partie du corps non précisée, degré non précisé.
+T30.1;Brulure du premier degré, partie du corps non précisée.
+T30.2;Brulure du deuxième degré, partie du corps non précisée.
+T30.3;Brulure du troisième degré, partie du corps non précisée.
+T30.4;Corrosion, partie du corps non précisée, degré non précisé.
+T30.5;Corrosion du premier degré, partie du corps non précisée.
+T30.6;Corrosion du deuxième degré, partie du corps non précisée.
+T30.7;Corrosion du troisième degré, partie du corps non précisée.
+T31.0;Brulures couvrant moins de 10% de la surface du corps.
+T31.1;Brulures couvrant entre 10% et moins de 20% de la surface du corps.
+T31.2;Brulures couvrant entre 20% et moins de 30% de la surface du corps.
+T31.3;Brulures couvrant entre 30% et moins de 40% de la surface du corps.
+T31.3;Brulures du premier degré ou de degré non précisé, couvrant entre 30% et moins de 40%.
+T31.3;Brulures du deuxième ou du troisième degré, couvrant entre 30% et moins de 40% de la.
+T31.4;Brulures couvrant entre 40% et moins de 50% de la surface du corps.
+T31.4;Brulures du premier degré ou de degré non précisé, couvrant entre 40% et moins de 50%.
+T31.4;Brulures du deuxième ou du troisième degré, couvrant entre 40% et moins de 50% de la.
+T31.5;Brulures couvrant entre 50% et moins de 60% de la surface du corps.
+T31.5;Brulures du premier degré ou de degré non précisé, couvrant entre 50% et moins de 60%.
+T31.5;Brulures du deuxième ou du troisième degré, couvrant entre 50% et moins de 60% de la.
+T31.6;Brulures couvrant entre 60% et moins de 70% de la surface du corps.
+T31.7;Brulures couvrant entre 70% et moins de 80% de la surface du corps.
+T31.8;Brulures couvrant entre 80% et moins de 90% de la surface du corps.
+T31.9;Brulures couvrant 90% ou plus de la surface du corps.
+T32.0;Corrosions couvrant moins de 10% de la surface du corps.
+T32.1;Corrosions couvrant entre 10% et moins de 20% de la surface du corps.
+T32.2;Corrosions couvrant entre 20% et moins de 30% de la surface du corps.
+T32.3;Corrosions couvrant entre 30% et moins de 40% de la surface du corps.
+T32.4;Corrosions couvrant entre 40% et moins de 50% de la surface du corps.
+T32.5;Corrosions couvrant entre 50% et moins de 60% de la surface du corps.
+T32.6;Corrosions couvrant entre 60% et moins de 70% de la surface du corps.
+T32.7;Corrosions couvrant entre 70% et moins de 80% de la surface du corps.
+T32.8;Corrosions couvrant entre 80% et moins de 90% de la surface du corps.
+T32.9;Corrosions couvrant 90% ou plus de la surface du corps.
+T33.0;Gelure superficielle de la tête.
+T33.1;Gelure superficielle du cou.
+T33.2;Gelure superficielle du thorax.
+T33.3;Gelure superficielle de la paroi abdominale, des lombes et du bassin.
+T33.4;Gelure superficielle du bras et de l'avant-bras.
+T33.5;Gelure superficielle du poignet et de la main.
+T33.6;Gelure superficielle de la hanche et de la cuisse.
+T33.7;Gelure superficielle du genou et de la jambe.
+T33.8;Gelure superficielle de la cheville et du pied.
+T33.9;Gelure superficielle de localisations autres et non précisées.
+T34.0;Gelure de la tête, avec nécrose des tissus.
+T34.1;Gelure du cou, avec nécrose des tissus.
+T34.2;Gelure du thorax, avec nécrose des tissus.
+T34.3;Gelure de la paroi abdominale, des lombes et du bassin, avec nécrose des tissus.
+T34.4;Gelure du bras et de l'avant-bras, avec nécrose des tissus.
+T34.5;Gelure du poignet et de la main, avec nécrose des tissus.
+T34.6;Gelure de la hanche et de la cuisse, avec nécrose des tissus.
+T34.7;Gelure du genou et de la jambe, avec nécrose des tissus.
+T34.8;Gelure de la cheville et du pied, avec nécrose des tissus.
+T34.9;Gelure de localisations autres et non précisées, avec nécrose des tissus.
+T35.0;Gelure superficielle de parties multiples du corps.
+T35.1;Gelure de parties multiples du corps, avec nécrose des tissus.
+T35.2;Gelure de la tête et du cou, sans précision.
+T35.3;Gelure du thorax, de l'abdomen, des lombes et du bassin, sans précision.
+T35.4;Gelure du membre supérieur, sans précision.
+T35.5;Gelure du membre inférieur, sans précision.
+T35.6;Gelure de parties multiples du corps, sans précision.
+T35.7;Gelure, sans précision, de localisation non précisée.
+T36.0;Pénicillines.
+T36.1;Céphalosporines et autres bêtalactamines.
+T36.2;Groupe du chloramphénicol.
+T36.3;Macrolides.
+T36.4;Tétracyclines.
+T36.5;Aminosides.
+T36.6;Rifamycines.
+T36.7;Antibiotiques antifongiques administrés par voie générale.
+T36.8;Autres antibiotiques systémiques.
+T36.9;Antibiotique systémique, sans précision.
+T37.0;Sulfamides.
+T37.1;Antimycobactériens.
+T37.2;Antipaludiques et médicaments agissant sur d'autres protozoaires du sang.
+T37.3;Autres antiprotozoaires.
+T37.4;Anthelminthiques.
+T37.5;Antiviraux.
+T37.8;Autres antiinfectieux et antiparasitaires systémiques précisés.
+T37.9;Antiinfectieux et antiparasitaire systémiques, sans précision.
+T38.0;Glucocorticoïdes et analogues synthétiques.
+T38.1;Hormones thyroïdiennes et leurs dérivés.
+T38.2;Antithyroïdiens.
+T38.3;Insuline et hypoglycémiants oraux [antidiabétiques].
+T38.4;Contraceptifs oraux.
+T38.5;Autres œstrogènes et progestatifs.
+T38.6;Antigonadotropines, antiœstrogènes, antiandrogènes, non classés ailleurs.
+T38.7;Androgènes et autres anabolisants.
+T38.8;Hormones et leurs substituts synthétiques, autres et sans précision.
+T38.9;Antagonistes hormonaux, autres et sans précision.
+T39.0;Salicylés.
+T39.1;Dérivés du 4-aminophénol.
+T39.2;Dérivés pyrazolés.
+T39.3;Autres antiinflammatoires non stéroïdiens [AINS].
+T39.4;Antirhumatismaux, non classés ailleurs.
+T39.8;Autres analgésiques non opioïdes et antipyrétiques, non classés ailleurs.
+T39.9;Analgésique non opioïde, antipyrétique et antirhumatismal, sans précision.
+T40.0;Opium.
+T40.1;Héroïne.
+T40.2;Autres opioïdes.
+T40.3;Méthadone.
+T40.4;Autres narcotiques synthétiques.
+T40.5;Cocaïne.
+T40.6;Narcotiques, autres et sans précision.
+T40.7;Cannabis (dérivés).
+T40.8;Lysergide [LSD].
+T40.9;Psychodysleptiques [hallucinogènes], autres et sans précision.
+T41.0;Anesthésiques gazeux.
+T41.1;Anesthésiques intraveineux.
+T41.2;Anesthésiques généraux, autres et sans précision.
+T41.3;Anesthésiques locaux.
+T41.4;Anesthésique, sans précision.
+T41.5;Gaz thérapeutiques.
+T42.0;Dérivés de l'hydantoïne.
+T42.1;Iminostilbènes.
+T42.2;Succinimides et oxazolidine-diones.
+T42.3;Barbituriques.
+T42.4;Benzodiazépines.
+T42.5;Antiépileptiques en association, non classés ailleurs.
+T42.6;Autres antiépileptiques, sédatifs et hypnotiques.
+T42.7;Antiépileptiques, sédatifs et hypnotiques, sans précision.
+T42.8;Antiparkinsoniens et autres dépresseurs centraux du tonus musculaire.
+T43.0;Antidépresseurs tricycliques et tétracycliques.
+T43.1;Antidépresseurs inhibiteurs de la mono-amine-oxydase.
+T43.2;Antidépresseurs, autres et non précisés.
+T43.3;Psycholeptiques et neuroleptiques dérivés de la phénothiazine.
+T43.4;Neuroleptiques de type butyrophénone et thioxanthène.
+T43.5;Psycholeptiques et neuroleptiques, autres et non précisés.
+T43.6;Psychostimulants présentant un risque d'abus.
+T43.8;Autres médicaments psychotropes, non classés ailleurs.
+T43.9;Médicament psychotrope, sans précision.
+T44.0;Anticholinestérasiques.
+T44.1;Autres parasympathicomimétiques [cholinergiques].
+T44.2;Ganglioplégiques, non classés ailleurs.
+T44.3;Autres agents parasympathicolytiques [anticholinergiques et antimuscariniques] et.
+T44.4;Agents principalement alphasympathicomimétiques, non classés ailleurs.
+T44.5;Agents principalement bêtasympathicomimétiques, non classés ailleurs.
+T44.6;Alphabloquants, non classés ailleurs.
+T44.7;Bêtabloquants, non classés ailleurs.
+T44.8;Agents bloquants neuronaux adrénergiques et d'action centrale, non classés.
+T44.9;Médicaments agissant essentiellement sur le système nerveux autonome, autres et.
+T45.0;Médicaments antiallergiques et antiémétiques.
+T45.1;Médicaments antitumoraux et immunosuppresseurs.
+T45.2;Vitamines, non classées ailleurs.
+T45.3;Enzymes, non classées ailleurs.
+T45.4;Fer et ses composés.
+T45.5;Anticoagulants.
+T45.6;Médicaments agissant sur la fibrinolyse.
+T45.7;Antagonistes des anticoagulants, vitamine K et autres coagulants.
+T45.8;Autres substances essentiellement systémiques et hématologiques.
+T45.9;Substance essentiellement systémique et hématologique, sans précision.
+T46.0;Glucosides cardiotoniques et médicaments d'action similaire.
+T46.1;Inhibiteurs calciques.
+T46.2;Autres antiarythmisants, non classés ailleurs.
+T46.3;Vasodilatateurs coronariens, non classés ailleurs.
+T46.4;Inhibiteurs de l'enzyme de conversion.
+T46.5;Autres antihypertenseurs, non classés ailleurs.
+T46.6;Antihyperlipidémiants et antiartériosclérosants.
+T46.7;Vasodilatateurs périphériques.
+T46.8;Substances antivariqueuses, y compris les agents sclérosants.
+T46.9;Substances agissant essentiellement sur le système cardiovasculaire, autres et sans.
+T47.0;Inhibiteurs des récepteurs histaminiques H2.
+T47.1;Autres antiacides et antisécrétoires gastriques.
+T47.2;Laxatifs stimulants.
+T47.3;Laxatifs salins et osmotiques.
+T47.4;Autres laxatifs.
+T47.5;Médicaments facilitant la digestion.
+T47.6;Antidiarrhéiques.
+T47.7;Émétiques.
+T47.8;Autres substances agissant essentiellement sur le tractus gastro-intestinal.
+T47.9;Substance agissant essentiellement sur le tractus gastro-intestinal, sans précision.
+T48.0;Ocytociques.
+T48.1;Myorelaxants (muscles striés) [bloquants neuromusculaires].
+T48.2;Substances agissant essentiellement sur les muscles, autres et sans précision.
+T48.3;Antitussifs.
+T48.4;Expectorants.
+T48.5;Médicaments contre le coryza [rhume banal].
+T48.6;Antiasthmatiques, non classés ailleurs.
+T48.7;Substances agissant essentiellement sur l'appareil respiratoire, autres et sans.
+T49.0;Médicaments antifongiques, antiinfectieux et antiinflammatoires à usage topique,.
+T49.1;Antiprurigineux.
+T49.2;Astringents et détergents locaux.
+T49.3;Émollients, calmants et protecteurs.
+T49.4;Kératolytiques, kératoplastiques et autres médicaments et préparations capillaires.
+T49.5;Médicaments et préparations ophtalmologiques.
+T49.6;Médicaments et préparations utilisés en oto-rhino-laryngologie.
+T49.7;Médicaments dentaires à usage topique.
+T49.8;Autres topiques.
+T49.9;Topique, sans précision 811.
+T50.0;Minéralocorticoïdes et leurs antagonistes.
+T50.1;Diurétiques de l'anse.
+T50.2;Inhibiteurs de l'anhydrase carbonique, benzothiadiazides et autres diurétiques.
+T50.3;Produits agissant sur l'équilibre électrolytique, calorique et hydrique.
+T50.4;Médicaments agissant sur le métabolisme de l'acide urique.
+T50.5;Anorexigènes.
+T50.6;Antidotes et chélateurs, non classés ailleurs.
+T50.7;Analeptiques et antagonistes des opiacés.
+T50.8;Agents de diagnostic.
+T50.9;Médicaments et substances biologiques, autres et sans précision.
+T51.0;Éthanol.
+T51.1;Méthanol.
+T51.2;2-Propanol.
+T51.3;Huile de fusel.
+T51.8;Autres alcools.
+T51.9;Alcool, sans précision.
+T52.0;Produits dérivés du pétrole.
+T52.1;Benzène.
+T52.2;Homologues du benzène.
+T52.3;Glycols.
+T52.4;Cétones.
+T52.8;Autres solvants organiques.
+T52.9;Solvant organique, sans précision.
+T53.0;Tétrachlorure de carbone.
+T53.1;Chloroforme.
+T53.2;Trichloréthylène.
+T53.3;Tétrachloréthylène.
+T53.4;Dichlorométhane.
+T53.5;Chlorofluorocarbures.
+T53.6;Autres dérivés halogénés d'hydrocarbures aliphatiques.
+T53.7;Autres dérivés halogénés d'hydrocarbures aromatiques.
+T53.9;Dérivé halogéné d'hydrocarbures aliphatiques et aromatiques, sans précision.
+T54.0;Phénol et homologues du phénol.
+T54.1;Autres composés organiques corrosifs.
+T54.2;Acides corrosifs et substances similaires.
+T54.3;Alcalis corrosifs et substances similaires.
+T54.9;Substance corrosive, sans précision.
+T56.0;Plomb et ses composés.
+T56.1;Mercure et ses composés.
+T56.2;Chrome et ses composés.
+T56.3;Cadmium et ses composés.
+T56.4;Cuivre et ses composés.
+T56.5;Zinc et ses composés.
+T56.6;Étain et ses composés.
+T56.7;Béryllium et ses composés.
+T56.8;Autres métaux.
+T56.9;Métal, sans précision.
+T57.0;Arsenic et ses composés.
+T57.1;Phosphore et ses composés.
+T57.2;Manganèse et ses composés.
+T57.3;Cyanure d'hydrogène.
+T57.8;Autres substances non organiques précisées.
+T57.9;Substance non organique, sans précision.
+T59.0;Oxydes d'azote.
+T59.1;Dioxyde de soufre.
+T59.2;Formaldéhyde.
+T59.3;Gaz lacrymogène.
+T59.4;Chlore gazeux.
+T59.5;Fluor (gaz) et fluorure d'hydrogène.
+T59.6;Sulfure d'hydrogène.
+T59.7;Dioxyde de carbone.
+T59.8;Autres émanations, gaz et fumées précisés.
+T59.9;Émanation, gaz et fumée, sans précision.
+T60.0;Insecticides organophosphorés et carbamates.
+T60.1;Insecticides halogénés.
+T60.2;Insecticides, autres et non précisés.
+T60.3;Herbicides et fongicides.
+T60.4;Rodenticides.
+T60.8;Autres pesticides.
+T60.9;Pesticide, sans précision.
+T61.0;Ciguatera.
+T61.1;Intoxication par poissons scombridés.
+T61.2;Autres intoxications par poissons et coquillages.
+T61.8;Autres fruits de mer.
+T61.9;Fruit de mer non précisé.
+T62.0;Champignons ingérés.
+T62.1;Baies ingérées.
+T62.2;Autres (parties de) plantes ingérées.
+T62.8;Autres substances nocives précisées absorbées par le biais d'aliments.
+T62.9;Substance nocive absorbée par le biais d'aliment, sans précision.
+T63.0;Venin de serpent.
+T63.1;Venin d'autres reptiles.
+T63.2;Venin de scorpion.
+T63.3;Venin d'araignée.
+T63.4;Venin d'autres arthropodes.
+T63.5;Effet toxique d'un contact avec des poissons.
+T63.6;Effet toxique d'un contact avec d'autres animaux marins.
+T63.8;Effet toxique d'un contact avec d'autres animaux venimeux.
+T63.9;Effet toxique d'un contact avec un animal venimeux, sans précision.
+T65.0;Cyanures.
+T65.1;Strychnine et ses sels.
+T65.2;Tabac et nicotine.
+T65.3;Dérivés aminés et nitroaminés du benzène et de ses homologues.
+T65.4;Sulfure de carbone.
+T65.5;Nitroglycérine et autres acides et esters nitriques.
+T65.6;Peintures et teintures, non classées ailleurs.
+T65.8;Effets toxiques d'autres substances précisées.
+T65.9;Effet toxique d'une substance, sans précision.
+T67.0;Coup de chaleur et insolation.
+T67.1;Syncope due à la chaleur.
+T67.2;Crampes dues à la chaleur.
+T67.3;Épuisement dû à la chaleur avec perte hydrique.
+T67.4;Épuisement dû à la chaleur avec perte de sel.
+T67.5;Épuisement dû à la chaleur, sans précision.
+T67.6;Fatigue transitoire due à la chaleur.
+T67.7;Œdème dû à la chaleur.
+T67.8;Autres effets de la chaleur et de la lumière.
+T67.9;Effet de la chaleur et de la lumière, sans précision.
+T69.0;Main et pied d'immersion.
+T69.1;Engelures.
+T69.8;Autres effets précisés d'une baisse de la température.
+T69.9;Effet d'une baisse de la température, sans précision.
+T70.0;Barotraumatisme de l'oreille.
+T70.1;Barotraumatisme des sinus.
+T70.2;Effets de l'altitude, autres et non précisés.
+T70.3;Maladie des caissons [maladie de la décompression].
+T70.4;Effets des fluides à haute pression.
+T70.8;Autres effets de la pression atmosphérique et de la pression de l'eau.
+T70.9;Effet de la pression atmosphérique et de la pression de l'eau, sans précision.
+T73.0;Effets de la faim.
+T73.1;Effets de la soif.
+T73.2;Épuisement dû aux éléments.
+T73.3;Épuisement dû à un effort intensif.
+T73.8;Autres effets dus à une privation.
+T73.9;Effet dû à une privation, sans précision.
+T74.0;Délaissement et abandon.
+T74.1;Sévices physiques.
+T74.2;Sévices sexuels.
+T74.3;Sévices psychologiques.
+T74.8;Autres syndromes dus à de mauvais traitements.
+T74.9;Syndrome dû à de mauvais traitements, sans précision.
+T75.0;Effets de la foudre.
+T75.1;Noyade et submersion non mortelle.
+T75.2;Effets des vibrations.
+T75.3;Mal des transports.
+T75.4;Effets du courant électrique.
+T75.8;Autres effets précisés d'autres causes externes.
+T78.0;Choc anaphylactique dû à une intolérance alimentaire.
+T78.1;Autres réactions d'intolérance alimentaire, non classées ailleurs.
+T78.2;Choc anaphylactique, sans précision.
+T78.3;Œdème angioneurotique.
+T78.4;Allergie, sans précision.
+T78.8;Autres effets indésirables, non classés ailleurs 821.
+T78.9;Effet indésirable, sans précision.
+T79.0;Embolie gazeuse (traumatique).
+T79.1;Embolie graisseuse (traumatique).
+T79.2;Hémorragie traumatique secondaire et récidivante.
+T79.3;Infection posttraumatique d'une plaie, non classée ailleurs.
+T79.4;Choc traumatique.
+T79.5;Anurie traumatique.
+T79.6;Ischémie traumatique d'un muscle.
+T79.7;Emphysème sous-cutané d'origine traumatique.
+T79.8;Autres complications précoces d'un traumatisme.
+T79.9;Complication précoce d'un traumatisme, sans précision.
+T80.0;Embolie gazeuse consécutive à une injection thérapeutique, une perfusion et une.
+T80.1;Complications vasculaires consécutives à une injection thérapeutique, une.
+T80.2;Infections consécutives à une injection thérapeutique, une perfusion et une.
+T84.7;T85.7).
+T80.3;Réaction d'incompatibilité ABO.
+T80.4;Réaction d'incompatibilité Rh.
+T80.5;Choc anaphylactique dû au sérum.
+T80.6;Autres réactions sériques.
+T80.8;Autres complications consécutives à une injection thérapeutique, une perfusion et.
+T80.9;Complication consécutive à une injection thérapeutique, une perfusion et une.
+T81.0;Hémorragie et hématome compliquant un acte à visée diagnostique et.
+T81.1;Choc pendant ou après un acte à visée diagnostique et thérapeutique, non classé.
+T81.2;Perforation et déchirure accidentelles au cours d'un acte à visée diagnostique et.
+T81.3;Désunion d'une plaie opératoire, non classée ailleurs.
+T81.3;Éviscération postopératoire.
+T81.3;Désunions d'une plaie opératoire non classées ailleurs, autres et non précisées.
+T81.4;Infection après un acte à visée diagnostique et thérapeutique, non classée ailleurs.
+T81.5;Corps étranger laissé accidentellement dans une cavité corporelle ou une plaie.
+T81.6;Réaction aigüe à une substance étrangère laissée accidentellement au cours d'un.
+T81.7;Complications vasculaires consécutives à un acte à visée diagnostique et.
+T81.8;Autres complications d'un acte à visée diagnostique et thérapeutique, non classées.
+T81.9;Complication non précisée d'un acte à visée diagnostique et thérapeutique.
+T82.0;Complication mécanique d'une prothèse valvulaire cardiaque.
+T82.1;Complication mécanique d'un appareil cardiaque électronique.
+T82.2;Complication mécanique d'un pontage coronarien et d'une greffe valvulaire.
+T82.3;Complication mécanique d'autres greffes vasculaires.
+T82.4;Complication mécanique d'un cathéter vasculaire de dialyse.
+T82.5;Complication mécanique d'autres prothèses et implants cardiaques et vasculaires.
+T82.6;Infection et réaction inflammatoire dues à une prothèse valvulaire cardiaque.
+T82.7;Infection et réaction inflammatoire dues à d'autres prothèses, implants et greffes.
+T82.8;Autres complications précisées de prothèses, implants et greffes cardiaques et.
+T82.9;Complication d'une prothèse, d'un implant et d'une greffe cardiaques et vasculaires,.
+T83.0;Complication mécanique d'une sonde urinaire (à demeure).
+T83.1;Complication mécanique d'autres prothèses et implants urinaires.
+T83.2;Complication mécanique d'une greffe d'organe urinaire.
+T83.3;Complication mécanique d'un dispositif intra-utérin contraceptif.
+T83.4;Complication mécanique d'autres prothèses, implants et greffes de l'appareil génital.
+T83.5;Infection et réaction inflammatoire dues à une prothèse, un implant et une greffe de.
+T83.6;Infection et réaction inflammatoire dues à une prothèse, un implant et une greffe de.
+T83.8;Autres complications de prothèses, implants et greffes de l'appareil génito-urinaire.
+T83.9;Complication d'une prothèse, d'un implant et d'une greffe de l'appareil génito-.
+T84.0;Complication mécanique d'une prothèse articulaire interne.
+T84.1;Complication mécanique d'une prothèse interne de fixation d'os d'un membre.
+T84.2;Complication mécanique d'une prothèse interne de fixation d'autres os.
+T84.3;Complication mécanique d'autres prothèses, implants et greffes des os.
+T84.4;Complication mécanique d'autres prothèses, implants et greffes orthopédiques.
+T84.5;Infection et réaction inflammatoire dues à une prothèse articulaire interne.
+T84.6;Infection et réaction inflammatoire dues à un appareil de fixation interne [toute.
+T84.7;Infection et réaction inflammatoire dues à d'autres prothèses, implants et greffes.
+T84.8;Autres complications de prothèses, implants et greffes orthopédiques internes.
+T84.9;Complication d'une prothèse, d'un implant et d'une greffe orthopédiques internes,.
+T85.0;Complication mécanique d'une dérivation [shunt] ventriculaire intracrânienne.
+T85.1;Complication mécanique de l'implantation d'un stimulateur électronique du système.
+T85.2;Complication mécanique d'une lentille intraoculaire.
+T85.3;Complication mécanique d'autres prothèses, implants et greffes oculaires.
+T85.4;Complication mécanique d'une prothèse et d'un implant mammaires.
+T85.5;Complication mécanique de prothèses, implants et greffes gastro-intestinaux.
+T85.5;Complication mécanique due à un dispositif implantable périgastrique de gastroplastie pour.
+T85.5;Complication mécanique due à d’autres prothèses, implants et greffes gastro-intestinaux.
+T85.6;Complication mécanique d'autres prothèses, implants et greffes internes précisés.
+T85.7;Infection et réaction inflammatoire dues à d'autres prothèses, implants et greffes.
+T85.8;Autres complications de prothèses, implants et greffes internes, non classées.
+T85.9;Complication d'une prothèse, d'un implant et d'une greffe internes, sans précision.
+T86.0;Rejet d'une greffe de moelle osseuse.
+T86.0;Rejet d’une greffe de moelle osseuse par l’hôte.
+T86.0;Réaction aigüe d’un greffon de moelle osseuse contre l’hôte.
+T86.0;Réaction chronique d’un greffon de moelle osseuse contre l’hôte.
+T86.0;Rejet d’une greffe de moelle osseuse, sans précision.
+T86.1;Échec et rejet d'une greffe de rein.
+T86.2;Échec et rejet d'une greffe de cœur.
+T86.3;Échec et rejet d'une greffe cœur-poumon.
+T86.4;Échec et rejet d'une greffe de foie.
+T86.8;Échec et rejet d'autres organes et tissus greffés.
+T86.8;Échec et rejet de greffe d’intestin.
+T86.8;Échec et rejet de greffe de pancréas.
+T86.8;Échec et rejet de greffe de poumon.
+T86.8;Échec et rejet de greffe de cornée.
+T86.8;Échec et rejet de greffe d’os.
+T86.8;Échec et rejet de greffe de peau (allogreffe)(autogreffe).
+T86.8;Autres échecs et rejets de greffe.
+T86.9;Échec et rejet d'un organe et d'un tissu greffés non précisés 830.
+T87.0;Complications d'une réimplantation de (ou d’une partie de ) membre supérieur.
+T87.1;Complications d'une réimplantation de (ou d’une partie de) membre inférieur.
+T87.2;Complications d'une réimplantation d'une autre partie du corps.
+T87.3;Névrome sur moignon d'amputation.
+T87.4;Infection d'un moignon d'amputation.
+T87.5;Nécrose d'un moignon d'amputation.
+T87.6;Complications autres et non précisées au niveau d'un moignon d'amputation.
+T88.0;Infection consécutive à vaccination.
+T88.1;Autres complications consécutives à vaccination, non classées ailleurs.
+T88.2;Choc anesthésique.
+T88.3;Hyperthermie maligne due à une anesthésie 831.
+T88.4;Échec ou difficulté d'intubation.
+T88.5;Autres complications consécutives à une anesthésie.
+T88.6;Choc anaphylactique dû à des effets indésirables d'une substance médicamenteuse.
+T88.7;Effet indésirable d'un médicament, sans précision.
+T88.8;Autres complications précisées de soins médicaux et chirurgicaux, non classées.
+T88.9;Complication de soins chirurgicaux et médicaux, sans précision.
+T90.0;Séquelles de lésion traumatique superficielle de la tête.
+T90.1;Séquelles de plaie ouverte de la tête.
+T90.2;Séquelles d'une fracture du crâne ou des os de la face.
+T90.3;Séquelles de lésion traumatique de nerfs crâniens.
+T90.4;Séquelles de lésion traumatique de l'œil et de l'orbite.
+T90.5;Séquelles de lésion traumatique intracrânienne.
+T90.8;Séquelles d'autres lésions traumatiques précisées de la tête.
+T90.9;Séquelles de lésion traumatique de la tête, sans précision.
+T91.0;Séquelles de lésion traumatique superficielle et de plaie ouverte du cou et du tronc.
+T91.1;Séquelles d'une fracture du rachis.
+T91.2;Séquelles d'autres fractures du thorax et du bassin.
+T91.3;Séquelles de lésion traumatique de la moelle épinière.
+T91.4;Séquelles de lésion traumatique d'organes intrathoraciques.
+T91.5;Séquelles de lésion traumatique d'organes intraabdominaux et pelviens.
+T91.8;Séquelles d'autres lésions traumatiques précisées du cou et du tronc.
+T91.9;Séquelles de lésion traumatique du cou et du tronc, sans précision.
+T92.0;Séquelles de plaie ouverte du membre supérieur.
+T92.1;Séquelles d'une fracture du bras et de l'avant-bras.
+T92.2;Séquelles d'une fracture au niveau du poignet et de la main.
+T92.3;Séquelles d'une luxation, entorse et foulure du membre supérieur.
+T92.4;Séquelles d'une lésion traumatique de nerfs du membre supérieur.
+T92.5;Séquelles d'une lésion traumatique de muscles et de tendons du membre supérieur.
+T92.6;Séquelles d'écrasement et d'amputation traumatiques du membre supérieur.
+T92.8;Séquelles d'autres lésions traumatiques précisées du membre supérieur.
+S69.7;S69.8, T11.0, T11.4 et T11.8.
+T92.9;Séquelles de lésion traumatique du membre supérieur, sans précision.
+T93.0;Séquelles de plaie ouverte du membre inférieur.
+T93.1;Séquelles d'une fracture du fémur.
+T93.2;Séquelles d'autres fractures du membre inférieur.
+T93.3;Séquelles de luxation, entorse et foulure du membre inférieur.
+T93.4;Séquelles de lésion traumatique de nerfs du membre inférieur.
+T93.5;Séquelles de lésion traumatique de muscles et de tendons du membre inférieur.
+T93.6;Séquelles d'écrasement et d'amputation traumatiques du membre inférieur.
+T93.8;Séquelles d'autres lésions traumatiques précisées du membre inférieur.
+S99.7;S99.8, T13.0, T13.4 et T13.8.
+T93.9;Séquelles de lésion traumatique du membre inférieur, sans précision.
+T94.0;Séquelles de lésions traumatiques de parties multiples du corps.
+T94.1;Séquelles de lésions traumatiques, non précisées selon la partie du corps.
+T95.0;Séquelles de brulure, corrosion et gelure de la tête et du cou.
+T95.1;Séquelles de brulure, corrosion et gelure du tronc.
+T95.2;Séquelles de brulure, corrosion et gelure du membre supérieur.
+T95.3;Séquelles de brulure, corrosion et gelure du membre inférieur.
+T95.4;Séquelles de brulure et corrosion classées selon leur étendue sur la surface du.
+T95.8;Séquelles d'autres brulures, corrosions et gelures précisées.
+T95.9;Séquelles de brulure, corrosion et gelure, sans précision.
+T98.0;Séquelles d'effets dus à un corps étranger ayant pénétré dans un orifice naturel.
+T98.1;Séquelles d'effets de causes externes, autres et sans précision.
+T98.2;Séquelles de certaines complications précoces d'un traumatisme.
+T98.3;Séquelles de complications de soins chirurgicaux et médicaux, non classées ailleurs.

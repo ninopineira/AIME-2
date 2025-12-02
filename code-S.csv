@@ -1,0 +1,601 @@
+S00.0;Lésion traumatique superficielle du cuir chevelu.
+S00.1;Contusion de la paupière et de la région périoculaire.
+S00.2;Autres lésions traumatiques superficielles de la paupière et de la région périoculaire.
+S00.3;Lésion traumatique superficielle du nez.
+S00.4;Lésion traumatique superficielle de l'oreille.
+S00.5;Lésion traumatique superficielle de la lèvre et de la cavité buccale.
+S00.7;Lésions traumatiques superficielles multiples de la tête.
+S00.8;Lésion traumatique superficielle d'autres parties de la tête.
+S00.9;Lésion traumatique superficielle de la tête, partie non précisée.
+S01.0;Plaie ouverte du cuir chevelu.
+S01.1;Plaie ouverte de la paupière et de la région périoculaire.
+S01.2;Plaie ouverte du nez.
+S01.3;Plaie ouverte de l'oreille.
+S01.4;Plaie ouverte de la joue et de la région temporomaxillaire.
+S01.5;Plaie ouverte de la lèvre et de la cavité buccale.
+S01.7;Plaies ouvertes multiples de la tête.
+S01.8;Plaie ouverte d'autres parties de la tête.
+S01.9;Plaie ouverte de la tête, partie non précisée.
+S02.0;Fracture de la voute du crâne.
+S02.1;Fracture de la base du crâne.
+S02.2;Fracture des os du nez.
+S02.3;Fracture du plancher de l'orbite.
+S02.4;Fracture des os malaires et maxillaires.
+S02.5;Fracture dentaire.
+S02.6;Fracture du maxillaire inférieur.
+S02.7;Fractures multiples du crâne et des os de la face.
+S02.8;Fractures d'autres os du crâne et de la face.
+S02.9;Fracture du crâne et des os de la face, partie non précisée.
+S03.0;Luxation de la mâchoire.
+S03.1;Luxation de la cloison du nez.
+S03.2;Luxation dentaire.
+S03.3;Luxation de parties autres et non précisées de la tête.
+S03.4;Entorse et foulure de la mâchoire.
+S03.5;Entorse et foulure de l'articulation et des ligaments de parties autres et non.
+S04.0;Lésion traumatique du nerf et des voies optiques.
+S04.1;Lésion traumatique du nerf moteur oculaire commun.
+S04.2;Lésion traumatique du nerf pathétique.
+S04.3;Lésion traumatique du nerf trijumeau.
+S04.4;Lésion traumatique du nerf moteur oculaire externe.
+S04.5;Lésion traumatique du nerf facial.
+S04.6;Lésion traumatique du nerf auditif.
+S04.7;Lésion traumatique du nerf spinal.
+S04.8;Lésion traumatique d'autres nerfs crâniens.
+S04.9;Lésion traumatique d'un nerf crânien, sans précision.
+S05.0;Lésion traumatique de la conjonctive et abrasion de la cornée sans mention de.
+S05.1;Contusion du globe oculaire et des tissus de l'orbite.
+S05.2;Lacération et rupture oculaires avec protrusion ou perte de tissu intraoculaire.
+S05.3;Lacération oculaire sans protrusion ou perte de tissu intraoculaire.
+S05.4;Plaie pénétrante de l'orbite, avec ou sans corps étranger.
+S05.5;Plaie pénétrante du globe oculaire, avec corps étranger.
+S05.6;Plaie pénétrante du globe oculaire, sans corps étranger.
+S05.7;Arrachement de l'œil.
+S05.8;Autres lésions traumatiques de l'œil et de l'orbite.
+S05.9;Lésion traumatique de l'œil et de l'orbite, non précisée.
+S06.0;Commotion.
+S06.1;Œdème cérébral traumatique.
+S06.2;Lésion traumatique cérébrale diffuse.
+S06.3;Lésion traumatique cérébrale en foyer.
+S06.4;Hémorragie épidurale.
+S06.5;Hémorragie sousdurale traumatique.
+S06.6;Hémorragie sousarachnoïdienne traumatique.
+S06.7;Lésion traumatique intracrânienne avec coma prolongé.
+S06.8;Autres lésions traumatiques intracrâniennes.
+S06.9;Lésion traumatique intracrânienne, sans précision.
+S07.0;Écrasement de la face.
+S07.1;Écrasement du crâne.
+S07.8;Écrasement d'autres parties de la tête.
+S07.9;Écrasement de la tête, partie non précisée.
+S08.0;Arrachement du cuir chevelu.
+S08.1;Amputation traumatique de l'oreille.
+S08.8;Amputation traumatique d'autres parties de la tête.
+S08.9;Amputation traumatique d'une partie de la tête non précisée.
+S09.0;Lésion traumatique des vaisseaux sanguins de la tête, non classée ailleurs.
+S09.1;Lésion traumatique des muscles et des tendons de la tête.
+S09.2;Rupture traumatique du tympan.
+S09.7;Lésions traumatiques multiples de la tête.
+S09.8;Autres lésions traumatiques précisées de la tête.
+S09.9;Lésion traumatique de la tête, sans précision.
+S10.0;Contusion de la gorge.
+S10.1;Lésions traumatiques superficielles de la gorge, autres et sans précision.
+S10.7;Lésions traumatiques superficielles multiples du cou.
+S10.8;Lésion traumatique superficielle d'autres parties du cou.
+S10.9;Lésion traumatique superficielle du cou, partie non précisée.
+S11.0;Plaie ouverte avec atteinte du larynx et de la trachée.
+S11.1;Plaie ouverte avec atteinte de la thyroïde.
+S11.2;Plaie ouverte avec atteinte du pharynx et de l'œsophage cervical.
+S11.7;Plaies ouvertes multiples du cou.
+S11.8;Plaie ouverte d'autres parties du cou.
+S11.9;Plaie ouverte du cou, partie non précisée.
+S12.0;Fracture de la première vertèbre cervicale.
+S12.1;Fracture de la deuxième vertèbre cervicale.
+S12.2;Fracture d'autres vertèbres cervicales précisées.
+S12.7;Fractures multiples du rachis cervical.
+S12.8;Fracture d'autres parties du cou.
+S12.9;Fracture du cou, partie non précisée.
+S13.0;Rupture traumatique d'un disque intervertébral cervical.
+S13.1;Luxation d'une vertèbre cervicale.
+S13.2;Luxations de parties autres et non précisées du cou.
+S13.3;Luxations multiples du cou.
+S13.4;Entorse et foulure du rachis cervical.
+S13.5;Entorse et foulure de la région thyroïdienne.
+S13.6;Entorse et foulure des articulations et des ligaments de parties autres et non.
+S14.0;Commotion et œdème de la moelle cervicale.
+S14.1;Lésions traumatiques de la moelle cervicale, autres et non précisées.
+S14.2;Lésion traumatique d'une racine nerveuse du rachis cervical.
+S14.3;Lésion traumatique du plexus brachial.
+S14.4;Lésion traumatique des nerfs périphériques du cou.
+S14.5;Lésion traumatique des nerfs sympathiques cervicaux.
+S14.6;Lésion traumatique de nerfs du cou, autres et non précisés.
+S15.0;Lésion traumatique de la carotide.
+S15.1;Lésion traumatique de l'artère vertébrale.
+S15.2;Lésion traumatique de la veine jugulaire externe.
+S15.3;Lésion traumatique de la veine jugulaire interne.
+S15.7;Lésion traumatique de multiples vaisseaux sanguins au niveau du cou.
+S15.8;Lésion traumatique d'autres vaisseaux sanguins au niveau du cou.
+S15.9;Lésion traumatique de vaisseaux sanguins non précisés au niveau du cou.
+S17.0;Écrasement du larynx et de la trachée.
+S17.8;Écrasement d'autres parties du cou.
+S17.9;Écrasement du cou, partie non précisée.
+S19.7;Lésions traumatiques multiples du cou.
+S19.8;Autres lésions traumatiques précisées du cou.
+S19.9;Lésion traumatique du cou, sans précision.
+S20.0;Contusion du sein.
+S20.1;Lésions traumatiques superficielles du sein, autres et non précisées.
+S20.2;Contusion du thorax.
+S20.3;Autres lésions traumatiques superficielles de la paroi thoracique antérieure.
+S20.4;Autres lésions traumatiques superficielles de la paroi thoracique postérieure.
+S20.7;Lésions traumatiques superficielles multiples du thorax.
+S20.8;Lésion traumatique superficielle de parties autres et non précisées du thorax.
+S21.0;Plaie ouverte du sein.
+S21.1;Plaie ouverte de la paroi thoracique antérieure.
+S21.2;Plaie ouverte de la paroi thoracique postérieure.
+S21.7;Plaies ouvertes multiples de la paroi thoracique.
+S21.8;Plaie ouverte d'autres parties du thorax.
+S21.9;Plaie ouverte du thorax, partie non précisée.
+S22.0;Fracture d'une vertèbre dorsale.
+S22.1;Fractures multiples du rachis dorsal.
+S22.2;Fracture du sternum.
+S22.3;Fracture de côte.
+S22.4;Fractures multiples de côtes.
+S22.5;Volet costal.
+S22.8;Fractures d'autres parties des os du thorax.
+S22.9;Fracture des os du thorax, partie non précisée.
+S23.0;Rupture traumatique d'un disque intervertébral dorsal.
+S23.1;Luxation d'une vertèbre dorsale.
+S23.2;Luxation de parties autres et non précisées du thorax.
+S23.3;Entorse et foulure du rachis dorsal.
+S23.4;Entorse et foulure des côtes et du sternum.
+S23.5;Entorse et foulure de parties autres et non précisées du thorax.
+S24.0;Commotion et œdème de la moelle dorsale.
+S24.1;Lésions traumatiques autres et non précisées de la moelle dorsale.
+S24.2;Lésion traumatique d'une racine nerveuse du rachis dorsal.
+S24.3;Lésion traumatique de nerfs périphériques du thorax.
+S24.4;Lésion traumatique de nerfs sympathiques du thorax.
+S24.5;Lésion traumatique d'autres nerfs du thorax.
+S24.6;Lésion traumatique d'un nerf non précisé du thorax.
+S25.0;Lésion traumatique de l'aorte thoracique.
+S25.1;Lésion traumatique de l'artère innominée ou sousclavière.
+S25.2;Lésion traumatique de la veine cave supérieure.
+S25.3;Lésion traumatique de la veine innominée ou sousclavière.
+S25.4;Lésion traumatique de vaisseaux sanguins du poumon.
+S25.5;Lésion traumatique de vaisseaux sanguins intercostaux.
+S25.7;Lésions traumatiques de multiples vaisseaux sanguins du thorax.
+S25.8;Lésion traumatique d'autres vaisseaux sanguins du thorax.
+S25.8;Lésion traumatique de la veine azygos.
+S25.8;Lésion traumatique d’autres vaisseaux sanguins précisés du thorax.
+S25.9;Lésion traumatique d'un vaisseau sanguin non précisé du thorax.
+S26.0;Lésion traumatique du cœur avec hémopéricarde.
+S26.8;Autres lésions traumatiques du cœur.
+S26.9;Lésion traumatique du cœur, sans précision.
+S27.0;Pneumothorax traumatique.
+S27.1;Hémothorax traumatique.
+S27.2;Hémopneumothorax traumatique.
+S27.3;Autres lésions traumatiques du poumon.
+S27.4;Lésion traumatique des bronches.
+S27.5;Lésion traumatique de la trachée thoracique.
+S27.6;Lésion traumatique de la plèvre.
+S27.7;Lésions traumatiques multiples des organes intrathoraciques.
+S27.8;Lésion traumatique d'autres organes intrathoraciques précisés.
+S27.9;Lésion traumatique d'organes intrathoraciques non précisés.
+S28.0;Écrasement du thorax.
+S28.1;Amputation traumatique d'une partie du thorax.
+S29.0;Lésion traumatique des muscles et des tendons au niveau du thorax.
+S29.7;Lésions traumatiques multiples du thorax.
+S29.8;Autres lésions traumatiques précisées du thorax.
+S29.9;Lésion traumatique du thorax, sans précision.
+S30.0;Contusion des lombes et du bassin.
+S30.1;Contusion de la paroi abdominale.
+S30.2;Contusion des organes génitaux externes.
+S30.7;Lésions traumatiques superficielles multiples de l'abdomen, des lombes et du.
+S30.8;Autres lésions traumatiques superficielles de l'abdomen, des lombes et du bassin.
+S30.9;Lésion traumatique superficielle de l'abdomen, des lombes et du bassin, partie non.
+S31.0;Plaie ouverte des lombes et du bassin.
+S31.1;Plaie ouverte de la paroi abdominale.
+S31.2;Plaie ouverte de la verge.
+S31.3;Plaie ouverte du scrotum et des testicules.
+S31.4;Plaie ouverte du vagin et de la vulve.
+S31.5;Plaie ouverte des organes génitaux externes, autres et non précisés.
+S31.7;Plaies ouvertes multiples de l'abdomen, des lombes et du bassin.
+S31.8;Plaie ouverte de parties autres et non précisées de l'abdomen.
+S32.0;Fracture d'une vertèbre lombaire.
+S32.1;Fracture du sacrum.
+S32.2;Fracture du coccyx.
+S32.3;Fracture de l'ilion.
+S32.4;Fracture de l'acétabulum.
+S32.5;Fracture du pubis.
+S32.7;Fractures multiples du rachis lombaire et du bassin.
+S32.8;Fracture de parties autres et non précisées du rachis lombaire et du bassin.
+S33.0;Rupture traumatique d'un disque intervertébral lombaire.
+S33.1;Luxation d'une vertèbre lombaire.
+S33.2;Luxation des articulations sacro-iliaque et sacrococcygienne.
+S33.3;Luxation de parties autres et non précisées du rachis lombaire et du bassin.
+S33.4;Rupture traumatique de la symphyse pubienne.
+S33.5;Entorse et foulure du rachis lombaire.
+S33.6;Entorse et foulure de l'articulation sacro-iliaque.
+S33.7;Entorse et foulure de parties autres et non précisées du rachis lombaire et du bassin.
+S34.0;Commotion et œdème de la moelle lombaire.
+S34.1;Autres lésions traumatiques de la moelle lombaire.
+S34.2;Lésion traumatique d’une racine nerveuse du rachis lombaire et sacré.
+S34.3;Lésion traumatique de la queue de cheval.
+S34.4;Lésion traumatique du plexus lombosacré.
+S34.5;Lésion traumatique des nerfs sympathiques lombaires, sacrés et du bassin.
+S34.6;Lésion traumatique de nerf(s) périphérique(s) de l'abdomen, des lombes et du.
+S34.8;Lésion traumatique de nerfs autres et non précisés au niveau de l'abdomen, des.
+S35.0;Lésion traumatique de l'aorte abdominale.
+S35.1;Lésion traumatique de la veine cave inférieure.
+S35.2;Lésion traumatique de l'artère cœliaque ou mésentérique.
+S35.3;Lésion traumatique de la veine porte ou splénique.
+S35.4;Lésion traumatique des vaisseaux sanguins du rein.
+S35.5;Lésion traumatique des vaisseaux sanguins iliaques.
+S35.7;Lésion traumatique de multiples vaisseaux sanguins au niveau de l'abdomen, des.
+S35.8;Lésion traumatique d'autres vaisseaux sanguins au niveau de l'abdomen, des.
+S35.9;Lésion traumatique de vaisseaux sanguins non précisés, au niveau de l'abdomen,.
+S36.0;Lésion traumatique de la rate.
+S36.1;Lésion traumatique du foie et de la vésicule biliaire.
+S36.2;Lésion traumatique du pancréas.
+S36.3;Lésion traumatique de l'estomac.
+S36.4;Lésion traumatique de l'intestin grêle.
+S36.5;Lésion traumatique du côlon.
+S36.6;Lésion traumatique du rectum.
+S36.7;Lésion traumatique de multiples organes intraabdominaux.
+S36.8;Lésion traumatique d'autres organes intraabdominaux.
+S36.9;Lésion traumatique d'un organe intraabdominal non précisé.
+S37.0;Lésion traumatique du rein.
+S37.1;Lésion traumatique de l'uretère.
+S37.2;Lésion traumatique de la vessie.
+S37.3;Lésion traumatique de l'urètre.
+S37.4;Lésion traumatique de l'ovaire.
+S37.5;Lésion traumatique de la trompe de Fallope.
+S37.6;Lésion traumatique de l'utérus.
+S37.7;Lésions traumatiques de multiples organes urinaires et pelviens.
+S37.8;Lésions traumatiques d'autres organes urinaires et pelviens.
+S37.8;0 Lésion traumatique de la glande surrénale.
+S37.8;8 Lésion traumatique d’autres organes urinaires et pelviens précisés.
+S37.9;Lésion traumatique d'un organe urinaire et pelvien non précisé.
+S38.0;Écrasement des organes génitaux externes.
+S38.1;Écrasement de parties autres et non précisées de l'abdomen, des lombes et du.
+S38.1;Écrasement de la fesse.
+S38.1;Écrasement d’autres parties précisées de l’abdomen, des lombes et du bassin.
+S38.1;Écrasement de parties non précisées de l’abdomen, des lombes et du bassin.
+S38.2;Amputation traumatique des organes génitaux externes.
+S38.3;Amputation traumatique de parties autres et non précisées de l'abdomen, des.
+S39.0;Lésion traumatique de muscles et de tendons de l'abdomen, des lombes et du.
+S39.6;Lésion traumatique d'organe(s) intraabdominal(aux) avec organe(s) pelvien(s).
+S39.7;Autres lésions traumatiques multiples de l'abdomen, des lombes et du bassin.
+S39.8;Autres lésions traumatiques précisées de l'abdomen, des lombes et du bassin.
+S39.9;Lésion traumatique de l'abdomen, des lombes et du bassin, sans précision.
+S40.0;Contusion de l'épaule et du bras.
+S40.7;Lésions traumatiques superficielles multiples de l'épaule et du bras.
+S40.8;Autres lésions traumatiques superficielles de l'épaule et du bras.
+S40.9;Lésion traumatique superficielle de l'épaule et du bras, sans précision.
+S41.0;Plaie ouverte de l'épaule.
+S41.1;Plaie ouverte du bras.
+S41.7;Plaies ouvertes multiples de l'épaule et du bras.
+S41.8;Plaie ouverte de parties autres et non précisées de la ceinture scapulaire.
+S42.0;Fracture de la clavicule.
+S42.1;Fracture de la omoplate.
+S42.2;Fracture de l'extrémité supérieure de l'humérus.
+S42.3;Fracture de la diaphyse de l'humérus.
+S42.4;Fracture de l'extrémité inférieure de l'humérus.
+S42.7;Fractures multiples de la clavicule, de l’omoplate et de l'humérus.
+S42.8;Fracture d'autres parties de l'épaule et du bras.
+S42.9;Fracture de la ceinture scapulaire, partie non précisée.
+S43.0;Luxation de l'articulation de l'épaule.
+S43.1;Luxation de l'articulation acromioclaviculaire.
+S43.2;Luxation de l'articulation sternoclaviculaire 767.
+S43.3;Luxation de parties autres et non précisées de la ceinture scapulaire.
+S43.4;Entorse et foulure de l'articulation de l'épaule.
+S43.5;Entorse et foulure de l'articulation acromioclaviculaire.
+S43.6;Entorse et foulure de l'articulation sternoclaviculaire.
+S43.7;Entorse et foulure de parties autres et non précisées de la ceinture scapulaire.
+S44.0;Lésion traumatique du nerf cubital au niveau du bras.
+S44.1;Lésion traumatique du nerf médian au niveau du bras.
+S44.2;Lésion traumatique du nerf radial au niveau du bras.
+S44.3;Lésion traumatique du nerf axillaire.
+S44.4;Lésion traumatique du nerf musculocutané.
+S44.5;Lésion traumatique d'un nerf cutané sensitif au niveau de l'épaule et du bras.
+S44.7;Lésion traumatique de multiples nerfs au niveau de l'épaule et du bras.
+S44.8;Lésion traumatique d'autres nerfs au niveau de l'épaule et du bras.
+S44.9;Lésion traumatique d'un nerf non précisé, au niveau de l'épaule et du bras.
+S45.0;Lésion traumatique de l'artère axillaire.
+S45.1;Lésion traumatique de l'artère brachiale.
+S45.2;Lésion traumatique de la veine axillaire et brachiale.
+S45.3;Lésion traumatique d'une veine superficielle au niveau de l'épaule et du bras.
+S45.7;Lésion traumatique de multiples vaisseaux sanguins au niveau de l'épaule et du.
+S45.8;Lésion traumatique d'autres vaisseaux sanguins au niveau de l'épaule et du bras.
+S45.9;Lésion traumatique d'un vaisseau sanguin non précisé, au niveau de l'épaule et du.
+S46.0;Lésion traumatique de muscles et de tendons de la coiffe des rotateurs de l'épaule.
+S46.1;Lésion traumatique du muscle et du tendon du long biceps.
+S46.2;Lésion traumatique de muscles et de tendons d'autres parties du biceps.
+S46.3;Lésion traumatique de muscles et de tendons du triceps.
+S46.7;Lésion traumatique de multiples muscles et tendons au niveau de l'épaule et du bras.
+S46.8;Lésion traumatique d'autres muscles et tendons au niveau de l'épaule et du bras.
+S46.9;Lésion traumatique de muscle et de tendon non précisés, au niveau de l'épaule et du.
+S48.0;Amputation traumatique de l'articulation de l'épaule.
+S48.1;Amputation traumatique entre l'épaule et le coude.
+S48.9;Amputation traumatique de l'épaule et du bras, niveau non précisé.
+S49.7;Lésions traumatiques multiples de l'épaule et du bras.
+S49.8;Autres lésions traumatiques précisées de l'épaule et du bras.
+S49.9;Lésion traumatique de l'épaule et du bras, sans précision.
+S50.0;Contusion du coude.
+S50.1;Contusion de parties autres et non précisées de l'avant-bras.
+S50.7;Lésions traumatiques superficielles multiples de l'avant-bras.
+S50.8;Autres lésions traumatiques superficielles de l'avant-bras.
+S50.9;Lésion traumatique superficielle de l'avant-bras, sans précision.
+S51.0;Plaie ouverte du coude.
+S51.7;Plaies ouvertes multiples de l'avant-bras.
+S51.8;Plaie ouverte d'autres parties de l'avant-bras.
+S51.9;Plaie ouverte de l'avant-bras, partie non précisée.
+S52.0;Fracture de l'extrémité supérieure du cubitus.
+S52.1;Fracture de l'extrémité supérieure du radius.
+S52.2;Fracture de la diaphyse du cubitus.
+S52.3;Fracture de la diaphyse du radius.
+S52.4;Fracture des deux diaphyses, cubitale et radiale.
+S52.5;Fracture de l'extrémité inférieure du radius.
+S52.6;Fracture de l'extrémité inférieure du cubitus et du radius.
+S52.7;Fractures multiples de l'avant-bras.
+S52.8;Fracture d'autres parties de l'avant-bras.
+S52.9;Fracture de l'avant-bras, partie non précisée.
+S53.0;Luxation de la tête radiale.
+S53.1;Luxation du coude, sans précision.
+S53.2;Rupture traumatique du ligament latéral externe du coude.
+S53.3;Rupture traumatique du ligament latéral interne du coude.
+S53.4;Entorse et foulure du coude.
+S54.0;Lésion traumatique du nerf cubital au niveau de l'avant-bras.
+S54.1;Lésion traumatique du nerf médian au niveau de l'avant-bras.
+S54.2;Lésion traumatique du nerf radial au niveau de l'avant-bras.
+S54.3;Lésion traumatique d'un nerf sensitif cutané au niveau de l'avant-bras.
+S54.7;Lésion traumatique de multiples nerfs au niveau de l'avant-bras.
+S54.8;Lésion traumatique d'autres nerfs au niveau de l'avant-bras.
+S54.9;Lésion traumatique d'un nerf non précisé, au niveau de l'avant-bras.
+S55.0;Lésion traumatique de l'artère cubitale au niveau de l'avant-bras.
+S55.1;Lésion traumatique de l'artère radiale au niveau de l'avant-bras.
+S55.2;Lésion traumatique d'une veine au niveau de l'avant-bras.
+S55.7;Lésion traumatique de multiples vaisseaux sanguins au niveau de l'avant-bras.
+S55.8;Lésion traumatique d'autres vaisseaux sanguins au niveau de l'avant-bras.
+S55.9;Lésion traumatique d'un vaisseau sanguin non précisé, au niveau de l'avant-bras.
+S56.0;Lésion traumatique du muscle et du tendon fléchisseurs du pouce au niveau de.
+S56.1;Lésion traumatique de muscles et de tendons fléchisseurs d'autre(s) doigt(s) au.
+S56.2;Lésion traumatique d'un autre muscle et d'un autre tendon fléchisseurs au niveau de.
+S56.3;Lésion traumatique de muscles et de tendons extenseurs et abducteurs du pouce au.
+S56.4;Lésion traumatique de muscles et de tendons extenseurs d'autre(s) doigt(s) au.
+S56.5;Lésion traumatique d'un autre muscle et d'un autre tendon extenseurs au niveau de.
+S56.7;Lésion traumatique de multiples muscles et tendons au niveau de l'avant-bras.
+S56.8;Lésion traumatique de muscles et de tendons autres et non précisés, au niveau de.
+S57.0;Écrasement du coude.
+S57.8;Écrasement d'autres parties de l'avant-bras.
+S57.9;Écrasement de l'avant-bras, partie non précisée.
+S58.0;Amputation traumatique au niveau du coude.
+S58.1;Amputation traumatique entre le coude et le poignet.
+S58.9;Amputation traumatique de l'avant-bras, niveau non précisé.
+S59.7;Lésions traumatiques multiples de l'avant-bras.
+S59.8;Autres lésions traumatiques précisées de l'avant-bras.
+S59.9;Lésion traumatique de l'avant-bras, sans précision.
+S60.0;Contusion de(s) doigt(s) sans lésion de l'ongle.
+S60.1;Contusion de(s) doigt(s) avec lésion de l'ongle.
+S60.2;Contusion d'autres parties du poignet et de la main.
+S60.7;Lésions traumatiques superficielles multiples du poignet et de la main.
+S60.8;Autres lésions traumatiques superficielles du poignet et de la main.
+S60.9;Lésion traumatique superficielle du poignet et de la main, sans précision.
+S61.0;Plaie ouverte de(s) doigt(s) sans lésion de l'ongle.
+S61.1;Plaie ouverte de(s) doigt(s) avec lésion de l'ongle.
+S61.7;Plaies ouvertes multiples du poignet et de la main.
+S61.8;Plaie ouverte d'autres parties du poignet et de la main.
+S61.9;Plaie ouverte du poignet et de la main, partie non précisée.
+S62.0;Fracture de l'os scaphoïde de la main.
+S62.1;Fracture d'autre(s) os du carpe.
+S62.2;Fracture du premier métacarpien.
+S62.3;Fracture d'un autre os du métacarpe.
+S62.4;Fractures multiples des métacarpiens.
+S62.5;Fracture du pouce.
+S62.6;Fracture d'un autre doigt.
+S62.7;Fractures multiples de doigts.
+S62.8;Fracture de parties autres et non précisées du poignet et de la main.
+S63.0;Luxation du poignet.
+S63.1;Luxation du doigt.
+S63.2;Luxations multiples des doigts.
+S63.3;Rupture traumatique de ligament du poignet et du carpe.
+S63.4;Rupture traumatique de ligaments du doigt au niveau des articulations.
+S63.5;Entorse et foulure du poignet.
+S63.6;Entorse et foulure de doigt(s).
+S63.7;Entorse et foulure d'articulations autres et non précisées de la main.
+S64.0;Lésion traumatique du nerf cubital au niveau du poignet et de la main.
+S64.1;Lésion traumatique du nerf médian au niveau du poignet et de la main.
+S64.2;Lésion traumatique du nerf radial au niveau du poignet et de la main.
+S64.3;Lésion traumatique du nerf collatéral du pouce.
+S64.4;Lésion traumatique du nerf collatéral d'un autre doigt.
+S64.7;Lésion traumatique de multiples nerfs au niveau du poignet et de la main.
+S64.8;Lésion traumatique d'autres nerfs au niveau du poignet et de la main.
+S64.9;Lésion traumatique d'un nerf non précisé, au niveau du poignet et de la main.
+S65.0;Lésion traumatique de l'artère cubitale au niveau du poignet et de la main.
+S65.1;Lésion traumatique de l'artère radiale au niveau du poignet et de la main.
+S65.2;Lésion traumatique de l'arc palmaire superficiel.
+S65.3;Lésion traumatique de l'arc palmaire profond.
+S65.4;Lésion traumatique de vaisseau(x) sanguin(s) du pouce.
+S65.5;Lésion traumatique de vaisseau(x) sanguin(s) d'un autre doigt.
+S65.7;Lésion traumatique de multiples vaisseaux sanguins au niveau du poignet et de la.
+S65.8;Lésion traumatique d'autres vaisseaux sanguins au niveau du poignet et de la main.
+S65.9;Lésion traumatique d'un vaisseau sanguin non précisé, au niveau du poignet et de la.
+S66.0;Lésion traumatique du muscle et du tendon longs fléchisseurs du pouce au niveau.
+S66.1;Lésion traumatique du muscle et du tendon fléchisseurs d'un autre doigt au niveau.
+S66.2;Lésion traumatique du muscle et du tendon extenseurs du pouce au niveau du.
+S66.3;Lésion traumatique du muscle et du tendon extenseurs d'un autre doigt au niveau.
+S66.4;Lésion traumatique de muscles et de tendons intrinsèques du pouce au niveau du.
+S66.5;Lésion traumatique de muscles et de tendons intrinsèques d'un autre doigt au.
+S66.6;Lésion traumatique de multiples muscles et tendons fléchisseurs au niveau du.
+S66.7;Lésion traumatique de multiples muscles et tendons extenseurs au niveau du.
+S66.8;Lésion traumatique d'autres muscles et tendons au niveau du poignet et de la main.
+S66.9;Lésion traumatique d'un muscle et d'un tendon non précisés, au niveau du poignet.
+S67.0;Écrasement du pouce et d'autre(s) doigt(s).
+S67.8;Écrasement de parties autres et non précisées du poignet et de la main.
+S68.0;Amputation traumatique (complète) (partielle) du pouce.
+S68.1;Amputation traumatique (complète) (partielle) d'un autre doigt.
+S68.2;Amputation traumatique (complète) (partielle) de deux doigts ou plus.
+S68.3;Amputation traumatique associée de (parties de) doigt(s) et d'autres parties du.
+S68.4;Amputation traumatique de la main au niveau du poignet.
+S68.8;Amputation traumatique d'autres parties du poignet et de la main.
+S68.9;Amputation traumatique du poignet et de la main, niveau non précisé.
+S69.7;Lésions traumatiques multiples du poignet et de la main.
+S69.8;Autres lésions traumatiques précisées du poignet et de la main.
+S69.9;Lésion traumatique du poignet et de la main, sans précision.
+S70.0;Contusion de la hanche.
+S70.1;Contusion de la cuisse.
+S70.7;Lésions traumatiques superficielles multiples de la hanche et de la cuisse.
+S70.8;Autres lésions traumatiques superficielles de la hanche et de la cuisse.
+S70.9;Lésion traumatique superficielle de la hanche et de la cuisse, sans précision.
+S71.0;Plaie ouverte de la hanche.
+S71.1;Plaie ouverte de la cuisse.
+S71.7;Plaies ouvertes multiples de la hanche et de la cuisse.
+S71.8;Plaie ouverte de parties autres et non précisées de la ceinture pelvienne.
+S72.0;Fracture du col du fémur.
+S72.1;Fracture du trochanter.
+S72.2;Fracture soustrochantérienne.
+S72.3;Fracture de la diaphyse fémorale.
+S72.4;Fracture de l'extrémité inférieure du fémur.
+S72.7;Fractures multiples du fémur.
+S72.8;Fracture d'autres parties du fémur.
+S72.9;Fracture du fémur, partie non précisée.
+S73.0;Luxation de la hanche.
+S73.1;Entorse et foulure de la hanche.
+S74.0;Lésion traumatique du nerf sciatique au niveau de la hanche et de la cuisse.
+S74.1;Lésion traumatique du nerf fémoral au niveau de la hanche et de la cuisse.
+S74.2;Lésion traumatique d'un nerf cutané sensitif au niveau de la hanche et de la cuisse.
+S74.7;Lésion traumatique de multiples nerfs au niveau de la hanche et de la cuisse.
+S74.8;Lésion traumatique d'autres nerfs au niveau de la hanche et de la cuisse.
+S74.9;Lésion traumatique d'un nerf non précisé, au niveau de la hanche et de la cuisse.
+S75.0;Lésion traumatique de l'artère fémorale.
+S75.1;Lésion traumatique de la veine fémorale au niveau de la hanche et de la cuisse.
+S75.2;Lésion traumatique de la veine saphène interne au niveau de la hanche et de la.
+S75.7;Lésion traumatique de multiples vaisseaux sanguins au niveau de la hanche et de la.
+S75.8;Lésion traumatique d'autres vaisseaux sanguins au niveau de la hanche et de la.
+S75.9;Lésion traumatique d'un vaisseau sanguin non précisé, au niveau de la hanche et de.
+S76.0;Lésion traumatique de muscles et de tendons de la hanche.
+S76.1;Lésion traumatique de muscles et de tendons du quadriceps.
+S76.2;Lésion traumatique de muscles et de tendons adducteurs de la cuisse.
+S76.3;Lésion traumatique de muscles et de tendons postérieurs au niveau de la cuisse.
+S76.4;Lésion traumatique de muscles et de tendons autres et non précisés, au niveau de la.
+S76.7;Lésion traumatique de multiples muscles et tendons au niveau de la hanche et de la.
+S77.0;Écrasement de la hanche.
+S77.1;Écrasement de la cuisse.
+S77.2;Écrasement de la hanche et de la cuisse.
+S78.0;Amputation traumatique de l'articulation de la hanche.
+S78.1;Amputation traumatique entre la hanche et le genou.
+S78.9;Amputation traumatique de la hanche et de la cuisse, niveau non précisé.
+S79.7;Lésions traumatiques multiples de la hanche et de la cuisse.
+S79.8;Autres lésions traumatiques précisées de la hanche et de la cuisse.
+S79.9;Lésion traumatique de la hanche et de la cuisse, sans précision.
+S80.0;Contusion du genou.
+S80.1;Contusion de parties autres et non précisées de la jambe.
+S80.7;Lésions traumatiques superficielles multiples de la jambe.
+S80.8;Autres lésions traumatiques superficielles de la jambe.
+S80.9;Lésion traumatique superficielle de la jambe, sans précision.
+S81.0;Plaie ouverte du genou.
+S81.7;Plaies ouvertes multiples de la jambe.
+S81.8;Plaie ouverte d'autres parties de la jambe.
+S81.9;Plaie ouverte de la jambe, partie non précisée.
+S82.0;Fracture de la rotule.
+S82.1;Fracture de l'extrémité supérieure du tibia.
+S82.2;Fracture de la diaphyse du tibia.
+S82.3;Fracture de l'extrémité inférieure du tibia.
+S82.4;Fracture du péroné seul.
+S82.5;Fracture de la malléole interne.
+S82.6;Fracture de la malléole externe.
+S82.7;Fractures multiples de la jambe.
+S82.8;Fractures d'autres parties de la jambe.
+S82.9;Fracture de la jambe, partie non précisée.
+S83.0;Luxation de la rotule.
+S83.1;Luxation du genou.
+S83.2;Déchirure récente d'un ménisque.
+S83.3;Déchirure récente du cartilage articulaire du genou.
+S83.4;Entorse et foulure des ligaments latéraux (interne) (externe) du genou.
+S83.5;Entorse et foulure des ligaments croisés (antérieur) (postérieur) du genou.
+S83.6;Entorse et foulure de parties autres et non précisées du genou.
+S83.7;Lésion traumatique de multiples parties du genou.
+S84.0;Lésion traumatique du nerf sciatique poplité interne au niveau de la jambe.
+S84.1;Lésion traumatique du nerf sciatique poplité externe au niveau de la jambe.
+S84.2;Lésion traumatique d'un nerf cutané sensitif au niveau de la jambe.
+S84.7;Lésion traumatique de multiples nerfs au niveau de la jambe.
+S84.8;Lésion traumatique d'autres nerfs au niveau de la jambe.
+S84.9;Lésion traumatique d'un nerf non précisé, au niveau de la jambe.
+S85.0;Lésion traumatique de l'artère poplitée.
+S85.1;Lésion traumatique de l'artère tibiale (antérieure) (postérieure).
+S85.2;Lésion traumatique de l'artère péronière.
+S85.3;Lésion traumatique de la veine saphène interne au niveau de la jambe.
+S85.4;Lésion traumatique de la veine saphène externe au niveau de la jambe.
+S85.5;Lésion traumatique de la veine poplitée.
+S85.7;Lésion traumatique de multiples vaisseaux sanguins au niveau de la jambe.
+S85.8;Lésion traumatique d'autres vaisseaux sanguins au niveau de la jambe.
+S85.9;Lésion traumatique d'un vaisseau sanguin non précisé, au niveau de la jambe.
+S86.0;Lésion traumatique du tendon d'Achille.
+S86.1;Lésion traumatique d'autre(s) muscle(s) et tendon(s) postérieurs au niveau de la.
+S86.2;Lésion traumatique de muscle(s) et de tendon(s) antérieurs au niveau de la jambe.
+S86.3;Lésion traumatique de muscle(s) et de tendon(s) péroniers au niveau de la jambe.
+S86.7;Lésion traumatique de multiples muscles et tendons au niveau de la jambe.
+S86.8;Lésion traumatique d'autres muscles et tendons au niveau de la jambe.
+S86.9;Lésion traumatique d'un muscle et d'un tendon non précisés, au niveau de la jambe.
+S87.0;Écrasement du genou.
+S87.8;Écrasement de parties autres et non précisées de la jambe.
+S88.0;Amputation traumatique au niveau du genou.
+S88.1;Amputation traumatique entre le genou et la cheville.
+S88.9;Amputation traumatique de la jambe, niveau non précisé.
+S89.7;Lésions traumatiques multiples de la jambe.
+S89.8;Autres lésions traumatiques précisées de la jambe.
+S89.9;Lésion traumatique de la jambe, sans précision.
+S90.0;Contusion de la cheville.
+S90.1;Contusion d'un (des) orteil(s) sans lésion de l'ongle.
+S90.2;Contusion d'un (des) orteil(s) avec lésion de l'ongle.
+S90.3;Contusion de parties autres et non précisées du pied.
+S90.7;Lésions traumatiques superficielles multiples de la cheville et du pied.
+S90.8;Autres lésions traumatiques superficielles de la cheville et du pied.
+S90.9;Lésion traumatique superficielle de la cheville et du pied, sans précision.
+S91.0;Plaie ouverte de la cheville.
+S91.1;Plaie ouverte d'un (des) orteil(s) sans lésion de l'ongle.
+S91.2;Plaie ouverte d'un (des) orteil(s) avec lésion de l'ongle.
+S91.3;Plaie ouverte d'autres parties du pied.
+S91.7;Plaies ouvertes multiples de la cheville et du pied.
+S92.0;Fracture du calcanéum.
+S92.1;Fracture de l’astragale.
+S92.2;Fracture d'autres os du tarse.
+S92.3;Fracture d'os du métatarse.
+S92.4;Fracture du gros orteil.
+S92.5;Fracture d'un autre orteil.
+S92.7;Fractures multiples du pied.
+S92.9;Fracture du pied, sans précision.
+S93.0;Luxation de la cheville.
+S93.1;Luxation d'un (des) orteil(s).
+S93.2;Rupture de ligaments au niveau de la cheville et du pied.
+S93.3;Luxation de parties autres et non précisées du pied.
+S93.4;Entorse et foulure de la cheville.
+S93.5;Entorse et foulure d'un (des) orteil(s).
+S93.6;Entorse et foulure de parties autres et non précisées du pied.
+S94.0;Lésion traumatique du nerf plantaire externe 784.
+S94.1;Lésion traumatique du nerf plantaire interne.
+S94.2;Lésion traumatique du nerf tibial antérieur au niveau de la cheville et du pied.
+S94.3;Lésion traumatique d'un nerf cutané sensitif au niveau de la cheville et du pied.
+S94.7;Lésion traumatique de multiples nerfs au niveau de la cheville et du pied.
+S94.8;Lésion traumatique d'autres nerfs au niveau de la cheville et du pied.
+S94.9;Lésion traumatique d'un nerf non précisé, au niveau de la cheville et du pied.
+S95.0;Lésion traumatique de l'artère dorsale du pied.
+S95.1;Lésion traumatique de l'artère plantaire du pied.
+S95.2;Lésion traumatique de la veine dorsale du pied.
+S95.7;Lésion traumatique de multiples vaisseaux sanguins au niveau de la cheville et du.
+S95.8;Lésion traumatique d'autres vaisseaux sanguins au niveau de la cheville et du pied.
+S95.9;Lésion traumatique d'un vaisseau sanguin non précisé, au niveau de la cheville et du.
+S96.0;Lésion traumatique d'un muscle et d'un tendon long fléchisseur d'un orteil, au.
+S96.1;Lésion traumatique d'un muscle et d'un tendon long extenseur d'un orteil, au niveau.
+S96.2;Lésion traumatique d'un muscle et d'un tendon intrinsèques au niveau de la cheville.
+S96.7;Lésion traumatique de multiples muscles et tendons au niveau de la cheville et du.
+S96.8;Lésion traumatique d'autres muscles et tendons au niveau de la cheville et du pied.
+S96.9;Lésion traumatique d'un muscle et d'un tendon non précisés, au niveau de la.
+S97.0;Écrasement de la cheville.
+S97.1;Écrasement d'un (des) orteil(s).
+S97.8;Écrasement d'autres parties de la cheville et du pied.
+S98.0;Amputation traumatique du pied au niveau de la cheville.
+S98.1;Amputation traumatique d'un orteil.
+S98.2;Amputation traumatique de deux orteils ou plus.
+S98.3;Amputation traumatique d'autres parties du pied.
+S98.4;Amputation traumatique du pied, niveau non précisé.
+S99.7;Lésions traumatiques multiples de la cheville et du pied.
+S99.8;Autres lésions traumatiques précisées de la cheville et du pied.
+S99.9;Lésion traumatique de la cheville et du pied, sans précision.
