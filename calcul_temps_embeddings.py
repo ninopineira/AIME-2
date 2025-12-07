@@ -11,4 +11,6 @@ def tps_code_embedd() :
     end = time.time()
     return (icd10Embeded, end-start)
 
-print(tps_code_embedd())
+icd10Embeded, time = tps_code_embedd()
+
+np.save("./icd10Embeded.npy",icd10Embeded)
