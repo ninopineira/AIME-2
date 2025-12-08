@@ -80,8 +80,8 @@ def print_graph(N = 100):
     plt.plot(n,tpsNpyAetendu,'mo',label="temps import npy (E,F,I,J,K,X,Z)")
     plt.plot(n,tpsNpyAlphabet,'yo',label="temps import npy CIM-10")
     plt.legend(loc='best')
-    plt.xlabel("temps (s)")
-    plt.ylabel("iteration")
+    plt.ylabel("temps (s)")
+    plt.xlabel("iteration")
     plt.show()
 
 print_graph()
