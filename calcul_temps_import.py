@@ -84,4 +84,26 @@ def print_graph(N = 100):
     plt.xlabel("iteration")
     plt.show()
 
-print_graph()
+def temps_npy_icd10(N) :
+    tps = []
+    for i in range (0,N) :
+        start = time.time()
+        L = np.load('./icd10Embeded.npy')
+        end = time.time()
+        tps.append(end-start)
+    print(L)
+    return tps  
+
+def icd10npy() :
+    N = 100
+    tps = temps_npy_icd10(N)
+    n = np.arange(0,N,1)
+    plt.plot(n,tps,'bo',label="temps import npy CIM-10 vectorisée")
+    moy = np.mean(tps)
+    plt.plot([moy for _ in range (1,N+1)], 'r-', label =f"moyenne={moy:.4f} s") # Red straight line
+    plt.legend(loc='best')
+    plt.ylabel("temps (s)")
+    plt.xlabel("iteration")
+    plt.show()
+
+icd10npy()

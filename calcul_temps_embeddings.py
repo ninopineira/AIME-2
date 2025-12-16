@@ -31,7 +31,10 @@ def tps_alpha_embedd() :
             for row in reader:
                 C.append(row[0])
                 D.append(row[1])
-            icd10Embeded.append(model.encode(D))
+            d = model.encode(D)
+            pathS = './icd10NPY/code-'+letter+'.npy'
+            np.save(pathS,d)
+            icd10Embeded.append(d)
             tps.append(time.time()-start)
             print(tps)
 
@@ -55,6 +58,7 @@ def schema_tps_sauvegarde() :
     return
 
 
+tps_alpha_embedd()
 schema_tps_sauvegarde()
 
 #np.save("./icd10Embeded.npy",icd10Embeded)
