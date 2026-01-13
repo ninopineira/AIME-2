@@ -106,4 +106,4 @@ def icd10npy() :
     plt.xlabel("iteration")
     plt.show()
 
-icd10npy()
+print_graph()

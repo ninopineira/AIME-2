@@ -7,7 +7,9 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 model = SentenceTransformer('FremyCompany/BioLORD-2023-M')
 
+#charger une CIM-X déjà encoder
 icd10_embeddings = np.load("icd10Embeded.npy")
+[C,D] =  np.load("testnumpy.npy")
 
 def match_cim10(bloc2_results):
 
@@ -52,7 +54,7 @@ def match_cim10(bloc2_results):
 
 if __name__ == "__main__":
     # Exemple d'utilisation
-    bloc2_results = ["douleurs thoraciques"]
+    bloc2_results = ["Fracture d'un os metatarsien"]
     results = match_cim10(bloc2_results)
     for result in results:
         print(result)
