@@ -7,7 +7,25 @@ sunday are closed
 2026-04-13 to 2026-04-17 is closed
 hide footbox
 
-
+<style>
+ganttDiagram {
+	task {
+		' FontName Helvetica
+		' FontColor red
+		' FontSize 18
+		' FontStyle bold
+		BackGroundColor #B7C6FF
+		LineColor #3746FF
+	}
+	milestone {
+		' FontColor #FF808B
+		' FontSize 25
+		' FontStyle italic
+		BackGroundColor #FF808B
+		LineColor #FF808B
+	}
+}
+</style>
 
 [Rapport à rendre à 18h] happens 2026-04-10
 [Poster?] happens 2026-04-21 
