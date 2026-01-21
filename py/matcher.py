@@ -5,25 +5,19 @@ from pathlib import Path
 
 # Utilisation du chemin relatif
 #model_path = Path(__file__).resolve().parent.parent / "lib" / "models" / "BioLORD-2023-M"
-model = SentenceTransformer("distilbert/distilbert-base-multilingual-cased")
+# model = SentenceTransformer("distilbert/distilbert-base-multilingual-cased")
+model = SentenceTransformer('FremyCompany/BioLORD-2023-M')
+
 D = []  # Descriptions des codes ICD-10
 C = []  # Codes ICD-10
 
 current_dir = Path(__file__).resolve().parent  # Obtenir le répertoire où le script est situé
-descriptions_path = current_dir.parent / "lib" / "CIM" / "descriptions.txt"
-codes_path = current_dir.parent / "lib" / "CIM" / "codes.txt"
+embedded_path = current_dir.parent / "lib" / "CIM" / "icd10Embeded.npy"
+CD_path = current_dir.parent / "lib" / "CIM" / "testnumpy.npy"
+#charger une CIM-X déjà encoder
+icd10_embeddings = np.load(embedded_path)
+[C,D] =  np.load(CD_path)
 
-# Charger les fichiers contenant les descriptions et les codes ICD-10
-with open(descriptions_path, 'r', encoding='utf-8') as fichier:
-    for ligne in fichier:
-        D.append(ligne.strip())  # Ajouter chaque ligne comme une description
-
-with open(codes_path, 'r', encoding='utf-8') as fichier:
-    for ligne in fichier:
-        C.append(ligne.strip())  # Ajouter chaque ligne comme un code
-
-# Encoder les descriptions ICD-10
-icd10_embeddings = model.encode(D)
 
 def match_cim10(bloc2_results):
 
