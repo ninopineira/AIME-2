@@ -2,13 +2,20 @@ from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
 from pathlib import Path
+from torchinfo import summary
 
 # Utilisation du chemin relatif
-#model_path = Path(__file__).resolve().parent.parent / "lib" / "models" / "BioLORD-2023-M"
-model = SentenceTransformer("distilbert/distilbert-base-multilingual-cased")
+model = SentenceTransformer("cambridgeltl/SapBERT-from-PubMedBERT-fulltext")
+#BioLORD-2023-M
+# Récupérer le vrai modèle BERT interne
+bert_model = model[0].auto_model
+
+# Résumé du modèle
+summary(bert_model)
+print("embedding:",model.get_sentence_embedding_dimension())
+print("model:",model)
 D = []  # Descriptions des codes ICD-10
 C = []  # Codes ICD-10
-
 current_dir = Path(__file__).resolve().parent  # Obtenir le répertoire où le script est situé
 descriptions_path = current_dir.parent / "lib" / "CIM" / "descriptions.txt"
 codes_path = current_dir.parent / "lib" / "CIM" / "codes.txt"
