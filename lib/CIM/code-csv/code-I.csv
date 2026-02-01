@@ -1,0 +1,399 @@
+I01.0;Péricardite rhumatismale aigüe.
+I01.1;Endocardite rhumatismale aigüe.
+I01.2;Myocardite rhumatismale aigüe.
+I01.8;Autres cardiopathies rhumatismales aigües.
+I01.9;Cardiopathie rhumatismale aigüe, sans précision.
+I02.0;Chorée rhumatismale, avec atteinte cardiaque.
+I02.9;Chorée rhumatismale, sans atteinte cardiaque.
+I05.0;Sténose mitrale.
+I05.1;Insuffisance mitrale rhumatismale.
+I05.2;Sténose mitrale avec insuffisance.
+I05.8;Autres maladies de la valvule mitrale.
+I05.9;Maladie de la valvule mitrale, sans précision.
+I06.0;Sténose aortique rhumatismale.
+I06.1;Insuffisance aortique rhumatismale.
+I06.2;Sténose aortique rhumatismale avec insuffisance.
+I06.8;Autres maladies rhumatismales de la valvule aortique.
+I06.9;Maladie rhumatismale de la valvule aortique, sans précision.
+I07.0;Sténose tricuspidienne.
+I07.1;Insuffisance tricuspidienne.
+I07.2;Sténose tricuspidienne avec insuffisance.
+I07.8;Autres maladies de la valvule tricuspide.
+I07.9;Maladie de la valvule tricuspide, sans précision.
+I08.0;Atteintes des valvules mitrale et aortique.
+I08.1;Atteintes des valvules mitrale et tricuspide.
+I08.2;Atteintes des valvules aortique et tricuspide.
+I08.3;Atteintes des valvules mitrale, aortique et tricuspide.
+I08.8;Autres maladies valvulaires multiples.
+I08.9;Maladie de plusieurs valvules, sans précision.
+I09.0;Myocardite rhumatismale.
+I09.1;Endocardite rhumatismale, valvule non précisée.
+I09.2;Péricardite rhumatismale chronique.
+I09.8;Autres cardiopathies rhumatismales précisées.
+I09.9;Cardiopathie rhumatismale, sans précision.
+I11.0;Cardiopathie hypertensive, avec insuffisance cardiaque (congestive).
+I11.0;Cardiopathie hypertensive, avec insuffisance cardiaque (congestive), avec fraction.
+I11.0;Cardiopathie hypertensive, avec insuffisance cardiaque (congestive), avec fraction.
+I11.0;Cardiopathie hypertensive, avec insuffisance cardiaque (congestive), avec fraction.
+I11.0;Cardiopathie hypertensive, avec insuffisance cardiaque (congestive), avec fraction.
+I11.9;Cardiopathie hypertensive, sans insuffisance cardiaque (congestive).
+I12.0;Néphropathie hypertensive, avec insuffisance rénale.
+I12.9;Néphropathie hypertensive, sans insuffisance rénale.
+I13.0;Cardionéphropathie hypertensive, avec insuffisance cardiaque (congestive).
+I13.0;Cardionéphropathie hypertensive, avec insuffisance cardiaque (congestive), avec fraction.
+I13.0;Cardionéphropathie hypertensive, avec insuffisance cardiaque (congestive), avec fraction.
+I13.0;Cardionéphropathie hypertensive, avec insuffisance cardiaque (congestive), avec fraction.
+I13.0;Cardionéphropathie hypertensive, avec insuffisance cardiaque (congestive), avec fraction.
+I13.1;Cardionéphropathie hypertensive, avec insuffisance rénale.
+I13.2;Cardionéphropathie hypertensive, avec insuffisance cardiaque (congestive) et rénale.
+I13.2;Cardionéphropathie hypertensive, avec insuffisance cardiaque (congestive) et rénale, avec.
+I13.2;Cardionéphropathie hypertensive, avec insuffisance cardiaque (congestive) et rénale, avec.
+I13.2;Cardionéphropathie hypertensive, avec insuffisance cardiaque (congestive) et rénale, avec.
+I13.2;Cardionéphropathie hypertensive, avec insuffisance cardiaque (congestive) et rénale, avec.
+I13.9;Cardionéphropathie hypertensive, sans précision.
+I15.0;Hypertension vasculorénale.
+I15.1;Hypertension secondaire à d'autres atteintes rénales.
+I15.2;Hypertension secondaire à des atteintes endocriniennes.
+I15.8;Autres hypertensions secondaires.
+I15.9;Hypertension secondaire, sans précision.
+I20.0;Angine de poitrine instable.
+I20.1;Angine de poitrine avec spasme coronaire vérifié.
+I20.8;Autres formes d'angine de poitrine.
+I20.9;Angine de poitrine, sans précision.
+I21.0;Infarctus transmural aigu du myocarde, de la paroi antérieure.
+I21.1;Infarctus transmural aigu du myocarde, de la paroi inférieure.
+I21.2;Infarctus transmural aigu du myocarde d'autres localisations.
+I21.3;Infarctus transmural aigu du myocarde, de localisation non précisée.
+I21.4;Infarctus sousendocardique aigu du myocarde.
+I21.9;Infarctus aigu du myocarde, sans précision.
+I22.0;Infarctus du myocarde à répétition, de la paroi antérieure.
+I22.1;Infarctus du myocarde à répétition, de la paroi inférieure.
+I22.8;Infarctus du myocarde à répétition, d'autres localisations.
+I22.9;Infarctus du myocarde à répétition, de localisation non précisée.
+I23.0;Hémopéricarde comme complication récente d'un infarctus aigu du myocarde.
+I23.1;Communication interauriculaire comme complication récente d'un infarctus aigu du.
+I23.2;Communication interventriculaire comme complication récente d'un infarctus aigu.
+I23.3;Rupture de la paroi cardiaque sans hémopéricarde comme complication récente.
+I23.4;Rupture des cordages tendineux comme complication récente d'un infarctus aigu du.
+I23.5;Rupture du muscle papillaire comme complication récente d'un infarctus aigu du.
+I23.6;Thrombose de l'oreillette, de l'auricule et du ventricule comme complication récente.
+I23.8;Autres complications récentes d'un infarctus aigu du myocarde.
+I24.0;Thrombose coronaire n'entraînant pas un infarctus du myocarde.
+I24.1;Syndrome de Dressler.
+I24.8;Autres formes de cardiopathies ischémiques aigües.
+I24.9;Cardiopathie ischémique aigüe, sans précision.
+I25.0;Athérosclérose cardiovasculaire, décrite ainsi.
+I25.1;Cardiopathie artérioscléreuse.
+I25.2;Infarctus du myocarde, ancien.
+I25.3;Anévrisme du cœur.
+I25.4;Anévrisme et dissection d'une artère coronaire.
+I25.5;Myocardiopathie ischémique.
+I25.6;Ischémie myocardique asymptomatique.
+I25.8;Autres formes de cardiopathie ischémique chronique.
+I25.9;Cardiopathie ischémique chronique, sans précision.
+I26.0;Embolie pulmonaire, avec mention de cœur pulmonaire aigu.
+I26.9;Embolie pulmonaire, sans mention de cœur pulmonaire aigu.
+I27.0;Hypertension pulmonaire primitive.
+I27.1;Cardiopathie due à cyphoscoliose.
+I27.2;Autres hypertensions pulmonaires secondaires.
+I27.8;Autres affections cardiopulmonaires précisées.
+I27.9;Affection cardiopulmonaire, sans précision.
+I28.0;Fistule artérioveineuse des vaisseaux pulmonaires.
+I28.1;Anévrisme de l'artère pulmonaire.
+I28.8;Autres maladies précisées des vaisseaux pulmonaires.
+I28.9;Maladie des vaisseaux pulmonaires, sans précision.
+I30.0;Péricardite idiopathique aigüe non spécifique.
+I30.1;Péricardite infectieuse.
+I30.8;Autres formes de péricardite aigüe.
+I30.9;Péricardite aigüe, sans précision.
+I31.0;Péricardite adhésive chronique.
+I31.1;Péricardite constrictive chronique.
+I31.2;Hémopéricarde, non classé ailleurs.
+I31.3;Épanchement péricardique (non inflammatoire).
+I31.8;Autres maladies précisées du péricarde.
+I31.9;Maladie du péricarde, sans précision.
+I32.0;Péricardite au cours de maladies bactériennes classées ailleurs.
+I32.1;Péricardite au cours d'autres maladies infectieuses et parasitaires classées ailleurs.
+I32.8;Péricardite au cours d'autres maladies classées ailleurs.
+I33.0;Endocardite infectieuse aigüe et subaigüe.
+I33.9;Endocardite aigüe, sans précision.
+I34.0;Insuffisance (de la valvule) mitrale.
+I34.1;Prolapsus (de la valvule) mitral(e).
+I34.2;Sténose non rhumatismale (de la valvule) mitrale.
+I34.8;Autres atteintes non rhumatismales de la valvule mitrale.
+I34.9;Atteinte non rhumatismale de la valvule mitrale, sans précision.
+I35.0;Sténose (de la valvule) aortique.
+I35.1;Insuffisance (de la valvule) aortique.
+I35.2;Sténose (de la valvule) aortique avec insuffisance.
+I35.8;Autres atteintes de la valvule aortique.
+I35.9;Atteinte de la valvule aortique, sans précision.
+I36.0;Sténose non rhumatismale (de la valvule) tricuspide.
+I36.1;Insuffisance non rhumatismale (de la valvule) tricuspide.
+I36.2;Sténose non rhumatismale (de la valvule) tricuspide avec insuffisance.
+I36.8;Autres atteintes non rhumatismales de la valvule tricuspide.
+I36.9;Atteinte non rhumatismale de la valvule tricuspide, sans précision.
+I37.0;Sténose de la valvule pulmonaire.
+I37.1;Insuffisance de la valvule pulmonaire.
+I37.2;Sténose de la valvule pulmonaire avec insuffisance.
+I37.8;Autres atteintes de la valvule pulmonaire.
+I37.9;Atteinte de la valvule pulmonaire, sans précision.
+I39.0;Atteintes de la valvule mitrale au cours de maladies classées ailleurs.
+I39.1;Atteintes de la valvule aortique au cours de maladies classées ailleurs.
+I39.2;Atteintes de la valvule tricuspide au cours de maladies classées ailleurs.
+I39.3;Atteintes de la valvule pulmonaire au cours de maladies classées ailleurs.
+I39.4;Atteintes valvulaires multiples au cours de maladies classées ailleurs.
+I39.8;Endocardite, valvule non précisée, au cours de maladies classées ailleurs.
+I40.0;Myocardite infectieuse.
+I40.1;Myocardite isolée.
+I40.8;Autres myocardites aigües.
+I40.9;Myocardite aigüe, sans précision.
+I41.0;Myocardite au cours de maladies bactériennes classées ailleurs.
+I41.1;Myocardite au cours de maladies virales classées ailleurs.
+I41.2;Myocardite au cours d'autres maladies infectieuses et parasitaires classées ailleurs.
+I41.8;Myocardite au cours d'autres maladies classées ailleurs.
+I42.0;Myocardiopathie avec dilatation.
+I42.1;Myocardiopathie obstructive hypertrophique.
+I42.2;Autres myocardiopathies hypertrophiques.
+I42.3;Maladie endomyocardique (éosinophilique).
+I42.4;Fibroélastose endocardique.
+I42.5;Autres myocardiopathies restrictives.
+I42.6;Myocardiopathie alcoolique.
+I42.7;Myocardiopathie due à des médicaments et d'autres causes externes.
+I42.8;Autres myocardiopathies.
+I42.9;Myocardiopathie, sans précision.
+I43.0;Myocardiopathie au cours de maladies infectieuses et parasitaires classées ailleurs.
+I43.1;Myocardiopathie au cours de maladies métaboliques.
+I43.2;Myocardiopathie au cours de maladies nutritionnelles.
+I43.8;Myocardiopathie au cours d'autres maladies classées ailleurs.
+I44.0;Bloc auriculoventriculaire du premier degré.
+I44.1;Bloc auriculoventriculaire du second degré.
+I44.2;Bloc auriculoventriculaire complet.
+I44.3;Blocs auriculoventriculaires, autres et sans précision.
+I44.4;Bloc fasciculaire antérieur gauche.
+I44.5;Bloc fasciculaire postérieur gauche.
+I44.6;Blocs fasciculaires, autres et sans précision.
+I44.7;Bloc de branche gauche, sans précision.
+I45.0;Bloc fasciculaire droit.
+I45.1;Blocs de branche droit, autres et sans précision.
+I45.2;Bloc bifasciculaire.
+I45.3;Bloc trifasciculaire.
+I45.4;Bloc ventriculaire non spécifique.
+I45.5;Autre bloc cardiaque précisé.
+I45.6;Syndrome de préexcitation.
+I45.8;Autres troubles précisés de la conduction.
+I45.9;Trouble de la conduction, sans précision.
+I46.0;Arrêt cardiaque réanimé avec succès.
+I46.1;Mort cardiaque subite, décrite ainsi.
+I46.9;Arrêt cardiaque, sans précision.
+I47.0;Arythmie ventriculaire de réentrée.
+I47.1;Tachycardie supraventriculaire.
+I47.2;Tachycardie ventriculaire.
+I47.9;Tachycardie paroxystique, sans précision.
+I48.0;Fibrillation auriculaire paroxystique.
+I48.1;Fibrillation auriculaire persistante.
+I48.2;Fibrillation auriculaire chronique [permanente].
+I48.3;Flutter auriculaire typique.
+I48.4;Flutter auriculaire atypique.
+I48.9;Fibrillation et flutter auriculaires, sans précision.
+I49.0;Fibrillation et flutter ventriculaires.
+I49.1;Dépolarisation auriculaire prématurée.
+I49.2;Dépolarisation jonctionnelle prématurée.
+I49.3;Dépolarisation ventriculaire prématurée.
+I49.4;Dépolarisations prématurées, autres et sans précision.
+I49.5;Syndrome de dysfonctionnement sinusal.
+I49.8;Autres arythmies cardiaques précisées.
+I49.9;Arythmie cardiaque, sans précision.
+I50.0;Insuffisance cardiaque congestive.
+I50.0;Insuffisance cardiaque congestive, avec fraction d'éjection ventriculaire gauche [FEVG].
+I50.0;Insuffisance cardiaque congestive, avec fraction d'éjection ventriculaire gauche [FEVG].
+I50.0;Insuffisance cardiaque congestive, avec fraction d'éjection ventriculaire gauche [FEVG].
+I50.0;Insuffisance cardiaque congestive, avec fraction d'éjection ventriculaire gauche [FEVG].
+I50.1;Insuffisance ventriculaire gauche.
+I50.1;Insuffisance ventriculaire gauche, avec fraction d'éjection ventriculaire gauche [FEVG].
+I50.1;Insuffisance ventriculaire gauche, avec fraction d'éjection ventriculaire gauche [FEVG].
+I50.1;Insuffisance ventriculaire gauche, avec fraction d'éjection ventriculaire gauche [FEVG].
+I50.1;Insuffisance ventriculaire gauche, avec fraction d'éjection ventriculaire gauche [FEVG] non.
+I50.9;Insuffisance cardiaque, sans précision.
+I51.0;Anomalie d'un septum cardiaque, acquise.
+I51.1;Rupture des cordages tendineux, non classée ailleurs.
+I51.2;Rupture du muscle papillaire, non classée ailleurs.
+I51.3;Thrombose intracardiaque, non classée ailleurs.
+I51.4;Myocardite, sans précision.
+I51.5;Dégénérescence du myocarde.
+I51.6;Maladie cardiovasculaire, sans précision.
+I51.7;Cardiomégalie.
+I51.8;Autres cardiopathies mal définies.
+I51.9;Cardiopathie, sans précision.
+I52.0;Autres cardiopathies au cours de maladies bactériennes classées ailleurs.
+I52.1;Autres cardiopathies au cours d'autres maladies infectieuses et parasitaires.
+I52.8;Autres cardiopathies au cours d'autres maladies classées ailleurs.
+I60.0;Hémorragie sousarachnoïdienne de la bifurcation et du siphon carotidien.
+I60.1;Hémorragie sousarachnoïdienne de l'artère cérébrale moyenne.
+I60.2;Hémorragie sousarachnoïdienne de l'artère communicante antérieure.
+I60.3;Hémorragie sousarachnoïdienne de l'artère communicante postérieure.
+I60.4;Hémorragie sousarachnoïdienne de l'artère basilaire.
+I60.5;Hémorragie sousarachnoïdienne de l'artère vertébrale.
+I60.6;Hémorragie sousarachnoïdienne d'autres artères intracrâniennes.
+I60.7;Hémorragie sousarachnoïdienne d'une artère intracrânienne, sans précision.
+I60.8;Autres hémorragies sousarachnoïdiennes.
+I60.9;Hémorragie sousarachnoïdienne, sans précision.
+I61.0;Hémorragie intracérébrale hémisphérique, souscorticale.
+I61.1;Hémorragie intracérébrale hémisphérique, corticale.
+I61.2;Hémorragie intracérébrale hémisphérique, non précisée.
+I61.3;Hémorragie intracérébrale du tronc cérébral.
+I61.4;Hémorragie intracérébrale cérébelleuse.
+I61.5;Hémorragie intracérébrale intraventriculaire.
+I61.6;Hémorragie intracérébrale, localisations multiples.
+I61.8;Autres hémorragies intracérébrales.
+I61.9;Hémorragie intracérébrale, sans précision.
+I62.0;Hémorragie sousdurale non traumatique.
+I62.1;Hémorragie extradurale non traumatique.
+I62.9;Hémorragie intracrânienne (non traumatique), sans précision.
+I63.0;Infarctus cérébral dû à une thrombose des artères précérébrales.
+I63.1;Infarctus cérébral dû à une embolie des artères précérébrales.
+I63.2;Infarctus cérébral dû à une occlusion ou sténose des artères précérébrales, de.
+I63.3;Infarctus cérébral dû à une thrombose des artères cérébrales.
+I63.4;Infarctus cérébral dû à une embolie des artères cérébrales.
+I63.5;Infarctus cérébral dû à une occlusion ou sténose des artères cérébrales, de.
+I63.6;Infarctus cérébral dû à une thrombose veineuse cérébrale, non pyogène.
+I63.8;Autres infarctus cérébraux.
+I63.9;Infarctus cérébral, sans précision.
+I65.0;Occlusion et sténose de l'artère vertébrale.
+I65.1;Occlusion et sténose de l'artère basilaire.
+I65.2;Occlusion et sténose de l'artère carotide.
+I65.3;Occlusion et sténose des artères précérébrales, multiples et bilatérales.
+I65.8;Occlusion et sténose d'une autre artère précérébrale.
+I65.9;Occlusion et sténose d'une artère précérébrale, sans précision.
+I66.0;Occlusion et sténose de l'artère cérébrale moyenne.
+I66.1;Occlusion et sténose de l'artère cérébrale antérieure.
+I66.2;Occlusion et sténose de l'artère cérébrale postérieure.
+I66.3;Occlusion et sténose des artères cérébelleuses.
+I66.4;Occlusion et sténose des artères cérébrales, multiples et bilatérales.
+I66.8;Occlusion et sténose d'une autre artère cérébrale.
+I66.9;Occlusion et sténose d'une artère cérébrale, sans précision.
+I67.0;Dissection d'artères cérébrales, non rompue.
+I67.1;Anévrisme cérébral, non rompu.
+I67.2;Athérosclérose cérébrale.
+I67.3;Leucoencéphalopathie vasculaire progressive.
+I67.4;Encéphalopathie hypertensive.
+I67.5;Maladie de Moyamoya.
+I67.6;Thrombose non pyogène du système veineux intracrânien.
+I67.7;Artérite cérébrale, non classée ailleurs.
+I67.8;Autres maladies cérébrovasculaires précisées.
+I67.9;Maladie cérébrovasculaire, sans précision.
+I68.0;Angiopathie amyloïde cérébrale (E85.-†).
+I68.1;Artérite cérébrale au cours de maladies infectieuses et parasitaires.
+I68.2;Artérite cérébrale au cours d'autres maladies classées ailleurs.
+I68.8;Autres troubles cérébrovasculaires au cours de maladies classées ailleurs.
+I69.0;Séquelles d'hémorragie sousarachnoïdienne.
+I69.1;Séquelles d'hémorragie intracérébrale.
+I69.2;Séquelles d'autres hémorragies intracrâniennes non traumatiques.
+I69.3;Séquelles d'infarctus cérébral.
+I69.4;Séquelles d'accident vasculaire cérébral, non précisé comme étant hémorragique ou.
+I69.8;Séquelles de maladies cérébrovasculaires, autres et non précisées.
+I70.0;Athérosclérose de l'aorte.
+I70.1;Athérosclérose de l'artère rénale.
+I70.2;Athérosclérose des artères distales.
+I70.2;Athérosclérose des artères distales, sans gangrène.
+I70.2;Athérosclérose des artères distales, avec gangrène.
+I70.8;Athérosclérose d'autres artères.
+I70.9;Athérosclérose généralisée et sans précision.
+I71.0;Dissection de l'aorte [toute localisation].
+I71.1;Anévrisme aortique thoracique, rompu.
+I71.2;Anévrisme aortique thoracique, sans mention de rupture.
+I71.3;Anévrisme aortique abdominal, rompu.
+I71.4;Anévrisme aortique abdominal, sans mention de rupture.
+I71.5;Anévrisme aortique thoracoabdominal, rompu.
+I71.6;Anévrisme aortique thoracoabdominal, sans mention de rupture.
+I71.8;Anévrisme aortique de localisation non précisée, rompu.
+I71.9;Anévrisme aortique de localisation non précisée, sans mention de rupture.
+I72.0;Anévrisme et dissection de l'artère carotide.
+I72.1;Anévrisme et dissection des artères du membre supérieur.
+I72.2;Anévrisme et dissection des artères rénales.
+I72.3;Anévrisme et dissection de l'artère iliaque.
+I72.4;Anévrisme et dissection des artères du membre inférieur.
+I72.5;Anévrisme et dissection d’autres artères précérébrales.
+I72.6;Anévrisme et dissection de l’artère vertébrale.
+I72.8;Anévrisme et dissection d'autres artères précisées.
+I72.9;Anévrisme et dissection de localisation non précisée.
+I73.0;Syndrome de Raynaud.
+I73.1;Thromboangéite oblitérante [Buerger].
+I73.8;Autres maladies vasculaires périphériques précisées.
+I73.9;Maladie vasculaire périphérique, sans précision.
+I74.0;Embolie et thrombose de l'aorte abdominale.
+I74.1;Embolie et thrombose de parties de l'aorte, autres et non précisées.
+I74.2;Embolie et thrombose des artères des membres supérieurs.
+I74.3;Embolie et thrombose des artères des membres inférieurs.
+I74.4;Embolie et thrombose des artères distales, sans précision.
+I74.5;Embolie et thrombose de l'artère iliaque.
+I74.8;Embolie et thrombose d'autres artères.
+I74.9;Embolie et thrombose d'artères non précisées.
+I77.0;Fistule artérioveineuse, acquise.
+I77.1;Sténose d'une artère.
+I77.2;Rupture d'une artère.
+I77.3;Dysplasie fibromusculaire artérielle.
+I77.4;Syndrome de compression de l'artère cœliaque.
+I77.5;Nécrose d'une artère.
+I77.6;Artérite, sans précision.
+I77.8;Autres atteintes précisées des artères et artérioles.
+I77.9;Atteinte des artères et artérioles, sans précision.
+I78.0;Télangiectasie hémorragique héréditaire.
+I78.1;Nævus, non néoplasique.
+I78.8;Autres maladies des capillaires.
+I78.9;Maladie des capillaires, sans précision.
+I79.0;Anévrisme de l'aorte au cours de maladies classées ailleurs.
+I79.1;Aortite au cours de maladies classées ailleurs.
+I79.2;Angiopathie périphérique au cours de maladies classées ailleurs.
+I79.8;Autres atteintes des artères, artérioles et capillaires au cours de maladies classées.
+I80.0;Phlébite et thrombophlébite des veines superficielles des membres inférieurs.
+I80.1;Phlébite et thrombophlébite de la veine fémorale.
+I80.2;Phlébite et thrombophlébite d'autres vaisseaux profonds des membres inférieurs.
+I80.3;Phlébite et thrombophlébite des membres inférieurs, sans précision.
+I80.8;Phlébite et thrombophlébite d'autres localisations.
+I80.9;Phlébite et thrombophlébite de localisation non précisée.
+I82.0;Syndrome de Budd–Chiari.
+I82.1;Thrombophlébite migratrice.
+I82.2;Embolie et thrombose de la veine cave.
+I82.3;Embolie et thrombose de la veine rénale.
+I82.8;Embolie et thrombose d'autres veines précisées.
+I82.9;Embolie et thrombose d'une veine non précisée.
+I83.0;Varices ulcérées des membres inférieurs.
+I83.1;Varices des membres inférieurs, avec inflammation.
+I83.2;Varices des membres inférieurs, avec ulcère et inflammation.
+I83.9;Varices des membres inférieurs sans ulcère ni inflammation.
+I85.0;Varices œsophagiennes hémorragiques.
+I85.9;Varices œsophagiennes, non hémorragiques.
+I86.0;Varices sublinguales.
+I86.1;Varices scrotales.
+I86.2;Varices pelviennes.
+I86.3;Varices vulvaires.
+I86.4;Varices gastriques.
+I86.8;Varices d'autres localisations précisées.
+I87.0;Syndrome postthrombotique.
+I87.1;Compression veineuse.
+I87.2;Insuffisance veineuse (chronique) (périphérique).
+I87.8;Autres atteintes veineuses précisées.
+I87.9;Atteinte veineuse, sans précision.
+I88.0;Lymphadénite mésentérique non spécifique.
+I88.1;Lymphadénite chronique, sauf mésentérique.
+I88.8;Autres lymphadénites non spécifiques.
+I88.9;Lymphadénite non spécifique, sans précision.
+I89.0;Lymphœdème, non classé ailleurs.
+I89.1;Lymphangite.
+I89.8;Autres atteintes non infectieuses précisées des vaisseaux et des ganglions.
+I89.9;Atteinte non infectieuse des vaisseaux et des ganglions lymphatiques, sans.
+I95.0;Hypotension idiopathique.
+I95.1;Hypotension orthostatique.
+I95.2;Hypotension médicamenteuse.
+I95.8;Autres hypotensions.
+I95.9;Hypotension, sans précision.
+I97.0;Syndrome postcardiotomie.
+I97.1;Autres troubles fonctionnels après chirurgie cardiaque.
+I97.2;Lymphœdème après mastectomie.
+I97.8;Autres troubles de l'appareil circulatoire après un acte à visée diagnostique et.
+I97.9;Trouble de l'appareil circulatoire après un acte à visée diagnostique et.
+I98.0;Syphilis cardiovasculaire.
+I98.1;Troubles cardiovasculaires au cours d'autres maladies infectieuses et parasitaires.
+I98.2;Varices œsophagiennes non hémorragiques au cours de maladies classées ailleurs.
+I98.3;Varices œsophagiennes hémorragiques au cours de maladies classées ailleurs.
+I98.8;Autres troubles précisés de l'appareil circulatoire au cours de maladies classées.

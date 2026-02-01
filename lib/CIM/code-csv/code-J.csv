@@ -1,0 +1,220 @@
+J01.0;Sinusite maxillaire aigüe.
+J01.1;Sinusite frontale aigüe.
+J01.2;Sinusite ethmoïdale aigüe.
+J01.3;Sinusite sphénoïdale aigüe.
+J01.4;Pansinusite aigüe.
+J01.8;Autres sinusites aigües.
+J01.9;Sinusite aigüe, sans précision.
+J02.0;Pharyngite à streptocoques.
+J02.8;Pharyngite aigüe due à d'autres microorganismes précisés.
+J02.9;Pharyngite aigüe, sans précision.
+J03.0;Amygdalite à streptocoques.
+J03.8;Amygdalite aigüe due à d'autres microorganismes précisés.
+J03.9;Amygdalite aigüe, sans précision.
+J04.0;Laryngite aigüe.
+J04.1;Trachéite aigüe.
+J04.2;Laryngotrachéite aigüe.
+J05.0;Laryngite obstructive aigüe [croup].
+J05.1;Épiglottite aigüe.
+J06.0;Laryngopharyngite aigüe.
+J06.8;Autres infections aigües des voies respiratoires supérieures, à localisations.
+J06.9;Infection des voies respiratoires supérieures, sans précision.
+J10.0;Grippe avec pneumopathie, virus grippal saisonnier identifié.
+J10.1;Grippe avec d'autres manifestations respiratoires, virus grippal saisonnier identifié.
+J10.8;Grippe avec d'autres manifestations, virus grippal saisonnier identifié.
+J11.0;Grippe avec pneumopathie, virus non identifié.
+J11.1;Grippe avec d'autres manifestations respiratoires, virus non identifié.
+J11.8;Grippe avec d'autres manifestations, virus non identifié.
+J12.0;Pneumopathie adénovirale.
+J12.1;Pneumopathie due au virus respiratoire syncytial [VRS].
+J12.2;Pneumopathie due aux virus paragrippaux.
+J12.3;Pneumopathie due à métapneumovirus humain.
+J12.8;Autres pneumopathies virales.
+J12.9;Pneumopathie virale, sans précision.
+J15.0;Pneumopathie due à Klebsiella pneumoniae.
+J15.1;Pneumopathie due à Pseudomonas.
+J15.2;Pneumopathie due à des staphylocoques.
+J15.3;Pneumopathie due à des streptocoques, groupe B.
+J15.4;Pneumopathie due à d'autres streptocoques.
+J15.5;Pneumopathie due à Escherichia coli.
+J15.6;Pneumopathie due à d'autres bactéries à Gram négatif.
+J15.7;Pneumopathie due à Mycoplasma pneumoniae.
+J15.8;Autres pneumopathies bactériennes.
+J15.9;Pneumopathie bactérienne, sans précision.
+J16.0;Pneumopathie due à Chlamydia.
+J16.8;Pneumopathie due à d'autres microorganismes infectieux.
+J17.0;Pneumopathie au cours de maladies bactériennes classées ailleurs.
+J17.1;Pneumopathie au cours de maladies virales classées ailleurs.
+J17.2;Pneumopathie au cours de mycoses.
+J17.3;Pneumopathie au cours de maladies parasitaires.
+J17.8;Pneumopathie au cours d'autres maladies classées ailleurs.
+J18.0;Bronchopneumopathie, sans précision.
+J18.1;Pneumopathie lobaire, sans précision.
+J18.2;Pneumopathie hypostatique, sans précision.
+J18.8;Autres pneumopathies, microorganisme non précisé.
+J18.9;Pneumopathie, sans précision.
+J20.0;Bronchite aigüe due à Mycoplasma pneumoniae.
+J20.1;Bronchite aigüe due à Haemophilus influenzae.
+J20.2;Bronchite aigüe due à des streptocoques.
+J20.3;Bronchite aigüe due au virus Coxsackie.
+J20.4;Bronchite aigüe due aux virus paragrippaux.
+J20.5;Bronchite aigüe due au virus respiratoire syncytial [VRS].
+J20.6;Bronchite aigüe due à des rhinovirus.
+J20.7;Bronchite aigüe due à des virus ECHO.
+J20.8;Bronchite aigüe due à d'autres microorganismes précisés.
+J20.9;Bronchite aigüe, sans précision.
+J21.0;Bronchiolite aigüe due au virus respiratoire syncytial [VRS].
+J21.1;Bronchiolite aigüe due à métapneumovirus humain.
+J21.8;Bronchiolite aigüe due à d'autres microorganismes précisés 440.
+J21.9;Bronchiolite aigüe, sans précision.
+J30.0;Rhinite vasomotrice.
+J30.1;Rhinite allergique due au pollen.
+J30.2;Autres rhinites allergiques saisonnières.
+J30.3;Autres rhinites allergiques.
+J30.4;Rhinite allergique, sans précision.
+J31.0;Rhinite chronique.
+J31.1;Rhinopharyngite chronique.
+J31.2;Pharyngite chronique.
+J32.0;Sinusite maxillaire chronique.
+J32.1;Sinusite frontale chronique.
+J32.2;Sinusite ethmoïdale chronique.
+J32.3;Sinusite sphénoïdale chronique.
+J32.4;Pansinusite chronique.
+J32.8;Autres sinusites chroniques.
+J32.9;Sinusite chronique, sans précision.
+J33.0;Polype des fosses nasales.
+J33.1;Polypose rhinosinusienne déformante.
+J33.8;Autres polypes des sinus.
+J33.9;Polype nasal, sans précision.
+J34.0;Abcès, furoncle et anthrax du nez.
+J34.1;Kyste et mucocèle du nez et des sinus du nez.
+J34.2;Déviation de la cloison nasale.
+J34.3;Hypertrophie des cornets du nez.
+J34.8;Autres maladies précisées du nez et des sinus du nez.
+J35.0;Amygdalite chronique.
+J35.1;Hypertrophie des amygdales.
+J35.2;Hypertrophie des végétations adénoïdes.
+J35.3;Hypertrophie des amygdales et des végétations adénoïdes.
+J35.8;Autres maladies chroniques des amygdales et des végétations adénoïdes.
+J35.9;Maladie chronique des amygdales et des végétations adénoïdes, sans précision.
+J37.0;Laryngite chronique.
+J37.1;Laryngotrachéite chronique.
+J38.0;Paralysie des cordes vocales et du larynx.
+J38.1;Polype des cordes vocales et du larynx.
+J38.2;Nodules des cordes vocales.
+J38.3;Autres maladies des cordes vocales.
+J38.4;Œdème du larynx.
+J38.5;Spasme laryngé.
+J38.6;Sténose du larynx.
+J38.7;Autres maladies du larynx.
+J39.0;Abcès parapharyngé et rétropharyngé.
+J39.1;Autres abcès du pharynx.
+J39.2;Autres maladies du pharynx.
+J39.3;Réaction anaphylactique des voies respiratoires supérieures, localisation non.
+J39.8;Autres maladies des voies respiratoires supérieures précisées.
+J39.9;Maladie des voies respiratoires supérieures, sans précision.
+J41.0;Bronchite chronique simple.
+J41.1;Bronchite chronique mucopurulente.
+J41.8;Bronchite chronique simple et mucopurulente.
+J43.0;Syndrome de MacLeod.
+J43.1;Emphysème pulmonaire panlobulaire.
+J43.2;Emphysème pulmonaire centrolobulaire.
+J43.8;Autres emphysèmes.
+J43.9;Emphysème pulmonaire, sans précision.
+J44.0;Maladie pulmonaire obstructive chronique avec infection aigüe des voies.
+J44.1;Maladie pulmonaire obstructive chronique avec épisodes aigus, sans précision.
+J44.8;Autres maladies pulmonaires obstructives chroniques précisées.
+J44.9;Maladie pulmonaire obstructive chronique, sans précision.
+J45.0;Asthme à prédominance allergique.
+J45.1;Asthme non allergique.
+J45.8;Asthme associé.
+J45.9;Asthme, sans précision.
+J62.0;Pneumoconiose due à la poussière du talc.
+J62.8;Pneumoconiose due à d'autres poussières de silice.
+J63.0;Aluminose (du poumon).
+J63.1;Fibrose (du poumon) due à la bauxite.
+J63.2;Bérylliose.
+J63.3;Fibrose (du poumon) due au graphite.
+J63.4;Sidérose.
+J63.5;Stannose.
+J63.8;Pneumoconiose due à d'autres poussières inorganiques précisées.
+J66.0;Byssinose.
+J66.1;Maladie des apprêteurs du lin.
+J66.2;Cannabinose.
+J66.8;Affection des voies aériennes due à d'autres poussières organiques précisées.
+J67.0;Poumon de fermier.
+J67.1;Bagassose.
+J67.2;Poumon des oiseleurs.
+J67.3;Subérose.
+J67.4;Poumon des malteurs.
+J67.5;Poumon des champignonnistes.
+J67.6;Poumon des écorceurs d'érables.
+J67.7;Maladie pulmonaire due aux systèmes de conditionnement et d'humidification de.
+J67.8;Pneumopathie par hypersensibilité à d'autres poussières organiques.
+J67.9;Pneumopathie par hypersensibilité aux poussières organiques, sans précision.
+J68.0;Bronchite et pneumonopathie dues à des agents chimiques, des émanations, des.
+J68.1;Œdème du poumon dû à des agents chimiques, des émanations, des fumées et des.
+J68.2;Inflammation des voies respiratoires supérieures due à des agents chimiques, des.
+J68.3;Autres affections respiratoires aigües et subaigües dues à des agents chimiques,.
+J68.4;Affections respiratoires chroniques dues à des agents chimiques, des émanations,.
+J68.8;Autres affections respiratoires dues à des agents chimiques, des émanations, des.
+J68.9;Affection respiratoire due à des agents chimiques, des émanations, des fumées et.
+J69.0;Pneumopathie due à des aliments et des vomissements.
+J69.1;Pneumopathie due à des huiles et des essences.
+J69.8;Pneumopathie due à d'autres substances solides et liquides.
+J70.0;Affections pulmonaires aigües dues à une irradiation.
+J70.1;Affections pulmonaires chroniques et autres dues à une irradiation.
+J70.2;Affections pulmonaires interstitielles aigües, médicamenteuses.
+J70.3;Affections pulmonaires interstitielles chroniques, médicamenteuses.
+J70.4;Affection pulmonaire interstitielle médicamenteuse, sans précision.
+J70.8;Affections respiratoires dues à d'autres agents externes précisés.
+J70.9;Affection respiratoire due à un agent externe non précisé.
+J84.0;Pneumopathies alvéolaires et pariétoalvéolaires.
+J84.1;Autres affections pulmonaires interstitielles avec fibrose.
+J84.8;Autres affections pulmonaires interstitielles précisées.
+J84.9;Affection pulmonaire interstitielle, sans précision.
+J85.0;Gangrène et nécrose du poumon.
+J85.1;Abcès du poumon avec pneumopathie.
+J85.2;Abcès du poumon sans pneumopathie.
+J85.3;Abcès du médiastin.
+J86.0;Pyothorax avec fistule.
+J86.9;Pyothorax sans fistule.
+J92.0;Plaque pleurale avec asbestose.
+J92.9;Plaque pleurale sans asbestose.
+J93.0;Pneumothorax spontané avec pression positive.
+J93.1;Autres pneumothorax spontanés.
+J93.8;Autres pneumothorax.
+J93.9;Pneumothorax, sans précision.
+J94.0;Épanchement chyleux.
+J94.1;Fibrothorax.
+J94.2;Hémothorax.
+J94.8;Autres affections pleurales précisées.
+J94.9;Affection pleurale, sans précision.
+J95.0;Fonctionnement défectueux d'une trachéotomie.
+J95.1;Insuffisance pulmonaire aigüe consécutive à une intervention chirurgicale.
+J95.2;Insuffisance pulmonaire aigüe consécutive à une intervention chirurgicale non.
+J95.3;Insuffisance pulmonaire chronique consécutive à une intervention chirurgicale.
+J95.4;Syndrome de Mendelson.
+J95.5;Sténose sousglottique après un acte à visée diagnostique et thérapeutique.
+J95.8;Autres troubles respiratoires après un acte à visée diagnostique et thérapeutique,.
+J95.9;Trouble respiratoire après un acte à visée diagnostique et thérapeutique, sans.
+J96.0;Insuffisance respiratoire aigüe.
+J96.1;Insuffisance respiratoire chronique.
+J96.1;0 Insuffisance respiratoire chronique obstructive.
+J96.1;1 Insuffisance respiratoire chronique restrictive 455.
+J96.9;Insuffisance respiratoire, sans précision.
+J98.0;Affections des bronches, non classées ailleurs.
+J98.1;Collapsus pulmonaire.
+J98.2;Emphysème interstitiel.
+J98.3;Emphysème compensateur.
+J98.4;Autres affections pulmonaires.
+J98.5;Maladies du médiastin, non classées ailleurs.
+J98.6;Maladies du diaphragme.
+J98.6;Paralysie du diaphragme.
+J98.6;Autres maladies du diaphragme.
+J98.7;Infections respiratoires non classées ailleurs.
+J98.8;Autres troubles respiratoires précisés.
+J98.9;Trouble respiratoire, sans précision.
+J99.0;Maladie pulmonaire rhumatoïde (M05.1†).
+J99.1;Troubles respiratoires au cours d'autres affections disséminées du tissu conjonctif.
+J99.8;Troubles respiratoires au cours d'autres maladies classées ailleurs.

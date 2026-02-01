@@ -1,0 +1,330 @@
+P00.0;Fœtus et nouveau-né affectés par des troubles hypertensifs de la mère.
+P00.1;Fœtus et nouveau-né affectés par des maladies rénales et des voies urinaires de la.
+P00.2;Fœtus et nouveau-né affectés par des maladies infectieuses et parasitaires de la.
+P00.3;Fœtus et nouveau-né affectés par d'autres maladies circulatoires et respiratoires de.
+P00.4;Fœtus et nouveau-né affectés par des troubles nutritionnels de la mère.
+P00.5;Fœtus et nouveau-né affectés par un traumatisme de la mère.
+P00.6;Fœtus et nouveau-né affectés par une intervention chirurgicale chez la mère.
+P00.7;Fœtus et nouveau-né affectés par d'autres interventions médicales chez la mère,.
+P00.8;Fœtus et nouveau-né affectés par d'autres affections maternelles.
+P00.9;Fœtus et nouveau-né affectés par une affection maternelle, sans précision.
+P01.0;Fœtus et nouveau-né affectés par la béance du col.
+P01.1;Fœtus et nouveau-né affectés par la rupture prématurée des membranes.
+P01.2;Fœtus et nouveau-né affectés par un oligoamnios.
+P01.3;Fœtus et nouveau-né affectés par un hydramnios.
+P01.4;Fœtus et nouveau-né affectés par une grossesse extra-utérine.
+P01.5;Fœtus et nouveau-né affectés par une grossesse multiple.
+P01.6;Fœtus et nouveau-né affectés par la mort de la mère.
+P01.7;Fœtus et nouveau-né affectés par une présentation anormale avant le travail.
+P01.8;Fœtus et nouveau-né affectés par d'autres complications de la grossesse chez la.
+P01.9;Fœtus et nouveau-né affectés par une complication de la grossesse chez la mère,.
+P02.0;Fœtus et nouveau-né affectés par placenta prævia.
+P02.1;Fœtus et nouveau-né affectés par d'autres formes de décollement et d'hémorragie.
+P02.2;Fœtus et nouveau-né affectés par des anomalies morphologiques et fonctionnelles.
+P02.3;Fœtus et nouveau-né affectés par des syndromes de transfusion placentaire.
+P02.4;Fœtus et nouveau-né affectés par une procidence du cordon ombilical.
+P02.5;Fœtus et nouveau-né affectés par d'autres formes de compression du cordon.
+P02.6;Fœtus et nouveau-né affectés par des affections du cordon ombilical, autres et sans.
+P02.7;Fœtus et nouveau-né affectés par une chorioamniotite.
+P02.8;Fœtus et nouveau-né affectés par d'autres anomalies des membranes.
+P02.9;Fœtus et nouveau-né affectés par une anomalie des membranes, sans précision.
+P03.0;Fœtus et nouveau-né affectés par un accouchement et une extraction par le siège.
+P03.1;Fœtus et nouveau-né affectés par d'autres présentations et positions vicieuses du.
+P03.2;Fœtus et nouveau-né affectés par un accouchement par forceps.
+P03.3;Fœtus et nouveau-né affectés par un accouchement par extracteur pneumatique.
+P03.4;Fœtus et nouveau-né affectés par un accouchement par césarienne.
+P03.5;Fœtus et nouveau-né affectés par un accouchement précipité.
+P03.6;Fœtus et nouveau-né affectés par des contractions anormales de l'utérus.
+P03.8;Fœtus et nouveau-né affectés par d'autres complications précisées du travail et de.
+P03.9;Fœtus et nouveau-né affectés par une complication du travail et de l'accouchement,.
+P04.0;Fœtus et nouveau-né affectés par une anesthésie et par une analgésie de la mère, au.
+P04.1;Fœtus et nouveau-né affectés par d'autres médicaments absorbés par la mère.
+P04.2;Fœtus et nouveau-né affectés par le tabagisme de la mère.
+P04.3;Fœtus et nouveau-né affectés par l'alcoolisme de la mère.
+P04.4;Fœtus et nouveau-né affectés par la toxicomanie de la mère.
+P04.5;Fœtus et nouveau-né affectés par une utilisation par la mère de substances.
+P04.6;Fœtus et nouveau-né affectés par l'exposition de la mère à des substances.
+P04.8;Fœtus et nouveau-né affectés par d'autres effets nocifs maternels.
+P04.9;Fœtus et nouveau-né affectés par un effet nocif maternel, sans précision.
+P05.0;Faible poids pour l'âge gestationnel.
+P05.1;Petite taille pour l'âge gestationnel.
+P05.2;Malnutrition du fœtus, sans mention de léger ou petit pour l'âge gestationnel.
+P05.9;Croissance lente du fœtus, sans précision.
+P07.0;Poids extrêmement faible à la naissance.
+P07.1;Autres poids faibles à la naissance.
+P07.2;Immaturité extrême.
+P07.3;Autres enfants nés avant terme.
+P08.0;Enfant exceptionnellement gros.
+P08.1;Autres enfants gros pour l'âge gestationnel.
+P08.2;Enfant né après terme, qui n'est pas gros pour l'âge gestationnel.
+P10.0;Hémorragie sousdurale due à un traumatisme obstétrical.
+P10.1;Hémorragie cérébrale due à un traumatisme obstétrical.
+P10.2;Hémorragie intraventriculaire due à un traumatisme obstétrical.
+P10.3;Hémorragie sousarachnoïdienne due à un traumatisme obstétrical.
+P10.4;Déchirure de la tente du cervelet due à un traumatisme obstétrical.
+P10.8;Autres déchirures et hémorragies intracrâniennes dues à un traumatisme obstétrical.
+P10.9;Déchirure et hémorragie intracrâniennes non précisées, dues à un traumatisme.
+P11.0;Œdème cérébral dû à un traumatisme obstétrical.
+P11.1;Autres lésions cérébrales précisées, dues à un traumatisme obstétrical.
+P11.2;Lésion cérébrale non précisée, due à un traumatisme obstétrical.
+P11.3;Lésion du nerf facial due à un traumatisme obstétrical.
+P11.4;Lésion des autres nerfs crâniens due à un traumatisme obstétrical.
+P11.5;Lésion du rachis et de la moelle épinière due à un traumatisme obstétrical.
+P11.9;Lésion du système nerveux central due à un traumatisme obstétrical, sans précision.
+P12.0;Céphalhématome dû à un traumatisme obstétrical.
+P12.1;Hématome en chignon dû à un traumatisme obstétrical.
+P12.2;Hémorragie épicrânienne sousaponévrotique due à un traumatisme obstétrical.
+P12.3;Meurtrissure du cuir chevelu due à un traumatisme obstétrical.
+P12.4;Lésion du cuir chevelu liée à une surveillance continue.
+P12.8;Autres lésions du cuir chevelu dues à un traumatisme obstétrical.
+P12.9;Lésion du cuir chevelu due à un traumatisme obstétrical, sans précision.
+P13.0;Fracture du crâne due à un traumatisme obstétrical.
+P13.1;Autres lésions du crâne dues à un traumatisme obstétrical.
+P13.2;Lésion du fémur due à un traumatisme obstétrical.
+P13.3;Lésion d'autres os longs due à un traumatisme obstétrical.
+P13.4;Fracture de la clavicule due à un traumatisme obstétrical.
+P13.8;Lésions d'autres parties du squelette dues à un traumatisme obstétrical.
+P13.9;Lésion du squelette due à un traumatisme obstétrical, sans précision.
+P14.0;Paralysie de Duchenne–Erb due à un traumatisme obstétrical.
+P14.1;Paralysie de Dejerine–Klumpke due à un traumatisme obstétrical.
+P14.2;Paralysie du nerf phrénique due à un traumatisme obstétrical.
+P14.3;Autres lésions du plexus brachial dues à un traumatisme obstétrical.
+P14.8;Lésions d'autres parties du système nerveux périphérique dues à un traumatisme.
+P14.9;Lésion du système nerveux périphérique due à un traumatisme obstétrical, sans.
+P15.0;Traumatisme obstétrical du foie.
+P15.1;Traumatisme obstétrical de la rate.
+P15.2;Lésion sterno-cléido-mastoïdienne due à un traumatisme obstétrical.
+P15.3;Lésion de l'œil due à un traumatisme obstétrical.
+P15.4;Lésion faciale due à un traumatisme obstétrical.
+P15.5;Lésion des organes génitaux externes due à un traumatisme obstétrical.
+P15.6;Adiponécrose souscutanée due à un traumatisme obstétrical.
+P15.8;Autres traumatismes obstétricaux précisés.
+P15.9;Traumatisme obstétrical, sans précision.
+P20.0;Hypoxie intra-utérine constatée pour la première fois avant le début du travail.
+P20.1;Hypoxie intra-utérine constatée pour la première fois pendant le travail et.
+P20.9;Hypoxie intra-utérine, sans précision.
+P21.0;Asphyxie obstétricale grave.
+P21.1;Asphyxie obstétricale légère ou modérée.
+P21.9;Asphyxie obstétricale, sans précision.
+P22.0;Syndrome de détresse respiratoire [SDR] du nouveau-né.
+P22.1;Tachypnée transitoire du nouveau-né.
+P22.8;Autres détresses respiratoires du nouveau-né.
+P22.9;Détresse respiratoire du nouveau-né, sans précision.
+P23.0;Pneumopathie congénitale due à un agent viral.
+P23.1;Pneumopathie congénitale à Chlamydia.
+P23.2;Pneumopathie congénitale à staphylocoques.
+P23.3;Pneumonie congénitale à streptocoques, groupe B.
+P23.4;Pneumopathie congénitale à Escherichia coli.
+P23.5;Pneumopathie congénitale à Pseudomonas.
+P23.6;Pneumopathie congénitale due à d'autres agents bactériens.
+P23.8;Pneumopathie congénitale due à d'autres microorganismes.
+P23.9;Pneumopathie congénitale, sans précision.
+P24.0;Inhalation néonatale de méconium.
+P24.1;Inhalation néonatale de liquide amniotique et de mucus.
+P24.2;Inhalation néonatale de sang.
+P24.3;Inhalation néonatale de lait et d'aliments régurgités.
+P24.8;Autres syndromes d'inhalation du nouveau-né.
+P24.9;Syndrome d'inhalation du nouveau-né, sans précision.
+P25.0;Emphysème interstitiel survenant pendant la période périnatale.
+P25.1;Pneumothorax survenant pendant la période périnatale.
+P25.2;Pneumomédiastin survenant pendant la période périnatale.
+P25.3;Pneumopéricarde survenant pendant la période périnatale.
+P25.8;Autres affections apparentées à l'emphysème interstitiel survenant pendant la.
+P26.0;Hémorragie trachéobronchique survenant pendant la période périnatale.
+P26.1;Hémorragie pulmonaire massive survenant pendant la période périnatale.
+P26.8;Autres hémorragies pulmonaires survenant pendant la période périnatale.
+P26.9;Hémorragie pulmonaire non précisée survenant pendant la période périnatale.
+P27.0;Syndrome de Wilson–Mikity.
+P27.1;Dysplasie bronchopulmonaire survenant pendant la période périnatale.
+P27.8;Autres maladies respiratoires chroniques survenant pendant la période périnatale.
+P27.9;Maladie respiratoire chronique non précisée survenant pendant la période périnatale.
+P28.0;Atélectasie primitive du nouveau-né.
+P28.1;Atélectasies du nouveau-né, autres et sans précision.
+P28.2;Crises de cyanose du nouveau-né.
+P28.3;Apnée primitive du sommeil chez le nouveau-né.
+P28.4;Autres apnées du nouveau-né.
+P28.5;Insuffisance respiratoire du nouveau-né.
+P28.8;Autres affections respiratoires précisées chez le nouveau-né.
+P28.9;Affection respiratoire du nouveau-né, sans précision 654.
+P29.0;Insuffisance cardiaque du nouveau-né.
+P29.1;Arythmie cardiaque du nouveau-né.
+P29.2;Hypertension du nouveau-né.
+P29.3;Persistance de la circulation fœtale.
+P29.4;Ischémie transitoire du myocarde du nouveau-né.
+P29.8;Autres affections cardiovasculaires survenant pendant la période périnatale.
+P29.9;Affection cardiovasculaire survenant pendant la période périnatale, sans précision.
+P35.0;Syndrome de rubéole congénitale.
+P35.1;Infection congénitale à cytomégalovirus.
+P35.2;Infection virale congénitale herpétique [Herpes simplex].
+P35.3;Hépatite virale congénitale.
+P35.4;Maladie congénitale due au virus Zika.
+P35.8;Autres maladies virales congénitales.
+P35.9;Maladie virale congénitale, sans précision.
+P36.0;Infection du nouveau-né à streptocoques, groupe B.
+P36.1;Infections du nouveau-né à streptocoques, autres et sans précision.
+P36.2;Infection du nouveau-né à staphylocoques dorés.
+P36.3;Infections du nouveau-né à staphylocoques, autres et sans précision.
+P36.4;Infection du nouveau-né à Escherichia coli.
+P36.5;Infection du nouveau-né due à des anaérobies.
+P36.8;Autres infections bactériennes du nouveau-né.
+P36.9;Infection bactérienne du nouveau-né, sans précision.
+P37.0;Tuberculose congénitale.
+P37.1;Toxoplasmose congénitale.
+P37.2;Listériose du nouveau-né(disséminée).
+P37.3;Paludisme congénital à Plasmodium falciparum.
+P37.4;Autres formes de paludisme congénital.
+P37.5;Candidose du nouveau-né.
+P37.8;Autres maladies infectieuses et parasitaires congénitales précisées.
+P37.9;Maladie infectieuse ou parasitaire congénitale, sans précision.
+P39.0;Mastite infectieuse du nouveau-né.
+P39.1;Conjonctivite et dacryocystite du nouveau-né.
+P39.2;Infection intraamniotique du fœtus, non classée ailleurs.
+P39.3;Infection des voies urinaires du nouveau-né.
+P39.4;Infection de la peau du nouveau-né.
+P39.8;Autres infections spécifiques précisées de la période périnatale.
+P39.9;Infection spécifique de la période périnatale, sans précision.
+P50.0;Perte de sang fœtal due à une procidence des vaisseaux du cordon [vasa prævia].
+P50.1;Perte de sang fœtal due à une rupture du cordon.
+P50.2;Perte de sang fœtal d'origine placentaire.
+P50.3;Jumeau transfuseur.
+P50.4;Hémorragie vers la circulation maternelle.
+P50.5;Perte de sang fœtal au niveau de la section du cordon d'un jumeau.
+P50.8;Autres pertes de sang fœtal.
+P50.9;Perte de sang fœtal, sans précision.
+P51.0;Hémorragie ombilicale massive du nouveau-né.
+P51.8;Autres hémorragies ombilicales du nouveau-né.
+P51.9;Hémorragie ombilicale du nouveau-né, sans précision.
+P52.0;Hémorragie intraventriculaire (non traumatique) du fœtus et du nouveau-né, degré 1.
+P52.1;Hémorragie intraventriculaire (non traumatique) du fœtus et du nouveau-né, degré 2.
+P52.2;Hémorragie intraventriculaire (non traumatique) du fœtus et du nouveau-né, degré 3.
+P52.3;Hémorragie intraventriculaire (non traumatique) du fœtus et du nouveau-né, sans.
+P52.4;Hémorragie intracérébrale (non traumatique) du fœtus et du nouveau-né.
+P52.5;Hémorragie sousarachnoïdienne (non traumatique) du fœtus et du nouveau-né.
+P52.6;Hémorragie cérébelleuse et de la fosse postérieure (non traumatique) du fœtus et du.
+P52.8;Autres hémorragies intracrâniennes (non traumatiques) du fœtus et du nouveau-né.
+P52.9;Hémorragie intracrânienne (non traumatique) du fœtus et du nouveau-né, sans.
+P54.0;Hématémèse du nouveau-né.
+P54.1;Mélæna du nouveau-né.
+P54.2;Hémorragie rectale du nouveau-né.
+P54.3;Autres hémorragies gastro-intestinales du nouveau-né.
+P54.4;Hémorragie surrénalienne du nouveau-né.
+P54.5;Hémorragie cutanée du nouveau-né.
+P54.6;Hémorragie vaginale du nouveau-né.
+P54.8;Autres hémorragies précisées du nouveau-né.
+P54.9;Hémorragie sans précision du nouveau-né.
+P55.0;Iso-immunisation Rh du fœtus et du nouveau-né.
+P55.1;Iso-immunisation ABO du fœtus et du nouveau-né.
+P55.8;Autres maladies hémolytiques du fœtus et du nouveau-né.
+P55.9;Maladie hémolytique du fœtus et du nouveau-né, sans précision.
+P56.0;Anasarque fœtoplacentaire due à une iso-immunisation.
+P56.9;Anasarque fœtoplacentaire due à des maladies hémolytiques, autres et sans.
+P57.0;Ictère nucléaire dû à une iso-immunisation.
+P57.8;Autres formes précisées d'ictère nucléaire.
+P57.9;Ictère nucléaire, sans précision.
+P58.0;Ictère du nouveau-né dû à des contusions.
+P58.1;Ictère du nouveau-né dû à un saignement.
+P58.2;Ictère du nouveau-né dû à une infection.
+P58.3;Ictère du nouveau-né dû à une polycythémie.
+P58.4;Ictère du nouveau-né dû à des médicaments ou des toxines transmis par la mère ou.
+P58.5;Ictère du nouveau-né dû à une ingestion de sang maternel.
+P58.8;Ictère du nouveau-né dû à d'autres hémolyses excessives précisées.
+P58.9;Ictère du nouveau-né dû à une hémolyse excessive, sans précision.
+P59.0;Ictère du nouveau-né associé à un accouchement avant terme.
+P59.1;Syndrome de la « bile épaisse ».
+P59.2;Ictère du nouveau-né dû à des lésions hépatocellulaires, autres et sans précision.
+P59.3;Ictère du nouveau-né dû à des inhibiteurs de la lactation.
+P59.8;Ictère du nouveau-né dû à d'autres causes précisées.
+P59.9;Ictère du nouveau-né, sans précision.
+P61.0;Thrombopénie du nouveau-né transitoire.
+P61.1;Polycythémie du nouveau-né.
+P61.2;Anémie de la prématurité.
+P61.3;Anémie congénitale par perte de sang fœtal.
+P61.4;Autres anémies congénitales, non classées ailleurs.
+P61.5;Neutropénie transitoire du nouveau-né.
+P61.6;Autres troubles transitoires de la coagulation pendant la période du nouveau-né.
+P61.8;Autres affections hématologiques précisées de la période périnatale.
+P61.9;Affection hématologique de la période périnatale, sans précision.
+P70.0;Syndrome de l'enfant dont la mère a un diabète gestationnel.
+P70.1;Syndrome de l'enfant de mère diabétique.
+P70.2;Diabète sucré du nouveau-né.
+P70.3;Hypoglycémie iatrogène du nouveau-né.
+P70.4;Autres hypoglycémies du nouveau-né.
+P70.8;Autres anomalies transitoires du métabolisme des glucides chez le fœtus et le.
+P70.9;Anomalie transitoire du métabolisme des glucides chez le fœtus et le nouveau-né,.
+P71.0;Hypocalcémie du nouveau-né, due au lait de vache.
+P71.1;Autres hypocalcémies du nouveau-né.
+P71.2;Hypomagnésémie du nouveau-né.
+P71.3;Tétanie du nouveau-né sans carence en calcium ou magnésium.
+P71.4;Hypoparathyroïdie transitoire du nouveau-né.
+P71.8;Autres anomalies transitoires du métabolisme du calcium et du magnésium du.
+P71.9;Anomalie transitoire du métabolisme du calcium et du magnésium du nouveau-né,.
+P72.0;Goitre du nouveau-né, non classé ailleurs.
+P72.1;Hyperthyroïdie transitoire du nouveau-né.
+P72.2;Autres anomalies de la fonction thyroïdienne du nouveau-né, non classées ailleurs.
+P72.8;Autres anomalies endocriniennes transitoires précisées du nouveau-né.
+P72.9;Anomalie endocrinienne transitoire du nouveau-né, sans précision.
+P74.0;Acidose métabolique tardive du nouveau-né.
+P74.1;Déshydratation du nouveau-né.
+P74.2;Anomalies de l'équilibre sodique du nouveau-né.
+P74.3;Anomalies de l'équilibre potassique du nouveau-né.
+P74.4;Autres anomalies électrolytiques transitoires du nouveau-né.
+P74.5;Tyrosinémie transitoire du nouveau-né.
+P74.8;Autres anomalies métaboliques transitoires du nouveau-né.
+P74.9;Anomalie métabolique transitoire du nouveau-né, sans précision.
+P76.0;Syndrome du bouchon méconial.
+P76.1;Iléus transitoire du nouveau-né.
+P76.2;Occlusion intestinale due à un lait épaissi.
+P76.8;Autres occlusions intestinales précisées du nouveau-né.
+P76.9;Occlusion intestinale du nouveau-né, sans précision.
+P78.0;Perforation intestinale périnatale.
+P78.1;Autres péritonites du nouveau-né.
+P78.2;Hématémèse et mélæna du nouveau-né dus à une ingestion de sang maternel.
+P78.3;Diarrhée non infectieuse du nouveau-né.
+P78.8;Autres affections périnatales précisées de l'appareil digestif.
+P78.9;Affection périnatale de l'appareil digestif, sans précision.
+P80.0;Syndrome hypothermique du nouveau-né.
+P80.8;Autres formes d'hypothermie du nouveau-né.
+P80.9;Hypothermie du nouveau-né, sans précision.
+P81.0;Hyperthermie du nouveau-né due à l'environnement.
+P81.8;Autres troubles précisés de la régulation thermique du nouveau-né.
+P81.9;Trouble de la régulation thermique du nouveau-né, sans précision.
+P83.0;Sclérème du nouveau-né.
+P83.1;Érythème toxique du nouveau-né.
+P83.2;Anasarque fœtoplacentaire non due à une maladie hémolytique.
+P83.3;Œdèmes autres et sans précision, spécifiques du fœtus et du nouveau-né.
+P83.4;Engorgement du sein chez le nouveau-né.
+P83.5;Hydrocèle congénitale.
+P83.6;Polype ombilical du nouveau-né.
+P83.8;Autres affections précisées des téguments spécifiques du fœtus et du nouveau-né.
+P83.9;Affection des téguments spécifiques du fœtus et du nouveau-né, sans précision.
+P91.0;Ischémie cérébrale du nouveau-né.
+P91.1;Kystes périventriculaires acquis du nouveau-né.
+P91.2;Leucomalacie cérébrale du nouveau-né.
+P91.3;Irritabilité cérébrale du nouveau-né.
+P91.4;Baisse de l'activité cérébrale du nouveau-né.
+P91.5;Coma du nouveau-né.
+P91.6;Encéphalopathie anoxo-ischémique [hypoxique ischémique] du nouveau-né.
+P91.7;Hydrocéphalie acquise du nouveau-né.
+P91.8;Autres affections cérébrales précisées du nouveau-né.
+P91.9;Affection cérébrale du nouveau-né, sans précision.
+P92.0;Vomissements du nouveau-né.
+P92.1;Régurgitation et mérycisme du nouveau-né.
+P92.2;Alimentation lente du nouveau-né.
+P92.3;Sousalimentation du nouveau-né.
+P92.4;Suralimentation du nouveau-né.
+P92.5;Alimentation au sein difficile chez le nouveau-né 664.
+P92.8;Autres problèmes alimentaires du nouveau-né.
+P92.9;Problème alimentaire du nouveau-né, sans précision.
+P94.0;Myasthénie transitoire du nouveau-né.
+P94.1;Hypertonie congénitale.
+P94.2;Hypotonie congénitale.
+P94.8;Autres anomalies du tonus musculaire du nouveau-né.
+P94.9;Anomalie du tonus musculaire du nouveau-né, sans précision.
+P96.0;Insuffisance rénale congénitale.
+P96.1;Symptômes de sevrage du nouveau-né dus à la toxicomanie de la mère.
+P96.2;Symptômes de sevrage après utilisation thérapeutique de médicaments chez le.
+P96.3;Retard de fermeture des sutures crâniennes.
+P96.4;Interruption de grossesse affectant le fœtus et le nouveau-né.
+P96.5;Complications consécutives à des actes à visée diagnostique et thérapeutique intra-.
+P96.8;Autres affections précisées dont l'origine se situe dans la période périnatale.
+P96.9;Affection dont l'origine se situe dans la période périnatale, sans précision.

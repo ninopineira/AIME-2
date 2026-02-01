@@ -1,0 +1,420 @@
+K00.0;Anodontie.
+K00.1;Dents surnuméraires.
+K00.2;Anomalies de volume et de forme des dents.
+K00.3;Dents tachetées.
+K00.4;Troubles de la formation des dents.
+K00.5;Anomalies héréditaires de la structure dentaire, non classées ailleurs.
+K00.6;Troubles de l'éruption dentaire.
+K00.7;Syndrome d'éruption dentaire.
+K00.8;Autres troubles de l'odontogénèse.
+K00.9;Troubles de l'odontogénèse, sans précision.
+K01.0;Dents incluses.
+K01.1;Dents enclavées.
+K02.0;Carie limitée à l'émail.
+K02.1;Carie de la dentine.
+K02.2;Carie du cément.
+K02.3;Carie dentaire stabilisée.
+K02.4;Odontoclasie.
+K02.5;Carie avec exposition de la pulpe.
+K02.8;Autres caries dentaires.
+K02.9;Carie dentaire, sans précision.
+K03.0;Attrition excessive des dents.
+K03.1;Abrasion des dents.
+K03.2;Érosion des dents.
+K03.3;Résorption pathologique des dents.
+K03.4;Hypercémentose.
+K03.5;Ankylose dentaire.
+K03.6;Dépôts [accrétions] sur les dents.
+K03.7;Modification de la teinte des tissus dentaires durs après l'éruption.
+K03.8;Autres maladies précisées des tissus dentaires durs.
+K03.9;Maladie des tissus dentaires durs, sans précision.
+K04.0;Pulpite.
+K04.1;Nécrose pulpaire.
+K04.2;Dégénérescence pulpaire.
+K04.3;Formation anormale de tissus dentaires durs dans la pulpe.
+K04.4;Périodontite apicale aigüe d'origine pulpaire.
+K04.5;Périodontite apicale chronique.
+K04.6;Abcès périapical avec fistule.
+K04.7;Abcès périapical sans fistule.
+K04.8;Kyste radiculaire.
+K04.9;Maladies de la pulpe et des tissus périapicaux, autres et sans précision.
+K05.0;Gingivite aigüe.
+K05.1;Gingivite chronique.
+K05.2;Périodontite aigüe.
+K05.3;Périodontite chronique.
+K05.4;Parodontose.
+K05.5;Autres maladies périodontales.
+K05.6;Maladie périodontale, sans précision 464.
+K06.0;Rétraction gingivale.
+K06.1;Hyperplasie gingivale.
+K06.2;Lésions gingivales et de la crête alvéolaire édentée, associées à un traumatisme.
+K06.8;Autres affections précisées de la gencive et de la crête alvéolaire édentée.
+K06.9;Affection de la gencive et de la crête alvéolaire édentée, sans précision.
+K07.0;Anomalies importantes de dimension des mâchoires.
+K07.1;Anomalies de rapport entre les mâchoires et la base du crâne.
+K07.2;Anomalies de rapport entre les arcades dentaires.
+K07.3;Malposition des dents.
+K07.4;Malocclusion, sans précision.
+K07.5;Anomalies dentofaciales fonctionnelles.
+K07.6;Lésions de l'articulation temporomandibulaire.
+K07.8;Autres anomalies dentofaciales.
+K07.9;Anomalie dentofaciale, sans précision.
+K08.0;Exfoliation dentaire due à des causes générales.
+K08.1;Perte de dents consécutive à accident, extraction ou affection périodontale localisée.
+K08.2;Atrophie de la crête alvéolaire édentée.
+K08.3;Racine dentaire laissée en place.
+K08.8;Autres affections précisées des dents et du parodonte.
+K08.9;Affection des dents et du parodonte, sans précision.
+K09.0;Kystes dentaires liés au développement (odontogènes).
+K09.1;Kystes de la région buccale non liés au développement dentaire.
+K09.2;Autres kystes de la mâchoire.
+K09.8;Autres kystes de la région buccale, non classés ailleurs.
+K09.9;Kyste de la région buccale, sans précision.
+K10.0;Maladies liées au développement des mâchoires.
+K10.1;Granulome à cellules géantes, central.
+K10.2;Affections inflammatoires des mâchoires.
+K10.3;Alvéolite des mâchoires.
+K10.8;Autres maladies précisées des mâchoires.
+K10.9;Maladie des mâchoires, sans précision.
+K11.0;Atrophie des glandes salivaires.
+K11.1;Hypertrophie des glandes salivaires.
+K11.2;Sialoadénite.
+K11.3;Abcès des glandes salivaires.
+K11.4;Fistule des glandes salivaires.
+K11.5;Sialolithiase.
+K11.6;Mucocèle des glandes salivaires.
+K11.7;Troubles de la sécrétion salivaire.
+K11.8;Autres maladies des glandes salivaires.
+K11.9;Maladie des glandes salivaires, sans précision.
+K12.0;Aphtes buccaux récidivants.
+K12.1;Autres formes de stomatite.
+K12.2;Phlegmon et abcès de la bouche.
+K12.3;Mucite buccale (ulcéreuse).
+K13.0;Maladies des lèvres.
+K13.1;Morsure de la joue et de la lèvre.
+K13.2;Leucoplasie et autres anomalies de l'épithélium buccal, y compris la langue.
+K13.3;Tricholeucoplasie.
+K13.4;Granulome et lésions pseudogranulomateuses de la muqueuse buccale.
+K13.5;Fibrose sousmuqueuse de la bouche.
+K13.6;Hyperplasie inflammatoire de la muqueuse buccale.
+K13.7;Lésions de la muqueuse buccale, autres et sans précision.
+K14.0;Glossite.
+K14.1;Langue géographique.
+K14.2;Glossite losangique médiane.
+K14.3;Hypertrophie des papilles linguales.
+K14.4;Atrophie des papilles de la langue.
+K14.5;Langue plicaturée.
+K14.6;Glossodynie.
+K14.8;Autres maladies de la langue.
+K14.9;Maladie de la langue, sans précision.
+K21.0;Reflux gastroœsophagien avec œsophagite.
+K21.9;Reflux gastroœsophagien sans œsophagite.
+K22.0;Achalasie du cardia.
+K22.1;Ulcère de l'œsophage.
+K22.2;Obstruction de l'œsophage.
+K22.3;Perforation de l'œsophage.
+K22.4;Dyskinésie de l'œsophage.
+K22.5;Diverticule acquis de l'œsophage.
+K22.6;Syndrome de dilacération hémorragique gastroœsophagienne.
+K22.7;Endobrachyœsophage [œsophage de Barrett].
+K22.8;Autres maladies précisées de l'œsophage.
+K22.9;Maladie de l'œsophage, sans précision.
+K23.0;Œsophagite tuberculeuse (A18.8†).
+K23.1;Mégaœsophage au cours de la maladie de Chagas (B57.3†).
+K23.8;Atteintes de l'œsophage au cours d'autres maladies classées ailleurs.
+K23.8;Œsophagite herpétique (B00.8†).
+K23.8;Œsophagite à Candida (B37.8†).
+K23.8;Atteintes de l’œsophage au cours de maladies classées ailleurs, autres.
+K29.0;Gastrite hémorragique aigüe.
+K29.1;Autres gastrites aigües.
+K29.2;Gastrite alcoolique.
+K29.3;Gastrite chronique superficielle.
+K29.4;Gastrite chronique atrophique.
+K29.5;Gastrite chronique, sans précision.
+K29.6;Autres gastrites.
+K29.7;Gastrite, sans précision.
+K29.8;Duodénite.
+K29.9;Gastroduodénite, sans précision.
+K31.0;Dilatation aigüe de l'estomac.
+K31.1;Sténose pylorique hypertrophique de l'adulte.
+K31.2;Estomac en sablier et sténose de l'estomac.
+K31.3;Spasme du pylore, non classé ailleurs.
+K31.4;Diverticule gastrique.
+K31.5;Obstruction du duodénum.
+K31.6;Fistule de l'estomac et du duodénum.
+K31.7;Polype de l'estomac et du duodénum.
+K31.8;Autres maladies précisées de l'estomac et du duodénum.
+K31.9;Maladie de l'estomac et du duodénum, sans précision.
+K35.2;Appendicite aigüe avec péritonite généralisée.
+K35.3;Appendicite aigüe avec péritonite localisée.
+K35.8;Appendicite aigüe, autre et non précisée.
+K38.0;Hyperplasie de l'appendice.
+K38.1;Concrétions appendiculaires.
+K38.2;Diverticule de l'appendice.
+K38.3;Fistule de l'appendice.
+K38.8;Autres maladies précisées de l'appendice.
+K38.9;Maladie de l'appendice, sans précision.
+K40.0;Hernie inguinale bilatérale, avec occlusion, sans gangrène.
+K40.1;Hernie inguinale bilatérale, avec gangrène.
+K40.2;Hernie inguinale bilatérale, sans occlusion ni gangrène.
+K40.3;Hernie inguinale unilatérale ou sans précision, avec occlusion, sans gangrène.
+K40.4;Hernie inguinale, unilatérale ou sans précision, avec gangrène.
+K40.9;Hernie inguinale, unilatérale ou sans précision, sans occlusion ni gangrène.
+K41.0;Hernie crurale bilatérale, avec occlusion, sans gangrène.
+K41.1;Hernie crurale bilatérale, avec gangrène.
+K41.2;Hernie crurale bilatérale, sans occlusion ni gangrène.
+K41.3;Hernie crurale, unilatérale ou sans précision, avec occlusion, sans gangrène.
+K41.4;Hernie crurale, unilatérale ou sans précision, avec gangrène.
+K41.9;Hernie crurale, unilatérale ou sans précision, sans occlusion ni gangrène.
+K42.0;Hernie ombilicale, avec occlusion, sans gangrène.
+K42.1;Hernie ombilicale, avec gangrène.
+K42.9;Hernie ombilicale, sans occlusion ni gangrène.
+K43.0;Éventration postopératoire, avec occlusion sans gangrène.
+K43.1;Éventration postopératoire, avec gangrène.
+K43.2;Éventration postopératoire, sans occlusion ni gangrène.
+K43.3;Hernie péristomiale, avec occlusion, sans gangrène.
+K43.4;Hernie péristomiale, avec gangrène.
+K43.5;Hernie péristomiale, sans occlusion ni gangrène.
+K43.6;Hernie de la paroi abdominale antérieure autre et non précisée, avec occlusion, sans.
+K43.7;Hernie de la paroi abdominale antérieure autre et non précisée, avec gangrène.
+K43.9;Hernie de la paroi abdominale antérieure autre et non précisée, sans occlusion ni.
+K44.0;Hernie diaphragmatique, avec occlusion sans gangrène.
+K44.1;Hernie diaphragmatique, avec gangrène.
+K44.9;Hernie diaphragmatique, sans occlusion ni gangrène.
+K45.0;Autres hernies abdominales de siège précisé, avec occlusion sans gangrène.
+K45.1;Autres hernies abdominales précisées, avec gangrène.
+K45.8;Autres hernies abdominales précisées, sans occlusion ni gangrène.
+K46.0;Hernie abdominale non précisée, avec occlusion sans gangrène.
+K46.1;Hernie abdominale non précisée, avec gangrène.
+K46.9;Hernie abdominale non précisée, sans occlusion ni gangrène.
+K50.0;Maladie de Crohn de l'intestin grêle.
+K50.1;Maladie de Crohn du gros intestin.
+K50.8;Autres formes de la maladie de Crohn.
+K50.9;Maladie de Crohn, sans précision.
+K51.0;Pancolite ulcéreuse (chronique).
+K51.2;Rectite ulcéreuse (chronique).
+K51.3;Rectosigmoïdite ulcéreuse (chronique).
+K51.4;Polypes coliques inflammatoires.
+K51.5;Colite ulcéreuse gauche.
+K51.8;Autres rectocolites hémorragiques.
+K51.9;Rectocolite hémorragique, sans précision.
+K52.0;Gastroentérite et colite dues à une irradiation.
+K52.1;Gastroentérite et colite toxiques.
+K52.2;Gastroentérite et colite allergiques et alimentaires.
+K52.3;Colite non infectieuse indéterminée.
+K52.8;Autres gastroentérites et colites non infectieuses précisées.
+K52.9;Gastroentérite et colite non infectieuses, sans précision.
+K55.0;Troubles vasculaires aigus de l'intestin.
+K55.1;Troubles vasculaires chroniques de l'intestin.
+K55.2;Angiodysplasie du côlon.
+K55.3;Angiodysplasie de l'intestin grêle.
+K55.8;Autres troubles vasculaires de l'intestin.
+K55.9;Trouble vasculaire de l'intestin, sans précision.
+K56.0;Iléus paralytique.
+K56.1;Invagination.
+K56.2;Volvulus.
+K56.3;Iléus biliaire.
+K56.4;Autres obstructions de l'intestin.
+K56.5;Adhérences de l'intestin [brides], avec occlusion.
+K56.6;Occlusions intestinales, autres et sans précision.
+K56.7;Iléus, sans précision.
+K57.0;Diverticulose de l'intestin grêle, avec perforation et abcès.
+K57.1;Diverticulose de l'intestin grêle, sans perforation ni abcès.
+K57.2;Diverticulose du gros intestin, avec perforation et abcès.
+K57.3;Diverticulose du gros intestin, sans perforation ni abcès.
+K57.4;Diverticulose du gros intestin et de l'intestin grêle, avec perforation et abcès.
+K57.5;Diverticulose du gros intestin et de l'intestin grêle, sans perforation ni abcès.
+K57.8;Diverticulose de l'intestin, siège non précisé, avec perforation et abcès.
+K57.9;Diverticulose de l'intestin, siège non précisé, sans perforation ni abcès.
+K58.1;Syndrome de l'intestin irritable, avec diarrhée prédominante [SII-D].
+K58.2;Syndrome de l'intestin irritable, avec constipation prédominante [SII-C].
+K58.3;Syndrome de l'intestin irritable, avec troubles du transit mixtes [SII-M].
+K58.8;Syndrome de l'intestin irritable, autre et non précisé.
+K59.0;Constipation.
+K59.1;Diarrhée fonctionnelle.
+K59.2;Intestin neurogène, non classé ailleurs.
+K59.3;Mégacôlon, non classé ailleurs.
+K59.4;Spasme de l'anus.
+K59.8;Autres troubles fonctionnels précisés de l'intestin.
+K59.9;Trouble fonctionnel de l'intestin, sans précision.
+K60.0;Fissure anale aigüe.
+K60.1;Fissure anale chronique.
+K60.2;Fissure anale, sans précision.
+K60.3;Fistule anale.
+K60.4;Fistule rectale.
+K60.5;Fistule anorectale.
+K61.0;Abcès anal.
+K61.1;Abcès rectal.
+K61.2;Abcès anorectal.
+K61.3;Abcès ischiorectal.
+K61.4;Abcès intrasphinctérien.
+K62.0;Polype anal.
+K62.1;Polype rectal.
+K62.2;Prolapsus anal.
+K62.3;Prolapsus rectal.
+K62.4;Sténose de l'anus et du rectum.
+K62.5;Hémorragie de l'anus et du rectum.
+K62.6;Ulcère de l'anus et du rectum.
+K62.7;Rectite due à une irradiation.
+K62.8;Autres maladies précisées de l'anus et du rectum.
+K62.9;Maladie de l'anus et du rectum, sans précision.
+K63.0;Abcès de l'intestin.
+K63.1;Perforation de l'intestin (non traumatique).
+K63.2;Fistule de l'intestin.
+K63.3;Ulcère de l'intestin.
+K63.4;Entéroptose.
+K63.5;Polype du côlon.
+K63.5;0 Polypose (colique) hyperplasique.
+K63.5;8 Polype du côlon, autre et non précisé.
+K63.8;Autres maladies précisées de l'intestin.
+K63.9;Maladie de l'intestin, sans précision.
+K64.0;Hémorroïdes du premier degré.
+K64.1;Hémorroïdes du deuxième degré.
+K64.2;Hémorroïdes du troisième degré.
+K64.3;Hémorroïdes du quatrième degré.
+K64.4;Cicatrices hémorroïdaires cutanées résiduelles.
+K64.5;Thrombose veineuse périanale.
+K64.8;Autres hémorroïdes précisées.
+K64.9;Hémorroïdes, sans précision.
+K65.0;Péritonite aigüe.
+K65.8;Autres péritonites.
+K65.9;Péritonite, sans précision.
+K66.0;Adhérences péritonéales.
+K66.1;Hémopéritoine.
+K66.2;Fibrose rétropéritonéale.
+K66.8;Autres maladies précisées du péritoine.
+K66.9;Maladie du péritoine, sans précision.
+K67.0;Péritonite à Chlamydia (A74.8†).
+K67.1;Péritonite gonococcique (A54.8†).
+K67.2;Péritonite syphilitique (A52.7†).
+K67.3;Péritonite tuberculeuse (A18.3†).
+K67.8;Autres atteintes péritonéales au cours de maladies infectieuses classées ailleurs.
+K70.0;Cirrhose alcoolique graisseuse du foie.
+K70.1;Hépatite alcoolique.
+K70.2;Fibrose et sclérose alcooliques du foie.
+K70.3;Cirrhose alcoolique du foie.
+K70.4;Insuffisance hépatique alcoolique.
+K70.9;Maladie alcoolique du foie, sans précision.
+K71.0;Maladie toxique du foie avec cholestase.
+K71.1;Maladie toxique du foie avec nécrose hépatique.
+K71.2;Maladie toxique du foie avec hépatite aigüe.
+K71.3;Maladie toxique du foie avec hépatite chronique persistante.
+K71.4;Maladie toxique du foie avec hépatite chronique lobulaire.
+K71.5;Maladie toxique du foie avec hépatite chronique active.
+K71.6;Maladie toxique du foie avec hépatite, non classée ailleurs.
+K71.7;Maladie toxique du foie avec fibrose et cirrhose du foie 490.
+K71.8;Maladie toxique du foie avec d'autres lésions du foie.
+K71.9;Maladie toxique du foie, sans précision.
+K72.0;Insuffisance hépatique aigüe et subaigüe.
+K72.1;Insuffisance hépatique chronique.
+K72.9;Insuffisance hépatique, sans précision.
+K73.0;Hépatite chronique persistante, non classée ailleurs.
+K73.1;Hépatite chronique lobulaire, non classée ailleurs.
+K73.2;Hépatite chronique active, non classée ailleurs.
+K73.8;Autres hépatites chroniques, non classées ailleurs.
+K73.9;Hépatite chronique, sans précision.
+K74.0;Fibrose hépatique.
+K74.1;Sclérose hépatique.
+K74.2;Fibrose hépatique, avec sclérose hépatique.
+K74.3;Cirrhose biliaire primitive.
+K74.4;Cirrhose biliaire secondaire.
+K74.5;Cirrhose biliaire, sans précision.
+K74.6;Cirrhoses du foie, autres et sans précision.
+K75.0;Abcès du foie.
+K75.1;Phlébite de la veine porte.
+K75.2;Hépatite réactive non spécifique.
+K75.3;Hépatite granulomateuse, non classée ailleurs.
+K75.4;Hépatite auto-immune.
+K75.8;Autres maladies inflammatoires précisées du foie.
+K75.9;Maladie inflammatoire du foie, sans précision.
+K76.0;Dégénérescence graisseuse du foie, non classée ailleurs.
+K76.1;Congestion passive chronique du foie.
+K76.2;Nécrose hémorragique centrale du foie.
+K76.3;Infarctus hépatique.
+K76.4;Péliose hépatique.
+K76.5;Maladie veinoocclusive du foie.
+K76.6;Hypertension portale.
+K76.7;Syndrome hépatorénal.
+K76.8;Autres maladies précisées du foie.
+K76.9;Maladie du foie, sans précision.
+K77.0;Atteintes hépatiques au cours de maladies infectieuses et parasitaires classées.
+K77.8;Atteintes hépatiques au cours d'autres maladies classées ailleurs.
+K80.0;Calcul de la vésicule biliaire avec cholécystite aigüe.
+K80.1;Calcul de la vésicule biliaire avec une autre forme de cholécystite.
+K80.2;Calcul de la vésicule biliaire sans cholécystite.
+K80.3;Calcul des canaux biliaires avec angiocholite.
+K80.4;Calcul des canaux biliaires avec cholécystite.
+K80.5;Calcul des canaux biliaires sans angiocholite ni cholécystite.
+K80.8;Autres cholélithiases.
+K81.0;Cholécystite aigüe.
+K81.1;Cholécystite chronique.
+K81.8;Autres cholécystites.
+K81.9;Cholécystite, sans précision.
+K82.0;Occlusion de la vésicule biliaire.
+K82.1;Hydrocholécyste.
+K82.2;Perforation de la vésicule biliaire.
+K82.3;Fistule de la vésicule biliaire.
+K82.4;Choléstérolose de la vésicule biliaire.
+K82.8;Autres maladies précisées de la vésicule biliaire.
+K82.9;Maladie de la vésicule biliaire, sans précision.
+K83.0;Angiocholite [cholangite].
+K83.1;Obstruction des voies biliaires.
+K83.2;Perforation des voies biliaires.
+K83.3;Fistule des voies biliaires.
+K83.4;Spasme du sphincter d'Oddi.
+K83.5;Kyste biliaire.
+K83.8;Autres maladies précisées des voies biliaires.
+K83.9;Maladie des voies biliaires, sans précision.
+K85.0;Pancréatite aigüe idiopathique.
+K85.1;Pancréatite aigüe d’origine biliaire.
+K85.2;Pancréatite aigüe alcoolique.
+K85.3;Pancréatite aigüe médicamenteuse.
+K85.8;Autres pancréatites aigües.
+K85.9;Pancréatite aigüe, sans précision.
+K86.0;Pancréatite chronique alcoolique.
+K86.1;Autres pancréatites chroniques.
+K86.1;0 Pancréatite chronique héréditaire.
+K86.1;8 Pancréatites chroniques, autres et non précisées.
+K86.2;Kyste du pancréas.
+K86.3;Pseudokyste du pancréas.
+K86.8;Autres maladies précisées du pancréas.
+K86.9;Maladie du pancréas, sans précision.
+K87.0;Atteinte de la vésicule biliaire et des voies biliaires au cours de maladies classées.
+K87.0;Cholangite à cytomégalovirus (B25.8†).
+K87.0;Atteinte de la vésicule biliaire et des voies biliaires au cours d’autres maladies classées.
+K87.1;Atteinte du pancréas au cours de maladies classées ailleurs.
+K90.0;Maladie cœliaque.
+K90.1;Sprue tropicale.
+K90.2;Syndrome de l'anse borgne, non classé ailleurs.
+K90.3;Stéatorrhée pancréatique.
+K90.4;Malabsorption due à une intolérance, non classée ailleurs.
+K90.8;Autres malabsorptions intestinales.
+K90.9;Malabsorption intestinale, sans précision.
+K91.0;Vomissements consécutifs à une intervention gastro-intestinale.
+K91.1;Syndromes consécutifs à une intervention gastrique.
+K91.2;Malabsorption postchirurgicale, non classée ailleurs.
+K91.3;Occlusion intestinale postopératoire, non classée ailleurs.
+K91.4;Mauvais résultats fonctionnels d'une colostomie et d'une entérostomie.
+K91.5;Syndrome postcholécystectomie.
+K91.8;Autres atteintes de l'appareil digestif après un acte à visée diagnostique et.
+K91.9;Atteinte de l'appareil digestif après un acte à visée diagnostique et thérapeutique,.
+K92.0;Hématémèse.
+K92.1;Mélæna.
+K92.2;Hémorragie gastro-intestinale, sans précision.
+K92.8;Autres maladies précisées du système digestif.
+K92.9;Maladie du système digestif, sans précision.
+K93.0;Atteintes tuberculeuses de l'intestin, du péritoine et des ganglions mésentériques.
+K93.1;Mégacôlon au cours de la maladie de Chagas (B57.3†).
+K93.8;Atteintes d'autres organes digestifs précisés au cours de maladies classées ailleurs.
+K93.8;Atteintes de la cavité buccale au cours de maladies classées ailleurs.
+K93.8;Atteintes de l’estomac au cours de maladies classées ailleurs.
+K93.8;Atteintes de l’intestin au cours de maladies classées ailleurs.
+K93.8;0* Colite à cytomégalovirus (B25.8†).
+K93.8;8* Atteintes de l’intestin au cours d’autres maladies classées ailleurs.
+K93.8;Atteintes du rectum au cours de maladies classées ailleurs.
+K93.8;0* Infection du rectum par le virus de l’herpès (A60.1†).
+K93.8;8* Atteintes du rectum au cours d’autres maladies classées ailleurs.
+K93.8;Atteintes de l’anus au cours de maladies classées ailleurs.
+K93.8;0* Infection de l’anus par le virus de l’herpès (A60.1†).
+K93.8;8* Atteintes de l’anus au cours d’autres maladies classées ailleurs.
+K93.8;Atteintes d’organes digestifs précisés autres, au cours de maladies classées ailleurs.

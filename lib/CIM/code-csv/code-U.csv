@@ -1,0 +1,47 @@
+U04.9;Syndrome respiratoire aigu sévère [SRAS], sans précision.
+U07.0;Affection liée au vapotage.
+U07.1;COVID-19.
+U07.1; COVID-19, forme respiratoire, virus identifié.
+U07.1; COVID-19, forme respiratoire, virus non identifié.
+U07.1; Porteur de SARS-CoV-2 asymptomatique.
+U07.1; Autres examens et mises en observation en lien avec l’épidémie COVID-19.
+U07.1; COVID-19, autres formes cliniques, virus identifié.
+U07.1; COVID-19, autres formes cliniques, virus non identifié.
+U07.2;Usage urgent de U07.2.
+U07.3;Usage urgent de U07.3.
+U07.4;Usage urgent de U07.4.
+U07.5;Usage urgent de U07.5.
+U07.6;Usage urgent de U07.6.
+U07.7;Usage urgent de U07.7.
+U07.8;Usage urgent de U07.8.
+U07.9;Usage urgent de U07.9.
+U08.9;Antécédents personnels de COVID-19, sans précision.
+U09.9;Affection post-COVID-19, sans précision.
+U10.9;Syndrome inflammatoire multisystémique associé à la COVID-19, sans précision.
+U11.9;Nécessité d’une vaccination contre la COVID-19, sans précision.
+U12.9;Vaccins contre la COVID-19 ayant provoqué des effets indésirables au cours de leur.
+U82.0;Résistance à la pénicilline.
+U82.1;Résistance à la méthicilline.
+U82.1; Staphylococcus aureus résistant à la méthicilline [SARM].
+U82.1; Staphylocoques, autres et non précisés, résistants à la méthicilline.
+U82.2;Résistance par bétalactamases à spectre étendu [BLSE].
+U82.8;Résistance à d’autres antibiotiques bétalactamines.
+U82.9;Résistance aux antibiotiques bétalactamines, non précisée.
+U83.0;Résistance à la vancomycine.
+U83.1;Résistance à d’autres antibiotiques apparentés à la vancomycine.
+U83.2;Résistance aux quinolones.
+U83.7;Résistance à de multiples antibiotiques.
+U83.7; Bactérie hautement résistante émergente [BHRe].
+U83.7; Bactérie multirésistante [BMR].
+U83.7; Autres résistances à de multiples antibiotiques.
+U83.8;Résistance à un seul autre antibiotique précisé.
+U83.9;Résistance à un antibiotique non précisé.
+U84.0;Résistance aux médicaments antiparasitaires.
+U84.1;Résistance aux médicaments antifongiques.
+U84.2;Résistance aux médicaments antiviraux.
+U84.3;Résistance aux médicaments antituberculeux.
+U84.7;Résistance à de multiples médicaments antimicrobiens.
+U84.8;Résistance à un autre antimicrobien précisé.
+U84.9;Résistance à un antimicrobien non précisé.
+U90.0;Résistance aux antiépileptiques.
+U90.9;Résistances à un traitement, autres et sans précision.
