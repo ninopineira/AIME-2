@@ -94,8 +94,7 @@ def match_cim10(bloc2_results):
 # model = SentenceTransformer("distilbert/distilbert-base-multilingual-cased")
 model = SentenceTransformer('FremyCompany/BioLORD-2023-M')
 
-# D = []  # Descriptions des codes ICD-10
-# C = []  # Codes ICD-10
+
 
 current_dir = Path(__file__).resolve().parent  # Obtenir le répertoire où le script est situé
 
@@ -104,6 +103,8 @@ current_dir = Path(__file__).resolve().parent  # Obtenir le répertoire où le s
 # CD_path = current_dir.parent / "lib" / "CIM" / "testnumpy.npy"
 # #charger une CIM-X déjà encoder
 # icd10_embeddings = np.load(embedded_path)
+# D = []  # Descriptions des codes ICD-10
+# C = []  # Codes ICD-10
 # [C,D] =  np.load(CD_path)
 
 C,D,icd10_embeddings = reload_cim10()
