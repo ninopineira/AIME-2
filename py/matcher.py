@@ -19,7 +19,6 @@ def reload_cim10(alphabet=["A","B","C","D","E","F","G","H","I","J","K","L","M","
             for row in reader:
                 C.append(row[0])
                 D.append(row[1])
-
         
         embeddings.append(np.load(pathEMB))
 
