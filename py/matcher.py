@@ -11,9 +11,9 @@ model = SentenceTransformer("cambridgeltl/SapBERT-from-PubMedBERT-fulltext")
 bert_model = model[0].auto_model
 
 # Résumé du modèle
-summary(bert_model)
-print("embedding:",model.get_sentence_embedding_dimension())
-print("model:",model)
+#summary(bert_model)
+#print("embedding:",model.get_sentence_embedding_dimension())
+#print("model:",model)
 D = []  # Descriptions des codes ICD-10
 C = []  # Codes ICD-10
 current_dir = Path(__file__).resolve().parent  # Obtenir le répertoire où le script est situé
