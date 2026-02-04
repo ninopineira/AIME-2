@@ -106,10 +106,10 @@ current_dir = Path(__file__).resolve().parent  # Obtenir le répertoire où le s
 # C = []  # Codes ICD-10
 # [C,D] =  np.load(CD_path)
 
-C,D,icd10_embeddings = reload_cim10()
+# C,D,icd10_embeddings = reload_cim10()
 
 ## Si c'est la première execution :
-# C,D,icd10_embeddings = recompute_cim10()
+C,D,icd10_embeddings = recompute_cim10()
 
 print(len(C),len(D),icd10_embeddings.shape)
 if __name__ == "__main__":
