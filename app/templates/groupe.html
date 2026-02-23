@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Liste des groupes</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Liste des groupes</h1>
+    <!-- Formulaire de recherche -->
+    <form action="/groupes" method="GET">
+        <input type="text" name="recherche" placeholder="Rechercher par mots clefs" value="{{ recherche }}">
+        <button type="submit">Rechercher</button>
+    </form>
+    <table>
+        <thead>
+            <tr>
+                <th>Début</th>
+                <th>Fin</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for groupe in groupe %}
+            <tr>
+                <td>{{ groupe.gid }}</td>
+                <td>{{ groupe.fin }}</td>
+                <td>{{ groupe.description }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

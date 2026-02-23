@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Liste des chapitres</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Liste des Chapitres</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>CID</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for chapitre in chapitre %}
+            <tr>
+                <td>{{ chapitre.chid }}</td>
+                <td>{{ chapitre.description }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
