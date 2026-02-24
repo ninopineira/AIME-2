@@ -2,12 +2,12 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Liste des groupes</title>
+    <title>Cim-X</title>
     <link rel="stylesheet" href="../static/home.css">
     <link rel="stylesheet" href="../static/table.css">
 </head>
 <body>
-    <!-- NAVBAR -->
+<!-- NAVBAR -->
 <header class="navbar">
     <div class="logo">
         <span>CIM10</span>
@@ -18,24 +18,24 @@
         <a href="home#about-aime">À propos d’AIME</a>
         <a href="codes"> Cim-X</a>
         <a href="codage.html">Codage</a>
-        <a href="#">Contact</a>
+        <a href="home">Contact</a>
     </nav>
 </header>
-    <h1>Liste des groupes</h1>
+    <h1>{{ data.title }}</h1>
     <table>
         <thead>
             <tr>
-                <th>Début</th>
-                <th>Fin</th>
-                <th>Description</th>
+                {% for title in data.colonnes%}
+                <th> {{ title }} </th>
+                {% endfor%}
             </tr>
         </thead>
         <tbody>
-            {% for groupe in groupe %}
+            {% for value in data.data %}
             <tr>
-                <td>{{ groupe.gid }}</td>
-                <td>{{ groupe.fin }}</td>
-                <td>{{ groupe.description }}</td>
+                {% for elt in value %}
+                <td>{{ elt }}</td>
+                {% endfor %}
             </tr>
             {% endfor %}
         </tbody>

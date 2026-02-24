@@ -21,31 +21,32 @@ def codage():
 
 @app.route('/codes')
 def codes():
-    code = orm.session.query(Code).all()
-    return render_template('code.html',code=code)
-
-@app.route('/chapitres') #aura pour vocation à disparaitre
-def chapitre():
-    chapitre = orm.session.query(Chapitre).all()
-    # print(chapitre)
-    return render_template('chapitre.html',chapitre=chapitre)
+    codes = orm.session.query(Code.cid).all()
+    description = orm.session.query(Code.description).all()
+    values = []
+    for i in range (len(codes)) :
+        values.append([codes[i][0],description[i][0]])
+    data = {'data' : values, 'title':"Liste des codes Cim-X", 'colonnes': ["Code","Déscription"]}
+    return render_template('table.html',data=data)
 
 @app.route('/groupes')
 def groupe():
-    # recherche = request.args.get('recherche', '')
+    groupes = orm.session.query(Groupe.gid).all()
+    fin = orm.session.query(Groupe.fin)
+    description = orm.session.query(Groupe.description).all()
+    values = []
+    for i in range (len(groupes)) :
+        values.append([groupes[i][0],fin[i][0],description[i][0]])
+    data = {'data' : values, 'title':"Groupes de la Cim-X", 'colonnes': ["Début","Fin","Déscription"]}
+    return render_template('table.html',data=data)
 
-    # # Si une recherche est effectuée
-    # if recherche:
-    #     groupe = orm.session.query(Groupe).filter(
-    #         or_(
-    #             Groupe.description.ilike(f'%{recherche}%'),
-    #             Groupe.gid.ilike(f'%{recherche}%')
-    #         )
-    #     ).all()
-    # else:
-    groupe = orm.session.query(Groupe).all()
-
-    return render_template('groupe.html', groupe=groupe)#, recherche=recherche)
-
-
+@app.route('/chapitres')
+def chapitre():
+    chapitres = orm.session.query(Chapitre.chid).all()
+    description = orm.session.query(Chapitre.description).all()
+    values = []
+    for i in range (len(chapitres)) :
+        values.append([chapitres[i][0],description[i][0]])
+    data = {'data' : values, 'title':"Chapitres de la Cim-X", 'colonnes': ["Numéro de Chapitre","Titre"]}
+    return render_template('table.html',data=data)
  
