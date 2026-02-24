@@ -11,6 +11,7 @@ orm = ORM("/test_cim.db")
 
 
 @app.route('/')
+@app.route('/home')
 def home():
     return render_template('home.html')
 
@@ -18,10 +19,10 @@ def home():
 def codage():
     return render_template('codage.html')
 
-@app.route('/cimx')
-def cimx():
+@app.route('/codes')
+def codes():
     code = orm.session.query(Code).all()
-    return render_template('cim-x.html',code=code)
+    return render_template('code.html',code=code)
 
 @app.route('/chapitres') #aura pour vocation à disparaitre
 def chapitre():
