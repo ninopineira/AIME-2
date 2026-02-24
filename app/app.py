@@ -1,4 +1,6 @@
-from flask import *
+# from flask import *
+from flask import Flask, render_template
+# from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import * 
 from orm_cim import ORM
 from models import *
@@ -6,6 +8,7 @@ from models import *
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///test_cim.db'  # Remplacez par votre URI
 orm = ORM("/test_cim.db")
+
 
 @app.route('/')
 def home():
@@ -28,20 +31,20 @@ def chapitre():
 
 @app.route('/groupes')
 def groupe():
-    recherche = request.args.get('recherche', '')
+    # recherche = request.args.get('recherche', '')
 
-    # Si une recherche est effectuée
-    if recherche:
-        groupe = orm.session.query(Groupe).filter(
-            or_(
-                Groupe.description.ilike(f'%{recherche}%'),
-                Groupe.gid.ilike(f'%{recherche}%')
-            )
-        ).all()
-    else:
-        groupe = orm.session.query(Groupe).all()
+    # # Si une recherche est effectuée
+    # if recherche:
+    #     groupe = orm.session.query(Groupe).filter(
+    #         or_(
+    #             Groupe.description.ilike(f'%{recherche}%'),
+    #             Groupe.gid.ilike(f'%{recherche}%')
+    #         )
+    #     ).all()
+    # else:
+    groupe = orm.session.query(Groupe).all()
 
-    return render_template('groupe.html', groupe=groupe, recherche=recherche)
+    return render_template('groupe.html', groupe=groupe)#, recherche=recherche)
 
 
  
