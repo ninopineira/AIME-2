@@ -7,7 +7,7 @@ from models import *
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///test_cim.db'  # Remplacez par votre URI
-orm = ORM("/test_cim.db")
+orm = ORM("/data/test_cim.db")
 
 
 @app.route('/')
