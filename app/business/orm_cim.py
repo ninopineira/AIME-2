@@ -5,14 +5,15 @@ from sqlalchemy import ForeignKey, create_engine
 from sqlalchemy.orm import sessionmaker , DeclarativeBase, Mapped, mapped_column, Session
 import csv
 from pathlib import Path
-from models import Base, Groupe, Code, Chapitre
+from .models import Base, Groupe, Code, Chapitre
 
 class ORM():
     db = SQLAlchemy(model_class=Base)
     engine = None #TEST : il faut vérifier ds les autres fction que ce n'est pas non lors de l'execution
 
     def __init__(self,path):
-        self.engine = create_engine("sqlite://"+path, echo=True)
+        engine_path = "sqlite:///"+path
+        self.engine = create_engine(engine_path, echo=True)
         Base.metadata.create_all(self.engine)
         self.DBSession = sessionmaker(bind=self.engine)
         self.session = self.DBSession()
@@ -65,18 +66,27 @@ class ORM():
         self.code_from_csv(pathCode)
         self.groupe_from_csv(pathGroupe)
         self.chapitre_from_csv(pathChapitre)
+    
+    def codes(self):
+        return self.session.query(Codes.cid)
 
 if __name__ == "__main__":
-    #création de l'object relation mapping
-    orm = ORM("/test_cim.db")
     
-    #chemin vers le script 
-    current_dir = Path(__file__).resolve().parent
-    #chemin vers csv des chapitres
-    pathChapitre = current_dir.parent / "lib" / "CIM" / "csv-BDD" / "chapitre.csv"
-    pathGroupe   = current_dir.parent / "lib" / "CIM" / "csv-BDD" / "groupe.csv"
-    pathCode     = current_dir.parent / "lib" / "CIM" / "csv-BDD" / "code.csv"
+    def create_app():
+        app = Flask(__name__)
+        app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///data/test_cim.db'
 
-    # création de la table des chapitres depuis le csv donné
-    # orm.clear_db()
-    # orm.from_csv(pathChapitre,pathGroupe,pathCode)
+        orm = ORM("data/test_cim.db")
+        #chemin vers le script 
+        current_dir = Path(__file__).resolve().parent
+        #chemin vers csv des chapitres
+        pathChapitre = current_dir.parent / "lib" / "CIM" / "csv-BDD" / "chapitre.csv"
+        pathGroupe   = current_dir.parent / "lib" / "CIM" / "csv-BDD" / "groupe.csv"
+        pathCode     = current_dir.parent / "lib" / "CIM" / "csv-BDD" / "code.csv"
+        # création de la table des chapitres depuis le csv donné
+        orm.clear_db()
+        orm.from_csv(pathChapitre,pathGroupe,pathCode)
+
+        return app
+    
+    create_app()

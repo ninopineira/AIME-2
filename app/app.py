@@ -2,12 +2,12 @@
 from flask import Flask, render_template
 # from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import * 
-from orm_cim import ORM
-from models import *
+from business.orm_cim import ORM
+from business.models import *
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///test_cim.db'  # Remplacez par votre URI
-orm = ORM("/data/test_cim.db")
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///data/test_cim.db'  # Remplacez par votre URI
+orm = ORM("data/test_cim.db")
 
 
 @app.route('/')
@@ -31,12 +31,13 @@ def codes():
 
 @app.route('/groupes')
 def groupe():
-    groupes = orm.session.query(Groupe.gid).all()
-    fin = orm.session.query(Groupe.fin)
+    gid = orm.session.query(Groupe.gid).all()
+    fin = orm.session.query(Groupe.fin).all()
     description = orm.session.query(Groupe.description).all()
     values = []
-    for i in range (len(groupes)) :
-        values.append([groupes[i][0],fin[i][0],description[i][0]])
+    for i in range (len(gid)) :
+        values.append([gid[i][0],fin[i][0],description[i][0]]) #\ufeffA00
+    print(gid)
     data = {'data' : values, 'title':"Groupes de la Cim-X", 'colonnes': ["Début","Fin","Déscription"]}
     return render_template('table.html',data=data)
 
