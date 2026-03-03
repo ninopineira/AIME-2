@@ -2,8 +2,8 @@
 from flask import Flask, render_template
 # from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import * 
-from business.orm_cim import ORM
-from business.models import *
+from models.orm_cim import ORM
+from models.models import *
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///data/test_cim.db'  # Remplacez par votre URI

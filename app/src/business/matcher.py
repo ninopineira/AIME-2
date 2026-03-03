@@ -1,11 +1,20 @@
+# __package__ = "app"
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
 from pathlib import Path
 import csv
 from sqlalchemy import * 
-from orm_cim import ORM
-from models import *
+if __name__ == "__main__" :
+    import sys
+    from os.path import dirname, abspath
+    d = dirname(dirname(abspath(__file__)))
+    sys.path.append(d)
+    from models.orm_cim import ORM
+    from models.models import *
+else :
+    from ..models.orm_cim import ORM
+    from ..models.models import *
 
 class Matcher():
     alphabet=["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
