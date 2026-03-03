@@ -1,26 +1,50 @@
-from flask import Flask
-from flask_sqlalchemy import SQLAlchemy
+# from flask import Flask
+# from flask_sqlalchemy import SQLAlchemy
 #from typing import Optional
 from sqlalchemy import ForeignKey, create_engine
-from sqlalchemy.orm import sessionmaker , DeclarativeBase, Mapped, mapped_column, Session
+from sqlalchemy.orm import scoped_session, sessionmaker , Session
+from sqlalchemy.ext.declarative import declarative_base
+from sentence_transformers import SentenceTransformer
+import numpy as np 
 import csv
 from pathlib import Path
-from .models import Base, Groupe, Code, Chapitre
+if __name__ == "__main__" :
+    from models import Base, Groupe, Code, Chapitre
+else :
+    from .models import Base, Groupe, Code, Chapitre
 
 class ORM():
-    db = SQLAlchemy(model_class=Base)
+    # db = SQLAlchemy(model_class=Base)
+    db = Base
     engine = None #TEST : il faut vérifier ds les autres fction que ce n'est pas non lors de l'execution
 
-    def __init__(self,path):
-        engine_path = "sqlite:///"+path
+    def __init__(self,path_db,path_emb):
+        self.path_db = path_db
+        self.path_emb = path_emb
+        engine_path = "sqlite:///"+str(self.path_db)
         self.engine = create_engine(engine_path, echo=True)
-        Base.metadata.create_all(self.engine)
-        self.DBSession = sessionmaker(bind=self.engine)
-        self.session = self.DBSession()
+        self.db.metadata.bind = self.engine
+        self.session = scoped_session(sessionmaker())(bind=self.engine)
+        # Base.metadata.create_all(self.engine)
+        # self.DBSession = sessionmaker(bind=self.engine)
+        # self.session = self.DBSession()
+
     
-    def clear_db(self):
-        #ne marche que dans un contexte d'application : à voir
-        self.db.drop_all()
+    def tableDrop(self) :
+        self.db.metadata.drop_all(bind=self.engine)
+        return
+
+    def tableCreate(self):# Recréation des tables
+        self.db.metadata.create_all(bind=self.engine)
+        return 
+
+    ## "setter"
+    def recompute_cim10(self,model_path) :
+        model = SentenceTransformer(model_path) 
+        descriptions = self.codesDescription()
+        embeddings = model.encode(descriptions)
+        np.save(self.path_emb,embeddings)
+        return embeddings
 
     def chapitre_from_csv(self, path,chid=0,des=1):
         """
@@ -41,7 +65,7 @@ class ORM():
         gid,chid,fin,des : colonnes du CSV dans lesquelles sont les informations
         """
         with Session(self.engine) as session :
-            with open(path, newline='\n') as csvfile:
+            with open(path, newline='\n',encoding='utf-8-sig') as csvfile:
                 reader = csv.reader(csvfile, delimiter=';', quotechar='"')
                 for row in reader:
                     session.add(Groupe(gid=row[gid],chid=int(row[chid]),fin=row[fin],description=row[des]))
@@ -60,33 +84,41 @@ class ORM():
                 session.commit()
     
     def from_csv(self,pathChapitre,pathGroupe,pathCode):
-        """
-        Ne peut être utilisée que si toutes les valeurs de colonnes par defaut correspondent aux valeurs préenregistrées
-        """
+        self.tableDrop()
+        self.tableCreate()
         self.code_from_csv(pathCode)
         self.groupe_from_csv(pathGroupe)
         self.chapitre_from_csv(pathChapitre)
     
+    ## "getter"
     def codes(self):
-        return self.session.query(Codes.cid)
+        codes = self.session.query(Code.cid).all()
+        values = []
+        for i in range (len(codes)) :
+            values.append(codes[i][0])
+        return values
+    
+    def codesDescription(self):
+        description = self.session.query(Code.description).all()
+        values = []
+        for i in range (len(description)) :
+            values.append(description[i][0])
+        return values
+    
+    def embeddings(self):
+        return np.load(self.path_emb)
 
 if __name__ == "__main__":
     
-    def create_app():
-        app = Flask(__name__)
-        app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///data/test_cim.db'
-
-        orm = ORM("data/test_cim.db")
-        #chemin vers le script 
-        current_dir = Path(__file__).resolve().parent
-        #chemin vers csv des chapitres
-        pathChapitre = current_dir.parent / "lib" / "CIM" / "csv-BDD" / "chapitre.csv"
-        pathGroupe   = current_dir.parent / "lib" / "CIM" / "csv-BDD" / "groupe.csv"
-        pathCode     = current_dir.parent / "lib" / "CIM" / "csv-BDD" / "code.csv"
-        # création de la table des chapitres depuis le csv donné
-        orm.clear_db()
-        orm.from_csv(pathChapitre,pathGroupe,pathCode)
-
-        return app
-    
-    create_app()
+    #chemin vers le script 
+    current_dir = Path(__file__).resolve().parent
+    pathDB = current_dir.parent / "data" / "aime2-cim.db"
+    pathEMB = current_dir.parent / "data" / "aime2-embeddings"
+    orm = ORM(pathDB,pathEMB)
+    #chemin vers csv des chapitres
+    pathChapitre = current_dir.parent / "data" / "csv-BDD" / "chapitre.csv"
+    pathGroupe   = current_dir.parent / "data" / "csv-BDD" / "groupe.csv"
+    pathCode     = current_dir.parent / "data" / "csv-BDD" / "code.csv"
+    # création des tables depuis les csv donné
+    # orm.from_csv(pathChapitre,pathGroupe,pathCode)
+    orm.recompute_cim10('FremyCompany/BioLORD-2023-M')

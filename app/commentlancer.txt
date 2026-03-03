@@ -1,2 +1,0 @@
-dans le dossier app/src : flask run
-il comprends que le fichier à lancer est app.py
