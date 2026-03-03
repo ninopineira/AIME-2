@@ -48,7 +48,7 @@ def extract_pathologies(texte):
     #initialisation du matcher
     matcher = HFEntityMatcher(
         model="medkit/DrBERT-CASM2",
-        cache_dir="../lib/models",  # <- ici on indique où chercher les fichiers
+        cache_dir="models/AI/",  # <- ici on indique où chercher les fichiers
         attrs_to_copy=["is_negated"]
     )
 
