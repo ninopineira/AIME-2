@@ -1,55 +1,49 @@
-.dropdown ul {
-    margin: 0;
-    padding: 10px 0;
-    background: var(--nav-dropdown-background-color);
-    display: block;
-    position: absolute;
-    visibility: hidden;
-    left: 14px;
-    top: 130%;
-    opacity: 0;
-    transition: 0.3s;
-    border-radius: 4px;
-    z-index: 99;
-    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
-  }
+/* Style de base pour le bouton et la liste */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
 
-.dropdown ul li {
-    min-width: 200px;
-  }
-
-.dropdown ul a {
+.dropdown-btn {
+    background: white;
+    color: white;
     padding: 10px 20px;
-    font-size: 15px;
-    text-transform: none;
-    color: var(--nav-dropdown-color);
-  }
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+}
 
-.dropdown ul a i {
-    font-size: 12px;
-  }
+/*J'ai pas trouvé ça nécessaire*/
+/* .dropdown-btn:hover {
+    background: #96eeee;
+} */
 
-.dropdown ul a:hover,
-.dropdown ul .active:hover,
-.dropdown ul li:hover>a {
-    color: var(--nav-dropdown-hover-color);
-  }
+/* Style du contenu déroulant (masqué par défaut) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 4px;
+}
 
-.dropdown:hover>ul {
-    opacity: 1;
-    top: 100%;
-    visibility: visible;
-  }
+/* Liens dans la liste déroulante */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
 
-.dropdown .dropdown ul {
-    top: 0;
-    left: -90%;
-    visibility: hidden;
-  }
+/* Effet de survol sur les liens */
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
 
-.dropdown .dropdown:hover>ul {
-    opacity: 1;
-    top: 0;
-    left: -100%;
-    visibility: visible;
-  }
+/* Afficher la liste déroulante au survol */
+.dropdown:hover .dropdown-content {
+    display: block;
+}

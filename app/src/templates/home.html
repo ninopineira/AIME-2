@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <title>CIM10 – AIME</title>
     <link rel="stylesheet" href="../static/home.css">
+    <link rel="stylesheet" href="../static/dropdown.css">
+    <script rel="../static/top-navbar.js"></script>
 </head>
 <body>
 
 <!-- NAVBAR -->
-<header class="navbar">
+<header id="header" class="navbar fixed-top">
     <div class="logo">
         <span>CIM10</span>
         <small>Classification des maladies</small>
@@ -17,7 +19,13 @@
         <a href="#hero">Accueil</a>
         <a href="#about-aime">À propos d’AIME</a>
         <!-- <a href="cim-x.html">CIM-X</a> -->
-        <a href="codes"> Cim-X</a>
+        <div class="dropdown">
+        <a class="dropdown-btn">Cim-X</a>
+        <div class="dropdown-content">
+            <a href="codes">Codes</a>
+            <a href="groupes">Groupes</a>
+            <a href="chapitres">Chapitres</a>
+        </div></div>
         <a href="codage">Codage</a>
         <a href="#">Contact</a>
     </nav>
