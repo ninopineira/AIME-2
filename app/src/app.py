@@ -34,7 +34,7 @@ def codes():
     return render_template('table.html',data=data)
 
 @app.route('/groupes')
-def groupe():
+def groupes():
     gid = orm.session.query(Groupe.gid).all()
     fin = orm.session.query(Groupe.fin).all()
     description = orm.session.query(Groupe.description).all()
@@ -46,7 +46,7 @@ def groupe():
     return render_template('table.html',data=data)
 
 @app.route('/chapitres')
-def chapitre():
+def chapitres():
     chapitres = orm.session.query(Chapitre.chid).all()
     description = orm.session.query(Chapitre.description).all()
     values = []
