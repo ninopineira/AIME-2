@@ -1,8 +1,12 @@
-from transformers import AutoTokenizer, AutoModel, AutoConfig
+from huggingface_hub import snapshot_download
 
-model_name = "medkit/DrBERT-CASM2"
-cache_dir = "./models_cache"  # Dossier local pour stocker le modèle
+model_name = "MiBo/SABERT"
+cache_dir = "./models_cache"
 
-AutoTokenizer.from_pretrained(model_name, cache_dir=cache_dir)
-AutoModel.from_pretrained(model_name, cache_dir=cache_dir)
-AutoConfig.from_pretrained(model_name, cache_dir=cache_dir)
+print("Téléchargement en cours...")
+snapshot_download(
+    repo_id=model_name,
+    cache_dir=cache_dir,
+    ignore_patterns=["*.msgpack", "*.h5"]  # ignore fichiers inutiles
+)
+print("Téléchargement terminé !")

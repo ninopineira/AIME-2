@@ -1,3 +1,7 @@
+import os
+os.environ["TRANSFORMERS_OFFLINE"] = "1"
+os.environ["HF_DATASETS_OFFLINE"] = "1"
+
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
@@ -151,9 +155,9 @@ def match_cim10(bloc2_results):
     return bloc3_results
 
 # Utilisation du chemin relatif
-#model_path = Path(__file__).resolve().parent.parent / "lib" / "models" / "BioLORD-2023-M"
+model_path = Path(__file__).resolve().parent.parent / "models_cache" / "models--MiBo--SABERT"
 # model = SentenceTransformer("distilbert/distilbert-base-multilingual-cased")
-model = SentenceTransformer('FremyCompany/BioLORD-2023-M')
+model = SentenceTransformer(model_path)
 
 
 

@@ -4,7 +4,7 @@ from py.gui.main_window import Ui_AIME
 from py.gui.a_propos import Ui_A_propos
 from PyQt5.QtCore import QUrl
 
-import py.regex as regex
+import py.regex_a as regex_a
 import py.pathologies as pathologies
 import py.matcher as matcher
 
@@ -62,7 +62,7 @@ class AIME(QtWidgets.QMainWindow, Ui_AIME):
         text_saisi = self.plainTextEdit.toPlainText()
 
         # appel de la fonction d'extraction : 
-        texte_interesse = regex.extract_text(text_saisi)
+        texte_interesse = regex_a.extract_text(text_saisi)
 
         maladies = []
 
