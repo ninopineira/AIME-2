@@ -18,7 +18,7 @@ class ORM():
     db = Base
     engine = None #TEST : il faut vérifier ds les autres fction que ce n'est pas non lors de l'execution
 
-    def __init__(self,path_db,path_emb):
+    def __init__(self,path_db,path_emb): #chemin vers json||chemin vers casemix
         self.path_db = path_db
         self.path_emb = path_emb
         engine_path = "sqlite:///"+str(self.path_db)
@@ -107,6 +107,9 @@ class ORM():
     
     def embeddings(self):
         return np.load(self.path_emb)
+    
+    def fonctionsana(self):
+        return () #
 
 if __name__ == "__main__":
     

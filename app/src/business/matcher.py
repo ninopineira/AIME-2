@@ -24,6 +24,7 @@ class Matcher():
         self.codes = orm.codes()
         self.descriptions = orm.codesDescription()
         self.embeddings = orm.embeddings()
+        self.coefdesana # = orm.chargerlescoefs()
 
     def match_cim10(self,bloc2_results):
 

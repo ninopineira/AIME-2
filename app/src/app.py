@@ -14,7 +14,7 @@ app = Flask(__name__)
 current_dir = Path(__file__).resolve().parent
 pathDB = current_dir / "data" / "aime2-cim.db"
 pathEMB = current_dir / "data" / "aime2-embeddings.npy"
-orm = ORM(pathDB,pathEMB)
+orm = ORM(pathDB,pathEMB) #modif pour json
 matcher = Matcher('FremyCompany/BioLORD-2023-M',orm)
 
 @app.route('/')
@@ -83,3 +83,10 @@ def traitement() :
         values.append([ref,c3,d3])
     data = {'texte':texte,'data' : values, 'title':"Resultats de recherche", 'colonnes': ["Référence à","Code","description"]}
     return render_template('codageResults.html',data=data)
+
+@app.route('/admin')#methods post
+def admin():
+    #charger le fichier avec mdp
+    #decrypter le mdp
+    #comparer avec le request.form
+    return 
