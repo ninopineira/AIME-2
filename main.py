@@ -4,7 +4,7 @@ from py.gui.main_window import Ui_AIME
 from py.gui.a_propos import Ui_A_propos
 from PyQt5.QtCore import QUrl
 
-import py.regex as regex
+import py.regex_a as regex_a
 import py.pathologies as pathologies
 import py.matcher as matcher
 
@@ -62,7 +62,7 @@ class AIME(QtWidgets.QMainWindow, Ui_AIME):
         text_saisi = self.plainTextEdit.toPlainText()
 
         # appel de la fonction d'extraction : 
-        texte_interesse = regex.extract_text(text_saisi)
+        texte_interesse = regex_a.extract_text(text_saisi)
 
         maladies = []
 
@@ -74,8 +74,8 @@ class AIME(QtWidgets.QMainWindow, Ui_AIME):
         
         # on match avec les CIM10
         for mal in maladies:
-            codes = matcher.match_cim10([mal])
-            self.codes_finaux.append(codes)
+            results = matcher.match_cim10([mal])
+            self.codes_finaux.extend(results)
         
         # affichage des résultats dans le tableau 
         self.model_table = QtGui.QStandardItemModel()
@@ -86,45 +86,24 @@ class AIME(QtWidgets.QMainWindow, Ui_AIME):
         self.tableView.setModel(self.model_table)
     
     def add_data(self):
-        for item in self.codes_finaux:
+        for entity_result in self.codes_finaux:
+            entity = entity_result["entity"]
+            matches = entity_result["matches"]
 
-            # premier résultat
-            item = item[0]
-            code = item["best_match_code"]
-            description = item["best_match_description"]
-            priorite = "haute"
-            ref = item["entity"]
-            
-            # second résultat
-            code2 = item["second_best_match_code"]
-            description2 = item["second_best_match_description"]
-            priorite2 = "moyenne"
-
-            # 3e résultat
-            code3 = item["third_best_match_code"]
-            description3 = item["third_best_match_description"]
-            priorite3 = "moyenne"
-
-            
-            # convert to model item
-            code_item = QtGui.QStandardItem(code)
-            description_item = QtGui.QStandardItem(description)
-            priorite_item = QtGui.QStandardItem(priorite)
-            ref_item = QtGui.QStandardItem(ref)
-
-            code_item2 = QtGui.QStandardItem(code2)
-            description_item2 = QtGui.QStandardItem(description2)
-            priorite_item2 = QtGui.QStandardItem(priorite2)
-
-            code_item3 = QtGui.QStandardItem(code3)
-            description_item3 = QtGui.QStandardItem(description3)
-            priorite_item3 = QtGui.QStandardItem(priorite3)
-            
-
-            # add to model
-            self.model_table.appendRow([code_item, priorite_item, ref_item, description_item])
-            self.model_table.appendRow([code_item2, priorite_item2, ref_item, description_item2])
-            self.model_table.appendRow([code_item3,priorite_item3, ref_item, description_item3])
+            for i, match in enumerate(matches):
+                code = match["code"]
+                description = match["desc"]
+                priorite = "haute" if i == 0 else "moyenne"
+                ref = entity if i == 0 else "" # On ne met la référence que sur le premier résultat de l'entité
+                
+                # convert to model item
+                code_item = QtGui.QStandardItem(code)
+                description_item = QtGui.QStandardItem(description)
+                priorite_item = QtGui.QStandardItem(priorite)
+                ref_item = QtGui.QStandardItem(ref)
+                
+                # add to model
+                self.model_table.appendRow([code_item, priorite_item, ref_item, description_item])
 
     def a_propos_clicked(self):
         """Affiche la fenêtre à propos
