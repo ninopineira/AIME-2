@@ -102,6 +102,63 @@
     max-width: 100%;
     height: auto;
 }
+/* SECTION ACCES */
+.access-section {
+    padding: 80px 60px;
+    text-align: center;
+    background: #ffffff;
+}
+
+.access-section h2 {
+    font-size: 30px;
+    color: #1c3c55;
+    margin-bottom: 50px;
+}
+
+.access-cards {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.access-card {
+    background: #f7fbff;
+    padding: 35px;
+    width: 320px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.access-icon {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.access-card h3 {
+    color: #1c3c55;
+    margin-bottom: 10px;
+}
+
+.access-card p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.access-btn {
+    background: linear-gradient(135deg,#2b9bd8,#1a7fb8);
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.access-btn:hover {
+    background: #1a7fb8;
+}
 /* SECTION AU COEUR D'AIME */
 .aime-core {
     background: #f7fbff;
