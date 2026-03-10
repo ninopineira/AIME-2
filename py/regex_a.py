@@ -14,22 +14,22 @@ def extract_text(text : str):
     pattern1 = re.compile(r'HISTOIRE DE LA MALADIE(.*?)EXAMEN CLINIQUE', re.DOTALL)
     pattern2 = re.compile(r'SYNTHESE DE L\'HOSPITALISATION(.*?)TRAITEMENT DE SORTIE', re.DOTALL)
     pattern3 = re.compile(r'MOTIF D\'HOSPITALISATION(.*?)MEDECIN ADRESSEUR', re.DOTALL)
-    pattern4 = re.compile(r'EVOLUTION DANS LE SERVICE(.*?)SYNTHESE DE L\'HOSPITALISATION', re.DOTALL)
+    #pattern4 = re.compile(r'EVOLUTION DANS LE SERVICE(.*?)SYNTHESE DE L\'HOSPITALISATION', re.DOTALL)
 
     # recherche :
     match1 = pattern1.search(text)
     match2 = pattern2.search(text)
     match3 = pattern3.search(text)
-    match4 = pattern4.search(text)
+   # match4 = pattern4.search(text)
 
     if match1:
         sortie.append(match1.group(1).strip())
     if match2:
         sortie.append(match2.group(1).strip())
     if match3:
-        sortie.append(match3.group(1).strip())
-    if match4:
-        sortie.append(match4.group(1).strip())
+       sortie.append(match3.group(1).strip())
+    #if match4:
+       # sortie.append(match4.group(1).strip())
     
     return sortie
 
@@ -46,13 +46,13 @@ if __name__ == "__main__":
     pattern = re.compile(r'HISTOIRE DE LA MALADIE(.*?)EXAMEN CLINIQUE', re.DOTALL)
     pattern2 = re.compile(r'SYNTHESE DE L\'HOSPITALISATION(.*?)TRAITEMENT DE SORTIE', re.DOTALL)
     pattern3 = re.compile(r'MOTIF D\'HOSPITALISATION(.*?)MEDECIN ADRESSEUR', re.DOTALL)
-    pattern4 = re.compile(r'EVOLUTION DANS LE SERVICE(.*?)SYNTHESE DE L\'HOSPITALISATION', re.DOTALL)
+    #pattern4 = re.compile(r'EVOLUTION DANS LE SERVICE(.*?)SYNTHESE DE L\'HOSPITALISATION', re.DOTALL)
 
     # Utiliser search pour trouver le texte entre les deux phrases
     match = pattern.search(texte)
     match2 = pattern2.search(texte)
     match3 = pattern3.search(texte)
-    match4 = pattern4.search(texte)
+    #match4 = pattern4.search(texte)
     
     if match:
         texte_interesse = match.group(1).strip()
@@ -61,10 +61,10 @@ if __name__ == "__main__":
         texte_interesse2 = match2.group(1).strip()
         print(f"Texte trouvé 2 \n: {texte_interesse2}")
     if match3:
-        texte_interesse3 = match3.group(1).strip()
-        print(f"Texte trouvé 3 \n: {texte_interesse3}")
-    if match4:
-        texte_interesse4 = match4.group(1).strip()
-        print(f"Texte trouvé 4 \n: {texte_interesse4}")
+       texte_interesse3 = match3.group(1).strip()
+       print(f"Texte trouvé 3 \n: {texte_interesse3}")
+   # if match4:
+       # texte_interesse4 = match4.group(1).strip()
+       # print(f"Texte trouvé 4 \n: {texte_interesse4}")
     else:
         print("Aucun texte trouvé entre les deux phrases.")

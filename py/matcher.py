@@ -101,7 +101,7 @@ def match_cim10(bloc2_results):
             occ = occ_data.get(code, 1) # 1 par défaut si inconnu
 
             #À quel point ce code est fréquent par rapport au code le plus fréquent, sur une échelle compressée
-            freq_factor = math.log10(occ + 1) / math.log10(max_occ + 1)
+            freq_factor = math.log10(occ + 1) / math.log10(max_occ)
             
             # Score final hybridé
             #2 citères pour un meilleur matching dans notre cas: cos similarity et fréquence d'occurence
@@ -119,16 +119,11 @@ def match_cim10(bloc2_results):
             # Aucun code ne dépasse le seuil
             bloc3_results.append({
                 "entity": entity,
-                "best_match_code": "Aucun",
-                "best_match_description": "Aucune correspondance trouvée au dessus du seuil",
-                "second_best_match_code": "-",
-                "second_best_match_description": "-",
-                "third_best_match_code": "-",
-                "third_best_match_description": "-"
+                "matches": []
             })
             continue
 
-        # Récupération des trois meilleures correspondances (si disponibles)
+        # Récupération des meilleures correspondances
         matches = []
         for m_idx in range(min(3, len(scores))):
             idx = scores[m_idx]["index"]
@@ -137,19 +132,10 @@ def match_cim10(bloc2_results):
                 "desc": D[idx]
             })
 
-        # Compléter si moins de 3 matches
-        while len(matches) < 3:
-            matches.append({"code": "-", "desc": "-"})
-
-        # Stockage des résultats sous forme de dictionnaire
+        # Stockage des résultats
         bloc3_results.append({
             "entity": entity,
-            "best_match_code": matches[0]["code"],
-            "best_match_description": matches[0]["desc"],
-            "second_best_match_code": matches[1]["code"],
-            "second_best_match_description": matches[1]["desc"],
-            "third_best_match_code": matches[2]["code"],
-            "third_best_match_description": matches[2]["desc"]
+            "matches": matches
         })
 
     return bloc3_results
