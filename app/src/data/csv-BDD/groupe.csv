@@ -1,0 +1,241 @@
+﻿A00;A09;1;Maladies intestinales infectieuses
+A15;A19;1;Tuberculose
+A20;A28;1;Certaines anthropozoonoses bactériennes
+A30;A49;1;Autres maladies bactériennes
+A50;A64;1;Infections dont le mode de transmission est essentiellement sexuel
+A65;A69;1;Autres maladies à spirochètes
+A70;A74;1;Autres maladies à Chlamydia
+A75;A79;1;Rickettsioses
+A80;A89;1;Infections virales du système nerveux central
+A92;A99;1;Fièvres virales transmises par des arthropodes et fièvres virales hémorragiques
+B00;B09;1;Infections virales caractérisées par des lésions cutanéo-muqueuses
+B15;B19;1;Hépatite virale
+B20;B24;1;Maladies dues au virus de l’immunodéficience humaine [VIH]
+B25;B34;1;Autres maladies virales
+B35;B49;1;Mycoses
+B50;B64;1;Maladies dues à des protozoaires
+B65;B83;1;Helminthiases
+B85;B89;1;Pédiculose, acariase et autres infestations
+B90;B94;1;Séquelles de maladies infectieuses et parasitaires
+B95;B98;1;Agents d’infections bactériennes, virales et autres classées dans d’autres chapitres
+B99;B99;1;Autres maladies infectieuses
+C00;C14;2;Tumeurs malignes de la lèvre, de la cavité buccale et du pharynx
+C15;C26;2;Tumeurs malignes des organes digestifs
+C30;C39;2;Tumeurs malignes des organes respiratoires et intrathoraciques
+C40;C41;2;Tumeurs malignes des os et du cartilage articulaire
+C43;C44;2;Mélanome malin et autres tumeurs malignes de la peau
+C45;C49;2;Tumeurs malignes du tissu mésothélial et des tissus mous
+C50;C50;2;Tumeurs malignes du sein
+C51;C58;2;Tumeurs malignes des organes génitaux de la femme
+C60;C63;2;Tumeurs malignes des organes génitaux de l’homme
+C64;C68;2;Tumeurs malignes des voies urinaires
+C69;C72;2;Tumeurs malignes de l’œil, de l’encéphale et d’autres parties du système nerveux central
+C73;C75;2;Tumeurs malignes de la thyroïde et d’autres glandes endocrines
+C76;C80;2;Tumeurs malignes de sièges mal définis, secondaires et non précisés
+C81;C96;2;Tumeurs malignes primitives ou présumées primitives des tissus lymphoïde, hématopoïétique et apparentés
+C97;C97;2;Tumeurs malignes de sièges multiples indépendants (primitifs)
+D00;D09;2;Tumeurs in situ
+D10;D36;2;Tumeurs bénignes
+D37;D48;2;Tumeurs à évolution imprévisible ou inconnue
+D50;D53;3;Anémies nutritionnelles
+D55;D59;3;Anémies hémolytiques
+D60;D64;3;Aplasies médullaires [anémie aplastique] et autres anémies
+D65;D69;3;Anomalies de la coagulation, purpura et autres affections hémorragiques
+D70;D77;3;Autres maladies du sang et des organes hématopoïétiques
+D80;D90;3;Certaines anomalies du système immunitaire
+E00;E07;4;Affections de la glande thyroïde
+E10;E14;4;Diabète sucré
+E15;E16;4;Autres anomalies de la régulation du glucose et de la sécrétion pancréatique interne
+E20;E35;4;Maladies des autres glandes endocrines
+E40;E46;4;Malnutrition
+E50;E64;4;Autres carences nutritionnelles
+E65;E68;4;Obésité et autres excès d’apport
+E70;E90;4;Anomalies du métabolisme
+F00;F09;5;Troubles mentaux organiques, y compris les troubles symptomatiques
+F10;F19;5;Troubles mentaux et du comportement liés à l’utilisation de substances psycho-actives
+F20;F29;5;Schizophrénie, trouble schizotypique et troubles délirants
+F30;F39;5;Troubles de l’humeur [affectifs]
+F40;F48;5;Troubles névrotiques, troubles liés à des facteurs de stress et troubles somatoformes
+F50;F59;5;Syndromes comportementaux associés à des perturbations physiologiques et à des facteurs physiques
+F60;F69;5;Troubles de la personnalité et du comportement chez l’adulte
+F70;F79;5;Retard mental
+F80;F89;5;Troubles du développement psychologique
+F90;F98;5;Troubles du comportement et troubles émotionnels apparaissant habituellement durant l’enfance et l’adolescence
+F99;F99;5;Trouble mental, sans précision
+G00;G09;6;Maladies inflammatoires du système nerveux central
+G10;G14;6;Affections dégénératives systémiques affectant principalement le système nerveux central
+G20;G26;6;Syndromes extrapyramidaux et troubles de la motricité
+G30;G32;6;Autres affections dégénératives du système nerveux
+G35;G37;6;Maladies démyélinisantes du système nerveux central
+G40;G47;6;Affections épisodiques et paroxystiques
+G50;G59;6;Affections des nerfs et des racines et plexus nerveux
+G60;G64;6;Polynévrites et autres affections du système nerveux périphérique
+G70;G73;6;Affections musculaires et neuromusculaires
+G80;G83;6;Paralysies cérébrales et autres syndromes paralytiques
+G90;G99;6;Autres affections du système nerveux
+H00;H06;7;Affections de la paupière, de l’appareil lacrymal et de l’orbite
+H10;H13;7;Affections de la conjonctive
+H15;H22;7;Affections de la sclérotique, de la cornée, de l’iris et du corps ciliaire
+H25;H28;7;Affections du cristallin
+H30;H36;7;Affections de la choroïde et de la rétine
+H40;H42;7;Glaucome
+H43;H45;7;Affections du corps vitré et du globe oculaire
+H46;H48;7;Affections du nerf et des voies optiques
+H49;H52;7;Affections des muscles oculaires, des mouvements binoculaires, de l’accommodation et de la réfraction
+H53;H54;7;Troubles de la vision et cécité
+H55;H59;7;Autres affections de l’œil et de ses annexes
+H60;H62;8;Maladies de l’oreille externe
+H65;H75;8;Maladies de l’oreille moyenne et de l’apophyse mastoïde
+H80;H83;8;Maladies de l’oreille interne
+H90;H95;8;Autres affections de l’oreille
+I00;I02;9;Rhumatisme articulaire aigu
+I05;I09;9;Cardiopathies rhumatismales chroniques
+I10;I15;9;Maladies hypertensives
+I20;I25;9;Cardiopathies ischémiques
+I26;I28;9;Affections cardiopulmonaires et maladies de la circulation pulmonaire
+I30;I52;9;Autres formes de cardiopathies
+I60;I69;9;Maladies cérébrovasculaires
+I70;I79;9;Maladies des artères, artérioles et capillaires
+I80;I89;9;Maladies des veines, des vaisseaux et des ganglions lymphatiques, non classées ailleurs
+I95;I99;9;Troubles autres et non précisés de l’appareil circulatoire
+J00;J06;10;Affections aiguës des voies respiratoires supérieures
+J09;J18;10;Grippe et pneumopathie
+J20;J22;10;Autres affections aiguës des voies respiratoires inférieures
+J30;J39;10;Autres maladies des voies respiratoires supérieures
+J40;J47;10;Maladies chroniques des voies respiratoires inférieures
+J60;J70;10;Maladies du poumon dues à des agents externes
+J80;J84;10;Autres maladies respiratoires touchant principalement le tissu interstitiel
+J85;J86;10;Maladies suppurées et nécrotiques des voies respiratoires inférieures
+J90;J94;10;Autres affections de la plèvre
+J95;J99;10;Autres maladies de l’appareil respiratoire
+K00;K14;11;Maladies de la cavité buccale, des glandes salivaires et des maxillaires
+K20;K31;11;Maladies de l’œsophage, de l’estomac et du duodénum
+K35;K38;11;Maladies de l’appendice
+K40;K46;11;Hernies
+K50;K52;11;Entérites et colites non infectieuses
+K55;K64;11;Autres maladies de l’intestin
+K65;K67;11;Maladies du péritoine
+K70;K77;11;Maladies du foie
+K80;K87;11;Maladies de la vésicule biliaire, des voies biliaires et du pancréas
+K90;K93;11;Autres maladies de l’appareil digestif
+L00;L08;12;Infections de la peau et du tissu cellulaire sous-cutané
+L10;L14;12;Dermatoses bulleuses
+L20;L30;12;Dermatoses et eczémas
+L40;L45;12;Lésions papulo-squameuses
+L50;L54;12;Urticaire et érythème
+L55;L59;12;Affections de la peau et du tissu cellulaire sous-cutané liées à une irradiation
+L60;L75;12;Maladies des phanères et des annexes de la peau
+L80;L99;12;Autres affections de la peau et du tissu cellulaire sous-cutané
+M00;M03;13;Arthropathies infectieuses
+M05;M14;13;Polyarthropathies inflammatoires
+M15;M19;13;Arthroses
+M20;M25;13;Autres affections articulaires
+M30;M36;13;Affections disséminées du tissu conjonctif
+M40;M43;13;Dorsopathies avec déformation
+M45;M49;13;Spondylopathies
+M50;M54;13;Autres dorsopathies
+M60;M63;13;Myopathies
+M65;M68;13;Atteintes des synoviales et des tendons
+M70;M79;13;Autres affections des tissus mous
+M80;M85;13;Anomalies de la densité et de la structure osseuse
+M86;M90;13;Autres ostéopathies
+M91;M94;13;Chondropathies
+M95;M99;13;Autres maladies du système ostéo-articulaire, des muscles et du tissu conjonctif
+N00;N08;14;Glomérulopathies
+N10;N16;14;Maladies rénales tubulo-interstitielles
+N17;N19;14;Insuffisance rénale
+N20;N23;14;Lithiases urinaires
+N25;N29;14;Autres affections du rein et de l’uretère
+N30;N39;14;Autres maladies de l’appareil urinaire
+N40;N51;14;Maladies des organes génitaux de l’homme
+N60;N64;14;Affections du sein
+N70;N77;14;Affections inflammatoires des organes pelviens de la femme
+N80;N98;14;Affections non inflammatoires de l’appareil génital de la femme
+N99;N99;14;Autres affections de l’appareil génito-urinaire
+O00;O08;15;Grossesse se terminant par un avortement
+O09;O09;15;Durée de la grossesse
+O10;O16;15;Œdème, protéinurie et hypertension au cours de la grossesse, de l’accouchement et de la puerpéralité
+O20;O29;15;Autres affections maternelles liées principalement à la grossesse
+O30;O48;15;Soins maternels liés au fœtus et à la cavité amniotique, et problèmes possibles posés par l’accouchement
+O60;O75;15;Complications du travail et de l’accouchement
+O80;O82;15;Accouchement
+O85;O92;15;Complications principalement liées à la puerpéralité
+O94;O99;15;Autres problèmes obstétricaux, non classés ailleurs
+P00;P04;16;Fœtus et nouveau-né affectés par des troubles maternels et par des complications de la grossesse, du travail et de l’accouchement
+P05;P08;16;Anomalies liées à la durée de la gestation et à la croissance du fœtus
+P10;P15;16;Traumatismes obstétricaux
+P20;P29;16;Affections respiratoires et cardio-vasculaires spécifiques de la période périnatale
+P35;P39;16;Infections spécifiques de la période périnatale
+P50;P61;16;Affections hémorragiques et hématologiques du fœtus et du nouveau-né
+P70;P74;16;Anomalies endocriniennes et métaboliques transitoires spécifiques du fœtus et du nouveau-né
+P75;P78;16;Affections de l’appareil digestif du fœtus et du nouveau-né
+P80;P83;16;Affections intéressant les téguments et la régulation thermique du fœtus et du nouveau-né
+P90;P96;16;Autres affections dont l’origine se situe dans la période périnatale
+Q00;Q07;17;Malformations congénitales du système nerveux
+Q10;Q18;17;Malformations congénitales de l’œil, de l’oreille, de la face et du cou
+Q20;Q28;17;Malformations congénitales de l’appareil circulatoire
+Q30;Q34;17;Malformations congénitales de l’appareil respiratoire
+Q35;Q37;17;Fente labiale et fente palatine
+Q38;Q45;17;Autres malformations congénitales de l’appareil digestif
+Q50;Q56;17;Malformations congénitales des organes génitaux
+Q60;Q64;17;Malformations congénitales de l’appareil urinaire
+Q65;Q79;17;Malformations congénitales du système ostéo-articulaire et des muscles
+Q80;Q89;17;Autres malformations congénitales
+Q90;Q99;17;Anomalies chromosomiques, non classées ailleurs
+R00;R09;18;Symptômes et signes relatifs aux appareils circulatoire et respiratoire
+R10;R19;18;Symptômes et signes relatifs à l’appareil digestif et à l’abdomen
+R20;R23;18;Symptômes et signes relatifs à la peau et au tissu cellulaire sous-cutané
+R25;R29;18;Symptômes et signes relatifs aux systèmes nerveux et ostéo-musculaire
+R30;R39;18;Symptômes et signes relatifs à l’appareil urinaire
+R40;R46;18;Symptômes et signes relatifs à la connaissance, la perception, l’humeur et le comportement
+R47;R49;18;Symptômes et signes relatifs au langage et à la voix
+R50;R69;18;Symptômes et signes généraux
+R70;R79;18;Résultats anormaux de l’examen du sang, sans diagnostic
+R80;R82;18;Résultats anormaux de l’examen des urines, sans diagnostic
+R83;R89;18;Résultats anormaux de l’examen d’autres liquides, substances et tissus, sans diagnostic
+R90;R94;18;Résultats anormaux d’imagerie diagnostique et d’épreuves fonctionnelles, sans diagnostic
+R95;R99;18;Causes de mortalité mal définies et inconnues
+S00;S09;19;Lésions traumatiques de la tête
+S10;S19;19;Lésions traumatiques du cou
+S20;S29;19;Lésions traumatiques du thorax
+S30;S39;19;Lésions traumatiques de l’abdomen, des lombes, du rachis lombaire et du bassin
+S40;S49;19;Lésions traumatiques de l’épaule et du bras
+S50;S59;19;Lésions traumatiques du coude et de l’avant-bras
+S60;S69;19;Lésions traumatiques du poignet et de la main
+S70;S79;19;Lésions traumatiques de la hanche et de la cuisse
+S80;S89;19;Lésions traumatiques du genou et de la jambe
+S90;S99;19;Lésions traumatiques de la cheville et du pied
+T00;T07;19;Lésions traumatiques de plusieurs parties du corps
+T08;T14;19;Lésions traumatiques de siège non précisé du tronc, membre ou autre région du corps
+T15;T19;19;Effets dus à un corps étranger ayant pénétré dans un orifice naturel
+T20;T25;19;Brûlures et corrosions de la surface externe du corps, selon la localisation
+T26;T28;19;Brûlures et corrosions de l’œil et des organes internes
+T29;T32;19;Brûlures et corrosions de parties du corps, multiples et non précisées
+T33;T35;19;Gelures
+T36;T50;19;Intoxications par des médicaments et des substances biologiques
+T51;T65;19;Effets toxiques de substances d’origine essentiellement non médicinale
+T66;T78;19;Effets de causes externes, autres et non précisés
+T79;T79;19;Certaines complications précoces des traumatismes
+T80;T88;19;Complications de soins chirurgicaux et médicaux, non classées ailleurs
+T89;T89;19;Autres complications d’un traumatisme non classées ailleurs
+T90;T98;19;Séquelles de lésions traumatiques, d’empoisonnements et d’autres conséquences de causes externes
+V01;X59;20;Accidents
+X60;X84;20;Lésion auto-infligée
+X85;Y09;20;Agression
+Y10;Y34;20;Événements, dont les circonstances précisés ne sont pas déterminées
+Y35;Y36;20;Mesures judiciaires et faits de guerre
+Y40;Y84;20;Complications de soins médicaux et chirurgicaux
+Z00;Z13;21;Sujets en contact avec les services de santé pour des examens divers
+Z20;Z29;21;Sujets pouvant courir un risque lié à des maladies transmissibles
+Z30;Z39;21;Sujets ayant recours aux services de santé pour des motifs liés à la reproduction
+Z40;Z54;21;Sujets ayant recours aux services de santé pour des actes médicaux et des soins spécifiques
+Z55;Z65;21;Sujets dont la santé peut être menacée par des conditions socio-économiques et psycho-sociales
+Z70;Z76;21;Sujets ayant recours aux services de santé pour d’autres motifs
+Z80;Z99;21;Sujets dont la santé peut être menacée en raison d’antécédents personnels et familiaux et de certaines affections
+U00;U49;22;Classement provisoire d’affections d’étiologie incertaine, codes affectés et non affectés
+U50;U52;22;Limitation fonctionnelle
+U55;U55;22;Inscription pour transplantation d’organe
+U60;U61;22;Définition des stades de l’infection par le VIH
+U69;U69;22;Autres codes secondaires destinés à des usages particuliers
+U80;U85;22;Agents infectieux résistants aux antibiotiques ou aux thérapies chimiques précisés
+U98;U99;22;Codes affectés et non affectés
