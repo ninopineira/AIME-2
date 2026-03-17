@@ -1,0 +1,329 @@
+E00.0;Syndrome d'insuffisance thyroïdienne congénitale de type neurologique.
+E00.1;Syndrome d'insuffisance thyroïdienne congénitale de type myxœdémateux.
+E00.2;Syndrome d'insuffisance thyroïdienne congénitale de type mixte.
+E00.9;Syndrome d'insuffisance thyroïdienne congénitale, sans précision.
+E01.0;Goitre diffus (endémique) lié à une carence en iode.
+E01.1;Goitre multinodulaire (endémique) lié à une carence en iode.
+E01.2;Goitre (endémique) lié à une carence en iode, sans précision.
+E01.8;Autres affections thyroïdiennes et apparentées liées à une carence en iode.
+E03.0;Hypothyroïdie congénitale, avec goitre diffus.
+E03.1;Hypothyroïdie congénitale, sans goitre.
+E03.2;Hypothyroïdie due à des médicaments et à d'autres produits exogènes.
+E03.3;Hypothyroïdie postinfectieuse.
+E03.4;Atrophie de la thyroïde (acquise).
+E03.5;Coma myxœdémateux.
+E03.8;Autres hypothyroïdies précisées.
+E03.9;Hypothyroïdie, sans précision.
+E04.0;Goitre diffus non toxique.
+E04.1;Nodule thyroïdien simple non toxique.
+E04.2;Goitre multinodulaire non toxique.
+E04.8;Autres goitres non toxiques précisés.
+E04.9;Goitre non toxique, sans précision.
+E05.0;Thyréotoxicose avec goitre diffus.
+E05.1;Thyréotoxicose avec nodule thyroïdien simple.
+E05.2;Thyréotoxicose avec goitre multinodulaire toxique.
+E05.3;Thyréotoxicose due à des nodules thyroïdiens ectopiques.
+E05.4;Thyréotoxicose factice.
+E05.5;Crise aigüe thyréotoxique.
+E05.8;Autres thyréotoxicoses.
+E05.9;Thyréotoxicose, sans précision.
+E06.0;Thyroïdite aigüe.
+E06.1;Thyroïdite subaigüe.
+E06.2;Thyroïdite chronique avec thyréotoxicose transitoire.
+E06.3;Thyroïdite auto-immune.
+E06.4;Thyroïdite médicamenteuse.
+E06.5;Autres thyroïdites chroniques.
+E06.9;Thyroïdite, sans précision.
+E07.0;Hypersécrétion de calcitonine.
+E07.1;Goitre dû à un trouble de l'hormonosynthèse.
+E07.8;Autres affections précisées de la thyroïde.
+E07.9;Affection de la thyroïde, sans précision.
+E16.0;Hypoglycémie médicamenteuse, sans coma.
+E16.1;Autres hypoglycémies.
+E16.2;Hypoglycémie, sans précision.
+E16.3;Hypersécrétion de glucagon.
+E16.4;Sécrétion anormale de gastrine.
+E16.8;Autres anomalies précisées de la sécrétion pancréatique interne.
+E16.9;Anomalie de la régulation de la sécrétion pancréatique interne, sans précision.
+E20.0;Hypoparathyroïdie idiopathique.
+E20.1;Pseudohypoparathyroïdie.
+E20.8;Autres hypoparathyroïdies.
+E20.9;Hypoparathyroïdie, sans précision.
+E21.0;Hyperparathyroïdie primaire.
+E21.1;Hyperparathyroïdie secondaire, non classée ailleurs.
+E21.2;Autres hyperparathyroïdies.
+E21.3;Hyperparathyroïdie, sans précision.
+E21.4;Autres maladies précisées de la glande parathyroïde.
+E21.5;Maladie de la glande parathyroïde, sans précision.
+E22.0;Acromégalie et gigantisme hypophysaire.
+E22.1;Hyperprolactinémie.
+E22.2;Syndrome de sécrétion anormale de l'hormone antidiurétique.
+E22.8;Autres hypersécrétions de l'hypophyse.
+E22.9;Hypersécrétion de l'hypophyse, sans précision.
+E23.0;Hypopituitarisme.
+E23.1;Hypopituitarisme médicamenteux.
+E23.2;Diabète insipide.
+E23.3;Anomalie hypothalamique, non classée ailleurs.
+E23.6;Autres anomalies de l'hypophyse.
+E23.7;Anomalie de l'hypophyse, sans précision.
+E24.0;Maladie de Cushing hypophysodépendante.
+E24.1;Syndrome de Nelson.
+E24.2;Syndrome de Cushing médicamenteux.
+E24.3;Syndrome de sécrétion ectopique d'ACTH.
+E24.4;Pseudosyndrome de Cushing dû à l'alcool.
+E24.8;Autres syndromes de Cushing.
+E24.9;Syndrome de Cushing, sans précision 237.
+E25.0;Anomalies génitosurrénaliennes congénitales liées à un déficit enzymatique.
+E25.8;Autres anomalies génitosurrénaliennes.
+E25.9;Anomalie génitosurrénalienne, sans précision.
+E26.0;Hyperaldostéronisme primaire.
+E26.1;Hyperaldostéronisme secondaire.
+E26.8;Autres hyperaldostéronismes.
+E26.9;Hyperaldostéronisme, sans précision.
+E27.0;Autres hyperfonctionnements corticosurrénaux.
+E27.1;Insuffisance corticosurrénale primaire.
+E27.2;Crise addisonienne.
+E27.3;Insuffisance corticosurrénale médicamenteuse.
+E27.4;Insuffisances corticosurrénales, autres et sans précision.
+E27.5;Hyperfonctionnement de la médullosurrénale.
+E27.8;Autres maladies précisées de la glande surrénale.
+E27.9;Maladie de la glande surrénale, sans précision.
+E28.0;Hyperœstrogénie.
+E28.1;Hyperandrogénie.
+E28.2;Syndrome ovarien polykystique.
+E28.3;Insuffisance ovarienne primaire.
+E28.8;Autres dysfonctions ovariennes.
+E28.9;Dysfonction ovarienne, sans précision.
+E29.0;Hyperfonction testiculaire.
+E29.1;Hypofonction testiculaire.
+E29.8;Autres dysfonctions testiculaires.
+E29.9;Dysfonction testiculaire, sans précision.
+E30.0;Puberté retardée.
+E30.1;Puberté précoce.
+E30.8;Autres anomalies de la puberté.
+E30.9;Anomalie de la puberté, sans précision.
+E31.0;Insuffisance pluriglandulaire auto-immune.
+E31.1;Hyperfonctionnement pluriglandulaire.
+E31.8;Autres dysfonctionnements pluriglandulaires.
+E31.9;Dysfonctionnement pluriglandulaire, sans précision.
+E32.0;Hyperplasie persistante du thymus.
+E32.1;Abcès du thymus.
+E32.8;Autres maladies du thymus.
+E32.9;Maladie du thymus, sans précision.
+E34.0;Syndrome carcinoïde.
+E34.1;Autres hypersécrétions d'hormones intestinales.
+E34.2;Sécrétion hormonale ectopique, non classée ailleurs.
+E34.3;Insuffisance staturale, non classée ailleurs.
+E34.4;Haute stature constitutionnelle.
+E34.5;Syndrome de résistance aux androgènes.
+E34.8;Autres troubles endocriniens précisés.
+E34.9;Anomalie endocrinienne, sans précision.
+E35.0; Anomalies de la glande thyroïde au cours de maladies classées ailleurs.
+E35.1; Anomalies de la glande surrénale au cours de maladies classées ailleurs.
+E35.8; Anomalies d'autres glandes endocrines au cours de maladies classées ailleurs.
+E44.0;Malnutrition protéinoénergétique modérée.
+E44.1;Malnutrition protéinoénergétique légère.
+E50.0;Avitaminose A avec xérosis conjonctival.
+E50.1;Avitaminose A avec taches de Bitot et xérosis conjonctival.
+E50.2;Avitaminose A avec xérosis cornéen.
+E50.3;Avitaminose A avec xérosis et ulcération de la cornée.
+E50.4;Avitaminose A avec kératomalacie.
+E50.5;Avitaminose A avec héméralopie.
+E50.6;Avitaminose A avec cicatrices xérophtalmiques de la cornée.
+E50.7;Autres manifestations oculaires de l'avitaminose A.
+E50.8;Autres manifestations de l'avitaminose A.
+E50.9;Avitaminose A, sans précision.
+E51.1;Béribéri.
+E51.2;Encéphalopathie de Wernicke.
+E51.8;Autres manifestations de la carence en thiamine.
+E51.9;Carence en thiamine, sans précision.
+E53.0;Carence en riboflavine.
+E53.1;Carence en pyridoxine.
+E53.8;Autres avitaminoses précisées du groupe B.
+E53.9;Avitaminose du groupe B, sans précision.
+E55.0;Rachitisme évolutif.
+E55.9;Carence en vitamine D, sans précision.
+E56.0;Carence en vitamine E.
+E56.1;Carence en vitamine K.
+E56.8;Carence en autres vitamines.
+E56.9;Avitaminose, sans précision.
+E61.0;Carence en cuivre.
+E61.1;Carence en fer.
+E61.2;Carence en magnésium.
+E61.3;Carence en manganèse.
+E61.4;Carence en chrome.
+E61.5;Carence en molybdène.
+E61.6;Carence en vanadium.
+E61.7;Carence en plusieurs éléments nutritionnels.
+E61.8;Carence en autres éléments nutritionnels précisés.
+E61.9;Carence en élément nutritionnel, sans précision.
+E63.0;Carence en acides gras essentiels.
+E63.1;Déséquilibre alimentaire.
+E63.8;Autres carences nutritionnelles précisées.
+E63.9;Carence nutritionnelle, sans précision.
+E64.0;Séquelles de malnutrition protéinoénergétique.
+E64.1;Séquelles d'avitaminose A.
+E64.2;Séquelles d'avitaminose C.
+E64.3;Séquelles de rachitisme.
+E64.8;Séquelles d'autres carences nutritionnelles.
+E64.9;Séquelles d'une carence nutritionnelle non précisée.
+E66.0;Obésité due à un excès calorique.
+E66.0; Surpoids dû à un excès calorique, de l'adulte ou de l'enfant.
+E66.0; Obésité due à un excès calorique de l'adulte avec indice de masse corporelle [IMC] égal.
+E66.0; Obésité due à un excès calorique de l'adulte avec indice de masse corporelle [IMC] égal.
+E66.0; Obésité due à un excès calorique de l'adulte avec indice de masse corporelle [IMC] égal.
+E66.0; Obésité due à un excès calorique de l'adulte avec indice de masse corporelle [IMC] égal.
+E66.0; Obésité due à un excès calorique de l'adulte, indice de masse corporelle [IMC] non précisé.
+E66.1;Obésité médicamenteuse.
+E66.1; Surpoids médicamenteux de l'adulte ou de l'enfant.
+E66.1; Obésité médicamenteuse de l'adulte avec indice de masse corporelle [IMC] égal ou.
+E66.1; Obésité médicamenteuse de l'adulte avec indice de masse corporelle [IMC] égal ou.
+E66.1; Obésité médicamenteuse de l'adulte avec indice de masse corporelle [IMC] égal ou.
+E66.1; Obésité médicamenteuse de l'adulte avec indice de masse corporelle [IMC] égal ou.
+E66.1; Obésité médicamenteuse de l'adulte, indice de masse corporelle [IMC] non précisé.
+E66.2;Obésité (extrême) avec hypoventilation alvéolaire.
+E66.2; Obésité (extrême) avec hypoventilation alvéolaire de l'adulte avec indice de masse.
+E66.2; Obésité (extrême) avec hypoventilation alvéolaire de l'adulte avec indice de masse.
+E66.2; Obésité (extrême) avec hypoventilation alvéolaire de l'adulte avec indice de masse.
+E66.2; Obésité (extrême) avec hypoventilation alvéolaire de l'adulte avec indice de masse.
+E66.2; Obésité (extrême) avec hypoventilation alvéolaire de l'adulte, avec indice de masse.
+E66.8;Autres obésités.
+E66.8; Autres surpoids de l'adulte ou de l'enfant.
+E66.8; Autres obésités de l'adulte avec indice de masse corporelle [IMC] égal ou supérieur à 30.
+E66.8; Autres obésités de l'adulte avec indice de masse corporelle [IMC] égal ou supérieur à 35.
+E66.8; Autres obésités de l'adulte avec indice de masse corporelle [IMC] égal ou supérieur à 40.
+E66.8; Autres obésités de l'adulte avec indice de masse corporelle [IMC] égal ou supérieur à 50.
+E66.8; Autres obésités de l'adulte, indice de masse corporelle [IMC] non précisé.
+E66.9;Obésité, sans précision.
+E66.9; Surpoids de l'adulte ou de l'enfant, sans précision.
+E66.9; Obésité sans précision, de l'adulte avec indice de masse corporelle [IMC] égal ou.
+E66.9; Obésité sans précision, de l'adulte avec indice de masse corporelle [IMC] égal ou.
+E66.9; Obésité sans précision, de l'adulte avec indice de masse corporelle [IMC] égal ou.
+E66.9; Obésité sans précision, de l'adulte avec indice de masse corporelle [IMC] égal ou.
+E66.9; Obésité sans précision, de l'adulte, indice de masse corporelle [IMC] non précisé.
+E67.0;Hypervitaminose A.
+E67.1;Hypercaroténémie 248.
+E67.2;Syndrome d'hypervitaminose B.
+E67.3;Hypervitaminose D.
+E67.8;Autres excès précisés d'apport.
+E70.0;Phénylcétonurie classique.
+E70.1;Autres hyperphénylalaninémies.
+E70.2;Anomalies du métabolisme de la tyrosine.
+E70.3;Albinisme.
+E70.8;Autres anomalies du métabolisme des acides aminés aromatiques.
+E70.9;Anomalies du métabolisme des acides aminés aromatiques, sans précision.
+E71.0;Maladie des urines à odeur de sirop d'érable.
+E71.1;Autres anomalies du métabolisme des acides aminés à chaine ramifiée.
+E71.2;Anomalie du métabolisme des acides aminés à chaine ramifiée, sans précision.
+E71.3;Anomalie du métabolisme des acides gras.
+E72.0;Anomalies du transport des acides aminés.
+E72.1;Anomalies du métabolisme des acides aminés soufrés.
+E72.2;Anomalies du cycle de l'uréogenèse.
+E72.3;Anomalies du métabolisme de la lysine et de l'hydroxylysine.
+E72.4;Anomalies du métabolisme de l'ornithine.
+E72.5;Anomalies du métabolisme de la glycine.
+E72.8;Autres anomalies précisées du métabolisme des acides aminés.
+E72.9;Anomalie du métabolisme des acides aminés, sans précision.
+E73.0;Déficit congénital en lactase.
+E73.1;Déficit secondaire en lactase.
+E73.8;Autres intolérances au lactose.
+E73.9;Intolérance au lactose, sans précision.
+E74.0;Thésaurismose glycogénique.
+E74.1;Anomalies du métabolisme du fructose.
+E74.2;Anomalies du métabolisme du galactose.
+E74.3;Autres anomalies de l'absorption intestinale des hydrates de carbone.
+E74.4;Anomalies du métabolisme du pyruvate et de la gluconéogenèse.
+E74.8;Autres anomalies précisées du métabolisme des hydrates de carbone.
+E74.9;Anomalie du métabolisme des hydrates de carbone, sans précision.
+E75.0;Gangliosidose GM.
+E75.1;Autres gangliosidoses.
+E75.2;Autres sphingolipidoses.
+E75.3;Sphingolipidose, sans précision.
+E75.4;Lipofuscinose à céroïdes neuronaux.
+E75.5;Autres anomalies du stockage des lipides.
+E75.6;Anomalie du stockage des lipides, sans précision.
+E76.0;Mucopolysaccharidose, type I.
+E76.1;Mucopolysaccharidose, type II.
+E76.2;Autres mucopolysaccharidoses.
+E76.3;Mucopolysaccharidose, sans précision.
+E76.8;Autres anomalies du métabolisme des glucosaminoglycanes.
+E76.9;Anomalie du métabolisme des glucosaminoglycanes, sans précision.
+E77.0;Défauts de la transformation posttraductionnelle des enzymes lysosomiaux.
+E77.1;Défauts de la dégradation des glycoprotéines.
+E77.8;Autres anomalies du métabolisme des glycoprotéines.
+E77.9;Anomalie du métabolisme des glycoprotéines, sans précision.
+E78.0;Hypercholestérolémie essentielle.
+E78.1;Hyperglycéridémie essentielle.
+E78.2;Hyperlipidémie mixte.
+E78.3;Hyperchylomicronémie.
+E78.4;Autres hyperlipidémies.
+E78.5;Hyperlipidémie, sans précision.
+E78.6;Déficit en lipoprotéines.
+E78.8;Autres anomalies du métabolisme des lipoprotéines.
+E78.9;Anomalie du métabolisme des lipoprotéines, sans précision.
+E79.0;Hyperuricémie sans signes d'arthrite inflammatoire et de maladie tophacée.
+E79.1;Syndrome de Lesch–Nyhan.
+E79.8;Autres anomalies du métabolisme de la purine et de la pyrimidine.
+E79.9;Anomalie du métabolisme de la purine et de la pyrimidine, sans précision.
+E80.0;Porphyrie érythropoïétique héréditaire.
+E80.1;Porphyrie cutanée tardive.
+E80.2;Autres porphyries.
+E80.3;Déficit en catalase et en peroxydase.
+E80.4;Syndrome de Gilbert.
+E80.5;Maladie de Crigler-Najjar.
+E80.6;Autres anomalies du métabolisme de la bilirubine.
+E80.7;Anomalie du métabolisme de la bilirubine, sans précision.
+E83.0;Anomalies du métabolisme du cuivre.
+E83.1;Anomalies du métabolisme du fer.
+E83.2;Anomalies du métabolisme du zinc.
+E83.3;Anomalies du métabolisme du phosphore et des phosphatases.
+E83.4;Anomalies du métabolisme du magnésium.
+E83.5;Anomalies du métabolisme du calcium.
+E83.5; Hypercalcémie supérieure à 3 millimoles [mmol] par litre.
+E83.5; Hypocalcémie inférieure à 1,5 millimoles [mmol] par litre.
+E83.5; Anomalies du métabolisme du calcium, autres et sans précision.
+E83.8;Autres anomalies du métabolisme des minéraux.
+E83.9;Anomalie du métabolisme des minéraux, sans précision.
+E84.0;Fibrose kystique du pancréas avec manifestations pulmonaires.
+E84.1;Fibrose kystique du pancréas avec manifestations intestinales.
+E84.8;Fibrose kystique du pancréas avec autres manifestations.
+E84.9;Fibrose kystique du pancréas, sans précision.
+E85.0;Amylose hérédofamiliale non neuropathique.
+E85.1;Amylose hérédofamiliale neuropathique.
+E85.2;Amylose hérédofamiliale, sans précision.
+E85.3;Amylose généralisée secondaire.
+E85.4;Amylose limitée à un ou plusieurs organes.
+E85.8;Autres amyloses.
+E85.9;Amylose, sans précision.
+E87.0;Hyperosmolarité et hypernatrémie.
+E87.0; Hypernatrémie supérieure à 150 millimoles [mmol] par litre.
+E87.0; Hyperosmolarités et hypernatrémies, autres et sans précision.
+E87.1;Hypoosmolarité et hyponatrémie.
+E87.1; Hyponatrémie inférieure à 120 millimoles [mmol] par litre.
+E87.1; Hypoosmolarités et hyponatrémies, autres et sans précision.
+E87.2;Acidose.
+E87.3;Alcalose.
+E87.4;Anomalie mixte de l'équilibre acidobasique.
+E87.5;Hyperkaliémie.
+E87.5; Hyperkaliémie supérieure à 6,5 millimoles [mmol] par litre.
+E87.5; Hyperkaliémies, autres et sans précision.
+E87.6;Hypokaliémie.
+E87.6; Hypokaliémie inférieure à 2,5 millimoles [mmol] par litre.
+E87.6; Hypokaliémies, autres et sans précision.
+E87.7;Surcharge liquidienne.
+E87.8;Autres déséquilibres hydroélectrolytiques, non classés ailleurs.
+E88.0;Anomalies du métabolisme des protéines plasmatiques, non classées ailleurs.
+E88.1;Lipodystrophie, non classée ailleurs.
+E88.2;Lipomatose, non classée ailleurs.
+E88.3;Syndrome de lyse tumorale.
+E88.8;Autres anomalies métaboliques précisées.
+E88.9;Anomalie métabolique, sans précision.
+E89.0;Hypothyroïdie après un acte à visée diagnostique et thérapeutique.
+E89.1;Hypo-insulinémie après un acte à visée diagnostique et thérapeutique.
+E89.2;Hypoparathyroïdie après un acte à visée diagnostique et thérapeutique.
+E89.3;Hypopituitarisme après un acte à visée diagnostique et thérapeutique.
+E89.4;Insuffisance ovarienne après un acte à visée diagnostique et thérapeutique.
+E89.5;Hypofonctionnement testiculaire après un acte à visée diagnostique et.
+E89.6;Hypofonctionnement surrénal (de la corticale) (de la médullaire) après un acte à.
+E89.8;Autres anomalies endocriniennes et métaboliques après un acte à visée.
+E89.9;Anomalie endocrinienne et métabolique après un acte à visée diagnostique et.

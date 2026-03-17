@@ -1,0 +1,540 @@
+M00.0;Arthrite et polyarthrite à staphylocoques.
+M00.1;Arthrite et polyarthrite à pneumocoques.
+M00.2;Autres arthrites et polyarthrites à streptocoques.
+M00.8;Arthrite et polyarthrite dues à d'autres bactéries précisées.
+M00.9;Arthrite à bactéries pyogènes, sans précision.
+M01.0;Arthrite méningococcique (A39.8†).
+M01.1;Arthrite tuberculeuse (A18.0†).
+M01.2;Arthrite au cours de la maladie de Lyme (A69.2†).
+M01.3;Arthrite au cours d'autres maladies bactériennes classées ailleurs.
+M01.4;Arthrite au cours de la rubéole (B06.8†).
+M01.5;Arthrite au cours d'autres maladies virales classées ailleurs.
+M01.6;Arthrite au cours de mycoses (B35-B49†).
+M01.8;Arthrite au cours d'autres maladies infectieuses et parasitaires classées ailleurs.
+M02.0;Arthropathie après dérivation intestinale.
+M02.1;Arthropathie postdysentérique.
+M02.2;Arthropathie postvaccinale.
+M02.3;Syndrome oculo-urétro-synovial [Fiessinger–Leroy–Reiter].
+M02.8;Autres arthropathies réactionnelles.
+M02.9;Arthropathie réactionnelle, sans précision.
+M03.0;Arthrite postméningococcique (A39.8†).
+M03.1;Arthropathie syphilitique postinfectieuse.
+M03.2;Autres arthropathies postinfectieuses au cours de maladies classées ailleurs.
+M03.6;Arthropathie réactionnelle au cours d'autres maladies classées ailleurs.
+M05.0;Syndrome de Felty.
+M05.1;Maladie pulmonaire rhumatoïde (J99.0*).
+M05.2;Vascularite rhumatoïde.
+M05.3;Polyarthrite rhumatoïde avec atteinte d'autres organes et appareils.
+M05.8;Autres polyarthrites rhumatoïdes séropositives.
+M05.9;Polyarthrite rhumatoïde séropositive, sans précision.
+M06.0;Polyarthrite rhumatoïde séronégative.
+M06.1;Maladie de Still survenant chez l'adulte.
+M06.2;Bursite rhumatoïde.
+M06.3;Nodule rhumatoïde.
+M06.4;Polyarthropathie inflammatoire.
+M06.8;Autres polyarthrites rhumatoïdes précisées.
+M06.9;Polyarthrite rhumatoïde, sans précision.
+M07.0;Arthropathie psoriasique distale interphalangienne (L40.5†).
+M07.1;Arthrite mutilante (L40.5†).
+M07.2;Spondylite psoriasique (L40.5†).
+M07.3;Autres arthropathies psoriasiques (L40.5†).
+M07.4;Arthropathie au cours de la maladie de Crohn [entérite régionale] (K50.-†).
+M07.5;Arthropathie au cours de colite ulcéreuse (K51.-†).
+M07.6;Autres arthropathies entéropathiques.
+M08.0;Polyarthrite rhumatoïde juvénile.
+M08.1;Spondylarthrite ankylosante juvénile.
+M08.2;Polyarthrite juvénile avec début systémique.
+M08.3;Polyarthrite juvénile (séronégative).
+M08.4;Polyarthrite pauciarticulaire juvénile.
+M08.8;Autres polyarthrites juvéniles.
+M08.9;Polyarthrite juvénile, sans précision.
+M09.0;Polyarthrite juvénile au cours de psoriasis (L40.5†).
+M09.1;Polyarthrite juvénile au cours de la maladie de Crohn [entérite régionale] (K50.-†).
+M09.2;Polyarthrite juvénile au cours de colite ulcéreuse (K51.-†).
+M09.8;Polyarthrite juvénile au cours d'autres maladies classées ailleurs.
+M10.0;Goutte idiopathique.
+M10.1;Goutte saturnine.
+M10.2;Goutte médicamenteuse.
+M10.3;Goutte due à une altération de la fonction rénale.
+M10.4;Autre goutte secondaire 535.
+M10.9;Goutte, sans précision.
+M11.0;Maladie par dépôt d'hydroxyapatite.
+M11.1;Chondrocalcinose familiale.
+M11.2;Autre chondrocalcinose.
+M11.8;Autres arthropathies dues à des microcristaux précisés.
+M11.9;Arthropathie due à des microcristaux, sans précision.
+M12.0;Arthropathie chronique postrhumatismale [Jaccoud].
+M12.1;Maladie de Kaschin–Beck.
+M12.2;Synovite villonodulaire (pigmentaire).
+M12.3;Rhumatisme palindromique.
+M12.4;Hydarthrose intermittente.
+M12.5;Arthropathie traumatique.
+M12.8;Autres arthropathies spécifiques, non classées ailleurs.
+M13.0;Polyarthrite, sans précision.
+M13.1;Monoarthrite, non classée ailleurs.
+M13.8;Autres arthrites précisées.
+M13.9;Arthrite, sans précision.
+M14.0;Arthropathie goutteuse due à un déficit enzymatique et autres troubles héréditaires.
+M14.1;Arthropathie à microcristaux au cours d'autres troubles métaboliques classés.
+M14.2;Arthropathie diabétique ( E10-E14† avec le quatrième caractère .6).
+M14.3;Dermatoarthrite lipoïde (E78.8†).
+M14.4;Arthropathie au cours d'amylose (E85.-†).
+M14.5;Arthropathie au cours d'autres maladies endocriniennes, nutritionnelles et.
+M14.6;Arthropathie nerveuse.
+M14.8;Arthropathie au cours d'autres maladies précisées classées ailleurs.
+M15.0;(Ostéo)arthrose primaire généralisée.
+M15.1;Nodosités d'Heberden (avec arthropathie).
+M15.2;Nodosités de Bouchard (avec arthropathie).
+M15.3;Arthrose secondaire multiple.
+M15.4;(Ostéo)arthrose érosive.
+M15.8;Autres polyarthroses.
+M15.9;Polyarthrose, sans précision.
+M16.0;Coxarthrose primaire, bilatérale.
+M16.1;Autres coxarthroses primaires.
+M16.2;Coxarthrose d'origine dysplasique, bilatérale.
+M16.3;Autres coxarthroses dysplasiques.
+M16.4;Coxarthrose posttraumatique, bilatérale.
+M16.5;Autres coxarthroses posttraumatiques.
+M16.6;Autres coxarthroses secondaires, bilatérales.
+M16.7;Autres coxarthroses secondaires.
+M16.9;Coxarthrose, sans précision 538.
+M17.0;Gonarthrose primaire, bilatérale.
+M17.1;Autres gonarthroses primaires.
+M17.2;Gonarthrose posttraumatique, bilatérale.
+M17.3;Autres gonarthroses posttraumatiques.
+M17.4;Autres gonarthroses secondaires, bilatérales.
+M17.5;Autres gonarthroses secondaires.
+M17.9;Gonarthrose, sans précision.
+M18.0;Arthrose primaire de la première articulation carpométacarpienne, bilatérale.
+M18.1;Autres arthroses primaires de la première articulation carpométacarpienne.
+M18.2;Arthrose posttraumatique de la première articulation carpométacarpienne, bilatérale.
+M18.3;Autres arthroses posttraumatiques de la première articulation carpométacarpienne.
+M18.4;Autres arthroses secondaires de la première articulation carpométacarpienne,.
+M18.5;Autres arthroses secondaires de la première articulation carpométacarpienne.
+M18.9;Arthrose de la première articulation carpométacarpienne, sans précision.
+M19.0;Arthrose primaire d'autres articulations.
+M19.1;Arthrose posttraumatique d'autres articulations 539.
+M19.2;Autres arthroses secondaires.
+M19.8;Autres arthroses précisées.
+M19.9;Arthrose, sans précision.
+M20.0;Déformation de(s) doigt(s).
+M20.1;Hallux valgus (acquis).
+M20.2;Hallux rigidus.
+M20.3;Autres déformations du gros orteil.
+M20.4;Autre(s) orteil(s) en marteau (acquis).
+M20.5;Autres déformations d'(es) orteil(s).
+M20.6;Déformation d'(es) orteil(s), sans précision.
+M21.0;Déformation en valgus, non classée ailleurs.
+M21.1;Déformation en varus, non classée ailleurs.
+M21.2;Déformation en flexion.
+M21.3;Poignet ou pied tombant (acquis).
+M21.4;Pied plat [pes planus] (acquis).
+M21.5;Main et pied bot(e) ou en griffe acquis(e).
+M21.6;Autres déformations de la cheville et du pied.
+M21.7;Inégalité des membres (acquise).
+M21.8;Autres déformations précisées des membres.
+M21.9;Déformation d'un membre, sans précision.
+M22.0;Luxation récidivante de la rotule.
+M22.1;Subluxation récidivante de la rotule.
+M22.2;Lésions fémoropatellaires.
+M22.3;Autres déplacements de la rotule.
+M22.4;Chondromalacie rotulienne.
+M22.8;Autres lésions de la rotule.
+M22.9;Lésion de la rotule, sans précision.
+M23.0;Kyste du ménisque.
+M23.1;Ménisque discoïde (congénital).
+M23.2;Lésion du ménisque due à une déchirure ou un traumatisme ancien 541.
+M23.3;Autres atteintes du ménisque.
+M23.4;Souris intraarticulaire du genou.
+M23.5;Instabilité chronique du genou.
+M23.6;Autres ruptures spontanées de ligament(s) du genou.
+M23.8;Autres lésions internes du genou.
+M23.9;Lésion interne du genou, sans précision.
+M24.0;Souris intraarticulaire.
+M24.1;Autres atteintes du cartilage articulaire.
+M24.2;Lésion ligamentaire.
+M24.3;Luxation et subluxation pathologiques d'une articulation, non classées ailleurs.
+M24.4;Luxation et subluxation articulaires récidivantes.
+M24.5;Raideur articulaire par contracture.
+M24.6;Ankylose articulaire.
+M24.7;Protrusion acétabulaire.
+M24.8;Autres affections articulaires spécifiques, non classées ailleurs.
+M24.9;Lésion articulaire, sans précision.
+M25.0;Hémarthrose.
+M25.1;Fistule articulaire.
+M25.2;Hyperlaxité articulaire.
+M25.3;Autres instabilités articulaires.
+M25.4;Épanchement articulaire.
+M25.5;Douleur articulaire.
+M25.6;Raideur articulaire, non classée ailleurs.
+M25.7;Ostéophyte.
+M25.8;Autres affections articulaires précisées.
+M25.9;Affection articulaire, sans précision.
+M30.0;Périartérite noueuse.
+M30.1;Périartérite avec atteinte pulmonaire [Churg–Strauss].
+M30.2;Périartérite juvénile.
+M30.3;Syndrome adéno-cutanéo-muqueux [Kawasaki].
+M30.8;Autres affections apparentées à la périartérite noueuse.
+M31.0;Angéite d'hypersensibilité.
+M31.1;Microangiopathie thrombotique.
+M31.3;Granulomatose de Wegener.
+M31.4;Syndrome de la crosse aortique [Takayasu].
+M31.5;Artérite à cellules géantes avec polymyalgie rhumatismale.
+M31.6;Autres artérites à cellules géantes.
+M31.7;Polyangéite microscopique.
+M31.8;Autres vasculopathies nécrosantes précisées.
+M31.9;Vasculopathie nécrosante, sans précision.
+M32.0;Lupus érythémateux disséminé médicamenteux.
+M32.1;Lupus érythémateux disséminé avec atteinte d'organes et d'appareils.
+M32.8;Autres formes de lupus érythémateux disséminé.
+M32.9;Lupus érythémateux disséminé, sans précision.
+M33.0;Dermatomyosite juvénile.
+M33.1;Autres dermatomyosites.
+M33.2;Polymyosite.
+M33.9;Dermatopolymyosite, sans précision.
+M34.0;Sclérodermie systémique progressive.
+M34.1;Syndrome CR(E)ST.
+M34.2;Sclérodermie systémique due à des médicaments et des produits chimiques.
+M34.8;Autres formes de sclérodermie systémique.
+M34.9;Sclérodermie systémique, sans précision.
+M35.0;Syndrome de Gougerot–Sjögren.
+M35.1;Autres syndromes de chevauchement.
+M35.2;Maladie de Behçet.
+M35.3;Polymyalgie rhumatismale.
+M35.4;Fasciite disséminée (à éosinophiles).
+M35.5;Fibrosclérose multifocale.
+M35.6;Panniculite récidivante [Weber–Christian].
+M35.7;Syndrome d'hypermobilité.
+M35.8;Autres atteintes systémiques précisées du tissu conjonctif.
+M35.9;Atteinte systémique du tissu conjonctif, sans précision.
+M36.0;Dermato(poly)myosite au cours de maladies tumorales (C00-D48†).
+M36.1;Arthropathie au cours de maladies tumorales classées ailleurs (C00-D48†).
+M36.2;Arthropathie hémophilique (D66-D68†).
+M36.3;Arthropathie au cours d'autres maladies du sang classées ailleurs (D50-D76†).
+M36.4;Arthropathie au cours de réactions d'hypersensibilité classées ailleurs.
+M36.8;Atteintes systémiques du tissu conjonctif au cours d'autres maladies classées.
+M40.0;Cyphose posturale.
+M40.1;Autres cyphoses secondaires.
+M40.2;Cyphoses autres et non précisées.
+M40.3;Syndrome du dos plat.
+M40.4;Autres lordoses.
+M40.5;Lordose, sans précision.
+M41.0;Scoliose idiopathique infantile.
+M41.1;Scoliose juvénile idiopathique.
+M41.2;Autres scolioses idiopathiques.
+M41.3;Scoliose par anomalie dorsale.
+M41.4;Scoliose neuromusculaire.
+M41.5;Autres formes de scoliose secondaire.
+M41.8;Autres formes de scoliose.
+M41.9;Scoliose, sans précision.
+M42.0;Ostéochondrite vertébrale juvénile.
+M42.1;Ostéochondrite vertébrale de l'adulte.
+M42.9;Ostéochondrite vertébrale, sans précision.
+M43.0;Spondylolyse.
+M43.1;Spondylolisthésis.
+M43.2;Autres soudures vertébrales.
+M43.3;Subluxation récidivante atloïdoaxoïdienne avec myélopathie.
+M43.4;Autres subluxations atloïdoaxoïdiennes récidivantes.
+M43.5;Autres subluxations vertébrales récidivantes.
+M43.6;Torticolis.
+M43.8;Autres dorsopathies avec déformation précisées.
+M43.9;Dorsopathie avec déformation, sans précision.
+M46.0;Enthésopathie spinale.
+M46.1;Sacro-iliite, non classée ailleurs.
+M46.2;Ostéomyélite vertébrale.
+M46.3;Infection (pyogène) d'un disque intervertébral.
+M46.4;Discite, sans précision.
+M46.5;Autres spondylopathies infectieuses.
+M46.8;Autres spondylopathies inflammatoires précisées.
+M46.9;Spondylopathie inflammatoire, sans précision.
+M47.0;Syndromes de compression des artères vertébrale et spinale antérieure (G99.2*).
+M47.1;Autres spondylarthroses avec myélopathie.
+M47.2;Autres spondylarthroses avec radiculopathie.
+M47.8;Autres spondylarthroses.
+M47.9;Spondylarthrose, sans précision.
+M48.0;Rétrécissement du canal médullaire.
+M48.1;Hyperostose ankylosante [Forestier].
+M48.2;Arthrose interépineuse.
+M48.3;Spondylopathie traumatique.
+M48.4;Fracture vertébrale de fatigue.
+M48.5;Tassement vertébral, non classé ailleurs.
+M48.8;Autres spondylopathies précisées.
+M48.9;Spondylopathie, sans précision.
+M49.0;Tuberculose vertébrale (A18.0†).
+M49.1;Spondylite au cours de brucellose (A23.-†).
+M49.2;Spondylite entérobactérienne (A01-A04†).
+M49.3;Spondylopathie au cours d'autres maladies infectieuses et parasitaires classées.
+M49.4;Spondylopathie neurologique.
+M49.5;Tassement vertébral au cours de maladies classées ailleurs.
+M49.8;Spondylopathie au cours d'autres maladies classées ailleurs.
+M50.0;Atteinte d'un disque cervical avec myélopathie (G99.2*).
+M50.1;Atteinte d'un disque cervical avec radiculopathie.
+M50.2;Autre hernie d'un disque cervical.
+M50.3;Autre détérioration d'un disque cervical.
+M50.8;Autres atteintes d'un disque cervical.
+M50.9;Atteinte d'un disque cervical, sans précision.
+M51.0;Atteintes d'un disque lombaire et d'autres disques intervertébraux avec myélopathie.
+M51.1;Atteintes d'un disque lombaire et d'autres disques intervertébraux avec.
+M51.2;Hernie d'un autre disque intervertébral précisé.
+M51.3;Détérioration d'un autre disque intervertébral précisé 551.
+M51.4;Nodules de Schmorl.
+M51.8;Autres atteintes précisées d'un disque intervertébral.
+M51.9;Atteinte d'un disque intervertébral, sans précision.
+M53.0;Syndrome cervicocéphalique.
+M53.1;Syndrome cervicobrachial.
+M53.2;Instabilités vertébrales.
+M53.3;Atteintes sacrococcygiennes, non classées ailleurs.
+M53.8;Autres dorsopathies précisées.
+M53.9;Dorsopathie, sans précision.
+M54.0;Panniculite affectant le cou et le dos.
+M54.1;Radiculopathie.
+M54.2;Cervicalgie.
+M54.3;Sciatique.
+M54.4;Lumbago avec sciatique.
+M54.5;Lombalgie basse.
+M54.6;Rachialgies dorsales.
+M54.8;Autres dorsalgies.
+M54.9;Dorsalgie, sans précision.
+M60.0;Myosite infectieuse.
+M60.1;Myosite interstitielle.
+M60.2;Granulome d'un tissu mou dû à la présence d'un corps étranger, non classé ailleurs.
+M60.8;Autres myosites.
+M60.9;Myosite, sans précision.
+M61.0;Myosite ossifiante traumatique.
+M61.1;Myosite ossifiante progressive.
+M61.2;Calcification et ossification paralytiques de muscles.
+M61.3;Calcification et ossification de muscles associées à des brulures.
+M61.4;Autres calcifications de muscles.
+M61.5;Autres ossifications de muscles.
+M61.9;Calcification et ossification de muscles, sans précision.
+M62.0;Diastasis musculaire.
+M62.1;Autres déchirures musculaires (non traumatiques).
+M62.2;Infarcissement ischémique musculaire.
+M62.3;Syndrome d'immobilité (paraplégique).
+M62.4;Contracture musculaire.
+M62.5;Atrophie et fonte musculaires, non classées ailleurs.
+M62.6;Claquage musculaire.
+M62.8;Autres atteintes musculaires précisées.
+M62.8;0 Rhabdomyolyse.
+M62.8;8 Autres atteintes musculaires précisées, non classées ailleurs.
+M62.9;Atteinte musculaire, sans précision.
+M63.0;Myosite au cours de maladies bactériennes classées ailleurs.
+M63.1;Myosite au cours d'infections parasitaires et à protozoaires classées ailleurs.
+M63.2;Myosite au cours d'autres maladies infectieuses classées ailleurs.
+M63.3;Myosite au cours de sarcoïdose (D86.8†).
+M63.8;Autres atteintes musculaires au cours de maladies classées ailleurs.
+M65.0;Abcès de la gaine du tendon.
+M65.1;Autres (téno)synovites infectieuses.
+M65.2;Tendinite calcifiante.
+M65.3;Doigt « à ressort ».
+M65.4;Ténosynovite chronique sténosante du pouce [de Quervain].
+M65.8;Autres synovites et ténosynovites.
+M65.9;Synovite et ténosynovite, sans précision.
+M66.0;Déchirure d'un kyste poplité.
+M66.1;Déchirure de la synoviale.
+M66.2;Déchirure spontanée des tendons extenseurs.
+M66.3;Déchirure spontanée des tendons fléchisseurs.
+M66.4;Déchirure spontanée d'autres tendons.
+M66.5;Déchirure spontanée d'un tendon, sans précision.
+M67.0;Brièveté du tendon d'Achille (acquise).
+M67.1;Autres rétractions tendineuses (gaine).
+M67.2;Hypertrophie synoviale, non classée ailleurs.
+M67.3;Synovite transitoire.
+M67.4;Kyste.
+M67.8;Autres atteintes précisées de la synoviale et du tendon.
+M67.9;Atteinte de la synoviale et du tendon, sans précision.
+M68.0;Synovite et ténosynovite au cours de maladies bactériennes classées ailleurs.
+M68.8;Autres atteintes de la synoviale et du tendon au cours de maladies classées ailleurs.
+M70.0;Synovite sèche de la main et du poignet.
+M70.1;Bursite de la main.
+M70.2;Bursite olécrânienne.
+M70.3;Autres bursites du coude.
+M70.4;Bursite prépatellaire.
+M70.5;Autres bursites du genou.
+M70.6;Bursite trochantérienne.
+M70.7;Autres bursites de la hanche.
+M70.8;Autres affections des tissus mous par sollicitation excessive.
+M70.9;Affection des tissus mous par sollicitation excessive, sans précision.
+M71.0;Abcès des bourses séreuses.
+M71.1;Autres bursites infectieuses.
+M71.2;Kyste synovial poplité [Baker].
+M71.3;Autres kystes des bourses séreuses.
+M71.4;Dépôts calciques dans une bourse séreuse.
+M71.5;Autres bursites, non classées ailleurs.
+M71.8;Autres bursopathies précisées.
+M71.9;Bursopathie, sans précision.
+M72.0;Fibromatose de l'aponévrose palmaire [Dupuytren].
+M72.1;Coussinet des phalanges.
+M72.2;Fibromatose de l'aponévrose plantaire.
+M72.4;Fibromatose pseudosarcomateuse.
+M72.6;Fasciite nécrosante.
+M72.8;Autres affections fibroblastiques.
+M72.9;Affection fibroblastique, sans précision.
+M73.0;Bursite gonococcique (A54.4†).
+M73.1;Bursite syphilitique (A52.7†).
+M73.8;Autres affections des tissus mous au cours d'autres maladies classées ailleurs.
+M75.0;Capsulite rétractile de l'épaule.
+M75.1;Syndrome de la coiffe des rotateurs.
+M75.2;Tendinite du biceps.
+M75.3;Tendinite calcifiante de l'épaule.
+M75.4;Syndrome d'accrochage de l'épaule.
+M75.5;Bursite de l'épaule.
+M75.6;Lésion du labrum [bourrelet glénoïdien] dans l'atteinte dégénérative de l'articulation.
+M75.8;Autres lésions de l'épaule.
+M75.9;Lésion de l'épaule, sans précision.
+M76.0;Tendinite de la région fessière.
+M76.1;Tendinite du psoas.
+M76.2;Exostose de la crête iliaque.
+M76.3;Syndrome de la bandelette de Maissiat [iliotibiale].
+M76.4;Bursite du ligament latéral interne du genou [Pellegrini–Stieda].
+M76.5;Tendinite rotulienne.
+M76.6;Tendinite du tendon d'Achille.
+M76.7;Tendinite péronière.
+M76.8;Autres enthésopathies du membre inférieur, sauf le pied.
+M76.9;Enthésopathie du membre inférieur, sans précision.
+M77.0;Épitrochéite.
+M77.1;Épicondylite.
+M77.2;Périarthrite du poignet.
+M77.3;Exostose calcanéenne 559.
+M77.4;Métatarsalgie.
+M77.5;Autres enthésopathies du pied.
+M77.8;Autres enthésopathies, non classées ailleurs.
+M77.9;Enthésopathie, sans précision.
+M79.0;Rhumatisme, sans précision.
+M79.1;Myalgie.
+M79.2;Névralgie et névrite, sans précision.
+M79.3;Panniculite, sans précision.
+M79.4;Hypertrophie du coussinet graisseux (rotulien).
+M79.5;Corps étranger résiduel dans un tissu mou.
+M79.6;Douleur au niveau d'un membre.
+M79.7;Fibromyalgie.
+M79.8;Autres affections précisées des tissus mous.
+M79.9;Affection des tissus mous, sans précision.
+M80.0;Ostéoporose postménopausique avec fracture pathologique.
+M80.1;Ostéoporose après ovariectomie avec fracture pathologique.
+M80.4;Ostéoporose médicamenteuse avec fracture pathologique.
+M80.5;Ostéoporose idiopathique avec fracture pathologique.
+M80.8;Autres ostéoporoses avec fracture pathologique.
+M80.9;Ostéoporose avec fracture pathologique, sans précision.
+M81.0;Ostéoporose postménopausique.
+M81.3;Ostéoporose consécutive à une malabsorption postchirurgicale.
+M81.4;Ostéoporose médicamenteuse.
+M81.5;Ostéoporose idiopathique.
+M81.6;Ostéoporose localisée [Lequesne].
+M81.8;Autres ostéoporoses.
+M81.9;Ostéoporose, sans précision.
+M82.0;Ostéoporose au cours de myélomatose multiple (C90.0†).
+M82.1;Ostéoporose au cours de maladies endocriniennes (E00-E34†).
+M82.8;Ostéoporose au cours d'autres maladies classées ailleurs.
+M83.0;Ostéomalacie puerpérale.
+M83.1;Ostéomalacie sénile.
+M83.2;Ostéomalacie de l'adulte par malabsorption.
+M83.3;Ostéomalacie de l'adulte due à la malnutrition.
+M83.4;Maladie osseuse due à l'aluminium.
+M83.5;Autres ostéomalacies médicamenteuses de l'adulte.
+M83.8;Autres ostéomalacies de l'adulte.
+M83.9;Ostéomalacie de l'adulte, sans précision.
+M84.0;Fracture mal consolidée.
+M84.1;Fracture non consolidée [pseudarthrose].
+M84.2;Retard de consolidation d'une fracture.
+M84.3;Fracture par sollicitation excessive, non classée ailleurs.
+M84.4;Fracture pathologique, non classée ailleurs.
+M84.8;Autres anomalies de la continuité osseuse.
+M84.9;Anomalie de la continuité osseuse, sans précision.
+M85.0;Dysplasie fibreuse (localisée).
+M85.1;Ostéose fluorée.
+M85.2;Hyperostose du crâne.
+M85.3;Ostéite condensante.
+M85.4;Kyste solitaire des os.
+M85.5;Kyste anévrismal des os.
+M85.6;Autres kystes osseux.
+M85.8;Autres anomalies précisées de la densité et de la structure osseuses.
+M85.9;Anomalie de la densité et de la structure osseuses, sans précision.
+M86.0;Ostéomyélite hématogène aigüe.
+M86.1;Autres ostéomyélites aigües.
+M86.2;Ostéomyélite subaigüe.
+M86.3;Ostéomyélite chronique multifocale.
+M86.4;Ostéomyélite chronique avec fistule de drainage.
+M86.5;Autres ostéomyélites hématogènes chroniques.
+M86.6;Autres ostéomyélites chroniques.
+M86.8;Autres ostéomyélites.
+M86.9;Ostéomyélite, sans précision.
+M87.0;Ostéonécrose aseptique idiopathique.
+M87.1;Ostéonécrose médicamenteuse.
+M87.2;Ostéonécrose due à un traumatisme antérieur.
+M87.3;Autres ostéonécroses secondaires.
+M87.8;Autres ostéonécroses.
+M87.9;Ostéonécrose, sans précision.
+M88.0;Maladie de Paget du crâne.
+M88.8;Maladie de Paget d'autres os.
+M88.9;Maladie osseuse de Paget, sans précision.
+M89.0;Algoneurodystrophie.
+M89.1;Arrêt épiphysaire.
+M89.2;Autres troubles de la croissance et du développement osseux.
+M89.3;Hypertrophie osseuse.
+M89.4;Autres ostéoarthropathies hypertrophiantes.
+M89.5;Ostéolyse.
+M89.6;Ostéopathie consécutive à une poliomyélite.
+M90.0;Tuberculose osseuse (A18.0†).
+M90.1;Périostite au cours d'autres maladies infectieuses classées ailleurs.
+M90.2;Ostéopathie au cours d'autres maladies infectieuses classées ailleurs.
+M90.3;Ostéonécrose de la maladie des caissons (T70.3†).
+M90.4;Ostéonécrose due à une hémoglobinopathie (D50-D64†).
+M90.5;Ostéonécrose au cours d'autres maladies classées ailleurs.
+M90.6;Ostéite déformante au cours de maladies tumorales (C00-D48†).
+M90.7;Fracture osseuse au cours de maladies tumorales (C00-D48†).
+M90.8;Ostéopathie au cours d'autres maladies classées ailleurs.
+M91.0;Ostéochondrite juvénile du bassin.
+M91.1;Ostéochondrite juvénile de la tête du fémur [Legg–Calvé–Perthes].
+M91.2;Coxa plana.
+M91.3;Pseudocoxalgie.
+M91.8;Autres ostéochondrites juvéniles de la hanche et du bassin.
+M91.9;Ostéochondrite juvénile de la hanche et du bassin, sans précision.
+M92.0;Ostéochondrite juvénile de l'humérus.
+M92.1;Ostéochondrite juvénile du radius et du cubitus.
+M92.2;Ostéochondrite juvénile de la main.
+M92.3;Autres ostéochondrites juvéniles du membre supérieur.
+M92.4;Ostéochondrite juvénile de la rotule.
+M92.5;Ostéochondrite juvénile du tibia et du péroné.
+M92.6;Ostéochondrite juvénile du tarse.
+M92.7;Ostéochondrite juvénile du métatarse.
+M92.8;Autres ostéochondrites juvéniles précisées.
+M92.9;Ostéochondrite juvénile, sans précision.
+M93.0;Épiphysiolyse de la tête fémorale [coxa vara retrorsa] (non traumatique).
+M93.1;Maladie de Kienböck de l'adulte.
+M93.2;Ostéochondrite disséquante.
+M93.8;Autres ostéochondropathies précisées.
+M93.9;Ostéochondropathie, sans précision.
+M94.0;Syndrome des articulations chondrocostales [Tietze].
+M94.1;Polychondrite récidivante.
+M94.2;Chondromalacie.
+M94.3;Chondrolyse.
+M94.8;Autres affections précisées du cartilage.
+M94.9;Affection du cartilage, sans précision.
+M95.0;Déformation du nez.
+M95.1;Oreille « en chou-fleur ».
+M95.2;Autres déformations de la tête.
+M95.3;Déformation du cou.
+M95.4;Déformation du thorax et des côtes.
+M95.5;Déformation du bassin.
+M95.8;Autres déformations précisées du système ostéoarticulaire, des muscles et du tissu.
+M95.9;Déformation du système ostéoarticulaire, des muscles et du tissu conjonctif, sans.
+M96.0;Pseudarthrose après arthrodèse.
+M96.1;Syndrome postlaminectomie, non classé ailleurs.
+M96.2;Cyphose après irradiation.
+M96.3;Cyphose après laminectomie.
+M96.4;Lordose après chirurgie.
+M96.5;Scoliose après irradiation.
+M96.6;Fracture osseuse après mise en place d'un implant, d'une prothèse articulaire ou.
+M96.8;Autres affections du système ostéoarticulaire et des muscles après un acte à visée.
+M96.9;Affection du système ostéoarticulaire et des muscles après un acte à visée.
+M99.0;Dysfonctionnement segmentaire et somatique.
+M99.1;Subluxation complexe (vertébrale).
+M99.2;Rétrécissement du canal rachidien par subluxation.
+M99.3;Rétrécissement osseux du canal rachidien.
+M99.4;Rétrécissement du canal rachidien par tissu conjonctif.
+M99.5;Rétrécissement du canal rachidien par lésion discale.
+M99.6;Rétrécissement des espaces intervertébraux par ossification et subluxation.
+M99.7;Rétrécissement des espaces intervertébraux par tissu conjonctif et discal.
+M99.8;Autres lésions biomécaniques.
+M99.9;Lésion biomécanique, sans précision.

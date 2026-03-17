@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Cim-X</title>
+    <link rel="stylesheet" href="../static/home.css">
+    <link rel="stylesheet" href="../static/dropdown.css">
+    <link rel="stylesheet" href="../static/table.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+{% include '_navbar.html' %}
+<!-- FORM -->
+<form action="/codage/traitement" method="POST">
+    <p>
+        Pour un courrier medical cocher courrier, pour un texte quelconque cocher texte.
+        <input type = "radio" name = "texte-courrier" value = "1" id = "choix-courrier">
+        <label for="choix-courrier">Courrier</label>
+        <input type = "radio" name = "texte-courrier" value = "0"    id = "choix-texte">
+        <label for="choix-texte">Texte</label>
+    </p>
+    <p>
+        <label for="texte">Entrez votre texte ici :</label>
+        <textarea name="texte" id="texte" rows="10" cols="100">{{ data.texte }}</textarea>
+    </p>
+    <p>
+        <input type = "submit" value="Faire analyser le texte">
+    </p>
+</form>
+<table>
+    <h1>{{ data.title }}</h1>
+        <thead>
+            <tr>
+                {% for title in data.colonnes%}
+                <th> {{ title }} </th>
+                {% endfor%}
+            </tr>
+        </thead>
+        <tbody>
+            {% for value in data.data %}
+            <tr>
+                {% for elt in value %}
+                <td>{{ elt }}</td>
+                {% endfor %}
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>

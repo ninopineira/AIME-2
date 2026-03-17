@@ -1,0 +1,576 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+
+body {
+  margin-top: 100px; /* valeur à ajuster pour que la navbar ne recouvre pas le texte */
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: var(--background-color);
+    padding: 20px 0;
+    transition: all 0.5s;
+    position: fixed;
+    /* transform: translateX(-50%); Centrage horizontal */
+    top: 10px;
+    left: 5%; /* Décalage de 5% à gauche pour centrer avec une largeur de 90% */
+    width: 90%;
+    z-index: 997;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 60px;
+    background: white;
+    border-radius: 50px; /* Bords ronds */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+.logo span {
+    font-weight: bold;
+    font-size: 20px;
+    color: #1aa3a3;
+}
+
+.logo small {
+    display: block;
+    font-size: 12px;
+    color: #777;
+}
+
+.navbar nav a {
+    margin-left: 25px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.navbar nav a:hover {
+    color: #1aa3a3;
+}
+
+/* HERO SECTION */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+    background: linear-gradient(120deg, #e8f4fb, #cfe9f6);
+}
+
+.hero-content {
+    width: 55%;
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    color: #1a3f5c;
+    margin-bottom: 40px;
+    line-height: 1.3;
+}
+
+.features {
+    display: flex;
+    gap: 30px;
+}
+
+.feature {
+    display: flex;
+    gap: 15px;
+    max-width: 300px;
+}
+
+.icon {
+    font-size: 28px;
+    background: #2b9bd8;
+    color: white;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature h3 {
+    font-size: 14px;
+    color: #1c3c55;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+}
+
+.feature p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* IMAGE */
+.hero-image {
+    width: 40%;
+    text-align: center;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+}
+/* SECTION ACCES */
+.access-section {
+    padding: 80px 60px;
+    text-align: center;
+    background: #ffffff;
+}
+
+.access-section h2 {
+    font-size: 30px;
+    color: #1c3c55;
+    margin-bottom: 50px;
+}
+
+.access-cards {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.access-card {
+    background: #f7fbff;
+    padding: 35px;
+    width: 320px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.access-icon {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.access-card h3 {
+    color: #1c3c55;
+    margin-bottom: 10px;
+}
+
+.access-card p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.access-btn {
+    background: linear-gradient(135deg,#2b9bd8,#1a7fb8);
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.access-btn:hover {
+    background: #1a7fb8;
+}
+/* SECTION AU COEUR D'AIME */
+.aime-core {
+    background: #f7fbff;
+    padding: 80px 60px;
+    text-align: center;
+}
+
+.aime-core h2 {
+    font-size: 32px;
+    color: #1c3c55;
+    margin-bottom: 60px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    justify-items: center;
+}
+
+.card {
+    background: white;
+    padding: 35px 25px;
+    width: 100%;
+    max-width: 320px;
+    border-radius: 14px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+.card-icon {
+    width: 48px;
+    height: 48px;
+    margin: 0 auto 15px;
+    background: #2b9bd8;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.card h3 {
+    color: #1c3c55;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .cards {
+        grid-template-columns: 1fr;
+    }
+}
+/* SECTION A PROPOS D'AIME */
+.about-aime {
+    background: #f3f9fe;
+    padding: 100px 60px;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+/* IMAGES */
+.about-images {
+    position: relative;
+    width: 45%;
+}
+
+.img-main {
+    width: 100%;
+    border-radius: 18px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
+}
+
+.img-overlay {
+    position: absolute;
+    bottom: -40px;
+    right: -30px;
+    background: white;
+    padding: 12px;
+    border-radius: 50%;
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+.img-overlay img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* TEXTE */
+.about-content {
+    width: 50%;
+}
+
+.about-content h2 {
+    font-size: 34px;
+    color: #1c3c55;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    color: #2b9bd8;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.about-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 30px 0 15px;
+}
+
+.arrow {
+    font-size: 22px;
+    color: #2b9bd8;
+}
+
+.about-item h4 {
+    font-size: 18px;
+    color: #1c3c55;
+}
+
+.about-content p {
+    font-size: 15px;
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-images,
+    .about-content {
+        width: 100%;
+    }
+
+    .img-overlay {
+        right: 50%;
+        transform: translateX(50%);
+    }
+
+    .about-item {
+        justify-content: center;
+    }
+}
+/* SECTION FINALE */
+.final-section {
+    width: 100%;
+}
+
+/* IMAGE HERO */
+.final-hero {
+    position: relative;
+    height: 420px;
+    background: url("team.jpg") center/cover no-repeat;
+    border-radius: 20px 20px 0 0;
+    margin: 0 60px;
+    overflow: hidden;
+}
+
+.final-hero .overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 60, 90, 0.55);
+}
+
+.final-content {
+    position: relative;
+    z-index: 2;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 40px;
+}
+
+.final-content h2 {
+    font-size: 34px;
+    margin-bottom: 15px;
+}
+
+.final-content p {
+    font-size: 15px;
+    max-width: 650px;
+    line-height: 1.7;
+}
+
+/* PARTIE BLEUE BAS */
+.final-bottom {
+    position: relative;
+    background: linear-gradient(180deg, #d9eef9, #b7dcf3);
+    padding: 120px 60px 40px;
+}
+
+/* BLASON */
+.shield {
+    position: absolute;
+    top: -55px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.shield-icon {
+    width: 110px;
+    height: 130px;
+    background: #8fc4f2;
+    clip-path: polygon(
+        50% 0%,
+        100% 15%,
+        100% 70%,
+        50% 100%,
+        0% 70%,
+        0% 15%
+    );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    color: white;
+}
+
+/* CONTENU FOOTER */
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.footer-left p {
+    font-size: 14px;
+    color: #1c3c55;
+    margin-bottom: 8px;
+}
+
+.footer-right h4 {
+    font-size: 16px;
+    color: #1c3c55;
+    margin-bottom: 10px;
+}
+
+.footer-right p {
+    font-size: 14px;
+    color: #1c3c55;
+    max-width: 280px;
+}
+
+/* LOGOS */
+.footer-logos {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.footer-logos img {
+    height: 45px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+    .final-hero {
+        margin: 0 20px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .footer-logos {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+/* CENTRAGE GLOBAL */
+.action-section {
+    text-align: center;
+    margin: 60px 0;
+}
+
+/* GROS BOUTON BLEU */
+.action-btn {
+    background: linear-gradient(135deg, #3e78ad, #2f5f8a);
+    color: white;
+    font-size: 20px;
+    padding: 18px 50px;
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    transition: 0.3s ease;
+}
+
+.action-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* CARD INFO */
+.info-card {
+    margin: 35px auto 0;
+    max-width: 850px;
+    background: #f2f4f7;
+    border-radius: 14px;
+    padding: 25px 30px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    text-align: left;
+}
+
+/* ICONE BLEUE */
+.info-icon {
+    background: linear-gradient(135deg, #3e78ad, #2f5f8a);
+    color: white;
+    width: 70px;
+    height: 70px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+}
+
+/* TEXTE */
+.info-text {
+    font-size: 15px;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+
+.hero1 {
+    padding: 50px;
+    background-color: #f5f5f5;
+}
+
+.hero-container1 {
+    display: flex;
+    align-items: center; /* aligne verticalement l'image et le texte */
+    justify-content: space-between; /* espace entre l'image et le texte */
+    gap: 20px; /* espace entre les deux */
+}
+
+.hero-image1 img {
+    width: 40%; /* taille de l'image */
+    max-width: 400px;
+    border-radius: 10px;
+    object-fit: cover; /* garde les proportions de l'image */
+}
+
+.hero-content1 {
+    width: 55%; /* texte prend l'autre moitié */
+    text-align: right; /* texte aligné à droite */
+}
+
+.hero-content1 h1 {
+    font-size: 2.5em;
+    color: #1a3f5c; /* violet foncé */
+    margin: 0;
+}
+
+.hero-content1 .subtitle {
+    font-size: 1.2em;
+    color: #1a3f5c; /* violet clair */
+    margin-top: 10px;
+}

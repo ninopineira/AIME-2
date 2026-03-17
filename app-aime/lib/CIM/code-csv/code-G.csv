@@ -1,0 +1,348 @@
+G00.0;Méningite à Hæmophilus.
+G00.1;Méningite à pneumocoques.
+G00.2;Méningite à streptocoques.
+G00.3;Méningite à staphylocoques.
+G00.8;Autres méningites bactériennes.
+G00.9;Méningite bactérienne, sans précision.
+G02.0;Méningite au cours d'infections virales classées ailleurs.
+G02.1;Méningite au cours de mycoses classées ailleurs.
+G02.8;Méningite au cours d'autres maladies infectieuses et parasitaires précisées classées.
+G03.0;Méningite à liquide clair.
+G03.1;Méningite chronique.
+G03.2;Méningite récurrente bénigne [Mollaret].
+G03.8;Méningite due à d'autres causes précisées.
+G03.9;Méningite, sans précision.
+G04.0;Encéphalite aigüe disséminée.
+G04.1;Myélopathies associées au virus HTLV.
+G04.2;Méningoencéphalite et méningomyélite bactériennes, non classées ailleurs.
+G04.8;Autres encéphalites, myélites et encéphalomyélites.
+G04.9;Encéphalite, myélite et encéphalomyélite, sans précision.
+G05.0;Encéphalite, myélite et encéphalomyélite au cours d'infections bactériennes.
+G05.1;Encéphalite, myélite et encéphalomyélite au cours d'infections virales classées.
+G05.2;Encéphalite, myélite et encéphalomyélite au cours d'autres maladies infectieuses et.
+G05.8;Encéphalite, myélite et encéphalomyélite au cours d'autres affections classées.
+G06.0;Abcès et granulome intracrâniens.
+G06.1;Abcès et granulome intrarachidiens.
+G06.2;Abcès extradural et sousdural, sans précision.
+G11.0;Ataxie congénitale non progressive.
+G11.1;Ataxie cérébelleuse à début précoce.
+G11.2;Ataxie cérébelleuse tardive.
+G11.3;Ataxie cérébelleuse avec défaut de réparation de l'ADN.
+G11.4;Paraplégie spastique héréditaire.
+G11.8;Autres ataxies héréditaires.
+G11.9;Ataxie héréditaire, sans précision.
+G12.0;Amyotrophie spinale infantile, type I [Werdnig–Hoffman].
+G12.1;Autres amyotrophies spinales héréditaires.
+G12.2;Maladies du neurone moteur.
+G12.8;Autres amyotrophies spinales et syndromes apparentés.
+G12.9;Amyotrophie spinale, sans précision.
+G13.0;Neuromyopathie et neuropathie paranéoplasiques.
+G13.1;Autres affections dégénératives systémiques affectant principalement le système.
+G13.2;Affections dégénératives systémiques affectant principalement le système nerveux.
+G13.8;Affections dégénératives systémiques affectant principalement le système nerveux.
+G21.0;Syndrome malin des neuroleptiques.
+G21.1;Autres syndromes parkinsoniens secondaires dus à des médicaments.
+G21.2;Syndrome parkinsonien secondaire dû à d'autres agents externes.
+G21.3;Syndrome parkinsonien postencéphalitique.
+G21.4;Syndrome parkinsonien vasculaire.
+G21.8;Autres syndromes parkinsoniens secondaires.
+G21.9;Syndrome parkinsonien secondaire, sans précision.
+G23.0;Maladie de Hallervorden–Spatz.
+G23.1;Ophtalmoplégie supranucléaire progressive [maladie de Steele–Richardson–.
+G23.2;Atrophie multisystématisée de type parkinsonien [AMS-P] [MSA-P].
+G23.3;Atrophie multisystématisée de type cérébelleux [AMS-C] [MSA-C].
+G23.8;Autres maladies dégénératives précisées des noyaux gris centraux.
+G23.9;Maladie dégénérative des noyaux gris centraux, sans précision.
+G24.0;Dystonie médicamenteuse.
+G24.1;Dystonie idiopathique familiale.
+G24.2;Dystonie idiopathique non familiale.
+G24.3;Torticolis spasmodique.
+G24.4;Dystonie buccofaciale idiopathique.
+G24.5;Blépharospasme.
+G24.8;Autres dystonies.
+G24.9;Dystonie, sans précision.
+G25.0;Tremblement essentiel.
+G25.1;Tremblement dû à des médicaments.
+G25.2;Autres formes précisées de tremblement.
+G25.3;Myoclonie.
+G25.4;Chorée médicamenteuse.
+G25.5;Autres chorées.
+G25.6;Tics médicamenteux et autres tics d'origine organique.
+G25.8;Autres syndromes précisés extrapyramidaux et troubles de la motricité.
+G25.9;Syndrome extrapyramidal et trouble de la motricité, sans précision.
+G30.0;Maladie d'Alzheimer à début précoce.
+G30.1;Maladie d'Alzheimer à début tardif.
+G30.8;Autres formes de la maladie d'Alzheimer.
+G30.9;Maladie d'Alzheimer, sans précision.
+G31.0;Atrophie cérébrale circonscrite.
+G31.1;Dégénérescence cérébrale sénile, non classée ailleurs.
+G31.2;Dégénérescence du système nerveux liée à l'alcool.
+G31.8;Autres affections dégénératives précisées du système nerveux.
+G31.9;Affection dégénérative du système nerveux, sans précision.
+G32.0;Dégénérescence combinée subaigüe de la moelle épinière au cours de maladies.
+G32.8;Autres affections dégénératives précisées du système nerveux au cours de maladies.
+G36.0;Neuromyélite optique [Devic].
+G36.1;Leucoencéphalite hémorragique aigüe et subaigüe [Hurst].
+G36.8;Autres affections démyélinisantes aigües disséminées précisées.
+G36.9;Affection démyélinisante aigüe disséminée, sans précision.
+G37.0;Sclérose diffuse.
+G37.1;Démyélinisation centrale du corps calleux.
+G37.2;Myélinolyse centropontine.
+G37.3;Myélite transverse aigüe au cours d'affections démyélinisantes du système nerveux.
+G37.4;Myélite nécrosante subaigüe.
+G37.5;Sclérose concentrique [Baló].
+G37.8;Autres affections démyélinisantes précisées du système nerveux central.
+G37.9;Affection démyélinisante du système nerveux central, sans précision.
+G40.0;Épilepsie et syndromes épileptiques idiopathiques définis par leur localisation.
+G40.1;Épilepsie et syndromes épileptiques symptomatiques définis par leur localisation.
+G40.2;Épilepsie et syndromes épileptiques symptomatiques définis par leur localisation.
+G40.3;Épilepsie et syndromes épileptiques généralisés idiopathiques.
+G40.4;Autres épilepsies et syndromes épileptiques généralisés.
+G40.5;Syndromes épileptiques particuliers.
+G40.6;Crise de grand mal, sans précision (avec ou sans petit mal).
+G40.7;Petit mal, sans crises de grand mal, sans précision.
+G40.8;Autres épilepsies.
+G40.9;Épilepsie, sans précision.
+G41.0;État de grand mal épileptique.
+G41.1;État de petit mal épileptique.
+G41.2;État de mal épileptique partiel complexe.
+G41.8;Autres états de mal épileptique.
+G41.9;État de mal épileptique, sans précision.
+G43.0;Migraine sans aura [migraine commune].
+G43.1;Migraine avec aura [migraine classique].
+G43.2;État de mal migraineux.
+G43.3;Migraine compliquée.
+G43.8;Autres migraines.
+G43.9;Migraine, sans précision.
+G44.0;Syndrome d'algie vasculaire de la face.
+G44.1;Céphalée vasculaire, non classée ailleurs.
+G44.2;Céphalée dite de tension.
+G44.3;Céphalée chronique posttraumatique.
+G44.4;Céphalée médicamenteuse, non classée ailleurs.
+G44.8;Autres syndromes précisés d'algies céphaliques.
+G45.0;Syndrome vertébrobasilaire.
+G45.1;Syndrome carotidien (hémisphérique).
+G45.2;Accident ischémique transitoire de territoires artériels précérébraux multiples et.
+G45.3;Amaurose fugace.
+G45.4;Amnésie globale transitoire.
+G45.8;Autres accidents ischémiques cérébraux transitoires et syndromes apparentés.
+G45.9;Accident ischémique cérébral transitoire, sans précision.
+G46.0;Syndrome de l'artère cérébrale moyenne (I66.0†).
+G46.1;Syndrome de l'artère cérébrale antérieure (I66.1†).
+G46.2;Syndrome de l'artère cérébrale postérieure (I66.2†).
+G46.3;Syndromes vasculaires du tronc cérébral (I60-I67†).
+G46.4;Syndrome cérébelleux vasculaire (I60-I67†).
+G46.5;Syndrome lacunaire moteur pur (I60-I67†).
+G46.6;Syndrome lacunaire sensitif pur (I60-I67†).
+G46.7;Autres syndromes lacunaires (I60-I67†).
+G46.8;Autres syndromes vasculaires cérébraux au cours de maladies cérébrovasculaires.
+G47.0;Troubles de l'endormissement et du maintien du sommeil [insomnies].
+G47.1;Troubles du sommeil par somnolence excessive [hypersomnies].
+G47.2;Troubles du cycle veille-sommeil.
+G47.3;Apnée du sommeil.
+G47.4;Narcolepsie et cataplexie.
+G47.8;Autres troubles du sommeil.
+G47.9;Trouble du sommeil, sans précision.
+G50.0;Névralgie du trijumeau.
+G50.1;Algie faciale atypique.
+G50.8;Autres affections du nerf trijumeau.
+G50.9;Affection du nerf trijumeau, sans précision.
+G51.0;Paralysie faciale a frigore.
+G51.1;Atteinte du ganglion géniculé.
+G51.2;Syndrome de Melkersson–Rosenthal.
+G51.3;Hémispasme facial clonique.
+G51.4;Myokymies faciales.
+G51.8;Autres affections du nerf facial.
+G51.9;Affection du nerf facial, sans précision.
+G52.0;Affections du nerf olfactif.
+G52.1;Affections du nerf glossopharyngien.
+G52.2;Affections du nerf vague.
+G52.3;Affections du nerf grand hypoglosse.
+G52.7;Affections de plusieurs nerfs crâniens.
+G52.8;Affections d'autres nerfs crâniens précisés.
+G52.9;Affection des nerfs crâniens, sans précision.
+G53.0;Névralgie postzostérienne (B02.2†).
+G53.1;Paralysie de plusieurs nerfs crâniens au cours de maladies infectieuses et.
+G53.2;Paralysie de plusieurs nerfs crâniens au cours de sarcoïdose (D86.8†).
+G53.3;Paralysie de plusieurs nerfs crâniens au cours de maladies tumorales (C00-D48†).
+G53.8;Autres affections des nerfs crâniens au cours d'autres maladies classées ailleurs.
+G54.0;Affections du plexus brachial.
+G54.1;Affections du plexus lombosacré.
+G54.2;Affections radiculaires cervicales, non classées ailleurs.
+G54.3;Affections radiculaires thoraciques, non classées ailleurs.
+G54.4;Affections radiculaires lombosacrées, non classées ailleurs.
+G54.5;Névralgie amyotrophique.
+G54.6;Syndrome douloureux du membre fantôme.
+G54.7;Syndrome du membre fantôme sans élément douloureux.
+G54.8;Autres affections des racines et des plexus nerveux.
+G54.9;Affection des racines et des plexus nerveux, sans précision.
+G55.0;Compression des racines et des plexus nerveux au cours de maladies tumorales.
+G55.1;Compression des racines et des plexus nerveux au cours d'atteintes des disques.
+G55.2;Compression des racines et des plexus nerveux au cours de spondylarthroses.
+G55.3;Compression des racines et des plexus nerveux au cours d'autres dorsopathies.
+G55.8;Compression des racines et des plexus nerveux au cours d'autres maladies.
+G56.0;Syndrome du canal carpien.
+G56.1;Autres lésions du nerf médian.
+G56.2;Lésion du nerf cubital.
+G56.3;Lésion du nerf radial.
+G56.8;Autres mononévrites du membre supérieur.
+G56.9;Mononévrite du membre supérieur, sans précision.
+G57.0;Lésion du nerf sciatique.
+G57.1;Méralgie paresthésique.
+G57.2;Lésion du nerf fémoral.
+G57.3;Lésion du nerf sciatique poplité externe.
+G57.4;Lésion du nerf sciatique poplité interne.
+G57.5;Syndrome du canal tarsien.
+G57.6;Lésion du nerf plantaire.
+G57.8;Autres mononévrites du membre inférieur.
+G57.9;Mononévrite du membre inférieur, sans précision.
+G58.0;Névrite intercostale.
+G58.7;Mononévrite de sièges multiples.
+G58.8;Autres mononévrites précisées.
+G58.9;Mononévrite, sans précision.
+G59.0;Mononévrite diabétique ( E10-E14† avec le quatrième caractère .4).
+G59.8;Autres mononévrites au cours de maladies classées ailleurs.
+G60.0;Neuropathie héréditaire motrice et sensorielle.
+G60.1;Maladie de Refsum.
+G60.2;Neuropathie associée à une ataxie héréditaire.
+G60.3;Neuropathie progressive idiopathique.
+G60.8;Autres neuropathies héréditaires et idiopathiques.
+G60.9;Neuropathie héréditaire et idiopathique, sans précision.
+G61.0;Syndrome de Guillain–Barré.
+G61.1;Neuropathie sérique.
+G61.8;Autres polynévrites inflammatoires.
+G61.9;Polynévrite inflammatoire, sans précision.
+G62.0;Polynévrite médicamenteuse.
+G62.1;Polynévrite alcoolique.
+G62.2;Polynévrite due à d'autres agents toxiques.
+G62.8;Autres polynévrites précisées.
+G62.9;Polynévrite, sans précision.
+G63.0;Polynévrite au cours de maladies infectieuses et parasitaires classées ailleurs.
+G63.1;Polynévrite au cours de maladies tumorales (C00-D48†).
+G63.2;Polynévrite diabétique ( E10-E14† avec le quatrième caractère .4).
+G63.3;Polynévrite au cours d'autres maladies endocriniennes et métaboliques (E00-E07†,.
+G63.4;Polynévrite par carence nutritionnelle (E40-E64†).
+G63.5;Polynévrite au cours d'affections disséminées du tissu conjonctif (M30-M35†).
+G63.6;Polynévrite au cours d'autres affections ostéoarticulaires et des muscles (M00-M25†,.
+G63.8;Polynévrite au cours d'autres maladies classées ailleurs.
+G70.0;Myasthénie.
+G70.1;Affections neuromusculaires toxiques.
+G70.2;Myasthénie congénitale et au cours du développement.
+G70.8;Autres affections neuromusculaires précisées.
+G70.9;Affection neuromusculaire, sans précision.
+G71.0;Dystrophie musculaire.
+G71.1;Affections myotoniques.
+G71.2;Myopathies congénitales.
+G71.3;Myopathie mitochondriale, non classée ailleurs.
+G71.8;Autres affections musculaires primitives.
+G71.9;Affection musculaire primitive, sans précision.
+G72.0;Myopathie médicamenteuse.
+G72.1;Myopathie alcoolique.
+G72.2;Myopathie due à d'autres agents toxiques.
+G72.3;Paralysies périodiques.
+G72.4;Myopathie inflammatoire, non classée ailleurs.
+G72.8;Autres myopathies précisées.
+G72.9;Myopathie, sans précision.
+G73.0;Syndrome myasthénique au cours de maladies endocriniennes.
+G73.1;Syndrome de Lambert–Eaton (C00–D48†).
+G73.2;Autres syndromes myasthéniques au cours de maladies tumorales (C00-D48†).
+G73.3;Syndrome myasthénique au cours d'autres maladies classées ailleurs.
+G73.4;Myopathie au cours de maladies infectieuses et parasitaires classées ailleurs.
+G73.5;Myopathie au cours de maladies endocriniennes.
+G73.6;Myopathie au cours de maladies métaboliques.
+G73.7;Myopathie au cours d'autres maladies classées ailleurs.
+G80.0;Paralysie cérébrale spastique quadriplégique.
+G80.1;Paralysie cérébrale spastique diplégique.
+G80.2;Paralysie cérébrale spastique hémiplégique.
+G80.3;Paralysie cérébrale dyskinétique.
+G80.4;Paralysie cérébrale ataxique.
+G80.8;Autres paralysies cérébrales.
+G80.9;Paralysie cérébrale, sans précision.
+G81.0;Hémiplégie flasque.
+G81.0;Hémiplégie flasque récente, persistant au-delà de 24 heures.
+G81.0;Hémiplégie flasque récente, régressive dans les 24 heures.
+G81.0;Hémiplégie flasque, autre et sans précision.
+G81.1;Hémiplégie spastique.
+G81.9;Hémiplégie, sans précision.
+G82.0;Paraplégie flasque.
+G82.0;Paraplégie flasque, complète motrice.
+G82.0;Paraplégie flasque, incomplète motrice.
+G82.0;Paraplégie flasque, sans précision.
+G82.1;Paraplégie spastique.
+G82.1;Paraplégie spastique, complète motrice.
+G82.1;Paraplégie spastique, incomplète motrice.
+G82.1;Paraplégie spastique, sans précision 350.
+G82.2;Paraplégie, sans précision.
+G82.2;Paraplégie complète motrice, sans précision.
+G82.2;Paraplégie incomplète motrice, sans précision.
+G82.3;Tétraplégie flasque.
+G82.3;Tétraplégie flasque, complète motrice.
+G82.3;Tétraplégie flasque, incomplète motrice.
+G82.3;Tétraplégie flasque, sans précision.
+G82.4;Tétraplégie spastique.
+G82.4;Tétraplégie spastique, complète motrice.
+G82.4;Tétraplégie spastique, incomplète motrice.
+G82.4;Tétraplégie spastique, sans précision.
+G82.5;Tétraplégie, sans précision.
+G82.5;Tétraplégie complète motrice, sans précision.
+G82.5;Tétraplégie incomplète motrice, sans précision.
+G83.0;Diplégie des membres supérieurs.
+G83.1;Monoplégie d'un membre inférieur.
+G83.2;Monoplégie d'un membre supérieur.
+G83.3;Monoplégie, sans précision.
+G83.4;Syndrome de la queue de cheval.
+G83.5;Syndrome de déefférentation motrice [Locked-in syndrome].
+G83.6;Paralysie faciale du neurone moteur supérieur [NMS] [MNS].
+G83.8;Autres syndromes paralytiques.
+G83.9;Syndrome paralytique, sans précision.
+G90.0;Neuropathie autonome périphérique idiopathique.
+G90.1;Dysautonomie familiale [Riley–Day].
+G90.2;Syndrome de Claude Bernard–Horner.
+G90.4;Dysréflexie autonome.
+G90.5;Syndrome douloureux régional complexe de type I.
+G90.6;Syndrome douloureux régional complexe de type II.
+G90.7;Syndrome douloureux régional complexe, autre et sans précision.
+G90.8;Autres affections du système nerveux autonome.
+G90.9;Affection du système nerveux autonome, sans précision.
+G91.0;Hydrocéphalie communicante.
+G91.1;Hydrocéphalie obstructive (non communicante).
+G91.2;Hydrocéphalie à pression normale.
+G91.3;Hydrocéphalie posttraumatique, sans précision.
+G91.8;Autres hydrocéphalies.
+G91.9;Hydrocéphalie, sans précision.
+G93.0;Kystes cérébraux.
+G93.1;Lésion cérébrale anoxique, non classée ailleurs.
+G93.2;Hypertension intracrânienne bénigne.
+G93.3;Syndrome de fatigue postvirale.
+G93.4;Encéphalopathie, sans précision.
+G93.5;Compression du cerveau.
+G93.6;Œdème cérébral.
+G93.7;Syndrome de Reye.
+G93.8;Autres affections précisées du cerveau.
+G93.9;Affection du cerveau, sans précision.
+G94.0;Hydrocéphalie au cours de maladies infectieuses et parasitaires classées ailleurs.
+G94.1;Hydrocéphalie au cours de maladies tumorales (C00-D48†).
+G94.2;Hydrocéphalie au cours d'autres maladies classées ailleurs.
+G94.3;Encéphalopathie au cours de maladies classées ailleurs.
+G94.8;Autres affections précisées du cerveau au cours de maladies classées ailleurs.
+G95.0;Syringomyélie et syringobulbie.
+G95.1;Myélopathies vasculaires.
+G95.2;Compression médullaire, sans précision.
+G95.8;Autres affections précisées de la moelle épinière.
+G95.9;Affection de la moelle épinière, sans précision.
+G96.0;Écoulement du liquide céphalorachidien.
+G96.1;Affection des méninges, non classée ailleurs.
+G96.8;Autres affections précisées du système nerveux central.
+G96.9;Affection du système nerveux central, sans précision.
+G97.0;Écoulement du liquide céphalorachidien après rachicentèse.
+G97.1;Autre réaction secondaire à une rachicentèse.
+G97.2;Hypotension intracrânienne suite à un pontage ventriculaire.
+G97.8;Autres affections du système nerveux après un acte à visée diagnostique et.
+G97.8;Perforation et déchirure accidentelle des méninges après un acte à visée diagnostique ou.
+G97.8;Perforation et déchirure accidentelle d’un autre organe du système nerveux après un acte.
+G97.8;Autres affections du système nerveux après un acte à visée diagnostique ou thérapeutique.
+G97.9;Affection du système nerveux après un acte à visée diagnostique et thérapeutique,.
+G99.0;Neuropathie du système nerveux autonome au cours de maladies endocriniennes et.
+G99.1;Autres affections du système nerveux autonome au cours d'autres maladies.
+G99.2;Myélopathies au cours de maladies classées ailleurs.
+G99.8;Autres affections précisées du système nerveux au cours de maladies classées.

@@ -1,46 +1,50 @@
 # AIME 2
 
+## CIM X branch
 
+That branch is about all that concerns CIM X codes. \
+The goal is to transform all codes in a readable file
 
-## Encadrants du projet
+## Fichiers Relus et vérifiés
 
-### Hopital
+## Fichiers non Relus et non Vérifiés
+- A
+- B
+- C
+- D
+- E
+- F
+- G
+- H
+- I
+- J
+- K
+- L
+- M
+- N
+- O
+- P
+- Q
+- R
+- S
+- T
+- U
+- V
+- W
+- X
+- Y
+- Z
 
-THOMAS Gilles : gilles2.thomas@intradef.gouv.fr \
-SIMSON Jean-pierre : jean-pierre.simson@intradef.gouv.fr \
-RIOU Anne : Anne1.riou@intradef.gouv.fr \
-INIZAN Pascal : pascal.inizan@intradef.gouv.fr 
+## Temps de chargements des données
 
-### ENSTA
+sans calcul des embeddings
 
-MANSOUR Ali : ali.mansour@ensta.fr 
+| fonction      | PC fixe       | PC portable   |
+| ------------- | ------------- | ------------- |
+| chargement_ancien() | 0.0006 | 0.0005 |
 
-## Membres élèves 
+chargement de l'application 
 
-BERNUCHON--MONCOUTIÉ Renée : renee.bernuchon--moncoutie@ensta.fr \
-GHALEM Romaissae : romaissae.ghalem@ensta.fr \
-HAMAD Sana : sana.hamad@ensta.fr \
-PINEIRA Nino : nino.pineira@ensta.fr 
-
-## Ressources 
-
-Travail effectué l'année précédente : https://github.com/Pallandos/aime 
-
-Logiciel déja existant : https://www.aideaucodage.fr/cim
-Liste des Codes CIM-X : https://almed.org/fr/cim-10.php + Document donné par l'hopital
-
-## Emplacement des documents 
-
-- [ ] Diagramme de Gantt : Notion
-- [ ] interview encadrant : ~~PLMLatex~~ Zip file
-
-
-## Commandes utiles
-
-Forcer le switch: ```git switch -f branch_name``` \
-Voir où git fait ses push/pull : ```git remote -v``` \
-Changer l'endroit où git fait ses push/pull : ```git remote set-url https://gitlab.ensta-bretagne.fr/username/project.git```
-
-
-## tests à faire
-"Le patient ne présente pas que des signes de dépression mais aussi d’anxiété".
+| fonction      | PC fixe       | PC portable   |
+| ------------- | ------------- | ------------- |
+| x | x | x |

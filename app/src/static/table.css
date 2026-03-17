@@ -1,0 +1,20 @@
+
+table {
+        border-collapse: collapse;
+        width: 100%;
+}
+th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+}
+th {
+        background-color: #1aa3a3;
+}
+
+.table-header-sticky {
+  position: sticky;
+  top: 90px; /* Position sous la navbar */
+  z-index: 1; /* Doit être inférieur à la navbar */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}

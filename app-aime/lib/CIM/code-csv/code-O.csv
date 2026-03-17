@@ -1,0 +1,385 @@
+O00.0;Grossesse abdominale.
+O00.1;Grossesse tubaire.
+O00.2;Grossesse ovarienne.
+O00.8;Autres grossesses extra-utérines.
+O00.9;Grossesse extra-utérine, sans précision.
+O01.0;Môle hydatiforme classique.
+O01.1;Môle hydatiforme incomplète et partielle.
+O01.9;Môle hydatiforme, sans précision.
+O02.0;Œuf clair et môle non hydatiforme.
+O02.1;Rétention d'un fœtus mort in utero.
+O02.8;Autres produits anormaux de la conception, précisés.
+O02.9;Produit anormal de la conception, sans précision.
+O07.0;Échec d'une tentative d'avortement médical, compliqué d'une infection de l'appareil.
+O07.1;Échec d'une tentative d'avortement médical, compliqué d'une hémorragie retardée.
+O07.2;Échec d'une tentative d'avortement médical, compliqué d'une embolie.
+O07.3;Échec d'une tentative d'avortement médical, avec complications autres et non.
+O07.4;Échec d'une tentative d'avortement médical, sans complication.
+O07.5;Échecs d'une tentative d'avortement, autres et sans précision, compliqués d'une.
+O07.6;Échecs d'une tentative d'avortement, autres et sans précision, compliqués d'une.
+O07.7;Échecs d'une tentative d'avortement, autres et sans précision, compliqués d'une.
+O07.8;Échecs d'une tentative d'avortement, autres et sans précision, avec complications.
+O07.9;Échecs d'une tentative d'avortement, autres et sans précision, sans complication.
+O08.0;Infection de l'appareil génital et des organes pelviens consécutive à un avortement,.
+O08.1;Hémorragie retardée ou sévère consécutive à un avortement, une grossesse extra-.
+O08.2;Embolie consécutive à un avortement, une grossesse extra-utérine et molaire.
+O08.3;Choc consécutif à un avortement, une grossesse extra-utérine et molaire.
+O08.4;Insuffisance rénale consécutive à un avortement, une grossesse extra-utérine et.
+O08.5;Troubles du métabolisme consécutifs à un avortement, une grossesse extra-utérine.
+O08.6;Lésions des organes et tissus pelviens consécutives à un avortement, une.
+O08.7;Autres complications veineuses consécutives à un avortement, une grossesse.
+O08.8;Autres complications consécutives à un avortement, une grossesse extra-utérine et.
+O08.9;Complication consécutive à un avortement, une grossesse extra-utérine et molaire,.
+O10.0;Hypertension essentielle préexistante compliquant la grossesse, l'accouchement et.
+O10.1;Cardiopathie hypertensive préexistante compliquant la grossesse, l'accouchement.
+O10.2;Néphropathie hypertensive préexistante compliquant la grossesse, l'accouchement.
+O10.3;Cardionéphropathie hypertensive préexistante compliquant la grossesse,.
+O10.4;Hypertension secondaire préexistante compliquant la grossesse, l'accouchement et.
+O10.9;Hypertension préexistante compliquant la grossesse, l'accouchement et la.
+O12.0;Œdème gestationnel.
+O12.1;Protéinurie gestationnelle.
+O12.2;Œdème gestationnel avec protéinurie.
+O14.0;Prééclampsie légère à modérée.
+O14.1;Prééclampsie sévère.
+O14.2;HELLP syndrome.
+O14.9;Prééclampsie, sans précision.
+O15.0;Éclampsie au cours de la grossesse.
+O15.1;Éclampsie au cours du travail.
+O15.2;Éclampsie au cours de la puerpéralité.
+O15.9;Éclampsie, sans précision quant à la période.
+O20.0;Menace d'avortement.
+O20.8;Autres hémorragies du début de la grossesse.
+O20.9;Hémorragie du début de la grossesse, sans précision.
+O21.0;Hyperémèse gravidique bénigne.
+O21.1;Hyperémèse gravidique avec troubles métaboliques.
+O21.2;Vomissements tardifs de la grossesse.
+O21.8;Autres vomissements compliquant la grossesse.
+O21.9;Vomissements de la grossesse, sans précision.
+O22.0;Varices des membres inférieurs au cours de la grossesse.
+O22.1;Varices des organes génitaux au cours de la grossesse.
+O22.2;Thrombophlébite superficielle au cours de la grossesse.
+O22.3;Phlébothrombose profonde au cours de la grossesse.
+O22.4;Hémorroïdes au cours de la grossesse.
+O22.5;Thrombose veineuse cérébrale au cours de la grossesse.
+O22.8;Autres complications veineuses de la grossesse.
+O22.9;Complication veineuse de la grossesse, sans précision.
+O23.0;Infections rénales au cours de la grossesse.
+O23.1;Infections vésicales au cours de la grossesse.
+O23.2;Infections urétrales au cours de la grossesse.
+O23.3;Infections d'autres parties de l'appareil urinaire au cours de la grossesse.
+O23.4;Infection de l'appareil urinaire sans précision au cours de la grossesse.
+O23.5;Infections de l'appareil génital au cours de la grossesse.
+O23.9;Infections de l'appareil génito-urinaire au cours de la grossesse, autres et sans.
+O24.0;Diabète sucré préexistant, de type 1.
+O24.1;Diabète sucré préexistant, de type 2.
+O24.2;Diabète sucré préexistant lié à la malnutrition.
+O24.3;Diabète sucré préexistant, sans précision.
+O24.4;Diabète sucré survenant au cours de la grossesse.
+O24.9;Diabète sucré au cours de la grossesse, sans précision.
+O26.0;Prise de poids excessive au cours de la grossesse.
+O26.1;Faible prise de poids au cours de la grossesse.
+O26.2;Soins au cours de la grossesse pour avortement à répétition.
+O26.3;Rétention d'un stérilet au cours d'une grossesse.
+O26.4;Herpes gestationis.
+O26.5;Syndrome d'hypotension maternelle.
+O26.6;Affections hépatiques au cours de la grossesse, de l'accouchement et de la.
+O26.7;Subluxation de la symphyse (pubienne) au cours de la grossesse, de.
+O26.8;Autres affections précisées liées à la grossesse.
+O26.9;Affection liée à la grossesse, sans précision.
+O28.0;Résultats hématologiques anormaux au cours de l'examen prénatal systématique de.
+O28.1;Résultats biochimiques anormaux au cours de l'examen prénatal systématique de la.
+O28.2;Résultats cytologiques anormaux au cours de l'examen prénatal systématique de la.
+O28.3;Résultats échographiques anormaux au cours de l'examen prénatal systématique de.
+O28.4;Résultats radiologiques anormaux au cours de l'examen prénatal systématique de la.
+O28.5;Résultats chromosomiques et génétiques anormaux au cours de l'examen prénatal.
+O28.8;Autres résultats anormaux au cours de l'examen prénatal systématique de la mère.
+O28.9;Résultat anormal constaté au cours de l'examen prénatal systématique de la mère,.
+O29.0;Complications pulmonaires d'une anesthésie au cours de la grossesse.
+O29.1;Complications cardiaques d'une anesthésie au cours de la grossesse.
+O29.2;Complications impliquant le système nerveux central dues à une anesthésie au.
+O29.3;Réaction toxique au cours d'une anesthésie locale au cours de la grossesse.
+O29.4;Céphalée provoquée par une rachianesthésie et une anesthésie épidurale au cours.
+O29.5;Autres complications d'une rachianesthésie et d'une anesthésie épidurale au cours.
+O29.6;Échec ou difficulté d'intubation au cours de la grossesse.
+O29.8;Autres complications d'une anesthésie au cours de la grossesse.
+O29.9;Complication d'une anesthésie au cours de la grossesse, sans précision.
+O30.0;Jumeaux.
+O30.1;Triplés.
+O30.2;Quadruplés.
+O30.8;Autres grossesses multiples.
+O30.9;Grossesse multiple, sans précision.
+O31.0;Fœtus papyracé.
+O31.1;Poursuite de la grossesse après avortement d'un ou plusieurs fœtus.
+O31.2;Poursuite de la grossesse après mort intra-utérine d'un ou plusieurs fœtus.
+O31.8;Autres complications spécifiques à une grossesse multiple.
+O32.0;Soins maternels pour position instable.
+O32.1;Soins maternels pour présentation du siège.
+O32.2;Soins maternels pour position transverse et oblique.
+O32.3;Soins maternels pour présentation de la face, du front et du menton.
+O32.4;Soins maternels pour tête haute à terme.
+O32.5;Soins maternels pour grossesse multiple avec présentation anormale d'un ou.
+O32.6;Soins maternels pour présentation complexe.
+O32.8;Soins maternels pour d'autres présentations anormales du fœtus.
+O32.9;Soins maternels pour présentation anormale du fœtus, sans précision.
+O33.0;Soins maternels pour disproportion due à une malformation du bassin de la mère.
+O33.1;Soins maternels pour disproportion due à un bassin maternel généralement rétréci.
+O33.2;Soins maternels pour disproportion due à un rétrécissement du détroit supérieur du.
+O33.3;Soins maternels pour disproportion due à un rétrécissement du détroit inférieur.
+O33.4;Soins maternels pour disproportion fœtopelvienne d'origine mixte, maternelle et.
+O33.5;Soins maternels pour disproportion due à un fœtus anormalement gros.
+O33.6;Soins maternels pour disproportion due à un fœtus hydrocéphale.
+O33.7;Soins maternels pour disproportion due à d'autres anomalies du fœtus.
+O33.8;Soins maternels pour disproportion d'autres origines.
+O33.9;Soins maternels pour disproportion, sans précision.
+O34.0;Soins maternels pour malformation congénitale de l'utérus.
+O34.1;Soins maternels pour tumeur du corps de l'utérus.
+O34.2;Soins maternels pour cicatrice utérine due à une intervention chirurgicale antérieure.
+O34.3;Soins maternels pour béance du col.
+O34.4;Soins maternels pour d'autres anomalies du col.
+O34.5;Soins maternels pour d'autres anomalies de l'utérus gravide.
+O34.6;Soins maternels pour anomalies du vagin.
+O34.7;Soins maternels pour anomalies de la vulve et du périnée.
+O34.8;Soins maternels pour d'autres anomalies des organes pelviens.
+O34.9;Soins maternels pour anomalie d'un organe pelvien, sans précision.
+O35.0;Soins maternels pour malformation (présumée) du système nerveux central du.
+O35.1;Soins maternels pour anomalie chromosomique (présumée) du fœtus.
+O35.2;Soins maternels pour maladie héréditaire (présumée) du fœtus.
+O35.3;Soins maternels pour lésions fœtales (présumées) résultant d'une maladie virale de.
+O35.4;Soins maternels pour lésions fœtales (présumées) dues à l'alcoolisme maternel.
+O35.5;Soins maternels pour lésions fœtales (présumées) médicamenteuses.
+O35.6;Soins maternels pour lésions fœtales (présumées) dues à une irradiation.
+O35.7;Soins maternels pour lésions fœtales (présumées) dues à d'autres actes à visée.
+O35.8;Soins maternels pour d'autres anomalies et lésions fœtales (présumées).
+O35.9;Soins maternels pour anomalie et lésion fœtale (présumées), sans précision.
+O36.0;Soins maternels pour iso-immunisation anti-Rh.
+O36.1;Soins maternels pour une autre iso-immunisation.
+O36.2;Soins maternels pour anasarque fœtoplacentaire.
+O36.3;Soins maternels pour signes d'hypoxie fœtale.
+O36.4;Soins maternels pour mort intra-utérine du fœtus.
+O36.5;Soins maternels pour croissance insuffisante du fœtus.
+O36.6;Soins maternels pour croissance excessive du fœtus.
+O36.7;Soins maternels pour grossesse abdominale avec fœtus viable.
+O36.8;Soins maternels pour d'autres affections précisées du fœtus.
+O36.9;Soins maternels pour affection du fœtus, sans précision.
+O41.0;Oligoamnios.
+O41.1;Infection du sac amniotique et des membranes.
+O41.8;Autres anomalies précisées du liquide amniotique et des membranes.
+O41.9;Anomalie du liquide amniotique et des membranes, sans précision.
+O42.0;Rupture prématurée des membranes, avec début du travail dans les 24 heures.
+O42.1;Rupture prématurée des membranes, avec début du travail au-delà de 24 heures.
+O42.2;Rupture prématurée des membranes, travail retardé par traitement.
+O42.9;Rupture prématurée des membranes, sans précision.
+O43.0;Syndromes de transfusion placentaire.
+O43.1;Malformation du placenta.
+O43.2;Placenta adhérent pathologique.
+O43.8;Autres anomalies du placenta.
+O43.9;Anomalie du placenta, sans précision.
+O44.0;Placenta prævia précisé sans hémorragie.
+O44.1;Placenta prævia avec hémorragie.
+O45.0;Décollement prématuré du placenta avec anomalie de la coagulation.
+O45.8;Autres décollements prématurés du placenta.
+O45.9;Décollement prématuré du placenta, sans précision.
+O46.0;Hémorragie précédant l'accouchement avec anomalie de la coagulation.
+O46.8;Autres hémorragies précédant l'accouchement.
+O46.9;Hémorragie précédant l'accouchement, sans précision.
+O47.0;Faux travail avant 37 semaines révolues de gestation.
+O47.1;Faux travail à ou après la 37e semaine révolues de gestation.
+O47.9;Faux travail, sans précision.
+O60.0;Travail prématuré sans accouchement.
+O60.1;Travail prématuré spontané avec accouchement prématuré.
+O60.2;Travail prématuré spontané avec accouchement à terme.
+O60.3;Accouchement prématuré sans travail spontané.
+O61.0;Échec du déclenchement médical du travail.
+O61.1;Échec du déclenchement instrumental du travail.
+O61.8;Autres échecs du déclenchement du travail.
+O61.9;Échec du déclenchement du travail, sans précision.
+O62.0;Contractions initiales insuffisantes.
+O62.1;Inertie utérine secondaire.
+O62.2;Autres formes d'inertie utérine.
+O62.3;Travail trop rapide.
+O62.4;Contractions utérines hypertoniques, non coordonnées et prolongées.
+O62.8;Autres anomalies des forces en jeu au cours du travail.
+O62.9;Anomalie des forces en jeu au cours du travail, sans précision.
+O63.0;Prolongation de la première période [dilatation].
+O63.1;Prolongation de la deuxième période [expulsion].
+O63.2;Accouchement retardé du deuxième jumeau, triplé, etc..
+O63.9;Travail prolongé, sans précision.
+O64.0;Dystocie due à une rotation incomplète de la tête du fœtus.
+O64.1;Dystocie due à une présentation du siège.
+O64.2;Dystocie due à une présentation de la face.
+O64.3;Dystocie due à une présentation du front.
+O64.4;Dystocie due à une présentation de l'épaule.
+O64.5;Dystocie due à une présentation complexe.
+O64.8;Dystocie due à d'autres positions et présentations anormales.
+O64.9;Dystocie due à une position et une présentation anormales, sans précision.
+O65.0;Dystocie due à une déformation pelvienne.
+O65.1;Dystocie due à un bassin généralement rétréci.
+O65.2;Dystocie due à un rétrécissement du détroit supérieur.
+O65.3;Dystocie due à un rétrécissement du détroit inférieur et de la cavité moyenne.
+O65.4;Dystocie due à une disproportion fœtopelvienne, sans précision.
+O65.5;Dystocie due à une anomalie des organes pelviens de la mère.
+O65.8;Dystocie due à d'autres anomalies pelviennes de la mère.
+O65.9;Dystocie due à une anomalie pelvienne de la mère, sans précision.
+O66.0;Dystocie due à une dystocie des épaules.
+O66.1;Dystocie gémellaire.
+O66.2;Dystocie due à un fœtus anormalement gros.
+O66.3;Dystocie due à d'autres anomalies fœtales.
+O66.4;Échec de l'épreuve de travail, sans précision.
+O66.5;Échec de l'application d'une ventouse et d'un forceps, sans précision.
+O66.8;Autres dystocies précisées.
+O66.9;Dystocie, sans précision.
+O67.0;Hémorragie pendant l'accouchement avec anomalie de la coagulation.
+O67.8;Autres hémorragies pendant l'accouchement.
+O67.9;Hémorragie pendant l'accouchement, sans précision.
+O68.0;Travail et accouchement compliqués d'une anomalie du rythme cardiaque du fœtus.
+O68.1;Travail et accouchement compliqués de la présence de méconium dans le liquide.
+O68.2;Travail et accouchement compliqués d'une anomalie du rythme cardiaque du fœtus.
+O68.3;Travail et accouchement compliqués de signes biochimiques de détresse fœtale.
+O68.8;Travail et accouchement compliqués d'autres signes de détresse fœtale.
+O68.9;Travail et accouchement compliqués d'une détresse fœtale, sans précision.
+O69.0;Travail et accouchement compliqués d'un prolapsus du cordon.
+O69.1;Travail et accouchement compliqués d'une circulaire du cordon, avec compression.
+O69.2;Travail et accouchement compliqués d'une autre forme d'enchevêtrement du.
+O69.3;Travail et accouchement compliqués d'une brièveté du cordon.
+O69.4;Travail et accouchement compliqués par une insertion vélamenteuse du cordon.
+O69.5;Travail et accouchement compliqués de lésions vasculaires du cordon.
+O69.8;Travail et accouchement compliqués d'autres anomalies du cordon ombilical.
+O69.9;Travail et accouchement compliqués d'une anomalie du cordon ombilical, sans.
+O70.0;Déchirure obstétricale du périnée, du premier degré.
+O70.1;Déchirure obstétricale du périnée, du deuxième degré.
+O70.2;Déchirure obstétricale du périnée, du troisième degré.
+O70.3;Déchirure obstétricale du périnée, du quatrième degré.
+O70.9;Déchirure obstétricale du périnée, sans précision.
+O71.0;Rupture de l'utérus avant le début du travail.
+O71.1;Rupture de l'utérus pendant le travail.
+O71.2;Inversion de l'utérus du postpartum.
+O71.3;Déchirure obstétricale du col de l'utérus.
+O71.4;Déchirure obstétricale vaginale haute.
+O71.5;Autres lésions obstétricales des organes pelviens.
+O71.6;Lésions obstétricales intéressant les articulations et les ligaments pelviens.
+O71.7;Hématome pelvien d'origine obstétricale.
+O71.8;Autres traumatismes obstétricaux précisés.
+O71.9;Traumatisme obstétrical, sans précision.
+O72.0;Hémorragie de la délivrance [troisième période].
+O72.1;Autres hémorragies immédiates du postpartum.
+O72.2;Hémorragie du postpartum, tardive et secondaire.
+O72.3;Anomalie de la coagulation au cours du postpartum.
+O73.0;Rétention du placenta sans hémorragie.
+O73.1;Rétention partielle du placenta et des membranes, sans hémorragie.
+O74.0;Pneumopathie par aspiration due à une anesthésie au cours du travail et de.
+O74.1;Autres complications pulmonaires de l'anesthésie au cours du travail et de.
+O74.2;Complications cardiaques de l'anesthésie au cours du travail et de l'accouchement.
+O74.3;Complications intéressant le système nerveux central dues à l'anesthésie au cours.
+O74.4;Réaction toxique à une anesthésie locale au cours du travail et de l'accouchement.
+O74.5;Céphalée provoquée par une rachianesthésie et une anesthésie épidurale au cours.
+O74.6;Autres complications d'une rachianesthésie et d'une anesthésie épidurale au cours.
+O74.7;Échec ou difficulté d'intubation au cours du travail et de l'accouchement.
+O74.8;Autres complications de l'anesthésie au cours du travail et de l'accouchement.
+O74.9;Complication de l'anesthésie au cours du travail et de l'accouchement, sans.
+O75.0;Épuisement maternel au cours du travail et de l'accouchement 631.
+O75.1;Choc pendant ou après le travail et l'accouchement.
+O75.2;Pyrexie au cours du travail, non classée ailleurs.
+O75.3;Autres infections au cours du travail.
+O75.4;Autres complications d'un acte de chirurgie obstétricale et d'un acte à visée.
+O75.5;Accouchement retardé après rupture artificielle des membranes.
+O75.6;Accouchement retardé après rupture spontanée ou non précisée des membranes.
+O75.7;Accouchement par voie vaginale après une césarienne.
+O75.8;Autres complications précisées du travail et de l'accouchement.
+O75.9;Complication du travail et de l'accouchement, sans précision.
+O80.0;Accouchement spontané par présentation du sommet.
+O80.1;Accouchement spontané par présentation du siège.
+O80.8;Autres accouchements uniques et spontanés.
+O80.9;Accouchement unique et spontané, sans précision.
+O81.0;Accouchement par forceps bas.
+O81.1;Accouchement par forceps (moyen) à la partie moyenne de l'excavation.
+O81.2;Accouchement par forceps (moyen) à la partie moyenne de l'excavation, avec.
+O81.3;Accouchements par forceps, autres et sans précision.
+O81.4;Accouchement par extraction pneumatique.
+O81.5;Accouchement par association d'un forceps et d'une ventouse.
+O82.0;Accouchement par césarienne programmée.
+O82.1;Accouchement par césarienne d'urgence.
+O82.2;Accouchement par césarienne avec hystérectomie.
+O82.8;Autres accouchements uniques par césarienne.
+O82.9;Accouchement par césarienne, sans précision.
+O83.0;Extraction par le siège.
+O83.1;Autres accouchements par le siège avec assistance.
+O83.2;Autres accouchements avec l'aide de manipulations.
+O83.3;Accouchement d'un fœtus viable après grossesse abdominale.
+O83.4;Intervention destructrice lors d'un accouchement.
+O83.8;Autres accouchements uniques précisés, avec assistance.
+O83.9;Accouchement unique avec assistance, sans précision.
+O84.0;Accouchements multiples, tous spontanés.
+O84.1;Accouchements multiples, tous avec forceps et ventouse.
+O84.2;Accouchements multiples, tous par césarienne.
+O84.8;Autres accouchements multiples.
+O84.9;Accouchements multiples, sans précision.
+O86.0;Infection d'une plaie d'origine obstétricale chirurgicale.
+O86.1;Autres infections des voies génitales, après accouchement.
+O86.2;Infection des voies urinaires, après accouchement.
+O86.3;Autres infections des voies génito-urinaires, après accouchement.
+O86.4;Hyperthermie d'origine inconnue, après accouchement.
+O86.8;Autres infections puerpérales précisées.
+O87.0;Thrombophlébite superficielle au cours de la puerpéralité.
+O87.1;Phlébothrombose profonde au cours de la puerpéralité.
+O87.2;Hémorroïdes au cours de la puerpéralité.
+O87.3;Thrombose veineuse cérébrale au cours de la puerpéralité.
+O87.8;Autres complications veineuses au cours de la puerpéralité.
+O87.9;Complication veineuse au cours de la puerpéralité, sans précision.
+O88.0;Embolie gazeuse obstétricale.
+O88.1;Embolie amniotique.
+O88.2;Embolie obstétricale par caillot sanguin.
+O88.3;Embolie pyohémique et septique, obstétricale.
+O88.8;Autres embolies obstétricales.
+O89.0;Complications pulmonaires de l'anesthésie au cours de la puerpéralité.
+O89.1;Complications cardiaques de l'anesthésie au cours de la puerpéralité.
+O89.2;Complications intéressant le système nerveux central dues à une anesthésie au.
+O89.3;Réaction toxique à une anesthésie locale au cours de la puerpéralité.
+O89.4;Céphalée provoquée par une rachianesthésie et une anesthésie épidurale au cours.
+O89.5;Autres complications d'une rachianesthésie et d'une anesthésie épidurale au cours.
+O89.6;Échec ou difficulté d'intubation au cours de la puerpéralité.
+O89.8;Autres complications de l'anesthésie au cours de la puerpéralité.
+O89.9;Complication de l'anesthésie au cours de la puerpéralité, sans précision.
+O90.0;Rupture d'une suture de césarienne.
+O90.1;Rupture d'une suture obstétricale du périnée.
+O90.2;Hématome d'une plaie obstétricale.
+O90.3;Myocardiopathie au cours de la puerpéralité.
+O90.4;Insuffisance rénale aigüe du postpartum.
+O90.5;Thyroïdite du postpartum.
+O90.8;Autres complications puerpérales, non classées ailleurs.
+O90.9;Complication puerpérale, sans précision.
+O91.0;Infection du mamelon associée à l'accouchement.
+O91.1;Abcès du sein associé à l'accouchement.
+O91.2;Mastite non purulente associée à l'accouchement.
+O92.0;Invagination du mamelon associée à l'accouchement.
+O92.1;Crevasses du mamelon associées à l'accouchement.
+O92.2;Mastopathies associées à l'accouchement, autres et sans précision.
+O92.3;Agalactie.
+O92.4;Hypogalactie.
+O92.5;Suppression de la lactation.
+O92.6;Galactorrhée.
+O92.7;Anomalies de la lactation, autres et sans précision.
+O96.0;Mort relevant directement d'une cause obstétricale survenant plus de 42 jours mais.
+O96.1;Mort relevant indirectement d'une cause obstétricale survenant plus de 42 jours.
+O96.9;Mort relevant d'une cause obstétricale non précisée survenant plus de 42 jours mais.
+O97.0;Mort de séquelles relevant directement d’une cause obstétricale.
+O97.1;Mort de séquelles relevant indirectement d’une cause obstétricale.
+O97.9;Mort de séquelles relevant d’une cause obstétricale, non précisée.
+O98.0;Tuberculose compliquant la grossesse, l'accouchement et la puerpéralité.
+O98.1;Syphilis compliquant la grossesse, l'accouchement et la puerpéralité.
+O98.2;Gonococcie compliquant la grossesse, l'accouchement et la puerpéralité.
+O98.3;Autres maladies dont le mode de transmission est essentiellement sexuel,.
+O98.4;Hépatite virale compliquant la grossesse, l'accouchement et la puerpéralité.
+O98.5;Autres maladies virales compliquant la grossesse, l'accouchement et la puerpéralité.
+O98.6;Maladies à protozoaires compliquant la grossesse, l'accouchement et la puerpéralité.
+O98.7;Maladies dues au virus de l’immunodéficience [VIH] compliquant la grossesse,.
+O98.8;Autres maladies infectieuses et parasitaires de la mère compliquant la grossesse,.
+O98.9;Maladie infectieuse ou parasitaire de la mère compliquant la grossesse,.
+O99.0;Anémie compliquant la grossesse, l'accouchement et la puerpéralité.
+O99.1;Autres maladies du sang et des organes hématopoïétiques et certaines anomalies.
+O99.2;Maladies endocriniennes, nutritionnelles et métaboliques compliquant la grossesse,.
+O99.3;Troubles mentaux et maladies du système nerveux compliquant la grossesse,.
+O99.4;Maladies de l'appareil circulatoire compliquant la grossesse, l'accouchement et la.
+O99.5;Maladies de l'appareil respiratoire compliquant la grossesse, l'accouchement et la.
+O99.6;Maladies de l'appareil digestif compliquant la grossesse, l'accouchement et la.
+O99.7;Maladies de la peau et du tissu cellulaire souscutané compliquant la grossesse,.
+O99.8;Autres maladies et affections précisées compliquant la grossesse, l'accouchement.

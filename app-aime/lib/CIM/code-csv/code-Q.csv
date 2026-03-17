@@ -1,0 +1,620 @@
+Q00.0;Anencéphalie.
+Q00.1;Craniorachischisis.
+Q00.2;Iniencéphalie.
+Q01.0;Encéphalocèle frontale.
+Q01.1;Encéphalocèle nasofrontale.
+Q01.2;Encéphalocèle occipitale 670.
+Q01.8;Encéphalocèle d'autres localisations.
+Q01.9;Encéphalocèle, sans précision.
+Q03.0;Malformations de l'aqueduc de Sylvius.
+Q03.1;Atrésie des trous de Luschka et de Magendie.
+Q03.8;Autres hydrocéphalies congénitales.
+Q03.9;Hydrocéphalie congénitale, sans précision.
+Q04.0;Malformations congénitales du corps calleux.
+Q04.1;Arhinencéphalie.
+Q04.2;Holoprosencéphalie.
+Q04.3;Autres anomalies localisées du développement de l'encéphale.
+Q04.4;Dysplasie du septum et des voies optiques.
+Q04.5;Mégalencéphalie.
+Q04.6;Kystes cérébraux congénitaux.
+Q04.8;Autres malformations congénitales précisées de l'encéphale.
+Q04.9;Malformation congénitale de l'encéphale, sans précision.
+Q05.0;Spina bifida cervical, avec hydrocéphalie.
+Q05.1;Spina bifida thoracique, avec hydrocéphalie.
+Q05.2;Spina bifida lombaire, avec hydrocéphalie.
+Q05.3;Spina bifida sacré, avec hydrocéphalie.
+Q05.4;Spina bifida, avec hydrocéphalie, sans précision.
+Q05.5;Spina bifida cervical, sans hydrocéphalie.
+Q05.6;Spina bifida thoracique, sans hydrocéphalie.
+Q05.7;Spina bifida lombaire, sans hydrocéphalie.
+Q05.8;Spina bifida sacré, sans hydrocéphalie.
+Q05.9;Spina bifida, sans précision.
+Q06.0;Amyélie.
+Q06.1;Hypoplasie et dysplasie de la moelle épinière.
+Q06.2;Diastématomyélie.
+Q06.3;Autres malformations congénitales de la queue de cheval.
+Q06.4;Hydromyélie.
+Q06.8;Autres malformations congénitales précisées de la moelle épinière.
+Q06.9;Malformation congénitale de la moelle épinière, sans précision.
+Q07.0;Syndrome d'Arnold–Chiari.
+Q07.8;Autres malformations congénitales précisées du système nerveux.
+Q07.9;Malformation congénitale du système nerveux, sans précision.
+Q10.0;Ptosis congénital.
+Q10.1;Ectropion congénital.
+Q10.2;Entropion congénital.
+Q10.3;Autres malformations congénitales des paupières.
+Q10.4;Absence et agénésie de l'appareil lacrymal.
+Q10.5;Sténose ou rétrécissement congénital du canal lacrymal.
+Q10.6;Autres malformations congénitales de l'appareil lacrymal.
+Q10.7;Malformation congénitale de l'orbite.
+Q11.0;Œil kystique.
+Q11.1;Autres formes d'anophtalmie.
+Q11.2;Microphtalmie.
+Q11.3;Macrophtalmie.
+Q12.0;Cataracte congénitale.
+Q12.1;Luxation congénitale du cristallin.
+Q12.2;Colobome du cristallin.
+Q12.3;Aphakie congénitale.
+Q12.4;Sphérophakie.
+Q12.8;Autres malformations congénitales du cristallin.
+Q12.9;Malformation congénitale du cristallin, sans précision.
+Q13.0;Colobome de l'iris.
+Q13.1;Absence d'iris.
+Q13.2;Autres malformations congénitales de l'iris.
+Q13.3;Opacité congénitale de la cornée.
+Q13.4;Autres malformations congénitales de la cornée.
+Q13.5;Sclérotique bleue.
+Q13.8;Autres malformations congénitales de la chambre antérieure de l'œil.
+Q13.9;Malformation congénitale de la chambre antérieure de l'œil, sans précision.
+Q14.0;Malformation congénitale du corps vitré.
+Q14.1;Malformation congénitale de la rétine.
+Q14.2;Malformation congénitale de la papille optique.
+Q14.3;Malformation congénitale de la choroïde.
+Q14.8;Autres malformations congénitales de la chambre postérieure de l'œil.
+Q14.9;Malformation congénitale de la chambre postérieure de l'œil, sans précision.
+Q15.0;Glaucome congénital.
+Q15.8;Autres malformations congénitales précisées de l'œil.
+Q15.9;Malformation congénitale de l'œil, sans précision.
+Q16.0;Absence congénitale du pavillon de l'oreille.
+Q16.1;Absence, atrésie et rétrécissement congénitaux du conduit auditif (externe).
+Q16.2;Absence de trompe d'Eustache.
+Q16.3;Malformation congénitale des osselets.
+Q16.4;Autres malformations congénitales de l'oreille moyenne.
+Q16.5;Malformation congénitale de l'oreille interne.
+Q16.9;Malformation congénitale de l'oreille avec atteinte de l'audition, sans précision.
+Q17.0;Pavillon surnuméraire.
+Q17.1;Macrotie.
+Q17.2;Microtie.
+Q17.3;Autres déformations de l'oreille.
+Q17.4;Anomalie de position de l'oreille.
+Q17.5;Oreilles proéminentes.
+Q17.8;Autres malformations congénitales précisées de l'oreille.
+Q17.9;Malformation congénitale de l'oreille, sans précision.
+Q18.0;Fissure, fistule et kyste d'origine branchiale.
+Q18.0;Kyste de la queue du sourcil.
+Q18.0;Autres fissures, fistules et kystes d’origine branchiale.
+Q18.1;Fistule et kyste préauriculaires.
+Q18.2;Autres malformations d'origine branchiale.
+Q18.3;Cou palmé.
+Q18.4;Macrostomie.
+Q18.5;Microstomie.
+Q18.6;Macrocheilie.
+Q18.7;Microcheilie.
+Q18.8;Autres malformations congénitales précisées de la face et du cou.
+Q18.9;Malformation congénitale de la face et du cou, sans précision.
+Q20.0;Tronc artériel commun.
+Q20.1;Ventricule droit à double issue.
+Q20.2;Ventricule gauche à double issue.
+Q20.3;Communication ventriculoauriculaire discordante.
+Q20.4;Ventricule à double issue.
+Q20.5;Communication auriculoventriculaire discordante.
+Q20.6;Isomérisme des auricules cardiaques.
+Q20.8;Autres malformations congénitales des cavités et des orifices cardiaques.
+Q20.9;Malformation congénitale des cavités et des orifices cardiaques, sans précision.
+Q21.0;Communication interventriculaire.
+Q21.1;Communication interauriculaire.
+Q21.2;Communication auriculoventriculaire.
+Q21.3;Tétralogie de Fallot.
+Q21.4;Communication aortopulmonaire.
+Q21.8;Autres malformations congénitales des cloisons cardiaques.
+Q21.9;Malformation congénitale d'une cloison cardiaque, sans précision.
+Q22.0;Atrésie de la valve pulmonaire.
+Q22.1;Sténose congénitale de la valve pulmonaire.
+Q22.2;Insuffisance congénitale de la valve pulmonaire.
+Q22.3;Autres malformations congénitales de la valve pulmonaire.
+Q22.4;Sténose congénitale de la valvule tricuspide.
+Q22.5;Maladie d'Ebstein.
+Q22.6;Hypoplasie du cœur droit.
+Q22.8;Autres malformations congénitales de la valvule tricuspide.
+Q22.9;Malformation congénitale de la valvule tricuspide, sans précision.
+Q23.0;Sténose congénitale de la valvule aortique.
+Q23.1;Insuffisance congénitale de la valvule aortique.
+Q23.2;Sténose mitrale congénitale.
+Q23.3;Insuffisance mitrale congénitale.
+Q23.4;Hypoplasie du cœur gauche.
+Q23.8;Autres malformations congénitales des valvules aortique et mitrale.
+Q23.9;Malformation congénitale des valvules aortique et mitrale, sans précision.
+Q24.0;Dextrocardie.
+Q24.1;Lévocardie.
+Q24.2;Cœur triatrial.
+Q24.3;Sténose de l'infundibulum pulmonaire.
+Q24.4;Sténose sousaortique congénitale.
+Q24.5;Malformation des vaisseaux coronaires.
+Q24.6;Bloc congénital du cœur.
+Q24.8;Autres malformations cardiaques congénitales précisées.
+Q24.9;Malformation cardiaque congénitale, sans précision.
+Q25.0;Perméabilité du canal artériel.
+Q25.1;Coarctation de l'aorte.
+Q25.2;Atrésie de l'aorte.
+Q25.3;Sténose de l'aorte.
+Q25.4;Autres malformations congénitales de l'aorte.
+Q25.5;Atrésie de l'artère pulmonaire.
+Q25.6;Sténose de l'artère pulmonaire.
+Q25.7;Autres malformations congénitales de l'artère pulmonaire.
+Q25.8;Autres malformations congénitales des gros vaisseaux.
+Q25.9;Malformation congénitale des gros vaisseaux, sans précision.
+Q26.0;Sténose congénitale de la veine cave.
+Q26.1;Persistance de la veine cave supérieure gauche.
+Q26.2;Retour veineux pulmonaire anormal total.
+Q26.3;Retour veineux pulmonaire anormal partiel.
+Q26.4;Retour veineux pulmonaire anormal, sans précision.
+Q26.5;Retour veineux portal anormal.
+Q26.6;Fistule entre la veine porte et l'artère hépatique.
+Q26.8;Autres malformations congénitales des grandes veines.
+Q26.9;Malformation congénitale d'une grande veine, sans précision.
+Q27.0;Absence congénitale et hypoplasie de l'artère ombilicale.
+Q27.1;Sténose congénitale de l'artère rénale.
+Q27.2;Autres malformations congénitales de l'artère rénale.
+Q27.3;Malformation artérioveineuse périphérique.
+Q27.4;Phlébectasie congénitale.
+Q27.8;Autres malformations congénitales précisées de l'appareil circulatoire périphérique.
+Q27.9;Malformation congénitale de l'appareil circulatoire périphérique, sans précision.
+Q28.0;Malformation artérioveineuse de vaisseaux précérébraux.
+Q28.1;Autres malformations des vaisseaux précérébraux.
+Q28.2;Malformation artérioveineuse des vaisseaux cérébraux.
+Q28.3;Autres malformations des vaisseaux cérébraux.
+Q28.8;Autres malformations congénitales précisées de l'appareil circulatoire.
+Q28.9;Malformation congénitale de l'appareil circulatoire, sans précision.
+Q30.0;Atrésie des choanes.
+Q30.1;Agénésie et hypoplasie du nez.
+Q30.2;Fissure, échancrure et fente nasales.
+Q30.3;Perforation congénitale de la cloison nasale.
+Q30.8;Autres malformations congénitales du nez.
+Q30.9;Malformation congénitale du nez, sans précision.
+Q31.0;Ptérygion du larynx.
+Q31.1;Sténose sousglottique congénitale.
+Q31.2;Hypoplasie du larynx.
+Q31.3;Laryngocèle.
+Q31.5;Laryngomalacie congénitale.
+Q31.8;Autres malformations congénitales du larynx.
+Q31.9;Malformation congénitale du larynx, sans précision.
+Q32.0;Trachéomalacie congénitale.
+Q32.1;Autres malformations congénitales de la trachée.
+Q32.2;Bronchomalacie congénitale.
+Q32.3;Sténose bronchique congénitale.
+Q32.4;Autres malformations congénitales des bronches.
+Q33.0;Poumon kystique congénital.
+Q33.1;Lobe pulmonaire surnuméraire.
+Q33.2;Séquestration pulmonaire.
+Q33.3;Agénésie du poumon.
+Q33.4;Bronchectasie congénitale.
+Q33.5;Tissu ectopique intrapulmonaire.
+Q33.6;Hypoplasie et dysplasie du poumon.
+Q33.8;Autres malformations congénitales du poumon.
+Q33.9;Malformation congénitale du poumon, sans précision.
+Q34.0;Anomalie de la plèvre.
+Q34.1;Kyste congénital du médiastin.
+Q34.8;Autres malformations congénitales précisées de l'appareil respiratoire.
+Q34.9;Malformation congénitale de l'appareil respiratoire, sans précision.
+Q35.1;Fente de la voute du palais.
+Q35.3;Fente du voile du palais.
+Q35.5;Fente de la voute et du voile du palais.
+Q35.7;Fente de la luette.
+Q35.9;Fente du palais, sans précision.
+Q36.0;Fente labiale bilatérale.
+Q36.1;Fente labiale médiane.
+Q36.9;Fente labiale unilatérale.
+Q37.0;Fente de la voute du palais avec fente labiale bilatérale.
+Q37.1;Fente de la voute du palais avec fente labiale unilatérale.
+Q37.2;Fente du voile du palais avec fente labiale bilatérale.
+Q37.3;Fente du voile du palais avec fente labiale unilatérale.
+Q37.4;Fente de la voute et du voile du palais avec fente labiale bilatérale.
+Q37.5;Fente de la voute et du voile du palais avec fente labiale unilatérale.
+Q37.8;Fente palatine avec fente labiale bilatérale, sans précision.
+Q37.9;Fente palatine avec fente labiale unilatérale, sans précision.
+Q38.0;Malformations congénitales des lèvres, non classées ailleurs.
+Q38.1;Ankyloglossie.
+Q38.2;Macroglossie.
+Q38.3;Autres malformations congénitales de la langue.
+Q38.4;Malformations congénitales des glandes et des canaux salivaires.
+Q38.5;Malformations congénitales du palais, non classées ailleurs.
+Q38.6;Autres malformations congénitales de la bouche.
+Q38.7;Poche pharyngée.
+Q38.8;Autres malformations congénitales du pharynx.
+Q39.0;Atrésie de l'œsophage, sans fistule.
+Q39.1;Atrésie de l'œsophage avec fistule trachéoœsophagienne.
+Q39.2;Fistule trachéoœsophagienne congénitale, sans atrésie.
+Q39.3;Sténose et rétrécissement congénitaux de l'œsophage.
+Q39.4;Ptérygion congénital de l'œsophage.
+Q39.5;Dilatation congénitale de l'œsophage.
+Q39.6;Diverticule de l'œsophage.
+Q39.8;Autres malformations congénitales de l'œsophage.
+Q39.9;Malformation congénitale de l'œsophage, sans précision 686.
+Q40.0;Sténose hypertrophique congénitale du pylore.
+Q40.1;Hernie hiatale congénitale.
+Q40.2;Autres malformations congénitales précisées de l'estomac.
+Q40.3;Malformation congénitale de l'estomac, sans précision.
+Q40.8;Autres malformations congénitales précisées des voies digestives supérieures.
+Q40.9;Malformation congénitale des voies digestives supérieures, sans précision.
+Q41.0;Absence, atrésie et sténose congénitales du duodénum.
+Q41.1;Absence, atrésie et sténose congénitales du jéjunum.
+Q41.2;Absence, atrésie et sténose congénitales de l'iléon.
+Q41.8;Absence, atrésie et sténose congénitales d'autres localisations précisées de.
+Q41.9;Absence, atrésie et sténose congénitales de l'intestin grêle, sans précision de.
+Q42.0;Absence, atrésie et sténose congénitales du rectum, avec fistule.
+Q42.1;Absence, atrésie et sténose congénitales du rectum, sans fistule.
+Q42.2;Absence, atrésie et sténose congénitales de l'anus, avec fistule.
+Q42.3;Absence, atrésie et sténose congénitales de l'anus, sans fistule.
+Q42.8;Absence, atrésie et sténose congénitales d'autres localisations du gros intestin.
+Q42.9;Absence, atrésie et sténose congénitales du gros intestin, sans précision de.
+Q43.0;Diverticule de Meckel.
+Q43.1;Maladie de Hirschsprung.
+Q43.2;Autres anomalies fonctionnelles congénitales du côlon.
+Q43.3;Malformations congénitales de fixation de l'intestin.
+Q43.4;Duplication de l'intestin.
+Q43.5;Ectopie de l'anus.
+Q43.6;Fistule congénitale du rectum et de l'anus.
+Q43.7;Persistance du cloaque.
+Q43.8;Autres malformations congénitales précisées de l'intestin.
+Q43.9;Malformation congénitale de l'intestin, sans précision.
+Q44.0;Agénésie, aplasie et hypoplasie de la vésicule biliaire.
+Q44.1;Autres malformations congénitales de la vésicule biliaire.
+Q44.2;Atrésie des voies bilaires.
+Q44.3;Sténose et rétrécissement congénitaux des voies biliaires.
+Q44.4;Kyste du cholédoque.
+Q44.5;Autres malformations congénitales des voies biliaires.
+Q44.6;Maladie kystique du foie.
+Q44.7;Autres malformations congénitales du foie.
+Q45.0;Agénésie, aplasie et hypoplasie du pancréas.
+Q45.1;Pancréas annulaire.
+Q45.2;Kyste pancréatique congénital.
+Q45.3;Autres malformations congénitales du pancréas et du canal pancréatique.
+Q45.8;Autres malformations congénitales précisées de l'appareil digestif.
+Q45.9;Malformation congénitale de l'appareil digestif, sans précision.
+Q50.0;Absence congénitale d'ovaire(s).
+Q50.1;Kyste ovarien au cours du développement.
+Q50.2;Torsion congénitale de l'ovaire.
+Q50.3;Autres malformations congénitales de l'ovaire.
+Q50.4;Kyste embryonnaire de la trompe de Fallope.
+Q50.5;Kyste embryonnaire du ligament large.
+Q50.6;Autres malformations congénitales des trompes de Fallope et des ligaments larges.
+Q51.0;Agénésie et aplasie de l'utérus.
+Q51.1;Utérus double avec duplication du col et du vagin.
+Q51.2;Autres duplications de l'utérus.
+Q51.3;Utérus bicorne.
+Q51.4;Utérus unicorne.
+Q51.5;Agénésie et aplasie du col de l'utérus.
+Q51.6;Kyste embryonnaire du col de l'utérus.
+Q51.7;Fistule congénitale utérodigestive et utéro-urinaire.
+Q51.8;Autres malformations congénitales de l'utérus et du col de l'utérus.
+Q51.9;Malformation congénitale de l'utérus et du col de l'utérus, sans précision.
+Q52.0;Absence congénitale de vagin.
+Q52.1;Dédoublement du vagin.
+Q52.2;Fistule rectovaginale congénitale.
+Q52.3;Imperforation de l'hymen.
+Q52.4;Autres malformations congénitales du vagin.
+Q52.5;Fusion de la vulve.
+Q52.6;Malformation congénitale du clitoris.
+Q52.7;Autres malformations congénitales de la vulve.
+Q52.8;Autres malformations congénitales précisées des organes génitaux de la femme.
+Q52.9;Malformation congénitale des organes génitaux de la femme, sans précision.
+Q53.0;Testicule en situation anormale.
+Q53.1;Cryptorchidie unilatérale.
+Q53.2;Cryptorchidie bilatérale.
+Q53.9;Cryptorchidie, sans précision.
+Q54.0;Hypospadias balanique.
+Q54.1;Hypospadias pénien.
+Q54.2;Hypospadias pénoscrotal.
+Q54.3;Hypospadias périnéal.
+Q54.4;Chordée congénitale.
+Q54.8;Autres hypospadias.
+Q54.9;Hypospadias, sans précision.
+Q55.0;Absence et aplasie du testicule.
+Q55.1;Hypoplasie du (des) testicule(s) et du scrotum.
+Q55.2;Autres malformations congénitales du (des) testicule(s) et du scrotum.
+Q55.3;Atrésie du canal déférent.
+Q55.4;Autres malformations congénitales du canal déférent, de l'épididyme, des vésicules.
+Q55.5;Absence et aplasie congénitales de la verge.
+Q55.6;Autres malformations congénitales de la verge.
+Q55.8;Autres malformations congénitales précisées des organes génitaux de l'homme.
+Q55.9;Malformation congénitale des organes génitaux de l'homme, sans précision.
+Q56.0;Hermaphrodisme, non classé ailleurs.
+Q56.1;Pseudohermaphrodisme masculin, non classé ailleurs.
+Q56.2;Pseudohermaphrodisme féminin, non classé ailleurs.
+Q56.3;Pseudohermaphrodisme, sans précision.
+Q56.4;Sexe indéterminé, sans précision.
+Q60.0;Agénésie rénale unilatérale.
+Q60.1;Agénésie rénale bilatérale.
+Q60.2;Agénésie rénale, sans précision.
+Q60.3;Hypoplasie rénale unilatérale.
+Q60.4;Hypoplasie rénale bilatérale.
+Q60.5;Hypoplasie rénale, sans précision.
+Q60.6;Syndrome de Potter.
+Q61.0;Kyste congénital unique du rein.
+Q61.1;Rein polykystique, autosomique récessif.
+Q61.2;Rein polykystique, autosomique dominant.
+Q61.3;Rein polykystique, sans précision.
+Q61.4;Dysplasie rénale.
+Q61.5;Kyste médullaire du rein.
+Q61.8;Autres maladies kystiques du rein.
+Q61.9;Maladie kystique du rein, sans précision.
+Q62.0;Hydronéphrose congénitale.
+Q62.1;Atrésie et sténose de l'uretère.
+Q62.2;Méga-uretère congénital.
+Q62.3;Autres anomalies obstructives du bassinet et de l'uretère.
+Q62.4;Agénésie de l'uretère.
+Q62.5;Duplication de l'uretère.
+Q62.6;Malposition de l'uretère.
+Q62.7;Reflux vésico-urétéro-rénal congénital.
+Q62.8;Autres malformations congénitales de l'uretère.
+Q63.0;Rein surnuméraire.
+Q63.1;Rein lobulé, soudé et en fer à cheval.
+Q63.2;Rein ectopique.
+Q63.3;Rein hyperplasique et géant.
+Q63.8;Autres malformations congénitales précisées du rein.
+Q63.9;Malformation congénitale du rein, sans précision.
+Q64.0;Épispadias.
+Q64.1;Exstrophie vésicale.
+Q64.2;Valvules urétrales postérieures congénitales.
+Q64.3;Autres formes d'atrésie et de sténose de l'urètre et du col de la vessie.
+Q64.4;Malformation de l'ouraque.
+Q64.5;Absence congénitale de la vessie et de l'urètre.
+Q64.6;Diverticule congénital de la vessie.
+Q64.7;Autres malformations congénitales de la vessie et de l'urètre.
+Q64.8;Autres malformations congénitales précisées de l'appareil urinaire.
+Q64.9;Malformation congénitale de l'appareil urinaire, sans précision.
+Q65.0;Luxation congénitale de la hanche, unilatérale.
+Q65.1;Luxation congénitale de la hanche, bilatérale.
+Q65.2;Luxation congénitale de la hanche, sans précision.
+Q65.3;Subluxation congénitale de la hanche, unilatérale.
+Q65.4;Subluxation congénitale de la hanche, bilatérale.
+Q65.5;Subluxation congénitale de la hanche, sans précision 695.
+Q65.6;Hanche instable.
+Q65.8;Autres malformations congénitales de la hanche.
+Q65.9;Malformation congénitale de la hanche, sans précision.
+Q66.0;Pied bot varus équin.
+Q66.1;Pied bot talus varus.
+Q66.2;Metatarsus varus.
+Q66.3;Autres anomalies morphologiques congénitales du pied en varus.
+Q66.4;Pied bot talus valgus.
+Q66.5;Pied plat congénital.
+Q66.6;Autres anomalies morphologiques congénitales du pied en valgus.
+Q66.7;Pied creux.
+Q66.8;Autres anomalies morphologiques congénitales du pied.
+Q66.9;Anomalie morphologique congénitale du pied, sans précision.
+Q67.0;Asymétrie faciale.
+Q67.1;Anomalie morphologique faciale par compression.
+Q67.2;Dolichocéphalie.
+Q67.3;Plagiocéphalie.
+Q67.4;Autres anomalies morphologiques congénitales du crâne, de la face et de la.
+Q67.5;Anomalie morphologique congénitale du rachis.
+Q67.6;Thorax en entonnoir, congénital.
+Q67.7;Thorax en carène, congénital.
+Q67.8;Autres anomalies morphologiques congénitales du thorax.
+Q68.0;Anomalie morphologique congénitale des muscles sterno-cléido-mastoïdiens.
+Q68.1;Anomalie morphologique congénitale de la main.
+Q68.2;Anomalie morphologique congénitale du genou.
+Q68.3;Incurvation congénitale du fémur.
+Q68.4;Incurvation congénitale du tibia et du péroné.
+Q68.5;Incurvation congénitale des os longs du membre inférieur, sans précision.
+Q68.8;Autres anomalies morphologiques congénitales ostéoarticulaires et des muscles.
+Q69.0;Doigt(s) surnuméraire(s).
+Q69.1;Pouce(s) surnuméraire(s).
+Q69.2;Orteil(s) surnuméraire(s).
+Q69.9;Polydactylie, sans précision.
+Q70.0;Coalescence des doigts.
+Q70.1;Palmure des doigts.
+Q70.2;Coalescence des orteils.
+Q70.3;Palmure des orteils.
+Q70.4;Polysyndactylie.
+Q70.9;Syndactylie, sans précision.
+Q71.0;Absence congénitale complète d'un (des) membre(s) supérieur(s).
+Q71.1;Absence congénitale du bras et de l'avant-bras, main présente.
+Q71.2;Absence congénitale de l'avant-bras et de la main.
+Q71.3;Absence congénitale de la main et de(s) doigt(s).
+Q71.4;Raccourcissement longitudinal du radius.
+Q71.5;Raccourcissement longitudinal du cubitus.
+Q71.6;Main en pince de homard.
+Q71.8;Autres raccourcissements d'un (des) membre(s) supérieur(s).
+Q71.9;Raccourcissement du membre supérieur, sans précision.
+Q72.0;Absence congénitale complète d'un (des) membre(s) inférieur(s).
+Q72.1;Absence congénitale de la cuisse et de la jambe, pied présent.
+Q72.2;Absence congénitale de la jambe et du pied 698.
+Q72.3;Absence congénitale du pied et d'un (des) orteil(s).
+Q72.4;Raccourcissement longitudinal du fémur.
+Q72.5;Raccourcissement longitudinal du tibia.
+Q72.6;Raccourcissement longitudinal du péroné.
+Q72.7;Pied bifide.
+Q72.8;Autres raccourcissements d'un (des) membre(s) inférieur(s).
+Q72.9;Raccourcissement du membre inférieur, sans précision.
+Q73.0;Absence congénitale d'un (des) membre(s) non précisé(s).
+Q73.1;Phocomélie, membre(s) non précisé(s).
+Q73.8;Autres raccourcissements d'un (des) membre(s) non précisé(s).
+Q74.0;Autres malformations congénitales d'un (des) membre(s) supérieur(s), y compris la.
+Q74.1;Malformation congénitale du genou.
+Q74.2;Autres malformations congénitales d'un (des) membre(s) inférieur(s), y compris la.
+Q74.3;Arthrogrypose congénitale multiple.
+Q74.8;Autres malformations congénitales précisées d'un (des) membre(s) non précisé(s).
+Q74.9;Malformation congénitale d'un (des) membre(s) non précisé(s), sans précision.
+Q75.0;Craniosynostose.
+Q75.1;Dysostose craniofaciale.
+Q75.2;Hypertélorisme.
+Q75.3;Macrocéphalie.
+Q75.4;Dysostose mandibulofaciale.
+Q75.5;Dysostose oculomandibulaire.
+Q75.8;Autres malformations congénitales précisées des os du crâne et de la face.
+Q75.9;Malformation congénitale des os du crâne et de la face, sans précision.
+Q76.0;Spina bifida occulta.
+Q76.1;Syndrome de Klippel–Feil.
+Q76.2;Spondylolisthésis congénital.
+Q76.3;Scoliose congénitale due à une malformation osseuse congénitale.
+Q76.4;Autres malformations congénitales du rachis, non associées à une scoliose.
+Q76.5;Côte cervicale.
+Q76.6;Autres malformations congénitales des côtes.
+Q76.7;Anomalies congénitales du sternum.
+Q76.8;Autres malformations congénitales du thorax osseux.
+Q76.9;Malformation congénitale du thorax osseux, sans précision.
+Q77.0;Achondrogénésie.
+Q77.1;Insuffisance staturale thanatophore.
+Q77.2;Syndrome des côtes courtes.
+Q77.3;Chondrodysplasie ponctuée.
+Q77.4;Achondroplasie.
+Q77.5;Dysplasie diastrophique.
+Q77.6;Dysplasie chondroectodermique.
+Q77.7;Dysplasie spondyloépiphysaire.
+Q77.8;Autres ostéo-chondro-dysplasies avec anomalies de la croissance des os longs et.
+Q77.9;Ostéo-chondro-dysplasie avec anomalies de la croissance des os longs et du rachis,.
+Q78.0;Ostéogénèse imparfaite.
+Q78.1;Dysplasie polyostotique fibreuse.
+Q78.2;Ostéopétrose.
+Q78.3;Dysplasie diaphysaire progressive.
+Q78.4;Enchondromatose.
+Q78.5;Dysplasie métaphysaire.
+Q78.6;Exostoses multiples congénitales.
+Q78.8;Autres ostéo-chondro-dysplasies précisées.
+Q78.9;Ostéo-chondro-dysplasie, sans précision.
+Q79.0;Hernie diaphragmatique congénitale.
+Q79.1;Autres malformations congénitales du diaphragme.
+Q79.2;Exomphale.
+Q79.3;Gastroschisis.
+Q79.4;Aplasie congénitale de la musculature abdominale.
+Q79.5;Autres malformations congénitales de la paroi abdominale.
+Q79.6;Syndrome d'Ehlers–Danlos.
+Q79.8;Autres malformations congénitales du système ostéoarticulaire et des muscles.
+Q79.9;Malformation congénitale du système ostéoarticulaire et des muscles, sans.
+Q80.0;Ichtyose vulgaire.
+Q80.1;Ichtyose liée au chromosome X.
+Q80.2;Ichtyose lamellaire.
+Q80.3;Érythrodermie ichtyosiforme bulleuse congénitale.
+Q80.4;Fœtus Arlequin.
+Q80.8;Autres ichtyoses congénitales.
+Q80.9;Ichtyose congénitale, sans précision.
+Q81.0;Épidermolyse bulleuse simple.
+Q81.1;Épidermolyse bulleuse létale.
+Q81.2;Épidermolyse bulleuse dystrophique.
+Q81.8;Autres épidermolyses bulleuses.
+Q81.9;Épidermolyse bulleuse, sans précision.
+Q82.0;Lymphœdème héréditaire.
+Q82.1;Xeroderma pigmentosum.
+Q82.2;Mastocytose.
+Q82.3;Incontinentia pigmenti.
+Q82.4;Dysplasie ectodermique (anhidrotique).
+Q82.5;Nævus congénital non néoplasique.
+Q82.8;Autres malformations congénitales précisées de la peau.
+Q82.9;Malformation congénitale de la peau, sans précision.
+Q83.0;Absence congénitale de sein avec absence de mamelon.
+Q83.1;Sein surnuméraire.
+Q83.2;Absence de mamelon.
+Q83.3;Mamelon accessoire.
+Q83.8;Autres malformations congénitales du sein.
+Q83.9;Malformation congénitale du sein, sans précision.
+Q84.0;Alopécie congénitale.
+Q84.1;Anomalies congénitales de la morphologie des cheveux, non classées ailleurs.
+Q84.2;Autres anomalies congénitales des cheveux.
+Q84.3;Anonychie.
+Q84.4;Leuconychie congénitale.
+Q84.5;Hypertrophie des ongles.
+Q84.6;Autres malformations congénitales des ongles.
+Q84.8;Autres malformations congénitales précisées de la peau et des phanères.
+Q84.9;Malformation congénitale de la peau et des phanères, sans précision.
+Q85.0;Neurofibromatose (non maligne).
+Q85.1;Sclérose tubéreuse.
+Q85.8;Autres phacomatoses, non classées ailleurs.
+Q85.9;Phacomatose, sans précision.
+Q86.0;Syndrome d'alcoolisation fœtal [SAF](dysmorphique).
+Q86.1;Syndrome fœtal dû à l'hydantoïne.
+Q86.2;Dysmorphisme dû à la warfarine.
+Q86.8;Autres syndromes congénitaux malformatifs dus à des causes exogènes connues.
+Q87.0;Syndromes congénitaux malformatifs atteignant principalement l'aspect de la face.
+Q87.1;Syndromes congénitaux malformatifs associés principalement à une petite taille.
+Q87.2;Syndromes congénitaux malformatifs impliquant principalement les membres.
+Q87.3;Syndromes congénitaux malformatifs comprenant un gigantisme du nouveau-né.
+Q87.4;Syndrome de Marfan.
+Q87.5;Autres syndromes congénitaux malformatifs avec d'autres modifications du.
+Q87.8;Autres syndromes congénitaux malformatifs précisés, non classés ailleurs.
+Q89.0;Malformations congénitales de la rate.
+Q89.1;Malformations congénitales des surrénales.
+Q89.2;Malformations congénitales des autres glandes endocrines.
+Q89.3;Situs inversus.
+Q89.4;Jumeaux soudés.
+Q89.7;Malformations congénitales multiples, non classées ailleurs.
+Q89.8;Autres malformations congénitales précisées.
+Q89.9;Malformation congénitale, sans précision.
+Q90.0;Trisomie 21, non-disjonction méïotique.
+Q90.1;Trisomie 21, mosaïque chromosomique (non-disjonction mitotique).
+Q90.2;Trisomie 21, translocation.
+Q90.9;Syndrome de Down, sans précision.
+Q91.0;Trisomie 18, non-disjonction méïotique.
+Q91.1;Trisomie 18, mosaïque chromosomique (non-disjonction mitotique).
+Q91.2;Trisomie 18, translocation.
+Q91.3;Syndrome d'Edwards, sans précision.
+Q91.4;Trisomie 13, non-disjonction méïotique.
+Q91.5;Trisomie 13, mosaïque chromosomique (non-disjonction mitotique).
+Q91.6;Trisomie 13, translocation.
+Q91.7;Syndrome de Patau, sans précision.
+Q92.0;Trisomie d'un chromosome entier, non-disjonction méïotique.
+Q92.1;Trisomie d'un chromosome entier, mosaïque chromosomique (non-disjonction.
+Q92.2;Trisomie partielle majeure.
+Q92.3;Trisomie partielle mineure.
+Q92.4;Duplications vues seulement à la prométaphase.
+Q92.5;Duplications avec autres réarrangements complexes.
+Q92.6;Chromosomes marqueurs supplémentaires.
+Q92.7;Triploïdie et polyploïdie.
+Q92.8;Autres trisomies et trisomies partielles précisées des autosomes.
+Q92.9;Trisomie et trisomie partielle des autosomes, sans précision.
+Q93.0;Monosomie d'un chromosome entier, non-disjonction méïotique.
+Q93.1;Monosomie d'un chromosome entier, mosaïque chromosomique (non-disjonction.
+Q93.2;Chromosome remplacé par un anneau ou dicentrique.
+Q93.3;Délétion du bras court du chromosome 4.
+Q93.4;Délétion du bras court du chromosome 5.
+Q93.5;Autres délétions partielles d'un chromosome.
+Q93.6;Délétions vues seulement à la prométaphase.
+Q93.7;Délétions avec autres réarrangements complexes.
+Q93.8;Autres délétions des autosomes.
+Q93.9;Délétion des autosomes, sans précision.
+Q95.0;Translocation ou insertion équilibrée chez un sujet normal.
+Q95.1;Inversion chromosomique chez un sujet normal.
+Q95.2;Réarrangement autosomique équilibré chez un sujet anormal.
+Q95.3;Réarrangement sexuel/autosomique équilibré chez un sujet anormal.
+Q95.4;Sujet avec marqueur d'hétérochromatine.
+Q95.5;Sujet avec site autosomique fragile.
+Q95.8;Autres réarrangements équilibrés et marqueurs structurels.
+Q95.9;Réarrangement équilibré et marqueur structurel, sans précision.
+Q96.0;Caryotype 45,X.
+Q96.1;Caryotype 46,X iso (Xq).
+Q96.2;Caryotype 46,X avec chromosome sexuel anormal, sauf iso (Xq).
+Q96.3;Mosaïque chromosomique, 45,X/46,XX ou XY.
+Q96.4;Mosaïque chromosomique, 45,X/autre(s) lignée(s) cellulaire(s) avec chromosome.
+Q96.8;Autres formes du syndrome de Turner.
+Q96.9;Syndrome de Turner, sans précision.
+Q97.0;Caryotype 47,XXX.
+Q97.1;Femme avec plus de trois chromosomes X.
+Q97.2;Mosaïque chromosomique, lignées avec divers nombres de chromosomes X.
+Q97.3;Femme avec un caryotype 46,XY.
+Q97.8;Autres anomalies précisées des chromosomes sexuels, phénotype féminin.
+Q97.9;Anomalie des chromosomes sexuels, phénotype féminin, sans précision.
+Q98.0;Syndrome de Klinefelter, caryotype 47,XXY.
+Q98.1;Syndrome de Klinefelter, homme avec plus de deux chromosomes X.
+Q98.2;Syndrome de Klinefelter, homme avec caryotype 46,XX.
+Q98.3;Autre phénotype masculin avec caryotype 46,XX.
+Q98.4;Syndrome de Klinefelter, sans précision.
+Q98.5;Caryotype 47,XYY.
+Q98.6;Homme avec chromosomes sexuels de structure anormale.
+Q98.7;Homme avec mosaïque des chromosomes sexuels.
+Q98.8;Autres anomalies précisées des chromosomes sexuels, phénotype masculin.
+Q98.9;Anomalie des chromosomes sexuels, phénotype masculin, sans précision.
+Q99.0;Chimère 46,XX/46,XY.
+Q99.1;Hermaphrodite vrai 46,XX.
+Q99.2;Chromosome X fragile.
+Q99.8;Autres anomalies précisées des chromosomes.
+Q99.9;Anomalie chromosomique, sans précision.

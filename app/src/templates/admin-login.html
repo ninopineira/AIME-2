@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Accès Administrateur</title>
+<link rel="stylesheet" href="../static/home.css">
+<link rel="stylesheet" href="../static/dropdown.css">
+<link rel="stylesheet" href="../static/admin.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+{% include '_navbar.html' %}
+
+<!-- LOGIN SECTION -->
+<section class="access-section">
+
+<h2>Accès Administrateur</h2>
+
+<div class="access-card">
+
+<p>Veuillez entrer le code administrateur de l’hôpital.</p>
+
+<input type="password" id="adminCode" placeholder="Code administrateur">
+
+<br><br>
+<a href="/admin/cim-x">
+<button class="access-btn" >Accéder</button>
+</a>
+<p id="error" style="color:red;"></p>
+
+</div>
+
+</section>
+
+</body>
+</html>

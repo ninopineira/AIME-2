@@ -1,0 +1,76 @@
+@startgantt
+' language fra
+' saturday are closed
+' sunday are closed
+' Label on first column and right aligned
+printscale weekly
+' Label on first column
+hide footbox
+Project starts 2025-09-09
+' Project ends 2025-12-22
+' saturday are closed
+' sunday are closed
+' Separator just at 2025-10-25
+' Separator just at 2025-11-03
+2025-10-25 to 2025-11-02 are closed
+2025-12-20 to 2026-01-04 are closed
+' \definecolor{EnstaBlue}{HTML}{3746FF}
+' \definecolor{Corail}{HTML}{FF808B}
+<style>
+ganttDiagram {
+	task {
+		' FontName Helvetica
+		' FontColor red
+		' FontSize 18
+		' FontStyle bold
+		BackGroundColor #B7C6FF
+		LineColor #3746FF
+	}
+	milestone {
+		' FontColor #FF808B
+		' FontSize 25
+		' FontStyle italic
+		BackGroundColor #FF808B
+		LineColor #FF808B
+	}
+}
+</style>
+
+-- Phase de définition--
+[Diagramme de Gantt] starts 2025-09-09 and ends 2025-09-16
+[Lecture Bibliographie M. Mansour] starts 2025-09-16 and ends 2025-09-23
+'[Contacter visite HIA] starts 2025-09-17 and lasts 1 days
+[1ère Définition exigences/objectifs] starts 2025-09-23 and ends 2025-10-06
+[Contraintes I.S.] starts 2025-10-06 and ends 2025-10-13
+[État de l'art] starts 2025-09-23 and ends 2025-10-23
+
+--Phase de Compréhension--
+[Prendre contact avec le projet AIME] starts 2025-09-16 and ends 2025-09-30
+[Compréhension Rapport AIME] starts 2025-09-30 and ends 2025-10-23
+[Compréhension des codes AIME] starts 2025-11-04 and ends 2025-11-18
+
+
+--Phase de Réalisation--
+[Code AIME à conserver?] starts 2025-11-18 and ends 2025-11-25
+[Analyse Temps de chargement] starts 2025-11-25 and ends 2025-12-16
+[Comparaison Modèle d'IA] starts 2025-11-25 and ends 2025-12-16
+[Extension courrier médical] starts 2025-11-25 and ends 2025-12-16
+[Rédaction rapport] starts 2025-11-25 and ends 2025-12-16
+[Rendu Rapport] happens 2025-12-17
+[Support Oral] starts 2026-01-05 and ends 2026-01-07
+[Oral] happens 2026-01-09
+
+--Rendez vous hopitaux--
+[RDV HIA 1] as [R1] happens 2025-10-14
+[RDV HIA 2] as [R2] happens 2025-12-09
+[RDV HIA 1] displays on same row as [RDV HIA 2] 
+
+@endgantt
+
+
+[Bibliographie] starts at 2025-09-15 and lasts 20 days
+[Recherche] starts 2025-09-10 and ends 2025-09-15
+
+[RDV HIA] happens 2025-09-11
+[RDV HIA] is colored in red
+

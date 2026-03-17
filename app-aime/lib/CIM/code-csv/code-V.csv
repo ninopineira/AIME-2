@@ -1,0 +1,176 @@
+V09.0;Piéton blessé dans un accident en dehors de la circulation, impliquant des véhicules.
+V09.1;Piéton blessé dans un accident en dehors de la circulation, sans précision.
+V09.2;Piéton blessé dans un accident de la circulation impliquant des véhicules à moteur,.
+V09.3;Piéton blessé dans un accident de la circulation, sans précision.
+V09.9;Piéton blessé dans un accident de transport, sans précision.
+V19.0;Conducteur blessé dans une collision avec des véhicules à moteur, autres et sans.
+V19.1;Passager blessé dans une collision avec des véhicules à moteur, autres et sans.
+V19.2;Cycliste, sans précision, blessé dans une collision avec des véhicules à moteur,.
+V19.3;Cycliste [tout type] blessé dans un accident sans précision, en dehors de la.
+V19.4;Conducteur blessé dans une collision avec des véhicules à moteur, autres et sans.
+V19.5;Passager blessé dans une collision avec des véhicules à moteur, autres et sans.
+V19.6;Cycliste, sans précision, blessé dans une collision avec des véhicules à moteur,.
+V19.8;Cycliste [tout type] blessé dans d'autres accidents de transport précisés.
+V19.9;Cycliste [tout type] blessé dans un accident de la circulation, sans précision.
+V29.0;Conducteur blessé dans une collision avec des véhicules à moteur, autres et sans.
+V29.1;Passager blessé dans une collision avec des véhicules à moteur, autres et sans.
+V29.2;Motocycliste, sans précision, blessé dans une collision avec des véhicules à moteur,.
+V29.3;Motocycliste [tout type] blessé dans un accident sans précision, en dehors de la.
+V29.4;Conducteur blessé dans une collision avec des véhicules à moteur, autres et sans.
+V29.5;Passager blessé dans une collision avec des véhicules à moteur, autres et sans.
+V29.6;Motocycliste, sans précision, blessé dans une collision avec des véhicules à moteur,.
+V29.8;Motocycliste [tout type] blessé dans d'autres accidents de transport précisés.
+V29.9;Motocycliste [tout type] blessé dans un accident de la circulation, sans précision.
+V39.0;Conducteur blessé dans une collision avec des véhicules à moteur, autres et sans.
+V39.1;Passager blessé dans une collision avec des véhicules à moteur, autres et sans.
+V39.2;Occupant, sans précision, d'un véhicule à moteur à trois roues, blessé dans une.
+V39.3;Occupant [tout type] d'un véhicule à moteur à trois roues, blessé dans un accident.
+V39.4;Conducteur blessé dans une collision avec des véhicules à moteur, autres et sans.
+V39.5;Passager blessé dans une collision avec des véhicules à moteur, autres et sans.
+V39.6;Occupant, sans précision, d'un véhicule à moteur à trois roues, blessé dans une.
+V39.8;Occupant [tout type] d'un véhicule à moteur à trois roues, blessé dans d'autres.
+V39.9;Occupant [tout type] d'un véhicule à moteur à trois roues, blessé dans un accident.
+V49.0;Conducteur blessé dans une collision avec des véhicules à moteur, autres et sans.
+V49.1;Passager blessé dans une collision avec des véhicules à moteur, autres et sans.
+V49.2;Occupant, sans précision, d'une automobile, blessé dans une collision avec des.
+V49.3;Occupant [tout type] d'une automobile blessé dans un accident sans précision, en.
+V49.4;Conducteur blessé dans une collision avec des véhicules à moteur, autres et sans.
+V49.5;Passager blessé dans une collision avec des véhicules à moteur, autres et sans.
+V49.6;Occupant, sans précision, d'une automobile, blessé dans une collision avec des.
+V49.8;Occupant [tout type] d'une automobile, blessé dans d'autres accidents de transport.
+V49.9;Occupant [tout type] d'une automobile, blessé dans un accident de la circulation,.
+V59.0;Conducteur blessé dans une collision avec des véhicules à moteur, autres et sans.
+V59.1;Passager blessé dans une collision avec des véhicules à moteur, autres et sans.
+V59.2;Occupant, sans précision, d'une camionnette, blessé dans une collision avec des.
+V59.3;Occupant [tout type] d'une camionnette, blessé dans un accident, sans précision, en.
+V59.4;Conducteur blessé dans une collision avec des véhicules à moteur, autres et sans.
+V59.5;Passager blessé dans une collision avec des véhicules à moteur, autres et sans.
+V59.6;Occupant, sans précision, d'une camionnette, blessé dans une collision avec des.
+V59.8;Occupant [tout type] d'une camionnette, blessé dans d'autres accidents de transport.
+V59.9;Occupant [tout type] d'une camionnette, blessé dans un accident de la circulation,.
+V69.0;Conducteur blessé dans une collision avec des véhicules à moteur, autres et sans.
+V69.1;Passager blessé dans une collision avec des véhicules à moteur, autres et sans.
+V69.2;Occupant, sans précision, d'un véhicule lourd, blessé dans une collision avec des.
+V69.3;Occupant [tout type] d'un véhicule lourd blessé dans un accident de transport, sans.
+V69.4;Conducteur blessé dans une collision avec des véhicules à moteur, autres et sans.
+V69.5;Passager blessé dans une collision avec des véhicules à moteur, autres et sans.
+V69.6;Occupant, sans précision, d'un véhicule lourd, blessé dans une collision avec des.
+V69.8;Occupant [tout type] d'un véhicule lourd, blessé dans d'autres accidents de.
+V69.9;Occupant [tout type] d'un véhicule lourd, blessé dans un accident de la circulation,.
+V79.0;Conducteur blessé dans une collision avec des véhicules à moteur, autres et sans.
+V79.1;Passager blessé dans une collision avec des véhicules à moteur, autres et sans.
+V79.2;Occupant, sans précision, d'un autobus, blessé dans une collision avec des.
+V79.3;Occupant [tout type] d'un autobus, blessé dans un accident sans précision, en.
+V79.4;Conducteur blessé dans une collision avec des véhicules à moteur, autres et sans.
+V79.5;Passager blessé dans une collision avec des véhicules à moteur, autres et sans.
+V79.6;Occupant, sans précision, d'un autobus, blessé dans une collision avec des.
+V79.8;Occupant [tout type] d'un autobus, blessé dans d'autres accidents de transport.
+V79.9;Occupant [tout type] d'un autobus, blessé dans un accident de la circulation, sans.
+V80.0;Chute ou éjection d'une personne montant un animal ou occupant un véhicule à.
+V80.1;Personne montant un animal ou occupant un véhicule à traction animale blessée.
+V80.2;Personne montant un animal ou occupant un véhicule à traction animale blessée.
+V80.3;Personne montant un animal ou occupant un véhicule à traction animale blessée.
+V80.4;Personne montant un animal ou occupant un véhicule à traction animale blessée.
+V80.5;Personne montant un animal ou occupant un véhicule à traction animale blessée.
+V80.6;Personne montant un animal ou occupant un véhicule à traction animale blessée.
+V80.7;Personne montant un animal ou occupant un véhicule à traction animale blessée.
+V80.8;Personne montant un animal ou occupant un véhicule à traction animale blessée.
+V80.9;Personne montant un animal ou occupant un véhicule à traction animale blessée.
+V81.0;Occupant d'un train ou d'un véhicule ferroviaire blessé dans une collision avec un.
+V81.1;Occupant d'un train ou d'un véhicule ferroviaire blessé dans une collision avec un.
+V81.2;Occupant d'un train ou d'un véhicule ferroviaire blessé dans une collision avec du.
+V81.3;Occupant d'un train ou d'un véhicule ferroviaire blessé dans une collision avec un.
+V81.4;Personne blessée en montant ou en descendant d'un train ou d'un véhicule.
+V81.5;Occupant d'un train ou d'un véhicule ferroviaire blessé lors d'une chute dans un.
+V81.6;Occupant d'un train ou d'un véhicule ferroviaire blessé lors d'une chute d'un train ou.
+V81.7;Occupant d'un train ou d'un véhicule ferroviaire blessé lors d'un déraillement sans.
+V81.8;Occupant d'un train ou d'un véhicule ferroviaire blessé lors d'autres accidents de.
+V81.9;Occupant d'un train ou d'un véhicule ferroviaire blessé dans un accident de chemin.
+V82.0;Occupant d'un tramway blessé dans une collision avec un véhicule à moteur dans.
+V82.1;Occupant d'un tramway blessé dans une collision avec un véhicule à moteur dans.
+V82.2;Occupant d'un tramway blessé dans une collision avec du matériel roulant ou heurté.
+V82.3;Occupant d'un tramway blessé dans une collision avec un autre objet.
+V82.4;Personne blessée en montant ou en descendant d'un tramway.
+V82.5;Occupant d'un tramway blessé lors d'une chute dans un tramway.
+V82.6;Occupant d'un tramway blessé lors d'une chute d'un tramway.
+V82.7;Occupant d'un tramway blessé lors d'un déraillement sans collision préalable.
+V82.8;Occupant d'un tramway blessé dans d'autres accidents de transport précisés.
+V82.9;Occupant d'un tramway blessé dans un accident de la circulation, sans précision.
+V83.0;Conducteur d'un véhicule spécial utilisé essentiellement sur un site industriel,.
+V83.1;Passager d'un véhicule spécial utilisé essentiellement sur un site industriel, blessé.
+V83.2;Personne à l'extérieur d'un véhicule spécial utilisé essentiellement sur un site.
+V83.3;Occupant, sans précision, d'un véhicule spécial utilisé essentiellement sur un site.
+V83.4;Personne blessée en montant ou en descendant d'un véhicule spécial utilisé.
+V83.5;Conducteur d'un véhicule spécial utilisé essentiellement sur un site industriel,.
+V83.6;Passager d'un véhicule spécial utilisé essentiellement sur un site industriel, blessé.
+V83.7;Personne à l'extérieur d'un véhicule spécial utilisé essentiellement sur un site.
+V83.9;Occupant, sans précision, d'un véhicule spécial utilisé essentiellement sur un site.
+V84.0;Conducteur d'un véhicule spécial utilisé essentiellement pour des travaux agricoles,.
+V84.1;Passager d'un véhicule spécial utilisé essentiellement pour des travaux agricoles,.
+V84.2;Personne à l'extérieur d'un véhicule spécial utilisé essentiellement pour des travaux.
+V84.3;Occupant, sans précision, d'un véhicule spécial utilisé essentiellement pour des.
+V84.4;Personne blessée en montant ou en descendant d'un véhicule spécial utilisé.
+V84.5;Conducteur d'un véhicule spécial utilisé essentiellement pour des travaux agricoles,.
+V84.6;Passager d'un véhicule spécial utilisé essentiellement pour des travaux agricoles,.
+V84.7;Personne à l'extérieur d'un véhicule spécial utilisé essentiellement pour des travaux.
+V84.9;Occupant, sans précision, d'un véhicule spécial utilisé essentiellement pour des.
+V85.0;Conducteur d'un véhicule spécial de construction blessé dans un accident de la.
+V85.1;Passager d'un véhicule spécial de construction blessé dans un accident de la.
+V85.2;Personne à l'extérieur d'un véhicule spécial de construction blessée dans un.
+V85.3;Occupant, sans précision, d'un véhicule spécial de construction blessé dans un.
+V85.4;Personne blessée en montant ou en descendant d'un véhicule spécial de.
+V85.5;Conducteur d'un véhicule spécial de construction blessé dans un accident en.
+V85.6;Passager d'un véhicule spécial de construction blessé dans un accident en dehors.
+V85.7;Personne à l'extérieur d'un véhicule spécial de construction blessée dans un.
+V85.9;Occupant, sans précision, d'un véhicule spécial de construction blessé dans un.
+V86.0;Conducteur d'un véhicule tout-terrain ou autre véhicule à moteur essentiellement.
+V86.1;Passager d'un véhicule tout-terrain ou autre véhicule à moteur essentiellement.
+V86.2;Personne à l'extérieur d'un véhicule tout-terrain ou autre véhicule à moteur.
+V86.3;Occupant, sans précision, d'un véhicule tout-terrain ou autre véhicule à moteur.
+V86.4;Personne blessée en montant ou en descendant d'un véhicule tout-terrain ou autre.
+V86.5;Conducteur d'un véhicule tout-terrain ou autre véhicule à moteur essentiellement.
+V86.6;Passager d'un véhicule tout-terrain ou autre véhicule à moteur essentiellement.
+V86.7;Personne à l'extérieur d'un véhicule tout-terrain ou autre véhicule à moteur.
+V86.9;Occupant, sans précision, d'un véhicule tout-terrain ou autre véhicule à moteur.
+V87.0;Personne blessée dans une collision entre une automobile et un véhicule à moteur à.
+V87.1;Personne blessée dans une collision entre un autre véhicule à moteur et un véhicule.
+V87.2;Personne blessée dans une collision entre une automobile et une camionnette (dans.
+V87.3;Personne blessée dans une collision entre une automobile et un autobus (dans la.
+V87.4;Personne blessée dans une collision entre une automobile et un véhicule lourd.
+V87.5;Personne blessée dans une collision entre un véhicule lourd et un autobus (dans la.
+V87.6;Personne blessée dans une collision entre un train ou un véhicule ferroviaire et une.
+V87.7;Personne blessée dans une collision entre d'autres véhicules à moteur précisés.
+V87.8;Personne blessée dans d'autres accidents de transport précisés, sans collision,.
+V87.9;Personne blessée dans d'autres accidents de transport précisés (avec collision).
+V88.0;Personne blessée dans une collision entre une automobile et un véhicule à moteur à.
+V88.1;Personne blessée dans une collision entre un autre véhicule à moteur et un véhicule.
+V88.2;Personne blessée dans une collision entre une automobile et une camionnette, en.
+V88.3;Personne blessée dans une collision entre une automobile et un autobus, en dehors.
+V88.4;Personne blessée dans une collision entre une automobile et un véhicule lourd, en.
+V88.5;Personne blessée dans une collision entre un véhicule lourd et un autobus, en.
+V88.6;Personne blessée dans une collision entre un train ou un véhicule ferroviaire et une.
+V88.7;Personne blessée dans une collision entre d'autres véhicules à moteur précisés, en.
+V88.8;Personne blessée dans d'autres accidents de transport précisés, sans collision,.
+V88.9;Personne blessée dans d'autres accidents de transport précisés (avec collision).
+V89.0;Personne blessée dans un accident avec un véhicule à moteur, sans précision, en.
+V89.1;Personne blessée dans un accident avec un véhicule sans moteur, sans précision,.
+V89.2;Personne blessée dans un accident de la circulation avec un véhicule à moteur,.
+V89.3;Personne blessée dans un accident de la circulation avec un véhicule sans moteur,.
+V89.9;Personne blessée dans un accident avec un véhicule, sans précision.
+V95.0;Accident d'hélicoptère blessant un occupant.
+V95.1;Accident de planeur à moteur, ultraléger motorisé (ULM) blessant un occupant.
+V95.2;Accident d'autres aéronefs privés à voilure fixe blessant un occupant.
+V95.3;Accident d'aéronef commercial à voilure fixe blessant un occupant.
+V95.4;Accident de vaisseau spatial blessant un occupant.
+V95.8;Autres accidents d'aéronef blessant un occupant.
+V95.9;Accident d'aéronef, sans précision, blessant un occupant.
+V96.0;Accident de ballon blessant un occupant.
+V96.1;Accident de deltaplane blessant un occupant.
+V96.2;Accident de planeur (sans moteur) blessant un occupant.
+V96.8;Autres accidents d'aéronef sans moteur blessant un occupant.
+V96.9;Accident d'aéronef sans moteur, sans précision, blessant un occupant.
+V97.0;Occupant d'un aéronef blessé dans d'autres accidents de transport aérien précisés.
+V97.1;Personne blessée en montant ou descendant de l'aéronef.
+V97.2;Parachutiste blessé dans un accident de transport aérien.
+V97.3;Personne au sol blessée dans un accident de transport aérien.
+V97.8;Autres accidents de transport aérien, non classés ailleurs.
