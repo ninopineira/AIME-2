@@ -56,7 +56,7 @@
 
 .hero-content h1 {
     font-size: 36px;
-    color: #1c3c55;
+    color: #1a3f5c;
     margin-bottom: 40px;
     line-height: 1.3;
 }
@@ -105,6 +105,63 @@
 .hero-image img {
     max-width: 100%;
     height: auto;
+}
+/* SECTION ACCES */
+.access-section {
+    padding: 80px 60px;
+    text-align: center;
+    background: #ffffff;
+}
+
+.access-section h2 {
+    font-size: 30px;
+    color: #1c3c55;
+    margin-bottom: 50px;
+}
+
+.access-cards {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.access-card {
+    background: #f7fbff;
+    padding: 35px;
+    width: 320px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.access-icon {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.access-card h3 {
+    color: #1c3c55;
+    margin-bottom: 10px;
+}
+
+.access-card p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.access-btn {
+    background: linear-gradient(135deg,#2b9bd8,#1a7fb8);
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.access-btn:hover {
+    background: #1a7fb8;
 }
 /* SECTION AU COEUR D'AIME */
 .aime-core {
@@ -408,4 +465,100 @@
         justify-content: center;
         flex-wrap: wrap;
     }
+}
+
+/* CENTRAGE GLOBAL */
+.action-section {
+    text-align: center;
+    margin: 60px 0;
+}
+
+/* GROS BOUTON BLEU */
+.action-btn {
+    background: linear-gradient(135deg, #3e78ad, #2f5f8a);
+    color: white;
+    font-size: 20px;
+    padding: 18px 50px;
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    transition: 0.3s ease;
+}
+
+.action-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* CARD INFO */
+.info-card {
+    margin: 35px auto 0;
+    max-width: 850px;
+    background: #f2f4f7;
+    border-radius: 14px;
+    padding: 25px 30px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    text-align: left;
+}
+
+/* ICONE BLEUE */
+.info-icon {
+    background: linear-gradient(135deg, #3e78ad, #2f5f8a);
+    color: white;
+    width: 70px;
+    height: 70px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+}
+
+/* TEXTE */
+.info-text {
+    font-size: 15px;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+
+.hero1 {
+    padding: 50px;
+    background-color: #f5f5f5;
+}
+
+.hero-container1 {
+    display: flex;
+    align-items: center; /* aligne verticalement l'image et le texte */
+    justify-content: space-between; /* espace entre l'image et le texte */
+    gap: 20px; /* espace entre les deux */
+}
+
+.hero-image1 img {
+    width: 40%; /* taille de l'image */
+    max-width: 400px;
+    border-radius: 10px;
+    object-fit: cover; /* garde les proportions de l'image */
+}
+
+.hero-content1 {
+    width: 55%; /* texte prend l'autre moitié */
+    text-align: right; /* texte aligné à droite */
+}
+
+.hero-content1 h1 {
+    font-size: 2.5em;
+    color: #1a3f5c; /* violet foncé */
+    margin: 0;
+}
+
+.hero-content1 .subtitle {
+    font-size: 1.2em;
+    color: #1a3f5c; /* violet clair */
+    margin-top: 10px;
 }
