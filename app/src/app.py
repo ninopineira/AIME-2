@@ -3,10 +3,11 @@ from flask import Flask, request , render_template
 # from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import * 
 from .models.orm_cim import ORM
+from .business.matcher import Matcher
 from .models.models import Groupe, Code, Chapitre
 from pathlib import Path
 from .business.syntagme import extract_pathologies
-from .business.matcher import Matcher
+from .business.paragraphe import extract_text
 app = Flask(__name__)
 # app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///data/test_cim.db'  # Remplacez par votre URI
 
@@ -64,11 +65,20 @@ def traitement() :
     donnees = request.form
     texte_courrier = donnees.get('texte-courrier')
     texte = donnees.get('texte')
+    print(type(texte))
+    print("========================HERE=============",texte_courrier)
+    if texte_courrier: #"courrier"
+        synt = []
+        for elt in extract_text(texte) :
+            synt = synt + (extract_pathologies(elt))
+    else :
+        print(extract_text(texte))
+        synt = extract_pathologies(texte)
+        print("cas a la con ",texte_courrier)
 
-    synt = extract_pathologies(texte)
     results = matcher.match_cim10(synt)
     print(synt)
-    print(results)
+    # print(results)
     values = []
     for entry in results :
         ref = entry.get('entity')
