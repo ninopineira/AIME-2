@@ -11,10 +11,10 @@ def extract_text(text : str):
     """
     sortie = []
 
-    pattern1 = re.compile(r'HISTOIRE DE LA MALADIE(.*?)EXAMEN CLINIQUE', re.DOTALL)
-    pattern2 = re.compile(r'SYNTHESE DE L\'HOSPITALISATION(.*?)TRAITEMENT DE SORTIE', re.DOTALL)
-    pattern3 = re.compile(r'MOTIF D\'HOSPITALISATION(.*?)MEDECIN ADRESSEUR', re.DOTALL)
-    pattern4 = re.compile(r'EVOLUTION DANS LE SERVICE(.*?)SYNTHESE DE L\'HOSPITALISATION', re.DOTALL)
+    pattern1 = re.compile(r'HISTOIRE DE LA MALADIE(.*?)PRISE EN CHARGE SOMATIQUE', re.DOTALL)
+    pattern2 = re.compile(r'PRISE EN CHARGE SOMATIQUE(.*?)EXAMEN PSYCHIATRIQUE', re.DOTALL)
+    pattern3 = re.compile(r'MOTIF D\'HOSPITALISATION(.*?)ANTECEDENTS', re.DOTALL)
+    pattern4 = re.compile(r'CONCLUSION(.*?)BMR', re.DOTALL)
 
     # recherche :
     match1 = pattern1.search(text)

@@ -8,30 +8,14 @@
     <link rel="stylesheet" href="../static/table.css">
 </head>
 <body>
+    
 <!-- NAVBAR -->
-<header class="navbar">
-    <div class="logo">
-        <span>CIM10</span>
-        <small>Classification des maladies</small>
-    </div>
-    <nav>
-        <a href="home#hero">Accueil</a>
-        <a href="home#about-aime">À propos d’AIME</a>
-        <div class="dropdown">
-        <a class="dropdown-btn">Cim-X</a>
-        <div class="dropdown-content">
-            <a href="codes">Codes</a>
-            <a href="groupes">Groupes</a>
-            <a href="chapitres">Chapitres</a>
-        </div></div>
-        <a href="codage">Codage</a>
-        <a href="home">Contact</a>
-    </nav>
-</header>
+{% include '_navbar.html' %}
+
 <!-- Body -->
     <h1>{{ data.title }}</h1>
     <table>
-        <thead>
+        <thead class="table-header-sticky">
             <tr>
                 {% for title in data.colonnes%}
                 <th> {{ title }} </th>

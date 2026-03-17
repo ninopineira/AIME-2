@@ -4,120 +4,14 @@
 <meta charset="UTF-8">
 <title>Accès Administrateur</title>
 <link rel="stylesheet" href="../static/home.css">
-<style>
-/* ===== SECTION ACCESS ===== */
-.access-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 80vh;
-    padding: 40px 20px;
-    background: linear-gradient(135deg, #e0f7fa, #b2ebf2);
-    flex-direction: column;
-    text-align: center;
-}
-
-/* TITRE */
-.access-section h2 {
-    font-size: 32px;
-    color: #1a3f5c;
-    margin-bottom: 30px;
-    font-weight: bold;
-}
-
-/* CARTE */
-.access-card {
-    background: white;
-    padding: 50px 40px;
-    border-radius: 18px;
-    box-shadow: 0 12px 30px rgba(0,0,0,0.12);
-    max-width: 400px;
-    width: 100%;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.access-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 18px 35px rgba(0,0,0,0.18);
-}
-
-/* TEXTE DANS LA CARTE */
-.access-card p {
-    font-size: 16px;
-    color: #555;
-    margin-bottom: 25px;
-}
-
-/* INPUT */
-.access-card input[type="password"] {
-    width: 100%;
-    padding: 15px 20px;
-    border-radius: 12px;
-    border: 1px solid #ccc;
-    font-size: 16px;
-    outline: none;
-    transition: border 0.3s ease;
-}
-
-.access-card input[type="password"]:focus {
-    border-color: #2b9bd8;
-    box-shadow: 0 0 8px rgba(43, 155, 216, 0.3);
-}
-
-/* BOUTON ACCEDER */
-.access-btn {
-    width: 100%;
-    background: linear-gradient(135deg, #3e78ad, #2f5f8a);
-    color: white;
-    font-size: 18px;
-    padding: 15px;
-    border: none;
-    border-radius: 12px;
-    cursor: pointer;
-    font-weight: bold;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.access-btn:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
-}
-
-/* MESSAGE D'ERREUR */
-#error {
-    margin-top: 15px;
-    font-weight: bold;
-}
-
-/* RESPONSIVE */
-@media (max-width: 500px) {
-    .access-card {
-        padding: 35px 25px;
-    }
-
-    .access-section h2 {
-        font-size: 26px;
-    }
-}
-</style>
+<link rel="stylesheet" href="../static/dropdown.css">
+<link rel="stylesheet" href="../static/admin.css">
 </head>
 
 <body>
 
 <!-- NAVBAR -->
-<header class="navbar">
-    <div class="logo">
-        <span>CIM10</span>
-        <small>Classification des maladies</small>
-    </div>
-    <nav>
-        <a href="#hero">Accueil</a>
-        <a href="#about-aime">À propos d’AIME</a>
-        <a href="cim-x.html">CIM-X</a>
-        <a href="codage.html">Codage</a>
-        <a href="#">Contact</a>
-    </nav>
-</header>
+{% include '_navbar.html' %}
 
 <!-- LOGIN SECTION -->
 <section class="access-section">
@@ -131,16 +25,14 @@
 <input type="password" id="adminCode" placeholder="Code administrateur">
 
 <br><br>
-
-<button class="access-btn" onclick="checkAdmin()">Accéder</button>
-
+<a href="/admin/cim-x">
+<button class="access-btn" >Accéder</button>
+</a>
 <p id="error" style="color:red;"></p>
 
 </div>
 
 </section>
-
-
 
 </body>
 </html>

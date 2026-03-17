@@ -8,28 +8,12 @@
     <link rel="stylesheet" href="../static/table.css">
 </head>
 <body>
+
 <!-- NAVBAR -->
-<header class="navbar">
-    <div class="logo">
-        <span>CIM10</span>
-        <small>Classification des maladies</small>
-    </div>
-    <nav>
-        <a href="home#hero">Accueil</a>
-        <a href="home#about-aime">À propos d’AIME</a>
-        <div class="dropdown">
-        <a class="dropdown-btn">Cim-X</a>
-        <div class="dropdown-content">
-            <a href="codes">Codes</a>
-            <a href="groupes">Groupes</a>
-            <a href="chapitres">Chapitres</a>
-        </div></div>
-        <a href="codage.html">Codage</a>
-        <a href="home">Contact</a>
-    </nav>
-</header>
+{% include '_navbar.html' %}
+
 <!-- FORM -->
-<form action="/codage/traitement" method="POST">
+<form action="{{ url_for('codage')}}" method="POST">
     <p>
         Pour un courrier medical cocher courrier, pour un texte quelconque cocher texte.
         <input type = "radio" name = "texte-courrier" value = "1" id = "choix-courrier">
@@ -42,7 +26,7 @@
         <textarea name="texte" id="texte" rows="10" cols="100"></textarea>
     </p>
     <p>
-        <input type = "submit" value="Faire analyser le texte">
+        <input type = "submit" value="Faire analyser le texte" class="access-btn">
     </p>
 </form>
 </body>

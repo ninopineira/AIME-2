@@ -8,26 +8,9 @@
     <link rel="stylesheet" href="../static/table.css">
 </head>
 <body>
+
 <!-- NAVBAR -->
-<header class="navbar">
-    <div class="logo">
-        <span>CIM10</span>
-        <small>Classification des maladies</small>
-    </div>
-    <nav>
-        <a href="home#hero">Accueil</a>
-        <a href="home#about-aime">À propos d’AIME</a>
-        <div class="dropdown">
-        <a class="dropdown-btn">Cim-X</a>
-        <div class="dropdown-content">
-            <a href="codes">Codes</a>
-            <a href="groupes">Groupes</a>
-            <a href="chapitres">Chapitres</a>
-        </div></div>
-        <a href="codage.html">Codage</a>
-        <a href="home">Contact</a>
-    </nav>
-</header>
+{% include '_navbar.html' %}
 <!-- FORM -->
 <form action="/codage/traitement" method="POST">
     <p>
@@ -46,7 +29,7 @@
     </p>
 </form>
 <table>
-    <h1>{{ data.title}}</h1>
+    <h1>{{ data.title }}</h1>
         <thead>
             <tr>
                 {% for title in data.colonnes%}
