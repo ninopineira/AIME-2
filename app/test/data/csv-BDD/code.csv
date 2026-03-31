@@ -1,0 +1,475 @@
+﻿3;N;X;1;A00;A00.-;A00;A00;Choléra;Choléra;;;9;9;9999;9999;9;J;J
+4;T;X;1;A00;A00.0;A00.0;A000;A Vibrio cholerae 01, biovar cholerae;Choléra;A Vibrio cholerae 01, biovar cholerae;;9;9;9999;9999;9;J;J
+4;T;X;1;A00;A00.1;A00.1;A001;A Vibrio cholerae 01, biovar El Tor;Choléra;A Vibrio cholerae 01, biovar El Tor;;9;9;9999;9999;9;J;J
+4;T;X;1;A00;A00.9;A00.9;A009;Choléra, sans précision;Choléra;Choléra, sans précision;;9;9;9999;9999;9;J;J
+3;N;X;1;A00;A01.-;A01;A01;Fièvres typhoïde et paratyphoïde;Fièvres typhoïde et paratyphoïde;;;9;9;9999;9999;9;N;J
+4;T;X;1;A00;A01.0;A01.0;A010;Fièvre typhoïde;Fièvres typhoïde et paratyphoïde;Fièvre typhoïde;;9;9;9999;9999;9;N;J
+4;T;X;1;A00;A01.1;A01.1;A011;Paratyphoïde A;Fièvres typhoïde et paratyphoïde;Paratyphoïde A;;9;9;9999;9999;9;N;J
+4;T;X;1;A00;A01.2;A01.2;A012;Paratyphoïde B;Fièvres typhoïde et paratyphoïde;Paratyphoïde B;;9;9;9999;9999;9;N;J
+4;T;X;1;A00;A01.3;A01.3;A013;Paratyphoïde C;Fièvres typhoïde et paratyphoïde;Paratyphoïde C;;9;9;9999;9999;9;N;J
+4;T;X;1;A00;A01.4;A01.4;A014;Paratyphoïde, sans précision;Fièvres typhoïde et paratyphoïde;Paratyphoïde, sans précision;;9;9;9999;9999;9;N;J
+3;N;X;1;A00;A02.-;A02;A02;Autres infections à Salmonella;Autres infections à Salmonella;;;9;9;9999;9999;9;N;J
+4;T;X;1;A00;A02.0;A02.0;A020;Entérite à Salmonella;Autres infections à Salmonella;Entérite à Salmonella;;9;9;9999;9999;9;N;J
+4;T;X;1;A00;A02.1;A02.1;A021;Septicémie à Salmonella;Autres infections à Salmonella;Septicémie à Salmonella;;9;9;9999;9999;9;N;J
+4;T;X;1;A00;A02.2;A02.2;A022;Infection localisée à Salmonella;Autres infections à Salmonella;Infection localisée à Salmonella;;9;9;9999;9999;9;N;J
+4;T;X;1;A00;A02.8;A02.8;A028;Autres infections précisées à Salmonella;Autres infections à Salmonella;Autres infections précisées à Salmonella;;9;9;9999;9999;9;N;J
+4;T;X;1;A00;A02.9;A02.9;A029;Infection à Salmonella, sans précision;Autres infections à Salmonella;Infection à Salmonella, sans précision;;9;9;9999;9999;9;N;J
+3;N;X;1;A00;A03.-;A03;A03;Shigellose;Shigellose;;;9;9;9999;9999;9;N;J
+4;T;X;1;A00;A03.0;A03.0;A030;Shigellose à Shigella dysenteriae;Shigellose;Shigellose à Shigella dysenteriae;;9;9;9999;9999;9;N;J
+4;T;X;1;A00;A03.1;A03.1;A031;Shigellose à Shigella flexneri;Shigellose;Shigellose à Shigella flexneri;;9;9;9999;9999;9;N;J
+4;T;X;1;A00;A03.2;A03.2;A032;Shigellose à Shigella boydii;Shigellose;Shigellose à Shigella boydii;;9;9;9999;9999;9;N;J
+4;T;X;1;A00;A03.3;A03.3;A033;Shigellose à Shigella sonnei;Shigellose;Shigellose à Shigella sonnei;;9;9;9999;9999;9;N;J
+4;T;X;1;A00;A03.8;A03.8;A038;Autres shigelloses;Shigellose;Autres shigelloses;;9;9;9999;9999;9;N;J
+4;T;X;1;A00;A03.9;A03.9;A039;Shigellose, sans précision;Shigellose;Shigellose, sans précision;;9;9;9999;9999;9;N;J
+3;N;X;1;A00;A04.-;A04;A04;Autres infections intestinales bactériennes;Autres infections intestinales bactériennes;;;9;9;9999;9999;9;N;J
+4;T;X;1;A00;A04.0;A04.0;A040;Infection entéropathogène à Escherichia coli;Autres infections intestinales bactériennes;Infection entéropathogène à Escherichia coli;;9;9;9999;9999;9;N;J
+4;T;X;1;A00;A04.1;A04.1;A041;Infection entérotoxigène à Escherichia coli;Autres infections intestinales bactériennes;Infection entérotoxigène à Escherichia coli;;9;9;9999;9999;9;N;J
+4;T;X;1;A00;A04.2;A04.2;A042;Infection entéro-invasive à Escherichia coli;Autres infections intestinales bactériennes;Infection entéro-invasive à Escherichia coli;;9;9;9999;9999;9;N;J
+4;T;X;1;A00;A04.3;A04.3;A043;Infection entéro-hémorragique à Escherichia coli;Autres infections intestinales bactériennes;Infection entéro-hémorragique à Escherichia coli;;9;9;9999;9999;9;N;J
+4;T;X;1;A00;A04.4;A04.4;A044;Autres infections intestinales à Escherichia coli;Autres infections intestinales bactériennes;Autres infections intestinales à Escherichia coli;;9;9;9999;9999;9;N;J
+4;T;X;1;A00;A04.5;A04.5;A045;Entérite à Campylobacter;Autres infections intestinales bactériennes;Entérite à Campylobacter;;9;9;9999;9999;9;N;J
+4;T;X;1;A00;A04.6;A04.6;A046;Entérite à Yersinia enterocolitica;Autres infections intestinales bactériennes;Entérite à Yersinia enterocolitica;;9;9;9999;9999;9;N;J
+4;N;X;1;A00;A04.7-;A04.7;A047;Entérocolite à Clostridium difficile;Autres infections intestinales bactériennes;Entérocolite à Clostridium difficile;;9;9;9999;9999;9;N;J
+5;T;X;1;A00;A04.70;A04.70;A0470;Entérocolite à Clostridium difficile sans mégacôlon, sans autres complications au niveau des organes;Autres infections intestinales bactériennes;Entérocolite à Clostridium difficile;Entérocolite à Clostridium difficile sans mégacôlon, sans autres complications au niveau des organes;9;9;9999;9999;9;N;J
+5;T;X;1;A00;A04.71;A04.71;A0471;Entérocolite à Clostridium difficile sans mégacôlon, avec d’autres complications au niveau des organes;Autres infections intestinales bactériennes;Entérocolite à Clostridium difficile;Entérocolite à Clostridium difficile sans mégacôlon, avec d’autres complications au niveau des organes;9;9;9999;9999;9;N;J
+5;T;X;1;A00;A04.72;A04.72;A0472;Entérocolite à Clostridium difficile avec mégacôlon, sans autres complications organiques;Autres infections intestinales bactériennes;Entérocolite à Clostridium difficile;Entérocolite à Clostridium difficile avec mégacôlon, sans autres complications organiques;9;9;9999;9999;9;N;J
+5;T;X;1;A00;A04.73;A04.73;A0473;Entérocolite à Clostridium difficile avec mégacôlon, avec d’autres complications organiques;Autres infections intestinales bactériennes;Entérocolite à Clostridium difficile;Entérocolite à Clostridium difficile avec mégacôlon, avec d’autres complications organiques;9;9;9999;9999;9;N;J
+5;T;X;1;A00;A04.79;A04.79;A0479;Entérocolite à Clostridium difficile, sans précision;Autres infections intestinales bactériennes;Entérocolite à Clostridium difficile;Entérocolite à Clostridium difficile, sans précision;9;9;9999;9999;9;N;J
+4;T;X;1;A00;A04.8;A04.8;A048;Autres infections intestinales bactériennes précisées;Autres infections intestinales bactériennes;Autres infections intestinales bactériennes précisées;;9;9;9999;9999;9;N;J
+4;T;X;1;A00;A04.9;A04.9;A049;Infection intestinale bactérienne, sans précision;Autres infections intestinales bactériennes;Infection intestinale bactérienne, sans précision;;9;9;9999;9999;9;N;J
+3;N;X;1;A00;A05.-;A05;A05;Autres intoxications bactériennes d’origine alimentaire, non classées ailleurs;Autres intoxications bactériennes d’origine alimentaire, non classées ailleurs;;;9;9;9999;9999;9;N;J
+4;T;X;1;A00;A05.0;A05.0;A050;Intoxication alimentaire à staphylocoques;Autres intoxications bactériennes d’origine alimentaire, non classées ailleurs;Intoxication alimentaire à staphylocoques;;9;9;9999;9999;9;N;J
+4;T;X;1;A00;A05.1;A05.1;A051;Botulisme;Autres intoxications bactériennes d’origine alimentaire, non classées ailleurs;Botulisme;;9;9;9999;9999;9;N;J
+4;T;X;1;A00;A05.2;A05.2;A052;Intoxication alimentaire à Clostridium perfringens [Clostridium welchii];Autres intoxications bactériennes d’origine alimentaire, non classées ailleurs;Intoxication alimentaire à Clostridium perfringens [Clostridium welchii];;9;9;9999;9999;9;N;J
+4;T;X;1;A00;A05.3;A05.3;A053;Intoxication alimentaire à Vibrio parahaemolyticus;Autres intoxications bactériennes d’origine alimentaire, non classées ailleurs;Intoxication alimentaire à Vibrio parahaemolyticus;;9;9;9999;9999;9;N;J
+4;T;X;1;A00;A05.4;A05.4;A054;Intoxication alimentaire à Bacillus cereus;Autres intoxications bactériennes d’origine alimentaire, non classées ailleurs;Intoxication alimentaire à Bacillus cereus;;9;9;9999;9999;9;N;J
+4;T;X;1;A00;A05.8;A05.8;A058;Autres intoxications bactériennes d’origine alimentaire précisées;Autres intoxications bactériennes d’origine alimentaire, non classées ailleurs;Autres intoxications bactériennes d’origine alimentaire précisées;;9;9;9999;9999;9;N;J
+4;T;X;1;A00;A05.9;A05.9;A059;Intoxication bactérienne d’origine alimentaire, sans précision;Autres intoxications bactériennes d’origine alimentaire, non classées ailleurs;Intoxication bactérienne d’origine alimentaire, sans précision;;9;9;9999;9999;9;N;J
+3;N;X;1;A00;A06.-;A06;A06;Amibiase;Amibiase;;;9;9;9999;9999;9;N;J
+4;T;X;1;A00;A06.0;A06.0;A060;Dysenterie amibienne aiguë;Amibiase;Dysenterie amibienne aiguë;;9;9;9999;9999;9;N;J
+4;T;X;1;A00;A06.1;A06.1;A061;Amibiase intestinale chronique;Amibiase;Amibiase intestinale chronique;;9;9;9999;9999;9;N;J
+4;T;X;1;A00;A06.2;A06.2;A062;Colite amibienne non dysentérique;Amibiase;Colite amibienne non dysentérique;;9;9;9999;9999;9;N;J
+4;T;X;1;A00;A06.3;A06.3;A063;Amœbome de l’intestin;Amibiase;Amœbome de l’intestin;;9;9;9999;9999;9;N;J
+4;T;X;1;A00;A06.4;A06.4;A064;Abcès amibien du foie;Amibiase;Abcès amibien du foie;;9;9;9999;9999;9;N;J
+4;T;X;1;A00;A06.5;A06.5;A065;Abcès amibien du poumon;Amibiase;Abcès amibien du poumon;;9;9;9999;9999;9;N;J
+4;T;X;1;A00;A06.6;A06.6;A066;Abcès amibien du cerveau;Amibiase;Abcès amibien du cerveau;;9;9;9999;9999;9;N;J
+4;T;X;1;A00;A06.7;A06.7;A067;Amibiase cutanée;Amibiase;Amibiase cutanée;;9;9;9999;9999;9;N;J
+4;T;X;1;A00;A06.8;A06.8;A068;Autres localisations d’une infection amibienne;Amibiase;Autres localisations d’une infection amibienne;;9;9;9999;9999;9;N;J
+4;T;X;1;A00;A06.9;A06.9;A069;Amibiase, sans précision;Amibiase;Amibiase, sans précision;;9;9;9999;9999;9;N;J
+3;N;X;1;A00;A07.-;A07;A07;Autres maladies intestinales à protozoaires;Autres maladies intestinales à protozoaires;;;9;9;9999;9999;9;N;J
+4;T;X;1;A00;A07.0;A07.0;A070;Balantidiose;Autres maladies intestinales à protozoaires;Balantidiose;;9;9;9999;9999;9;N;J
+4;T;X;1;A00;A07.1;A07.1;A071;Giardiase [lambliase];Autres maladies intestinales à protozoaires;Giardiase [lambliase];;9;9;9999;9999;9;N;J
+4;T;X;1;A00;A07.2;A07.2;A072;Cryptosporidiose;Autres maladies intestinales à protozoaires;Cryptosporidiose;;9;9;9999;9999;9;N;J
+4;T;X;1;A00;A07.3;A07.3;A073;Infection à Isospora;Autres maladies intestinales à protozoaires;Infection à Isospora;;9;9;9999;9999;9;N;J
+4;T;X;1;A00;A07.8;A07.8;A078;Autres maladies intestinales précisées, à protozoaires;Autres maladies intestinales à protozoaires;Autres maladies intestinales précisées, à protozoaires;;9;9;9999;9999;9;N;J
+4;T;X;1;A00;A07.9;A07.9;A079;Maladie intestinale à protozoaires, sans précision;Autres maladies intestinales à protozoaires;Maladie intestinale à protozoaires, sans précision;;9;9;9999;9999;9;N;J
+3;N;X;1;A00;A08.-;A08;A08;Infections virales intestinales et autres infections intestinales précisées;Infections virales intestinales et autres infections intestinales précisées;;;9;9;9999;9999;9;N;J
+4;T;X;1;A00;A08.0;A08.0;A080;Entérite à rotavirus;Infections virales intestinales et autres infections intestinales précisées;Entérite à rotavirus;;9;9;9999;9999;9;N;J
+4;T;X;1;A00;A08.1;A08.1;A081;Gastroentérite aiguë à norovirus;Infections virales intestinales et autres infections intestinales précisées;Gastroentérite aiguë à norovirus;;9;9;9999;9999;9;N;J
+4;T;X;1;A00;A08.2;A08.2;A082;Entérite à adénovirus;Infections virales intestinales et autres infections intestinales précisées;Entérite à adénovirus;;9;9;9999;9999;9;N;J
+4;T;X;1;A00;A08.3;A08.3;A083;Autres entérites virales;Infections virales intestinales et autres infections intestinales précisées;Autres entérites virales;;9;9;9999;9999;9;N;J
+4;T;X;1;A00;A08.4;A08.4;A084;Infections intestinales virales, sans précision;Infections virales intestinales et autres infections intestinales précisées;Infections intestinales virales, sans précision;;9;9;9999;9999;9;N;J
+4;T;X;1;A00;A08.5;A08.5;A085;Autres infections intestinales précisées;Infections virales intestinales et autres infections intestinales précisées;Autres infections intestinales précisées;;9;9;9999;9999;9;N;J
+3;N;X;1;A00;A09.-;A09;A09;Gastroentérites et colites autres et non précisées d’origine infectieuse et non précisée;Gastroentérites et colites autres et non précisées d’origine infectieuse et non précisée;;;9;9;9999;9999;9;N;J
+4;T;X;1;A00;A09.0;A09.0;A090;Gastroentérites et colites autres et non précisées d’origine infectieuse;Gastroentérites et colites autres et non précisées d’origine infectieuse et non précisée;Gastroentérites et colites autres et non précisées d’origine infectieuse;;9;9;9999;9999;9;N;J
+4;T;X;1;A00;A09.9;A09.9;A099;Gastroentérites et colites autres et non précisées d’origine non précisée;Gastroentérites et colites autres et non précisées d’origine infectieuse et non précisée;Gastroentérites et colites autres et non précisées d’origine non précisée;;9;9;9999;9999;9;N;J
+3;N;X;1;A15;A15.-;A15;A15;Tuberculose de l’appareil respiratoire, avec confirmation bactériologique, par biologie moléculaire ou histologique;Tuberculose de l’appareil respiratoire, avec confirmation bactériologique, par biologie moléculaire ou histologique;;;9;9;9999;9999;9;N;J
+4;T;X;1;A15;A15.0;A15.0;A150;Tuberculose pulmonaire, confirmée par examen microscopique de l’expectoration, avec ou sans culture ou par procédé de biologie moléculaire;Tuberculose de l’appareil respiratoire, avec confirmation bactériologique, par biologie moléculaire ou histologique;Tuberculose pulmonaire, confirmée par examen microscopique de l’expectoration, avec ou sans culture ou par procédé de biologie moléculaire;;9;9;9999;9999;9;N;J
+4;T;X;1;A15;A15.1;A15.1;A151;Tuberculose pulmonaire, confirmée par culture seulement;Tuberculose de l’appareil respiratoire, avec confirmation bactériologique, par biologie moléculaire ou histologique;Tuberculose pulmonaire, confirmée par culture seulement;;9;9;9999;9999;9;N;J
+4;T;X;1;A15;A15.2;A15.2;A152;Tuberculose pulmonaire, avec confirmation histologique;Tuberculose de l’appareil respiratoire, avec confirmation bactériologique, par biologie moléculaire ou histologique;Tuberculose pulmonaire, avec confirmation histologique;;9;9;9999;9999;9;N;J
+4;T;X;1;A15;A15.3;A15.3;A153;Tuberculose pulmonaire, avec confirmation, moyen autre et non précisé;Tuberculose de l’appareil respiratoire, avec confirmation bactériologique, par biologie moléculaire ou histologique;Tuberculose pulmonaire, avec confirmation, moyen autre et non précisé;;9;9;9999;9999;9;N;J
+4;T;X;1;A15;A15.4;A15.4;A154;Tuberculose des ganglions intrathoraciques, avec confirmation bactériologique, par biologie moléculaire ou histologique;Tuberculose de l’appareil respiratoire, avec confirmation bactériologique, par biologie moléculaire ou histologique;Tuberculose des ganglions intrathoraciques, avec confirmation bactériologique, par biologie moléculaire ou histologique;;9;9;9999;9999;9;N;J
+4;T;X;1;A15;A15.5;A15.5;A155;Tuberculose du larynx, de la trachée et des bronches, avec confirmation bactériologique, par biologie moléculaire ou histologique;Tuberculose de l’appareil respiratoire, avec confirmation bactériologique, par biologie moléculaire ou histologique;Tuberculose du larynx, de la trachée et des bronches, avec confirmation bactériologique, par biologie moléculaire ou histologique;;9;9;9999;9999;9;N;J
+4;T;X;1;A15;A15.6;A15.6;A156;Pleurésie tuberculeuse, avec confirmation bactériologique, par biologie moléculaire ou histologique;Tuberculose de l’appareil respiratoire, avec confirmation bactériologique, par biologie moléculaire ou histologique;Pleurésie tuberculeuse, avec confirmation bactériologique, par biologie moléculaire ou histologique;;9;9;9999;9999;9;N;J
+4;T;X;1;A15;A15.7;A15.7;A157;Primo-infection tuberculeuse de l’appareil respiratoire, avec confirmation bactériologique, par biologie moléculaire ou histologique;Tuberculose de l’appareil respiratoire, avec confirmation bactériologique, par biologie moléculaire ou histologique;Primo-infection tuberculeuse de l’appareil respiratoire, avec confirmation bactériologique, par biologie moléculaire ou histologique;;9;9;9999;9999;9;N;J
+4;T;X;1;A15;A15.8;A15.8;A158;Autres formes de tuberculose de l’appareil respiratoire, avec confirmation, bactériologique, par biologie moléculaire ou histologique;Tuberculose de l’appareil respiratoire, avec confirmation bactériologique, par biologie moléculaire ou histologique;Autres formes de tuberculose de l’appareil respiratoire, avec confirmation, bactériologique, par biologie moléculaire ou histologique;;9;9;9999;9999;9;N;J
+4;T;X;1;A15;A15.9;A15.9;A159;Tuberculose de l’appareil respiratoire sans précision, avec confirmation bactériologique, par biologie moléculaire et histologique;Tuberculose de l’appareil respiratoire, avec confirmation bactériologique, par biologie moléculaire ou histologique;Tuberculose de l’appareil respiratoire sans précision, avec confirmation bactériologique, par biologie moléculaire et histologique;;9;9;9999;9999;9;N;J
+3;N;X;1;A15;A16.-;A16;A16;Tuberculose de l’appareil respiratoire, sans confirmation bactériologique, par biologie moléculaire ou histologique;Tuberculose de l’appareil respiratoire, sans confirmation bactériologique, par biologie moléculaire ou histologique;;;9;9;9999;9999;9;N;J
+4;T;X;1;A15;A16.0;A16.0;A160;Tuberculose pulmonaire, sans confirmation bactériologique, par biologie moléculaire ou histologique;Tuberculose de l’appareil respiratoire, sans confirmation bactériologique, par biologie moléculaire ou histologique;Tuberculose pulmonaire, sans confirmation bactériologique, par biologie moléculaire ou histologique;;9;9;9999;9999;9;N;J
+4;T;X;1;A15;A16.1;A16.1;A161;Tuberculose pulmonaire, sans examen bactériologique, par biologie moléculaire et histologique;Tuberculose de l’appareil respiratoire, sans confirmation bactériologique, par biologie moléculaire ou histologique;Tuberculose pulmonaire, sans examen bactériologique, par biologie moléculaire et histologique;;9;9;9999;9999;9;N;J
+4;T;X;1;A15;A16.2;A16.2;A162;Tuberculose pulmonaire, sans mention de confirmation bactériologique, par biologie moléculaire ou histologique;Tuberculose de l’appareil respiratoire, sans confirmation bactériologique, par biologie moléculaire ou histologique;Tuberculose pulmonaire, sans mention de confirmation bactériologique, par biologie moléculaire ou histologique;;9;9;9999;9999;9;N;J
+4;T;X;1;A15;A16.3;A16.3;A163;Tuberculose des ganglions intrathoraciques, sans mention de confirmation, bactériologique, par biologie moléculaire ou histologique;Tuberculose de l’appareil respiratoire, sans confirmation bactériologique, par biologie moléculaire ou histologique;Tuberculose des ganglions intrathoraciques, sans mention de confirmation, bactériologique, par biologie moléculaire ou histologique;;9;9;9999;9999;9;N;J
+4;T;X;1;A15;A16.4;A16.4;A164;Tuberculose du larynx, de la trachée et des bronches, sans mention de confirmation bactériologique, par biologie moléculaire ou histologique;Tuberculose de l’appareil respiratoire, sans confirmation bactériologique, par biologie moléculaire ou histologique;Tuberculose du larynx, de la trachée et des bronches, sans mention de confirmation bactériologique, par biologie moléculaire ou histologique;;9;9;9999;9999;9;N;J
+4;T;X;1;A15;A16.5;A16.5;A165;Pleurésie tuberculeuse, sans mention de confirmation bactériologique, par biologie moléculaire ou histologique;Tuberculose de l’appareil respiratoire, sans confirmation bactériologique, par biologie moléculaire ou histologique;Pleurésie tuberculeuse, sans mention de confirmation bactériologique, par biologie moléculaire ou histologique;;9;9;9999;9999;9;N;J
+4;T;X;1;A15;A16.7;A16.7;A167;Primo-infection tuberculeuse de l’appareil respiratoire, sans mention de confirmation bactériologique, par biologie moléculaire ou histologique;Tuberculose de l’appareil respiratoire, sans confirmation bactériologique, par biologie moléculaire ou histologique;Primo-infection tuberculeuse de l’appareil respiratoire, sans mention de confirmation bactériologique, par biologie moléculaire ou histologique;;9;9;9999;9999;9;N;J
+4;T;X;1;A15;A16.8;A16.8;A168;Autres formes de tuberculose de l’appareil respiratoire, sans mention de confirmation bactériologique, par biologie moléculaire ou histologique;Tuberculose de l’appareil respiratoire, sans confirmation bactériologique, par biologie moléculaire ou histologique;Autres formes de tuberculose de l’appareil respiratoire, sans mention de confirmation bactériologique, par biologie moléculaire ou histologique;;9;9;9999;9999;9;N;J
+4;T;X;1;A15;A16.9;A16.9;A169;Tuberculose de l’appareil respiratoire sans précision, sans mention de confirmation bactériologique, par biologie moléculaire ou histologique;Tuberculose de l’appareil respiratoire, sans confirmation bactériologique, par biologie moléculaire ou histologique;Tuberculose de l’appareil respiratoire sans précision, sans mention de confirmation bactériologique, par biologie moléculaire ou histologique;;9;9;9999;9999;9;N;J
+3;N;X;1;A15;A17.-;A17;A17;Tuberculose du système nerveux;Tuberculose du système nerveux;;;9;9;9999;9999;9;N;J
+4;T;X;1;A15;A17.0;A17.0;A170;Méningite tuberculeuse;Tuberculose du système nerveux;Méningite tuberculeuse;;9;9;9999;9999;9;N;J
+4;T;X;1;A15;A17.1;A17.1;A171;Tuberculome méningé;Tuberculose du système nerveux;Tuberculome méningé;;9;9;9999;9999;9;N;J
+4;T;X;1;A15;A17.8;A17.8;A178;Autres formes de tuberculose du système nerveux;Tuberculose du système nerveux;Autres formes de tuberculose du système nerveux;;9;9;9999;9999;9;N;J
+4;T;X;1;A15;A17.9;A17.9;A179;Tuberculose du système nerveux, sans précision;Tuberculose du système nerveux;Tuberculose du système nerveux, sans précision;;9;9;9999;9999;9;N;J
+3;N;X;1;A15;A18.-;A18;A18;Tuberculose d’autres organes;Tuberculose d’autres organes;;;9;9;9999;9999;9;N;J
+4;T;X;1;A15;A18.0;A18.0;A180;Tuberculose des os et des articulations;Tuberculose d’autres organes;Tuberculose des os et des articulations;;9;9;9999;9999;9;N;J
+4;T;X;1;A15;A18.1;A18.1;A181;Tuberculose de l’appareil génito-urinaire;Tuberculose d’autres organes;Tuberculose de l’appareil génito-urinaire;;9;9;9999;9999;9;N;J
+4;T;X;1;A15;A18.2;A18.2;A182;Adénopathie tuberculeuse périphérique;Tuberculose d’autres organes;Adénopathie tuberculeuse périphérique;;9;9;9999;9999;9;N;J
+4;T;X;1;A15;A18.3;A18.3;A183;Tuberculose de l’intestin, du péritoine et des ganglions mésentériques;Tuberculose d’autres organes;Tuberculose de l’intestin, du péritoine et des ganglions mésentériques;;9;9;9999;9999;9;N;J
+4;T;X;1;A15;A18.4;A18.4;A184;Tuberculose de la peau et du tissu cellulaire sous-cutané;Tuberculose d’autres organes;Tuberculose de la peau et du tissu cellulaire sous-cutané;;9;9;9999;9999;9;N;J
+4;T;X;1;A15;A18.5;A18.5;A185;Tuberculose de l’œil;Tuberculose d’autres organes;Tuberculose de l’œil;;9;9;9999;9999;9;N;J
+4;T;X;1;A15;A18.6;A18.6;A186;Tuberculose de l’oreille;Tuberculose d’autres organes;Tuberculose de l’oreille;;9;9;9999;9999;9;N;J
+4;T;X;1;A15;A18.7;A18.7;A187;Tuberculose des surrénales;Tuberculose d’autres organes;Tuberculose des surrénales;;9;9;9999;9999;9;N;J
+4;T;X;1;A15;A18.8;A18.8;A188;Tuberculose d’autres organes précisés;Tuberculose d’autres organes;Tuberculose d’autres organes précisés;;9;9;9999;9999;9;N;J
+3;N;X;1;A15;A19.-;A19;A19;Tuberculose miliaire;Tuberculose miliaire;;;9;9;9999;9999;9;N;J
+4;T;X;1;A15;A19.0;A19.0;A190;Tuberculose miliaire aiguë, localisation unique et précisée;Tuberculose miliaire;Tuberculose miliaire aiguë, localisation unique et précisée;;9;9;9999;9999;9;N;J
+4;T;X;1;A15;A19.1;A19.1;A191;Tuberculose miliaire aiguë, sièges multiples;Tuberculose miliaire;Tuberculose miliaire aiguë, sièges multiples;;9;9;9999;9999;9;N;J
+4;T;X;1;A15;A19.2;A19.2;A192;Tuberculose miliaire aiguë, sans précision;Tuberculose miliaire;Tuberculose miliaire aiguë, sans précision;;9;9;9999;9999;9;N;J
+4;T;X;1;A15;A19.8;A19.8;A198;Autres tuberculoses miliaires;Tuberculose miliaire;Autres tuberculoses miliaires;;9;9;9999;9999;9;N;J
+4;T;X;1;A15;A19.9;A19.9;A199;Tuberculose miliaire, sans précision;Tuberculose miliaire;Tuberculose miliaire, sans précision;;9;9;9999;9999;9;N;J
+3;N;X;1;A20;A20.-;A20;A20;Peste;Peste;;;9;9;9999;9999;9;J;J
+4;T;X;1;A20;A20.0;A20.0;A200;Peste bubonique;Peste;Peste bubonique;;9;9;9999;9999;9;J;J
+4;T;X;1;A20;A20.1;A20.1;A201;Peste cutanée;Peste;Peste cutanée;;9;9;9999;9999;9;J;J
+4;T;X;1;A20;A20.2;A20.2;A202;Peste pulmonaire;Peste;Peste pulmonaire;;9;9;9999;9999;9;J;J
+4;T;X;1;A20;A20.3;A20.3;A203;Peste méningée;Peste;Peste méningée;;9;9;9999;9999;9;J;J
+4;T;X;1;A20;A20.7;A20.7;A207;Peste septicémique;Peste;Peste septicémique;;9;9;9999;9999;9;J;J
+4;T;X;1;A20;A20.8;A20.8;A208;Autres formes de peste;Peste;Autres formes de peste;;9;9;9999;9999;9;J;J
+4;T;X;1;A20;A20.9;A20.9;A209;Peste, sans précision;Peste;Peste, sans précision;;9;9;9999;9999;9;J;J
+3;N;X;1;A20;A21.-;A21;A21;Tularémie;Tularémie;;;9;9;9999;9999;9;N;J
+4;T;X;1;A20;A21.0;A21.0;A210;Tularémie ulcéro-glandulaire;Tularémie;Tularémie ulcéro-glandulaire;;9;9;9999;9999;9;N;J
+4;T;X;1;A20;A21.1;A21.1;A211;Tularémie oculo-glandulaire;Tularémie;Tularémie oculo-glandulaire;;9;9;9999;9999;9;N;J
+4;T;X;1;A20;A21.2;A21.2;A212;Tularémie pulmonaire;Tularémie;Tularémie pulmonaire;;9;9;9999;9999;9;N;J
+4;T;X;1;A20;A21.3;A21.3;A213;Tularémie gastro-intestinale;Tularémie;Tularémie gastro-intestinale;;9;9;9999;9999;9;N;J
+4;T;X;1;A20;A21.7;A21.7;A217;Tularémie généralisée;Tularémie;Tularémie généralisée;;9;9;9999;9999;9;N;J
+4;T;X;1;A20;A21.8;A21.8;A218;Autres formes de tularémie;Tularémie;Autres formes de tularémie;;9;9;9999;9999;9;N;J
+4;T;X;1;A20;A21.9;A21.9;A219;Tularémie, sans précision;Tularémie;Tularémie, sans précision;;9;9;9999;9999;9;N;J
+3;N;X;1;A20;A22.-;A22;A22;Charbon;Charbon;;;9;9;9999;9999;9;N;J
+4;T;X;1;A20;A22.0;A22.0;A220;Charbon cutané;Charbon;Charbon cutané;;9;9;9999;9999;9;N;J
+4;T;X;1;A20;A22.1;A22.1;A221;Charbon pulmonaire;Charbon;Charbon pulmonaire;;9;9;9999;9999;9;N;J
+4;T;X;1;A20;A22.2;A22.2;A222;Charbon gastro-intestinal;Charbon;Charbon gastro-intestinal;;9;9;9999;9999;9;N;J
+4;T;X;1;A20;A22.7;A22.7;A227;Septicémie charbonneuse;Charbon;Septicémie charbonneuse;;9;9;9999;9999;9;N;J
+4;T;X;1;A20;A22.8;A22.8;A228;Autres formes de charbon;Charbon;Autres formes de charbon;;9;9;9999;9999;9;N;J
+4;T;X;1;A20;A22.9;A22.9;A229;Charbon, sans précision;Charbon;Charbon, sans précision;;9;9;9999;9999;9;N;J
+3;N;X;1;A20;A23.-;A23;A23;Brucellose;Brucellose;;;9;9;9999;9999;9;N;J
+4;T;X;1;A20;A23.0;A23.0;A230;Brucellose à Brucella melitensis;Brucellose;Brucellose à Brucella melitensis;;9;9;9999;9999;9;N;J
+4;T;X;1;A20;A23.1;A23.1;A231;Brucellose à Brucella abortus;Brucellose;Brucellose à Brucella abortus;;9;9;9999;9999;9;N;J
+4;T;X;1;A20;A23.2;A23.2;A232;Brucellose à Brucella suis;Brucellose;Brucellose à Brucella suis;;9;9;9999;9999;9;N;J
+4;T;X;1;A20;A23.3;A23.3;A233;Brucellose à Brucella canis;Brucellose;Brucellose à Brucella canis;;9;9;9999;9999;9;N;J
+4;T;X;1;A20;A23.8;A23.8;A238;Autres brucelloses;Brucellose;Autres brucelloses;;9;9;9999;9999;9;N;J
+4;T;X;1;A20;A23.9;A23.9;A239;Brucellose, sans précision;Brucellose;Brucellose, sans précision;;9;9;9999;9999;9;N;J
+3;N;X;1;A20;A24.-;A24;A24;Morve et mélioïdose;Morve et mélioïdose;;;9;9;9999;9999;9;N;J
+4;T;X;1;A20;A24.0;A24.0;A240;Morve;Morve et mélioïdose;Morve;;9;9;9999;9999;9;N;J
+4;T;X;1;A20;A24.1;A24.1;A241;Mélioïdose aiguë et galopante;Morve et mélioïdose;Mélioïdose aiguë et galopante;;9;9;9999;9999;9;N;J
+4;T;X;1;A20;A24.2;A24.2;A242;Mélioïdose subaiguë et chronique;Morve et mélioïdose;Mélioïdose subaiguë et chronique;;9;9;9999;9999;9;N;J
+4;T;X;1;A20;A24.3;A24.3;A243;Autres mélioïdoses;Morve et mélioïdose;Autres mélioïdoses;;9;9;9999;9999;9;N;J
+4;T;X;1;A20;A24.4;A24.4;A244;Mélioïdose, sans précision;Morve et mélioïdose;Mélioïdose, sans précision;;9;9;9999;9999;9;N;J
+3;N;X;1;A20;A25.-;A25;A25;Fièvres causées par morsure de rat;Fièvres causées par morsure de rat;;;9;9;9999;9999;9;N;J
+4;T;X;1;A20;A25.0;A25.0;A250;Spirillose;Fièvres causées par morsure de rat;Spirillose;;9;9;9999;9999;9;N;J
+4;T;X;1;A20;A25.1;A25.1;A251;Streptobacillose;Fièvres causées par morsure de rat;Streptobacillose;;9;9;9999;9999;9;N;J
+4;T;X;1;A20;A25.9;A25.9;A259;Fièvre causée par morsure de rat, sans précision;Fièvres causées par morsure de rat;Fièvre causée par morsure de rat, sans précision;;9;9;9999;9999;9;N;J
+3;N;X;1;A20;A26.-;A26;A26;Érysipéloïde;Érysipéloïde;;;9;9;9999;9999;9;N;J
+4;T;X;1;A20;A26.0;A26.0;A260;Érysipéloïde cutanée;Érysipéloïde;Érysipéloïde cutanée;;9;9;9999;9999;9;N;J
+4;T;X;1;A20;A26.7;A26.7;A267;Septicémie à Erysipelothrix;Érysipéloïde;Septicémie à Erysipelothrix;;9;9;9999;9999;9;N;J
+4;T;X;1;A20;A26.8;A26.8;A268;Autres formes d’érysipéloïde;Érysipéloïde;Autres formes d’érysipéloïde;;9;9;9999;9999;9;N;J
+4;T;X;1;A20;A26.9;A26.9;A269;Erysipéloïde, sans précision;Érysipéloïde;Erysipéloïde, sans précision;;9;9;9999;9999;9;N;J
+3;N;X;1;A20;A27.-;A27;A27;Leptospirose;Leptospirose;;;9;9;9999;9999;9;N;J
+4;T;X;1;A20;A27.0;A27.0;A270;Leptospirose ictéro-hémorragique [Maladie de Weil];Leptospirose;Leptospirose ictéro-hémorragique [Maladie de Weil];;9;9;9999;9999;9;N;J
+4;T;X;1;A20;A27.8;A27.8;A278;Autres formes de leptospirose;Leptospirose;Autres formes de leptospirose;;9;9;9999;9999;9;N;J
+4;T;X;1;A20;A27.9;A27.9;A279;Leptospirose, sans précision;Leptospirose;Leptospirose, sans précision;;9;9;9999;9999;9;N;J
+3;N;X;1;A20;A28.-;A28;A28;Autres anthropozoonoses bactériennes, non classées ailleurs;Autres anthropozoonoses bactériennes, non classées ailleurs;;;9;9;9999;9999;9;N;J
+4;T;X;1;A20;A28.0;A28.0;A280;Pasteurellose;Autres anthropozoonoses bactériennes, non classées ailleurs;Pasteurellose;;9;9;9999;9999;9;N;J
+4;T;X;1;A20;A28.1;A28.1;A281;Maladie des griffes du chat;Autres anthropozoonoses bactériennes, non classées ailleurs;Maladie des griffes du chat;;9;9;9999;9999;9;N;J
+4;T;X;1;A20;A28.2;A28.2;A282;Yersiniose extra-intestinale;Autres anthropozoonoses bactériennes, non classées ailleurs;Yersiniose extra-intestinale;;9;9;9999;9999;9;N;J
+4;T;X;1;A20;A28.8;A28.8;A288;Autres anthropozoonoses bactériennes précisées, non classées ailleurs;Autres anthropozoonoses bactériennes, non classées ailleurs;Autres anthropozoonoses bactériennes précisées, non classées ailleurs;;9;9;9999;9999;9;N;J
+4;T;X;1;A20;A28.9;A28.9;A289;Anthropozoonose bactérienne, sans précision;Autres anthropozoonoses bactériennes, non classées ailleurs;Anthropozoonose bactérienne, sans précision;;9;9;9999;9999;9;N;J
+3;N;X;1;A30;A30.-;A30;A30;Lèpre [maladie de Hansen];Lèpre [maladie de Hansen];;;9;9;9999;9999;9;J;J
+4;T;X;1;A30;A30.0;A30.0;A300;Lèpre indéterminée;Lèpre [maladie de Hansen];Lèpre indéterminée;;9;9;9999;9999;9;J;J
+4;T;X;1;A30;A30.1;A30.1;A301;Lèpre tuberculoïde [Forme tuberculoïde (T)];Lèpre [maladie de Hansen];Lèpre tuberculoïde [Forme tuberculoïde (T)];;9;9;9999;9999;9;J;J
+4;T;X;1;A30;A30.2;A30.2;A302;Lèpre tuberculoïde de type intermédiaire atypique;Lèpre [maladie de Hansen];Lèpre tuberculoïde de type intermédiaire atypique;;9;9;9999;9999;9;J;J
+4;T;X;1;A30;A30.3;A30.3;A303;Lèpre de type intermédiaire atypique;Lèpre [maladie de Hansen];Lèpre de type intermédiaire atypique;;9;9;9999;9999;9;J;J
+4;T;X;1;A30;A30.4;A30.4;A304;Lèpre lépromateuse de type intermédiaire atypique;Lèpre [maladie de Hansen];Lèpre lépromateuse de type intermédiaire atypique;;9;9;9999;9999;9;J;J
+4;T;X;1;A30;A30.5;A30.5;A305;Lèpre lépromateuse;Lèpre [maladie de Hansen];Lèpre lépromateuse;;9;9;9999;9999;9;J;J
+4;T;X;1;A30;A30.8;A30.8;A308;Autres formes de lèpre;Lèpre [maladie de Hansen];Autres formes de lèpre;;9;9;9999;9999;9;J;J
+4;T;X;1;A30;A30.9;A30.9;A309;Lèpre, sans précision;Lèpre [maladie de Hansen];Lèpre, sans précision;;9;9;9999;9999;9;J;J
+3;N;X;1;A30;A31.-;A31;A31;Infections dues à d’autres mycobactéries;Infections dues à d’autres mycobactéries;;;9;9;9999;9999;9;N;J
+4;T;X;1;A30;A31.0;A31.0;A310;Infection pulmonaire à Mycobacterium;Infections dues à d’autres mycobactéries;Infection pulmonaire à Mycobacterium;;9;9;9999;9999;9;N;J
+4;T;X;1;A30;A31.1;A31.1;A311;Infection cutanée à Mycobacterium;Infections dues à d’autres mycobactéries;Infection cutanée à Mycobacterium;;9;9;9999;9999;9;N;J
+4;N;X;1;A30;A31.8-;A31.8;A318;Autres infections à Mycobacterium;Infections dues à d’autres mycobactéries;Autres infections à Mycobacterium;;9;9;9999;9999;9;N;J
+5;T;X;1;A30;A31.80;A31.80;A3180;Infection mycobactérienne atypique disséminée;Infections dues à d’autres mycobactéries;Autres infections à Mycobacterium;Infection mycobactérienne atypique disséminée;9;9;9999;9999;9;N;J
+5;T;X;1;A30;A31.88;A31.88;A3188;Autres infections mycobactériennes;Infections dues à d’autres mycobactéries;Autres infections à Mycobacterium;Autres infections mycobactériennes;9;9;9999;9999;9;N;J
+4;T;X;1;A30;A31.9;A31.9;A319;Infection à Mycobacterium, sans précision;Infections dues à d’autres mycobactéries;Infection à Mycobacterium, sans précision;;9;9;9999;9999;9;N;J
+3;N;X;1;A30;A32.-;A32;A32;Listériose;Listériose;;;9;9;9999;9999;9;N;J
+4;T;X;1;A30;A32.0;A32.0;A320;Listériose cutanée;Listériose;Listériose cutanée;;9;9;9999;9999;9;N;J
+4;T;X;1;A30;A32.1;A32.1;A321;Méningite et méningo-encéphalite listériennes;Listériose;Méningite et méningo-encéphalite listériennes;;9;9;9999;9999;9;N;J
+4;T;X;1;A30;A32.7;A32.7;A327;Septicémie listérienne;Listériose;Septicémie listérienne;;9;9;9999;9999;9;N;J
+4;T;X;1;A30;A32.8;A32.8;A328;Autres formes de listériose;Listériose;Autres formes de listériose;;9;9;9999;9999;9;N;J
+4;T;X;1;A30;A32.9;A32.9;A329;Listériose, sans précision;Listériose;Listériose, sans précision;;9;9;9999;9999;9;N;J
+3;T;X;1;A30;A33;A33;A33;Tétanos néonatal;Tétanos néonatal;;;9;9;t000;j001;K;N;J
+3;T;X;1;A30;A34;A34;A34;Tétanos obstétrical;Tétanos obstétrical;;;W;K;j012;j055;K;N;J
+3;T;X;1;A30;A35;A35;A35;Autres formes de tétanos;Autres formes de tétanos;;;9;9;9999;9999;9;N;J
+3;N;X;1;A30;A36.-;A36;A36;Diphtérie;Diphtérie;;;9;9;9999;9999;9;J;J
+4;T;X;1;A30;A36.0;A36.0;A360;Diphtérie pharyngée;Diphtérie;Diphtérie pharyngée;;9;9;9999;9999;9;J;J
+4;T;X;1;A30;A36.1;A36.1;A361;Diphtérie rhinopharyngée;Diphtérie;Diphtérie rhinopharyngée;;9;9;9999;9999;9;J;J
+4;T;X;1;A30;A36.2;A36.2;A362;Diphtérie laryngée;Diphtérie;Diphtérie laryngée;;9;9;9999;9999;9;J;J
+4;T;X;1;A30;A36.3;A36.3;A363;Diphtérie cutanée;Diphtérie;Diphtérie cutanée;;9;9;9999;9999;9;J;J
+4;T;X;1;A30;A36.8;A36.8;A368;Autres formes de diphtérie;Diphtérie;Autres formes de diphtérie;;9;9;9999;9999;9;J;J
+4;T;X;1;A30;A36.9;A36.9;A369;Diphtérie, sans précision;Diphtérie;Diphtérie, sans précision;;9;9;9999;9999;9;J;J
+3;N;X;1;A30;A37.-;A37;A37;Coqueluche;Coqueluche;;;9;9;9999;9999;9;N;J
+4;T;X;1;A30;A37.0;A37.0;A370;Coqueluche à Bordetella pertussis;Coqueluche;Coqueluche à Bordetella pertussis;;9;9;9999;9999;9;N;J
+4;T;X;1;A30;A37.1;A37.1;A371;Coqueluche à Bordetella parapertussis;Coqueluche;Coqueluche à Bordetella parapertussis;;9;9;9999;9999;9;N;J
+4;T;X;1;A30;A37.8;A37.8;A378;Coqueluche due à d’autres espèces de Bordetella;Coqueluche;Coqueluche due à d’autres espèces de Bordetella;;9;9;9999;9999;9;N;J
+4;T;X;1;A30;A37.9;A37.9;A379;Coqueluche, sans précision;Coqueluche;Coqueluche, sans précision;;9;9;9999;9999;9;N;J
+3;T;X;1;A30;A38;A38;A38;Scarlatine;Scarlatine;;;9;9;9999;9999;9;N;J
+3;N;X;1;A30;A39.-;A39;A39;Infection à méningocoques;Infection à méningocoques;;;9;9;9999;9999;9;N;J
+4;T;X;1;A30;A39.0;A39.0;A390;Méningite à méningocoques;Infection à méningocoques;Méningite à méningocoques;;9;9;9999;9999;9;N;J
+4;T;X;1;A30;A39.1;A39.1;A391;Syndrome de Waterhouse-Friderichsen;Infection à méningocoques;Syndrome de Waterhouse-Friderichsen;;9;9;9999;9999;9;N;J
+4;T;X;1;A30;A39.2;A39.2;A392;Méningococcémie aiguë;Infection à méningocoques;Méningococcémie aiguë;;9;9;9999;9999;9;N;J
+4;T;X;1;A30;A39.3;A39.3;A393;Méningococcémie chronique;Infection à méningocoques;Méningococcémie chronique;;9;9;9999;9999;9;N;J
+4;T;X;1;A30;A39.4;A39.4;A394;Méningococcémie, sans précision;Infection à méningocoques;Méningococcémie, sans précision;;9;9;9999;9999;9;N;J
+4;T;X;1;A30;A39.5;A39.5;A395;Cardite à méningocoques;Infection à méningocoques;Cardite à méningocoques;;9;9;9999;9999;9;N;J
+4;T;X;1;A30;A39.8;A39.8;A398;Autres infections à méningocoques;Infection à méningocoques;Autres infections à méningocoques;;9;9;9999;9999;9;N;J
+4;T;X;1;A30;A39.9;A39.9;A399;Infection méningococcique, sans précision;Infection à méningocoques;Infection méningococcique, sans précision;;9;9;9999;9999;9;N;J
+3;N;X;1;A30;A40.-;A40;A40;Septicémie à streptocoques;Septicémie à streptocoques;;;9;9;9999;9999;9;N;J
+4;T;X;1;A30;A40.0;A40.0;A400;Septicémie à streptocoques, groupe A;Septicémie à streptocoques;Septicémie à streptocoques, groupe A;;9;9;9999;9999;9;N;J
+4;T;X;1;A30;A40.1;A40.1;A401;Septicémie à streptocoques, groupe B;Septicémie à streptocoques;Septicémie à streptocoques, groupe B;;9;9;9999;9999;9;N;J
+4;T;X;1;A30;A40.2;A40.2;A402;Septicémie à streptocoques, groupe D, et entérocoques;Septicémie à streptocoques;Septicémie à streptocoques, groupe D, et entérocoques;;9;9;9999;9999;9;N;J
+4;T;X;1;A30;A40.3;A40.3;A403;Septicémie à Streptococcus pneumoniae;Septicémie à streptocoques;Septicémie à Streptococcus pneumoniae;;9;9;9999;9999;9;N;J
+4;T;X;1;A30;A40.8;A40.8;A408;Autres septicémies à streptocoques;Septicémie à streptocoques;Autres septicémies à streptocoques;;9;9;9999;9999;9;N;J
+4;T;X;1;A30;A40.9;A40.9;A409;Septicémie à streptocoques, sans précision;Septicémie à streptocoques;Septicémie à streptocoques, sans précision;;9;9;9999;9999;9;N;J
+3;N;X;1;A30;A41.-;A41;A41;Autres septicémies;Autres septicémies;;;9;9;9999;9999;9;N;J
+4;T;X;1;A30;A41.0;A41.0;A410;Septicémie à staphylocoques dorés;Autres septicémies;Septicémie à staphylocoques dorés;;9;9;9999;9999;9;N;J
+4;T;X;1;A30;A41.1;A41.1;A411;Septicémie à d’autres staphylocoques précisés;Autres septicémies;Septicémie à d’autres staphylocoques précisés;;9;9;9999;9999;9;N;J
+4;T;X;1;A30;A41.2;A41.2;A412;Septicémie à staphylocoques non précisés;Autres septicémies;Septicémie à staphylocoques non précisés;;9;9;9999;9999;9;N;J
+4;T;X;1;A30;A41.3;A41.3;A413;Septicémie à Haemophilus influenzae;Autres septicémies;Septicémie à Haemophilus influenzae;;9;9;9999;9999;9;N;J
+4;T;X;1;A30;A41.4;A41.4;A414;Septicémie à micro-organismes anaérobies;Autres septicémies;Septicémie à micro-organismes anaérobies;;9;9;9999;9999;9;N;J
+4;N;X;1;A30;A41.5-;A41.5;A415;Septicémie à d’autres micro-organismes Gram négatif;Autres septicémies;Septicémie à d’autres micro-organismes Gram négatif;;9;9;9999;9999;9;N;J
+5;T;X;1;A30;A41.51;A41.51;A4151;Septicémie: escherichia coli [E. coli];Autres septicémies;Septicémie à d’autres micro-organismes Gram négatif;Escherichia coli [E. coli];9;9;9999;9999;9;N;J
+5;T;X;1;A30;A41.52;A41.52;A4152;Septicémie: pseudomonas;Autres septicémies;Septicémie à d’autres micro-organismes Gram négatif;Pseudomonas;9;9;9999;9999;9;N;J
+5;T;X;1;A30;A41.58;A41.58;A4158;Septicémie: autres micro-organismes Gram négatif;Autres septicémies;Septicémie à d’autres micro-organismes Gram négatif;Autres micro-organismes Gram négatif;9;9;9999;9999;9;N;J
+4;T;X;1;A30;A41.8;A41.8;A418;Autres septicémies précisées;Autres septicémies;Autres septicémies précisées;;9;9;9999;9999;9;N;J
+4;T;X;1;A30;A41.9;A41.9;A419;Septicémie, sans précision;Autres septicémies;Septicémie, sans précision;;9;9;9999;9999;9;N;J
+3;N;X;1;A30;A42.-;A42;A42;Actinomycose;Actinomycose;;;9;9;9999;9999;9;N;J
+4;T;X;1;A30;A42.0;A42.0;A420;Actinomycose pulmonaire;Actinomycose;Actinomycose pulmonaire;;9;9;9999;9999;9;N;J
+4;T;X;1;A30;A42.1;A42.1;A421;Actinomycose abdominale;Actinomycose;Actinomycose abdominale;;9;9;9999;9999;9;N;J
+4;T;X;1;A30;A42.2;A42.2;A422;Actinomycose cervico-faciale;Actinomycose;Actinomycose cervico-faciale;;9;9;9999;9999;9;N;J
+4;T;X;1;A30;A42.7;A42.7;A427;Septicémie actinomycosique;Actinomycose;Septicémie actinomycosique;;9;9;9999;9999;9;N;J
+4;T;X;1;A30;A42.8;A42.8;A428;Autres formes d’actinomycose;Actinomycose;Autres formes d’actinomycose;;9;9;9999;9999;9;N;J
+4;T;X;1;A30;A42.9;A42.9;A429;Actinomycose, sans précision;Actinomycose;Actinomycose, sans précision;;9;9;9999;9999;9;N;J
+3;N;X;1;A30;A43.-;A43;A43;Nocardiose;Nocardiose;;;9;9;9999;9999;9;N;J
+4;T;X;1;A30;A43.0;A43.0;A430;Nocardiose pulmonaire;Nocardiose;Nocardiose pulmonaire;;9;9;9999;9999;9;N;J
+4;T;X;1;A30;A43.1;A43.1;A431;Nocardiose cutanée;Nocardiose;Nocardiose cutanée;;9;9;9999;9999;9;N;J
+4;T;X;1;A30;A43.8;A43.8;A438;Autres formes de nocardiose;Nocardiose;Autres formes de nocardiose;;9;9;9999;9999;9;N;J
+4;T;X;1;A30;A43.9;A43.9;A439;Nocardiose, sans précision;Nocardiose;Nocardiose, sans précision;;9;9;9999;9999;9;N;J
+3;N;X;1;A30;A44.-;A44;A44;Bartonellose;Bartonellose;;;9;9;9999;9999;9;J;J
+4;T;X;1;A30;A44.0;A44.0;A440;Bartonellose généralisée;Bartonellose;Bartonellose généralisée;;9;9;9999;9999;9;J;J
+4;T;X;1;A30;A44.1;A44.1;A441;Bartonellose cutanée et cutanéo-muqueuse;Bartonellose;Bartonellose cutanée et cutanéo-muqueuse;;9;9;9999;9999;9;J;J
+4;T;X;1;A30;A44.8;A44.8;A448;Autres formes de bartonellose;Bartonellose;Autres formes de bartonellose;;9;9;9999;9999;9;J;J
+4;T;X;1;A30;A44.9;A44.9;A449;Bartonellose, sans précision;Bartonellose;Bartonellose, sans précision;;9;9;9999;9999;9;J;J
+3;T;X;1;A30;A46;A46;A46;Érysipèle;Érysipèle;;;9;9;9999;9999;9;N;J
+3;N;X;1;A30;A48.-;A48;A48;Autres maladies bactériennes, non classées ailleurs;Autres maladies bactériennes, non classées ailleurs;;;9;9;9999;9999;9;N;J
+4;T;X;1;A30;A48.0;A48.0;A480;Gangrène gazeuse;Autres maladies bactériennes, non classées ailleurs;Gangrène gazeuse;;9;9;9999;9999;9;N;J
+4;T;X;1;A30;A48.1;A48.1;A481;Maladie des légionnaires avec pneumonie;Autres maladies bactériennes, non classées ailleurs;Maladie des légionnaires avec pneumonie;;9;9;9999;9999;9;N;J
+4;T;X;1;A30;A48.2;A48.2;A482;Maladie des légionnaires, sans signes pulmonaires [fièvre de Pontiac];Autres maladies bactériennes, non classées ailleurs;Maladie des légionnaires, sans signes pulmonaires [fièvre de Pontiac];;9;9;9999;9999;9;N;J
+4;T;X;1;A30;A48.3;A48.3;A483;Syndrome du choc toxique;Autres maladies bactériennes, non classées ailleurs;Syndrome du choc toxique;;9;9;9999;9999;9;N;J
+4;T;X;1;A30;A48.4;A48.4;A484;Fièvre purpurique du Brésil;Autres maladies bactériennes, non classées ailleurs;Fièvre purpurique du Brésil;;9;9;9999;9999;9;N;J
+4;T;X;1;A30;A48.8;A48.8;A488;Autres maladies bactériennes précisées;Autres maladies bactériennes, non classées ailleurs;Autres maladies bactériennes précisées;;9;9;9999;9999;9;N;J
+3;N;X;1;A30;A49.-;A49;A49;Infection bactérienne, siège non précisé;Infection bactérienne, siège non précisé;;;9;9;9999;9999;9;N;J
+4;T;X;1;A30;A49.0;A49.0;A490;Infection à staphylocoques, siège non précisé;Infection bactérienne, siège non précisé;Infection à staphylocoques, siège non précisé;;9;9;9999;9999;9;N;J
+4;T;X;1;A30;A49.1;A49.1;A491;Infection à streptocoques et entérocoques, siège non précisé;Infection bactérienne, siège non précisé;Infection à streptocoques et entérocoques, siège non précisé;;9;9;9999;9999;9;N;J
+4;T;X;1;A30;A49.2;A49.2;A492;Infection à Haemophilus influenzae, siège non précisé;Infection bactérienne, siège non précisé;Infection à Haemophilus influenzae, siège non précisé;;9;9;9999;9999;9;N;J
+4;T;X;1;A30;A49.3;A49.3;A493;Infection à Mycoplasma, siège non précisé;Infection bactérienne, siège non précisé;Infection à Mycoplasma, siège non précisé;;9;9;9999;9999;9;N;J
+4;T;X;1;A30;A49.8;A49.8;A498;Autres infections bactériennes, siège non précisé;Infection bactérienne, siège non précisé;Autres infections bactériennes, siège non précisé;;9;9;9999;9999;9;N;J
+4;T;X;1;A30;A49.9;A49.9;A499;Infection bactérienne, sans précision;Infection bactérienne, siège non précisé;Infection bactérienne, sans précision;;9;9;9999;9999;9;N;J
+3;N;X;1;A50;A50.-;A50;A50;Syphilis congénitale;Syphilis congénitale;;;9;9;t000;j124;K;N;J
+4;T;X;1;A50;A50.0;A50.0;A500;Syphilis congénitale précoce, symptomatique;Syphilis congénitale;Syphilis congénitale précoce, symptomatique;;9;9;t000;j002;K;N;J
+4;T;X;1;A50;A50.1;A50.1;A501;Syphilis congénitale précoce, latente;Syphilis congénitale;Syphilis congénitale précoce, latente;;9;9;t000;j002;K;N;J
+4;T;X;1;A50;A50.2;A50.2;A502;Syphilis congénitale précoce, sans précision;Syphilis congénitale;Syphilis congénitale précoce, sans précision;;9;9;t000;j002;K;N;J
+4;T;X;1;A50;A50.3;A50.3;A503;Oculopathie syphilitique congénitale tardive;Syphilis congénitale;Oculopathie syphilitique congénitale tardive;;9;9;j002;j124;M;N;J
+4;T;X;1;A50;A50.4;A50.4;A504;Syphilis congénitale nerveuse tardive [neurosyphilis juvénile];Syphilis congénitale;Syphilis congénitale nerveuse tardive [neurosyphilis juvénile];;9;9;j002;j124;M;N;J
+4;T;X;1;A50;A50.5;A50.5;A505;Autres formes tardives de syphilis congénitale, symptomatique;Syphilis congénitale;Autres formes tardives de syphilis congénitale, symptomatique;;9;9;j002;j124;M;N;J
+4;T;X;1;A50;A50.6;A50.6;A506;Syphilis congénitale tardive, latente;Syphilis congénitale;Syphilis congénitale tardive, latente;;9;9;j002;j124;M;N;J
+4;T;X;1;A50;A50.7;A50.7;A507;Syphilis congénitale tardive, sans précision;Syphilis congénitale;Syphilis congénitale tardive, sans précision;;9;9;j002;j124;M;N;J
+4;T;X;1;A50;A50.9;A50.9;A509;Syphilis congénitale, sans précision;Syphilis congénitale;Syphilis congénitale, sans précision;;9;9;j002;j124;M;N;J
+3;N;X;1;A50;A51.-;A51;A51;Syphilis précoce;Syphilis précoce;;;9;9;j015;j124;K;N;J
+4;T;X;1;A50;A51.0;A51.0;A510;Syphilis génitale primaire;Syphilis précoce;Syphilis génitale primaire;;9;9;j015;j124;K;N;J
+4;T;X;1;A50;A51.1;A51.1;A511;Syphilis anale primaire;Syphilis précoce;Syphilis anale primaire;;9;9;j015;j124;K;N;J
+4;T;X;1;A50;A51.2;A51.2;A512;Syphilis primaire d’autres localisations;Syphilis précoce;Syphilis primaire d’autres localisations;;9;9;j015;j124;K;N;J
+4;T;X;1;A50;A51.3;A51.3;A513;Syphilis secondaire de la peau et des muqueuses;Syphilis précoce;Syphilis secondaire de la peau et des muqueuses;;9;9;j015;j124;K;N;J
+4;T;X;1;A50;A51.4;A51.4;A514;Autres formes de syphilis secondaire;Syphilis précoce;Autres formes de syphilis secondaire;;9;9;j015;j124;K;N;J
+4;T;X;1;A50;A51.5;A51.5;A515;Syphilis précoce, latente;Syphilis précoce;Syphilis précoce, latente;;9;9;j015;j124;K;N;J
+4;T;X;1;A50;A51.9;A51.9;A519;Syphilis précoce, sans précision;Syphilis précoce;Syphilis précoce, sans précision;;9;9;j015;j124;K;N;J
+3;N;X;1;A50;A52.-;A52;A52;Syphilis tardive;Syphilis tardive;;;9;9;j015;j124;K;N;J
+4;T;X;1;A50;A52.0;A52.0;A520;Syphilis cardio-vasculaire;Syphilis tardive;Syphilis cardio-vasculaire;;9;9;j015;j124;K;N;J
+4;T;X;1;A50;A52.1;A52.1;A521;Syphilis nerveuse symptomatique;Syphilis tardive;Syphilis nerveuse symptomatique;;9;9;j015;j124;K;N;J
+4;T;X;1;A50;A52.2;A52.2;A522;Syphilis nerveuse asymptomatique;Syphilis tardive;Syphilis nerveuse asymptomatique;;9;9;j015;j124;K;N;J
+4;T;X;1;A50;A52.3;A52.3;A523;Syphilis nerveuse, sans précision;Syphilis tardive;Syphilis nerveuse, sans précision;;9;9;j015;j124;K;N;J
+4;T;X;1;A50;A52.7;A52.7;A527;Autres formes tardives de syphilis symptomatique;Syphilis tardive;Autres formes tardives de syphilis symptomatique;;9;9;j015;j124;K;N;J
+4;T;X;1;A50;A52.8;A52.8;A528;Syphilis tardive, latente;Syphilis tardive;Syphilis tardive, latente;;9;9;j015;j124;K;N;J
+4;T;X;1;A50;A52.9;A52.9;A529;Syphilis tardive, sans précision;Syphilis tardive;Syphilis tardive, sans précision;;9;9;j015;j124;K;N;J
+3;N;X;1;A50;A53.-;A53;A53;Syphilis, autres et sans précision;Syphilis, autres et sans précision;;;9;9;j015;j124;K;N;J
+4;T;X;1;A50;A53.0;A53.0;A530;Syphilis latente, non précisée précoce ou tardive;Syphilis, autres et sans précision;Syphilis latente, non précisée précoce ou tardive;;9;9;j015;j124;K;N;J
+4;T;X;1;A50;A53.9;A53.9;A539;Syphilis, sans précision;Syphilis, autres et sans précision;Syphilis, sans précision;;9;9;j015;j124;K;N;J
+3;N;X;1;A50;A54.-;A54;A54;Infection gonococcique;Infection gonococcique;;;9;9;j015;j124;K;N;J
+4;T;X;1;A50;A54.0;A54.0;A540;Infection gonococcique de la partie inférieure de l’appareil génito-urinaire, sans abcès périurétral ou des glandes annexes;Infection gonococcique;Infection gonococcique de la partie inférieure de l’appareil génito-urinaire, sans abcès périurétral ou des glandes annexes;;9;9;j015;j124;K;N;J
+4;T;X;1;A50;A54.1;A54.1;A541;Infection gonococcique de la partie inférieure de l’appareil génito-urinaire, avec abcès périurétral et des glandes annexes;Infection gonococcique;Infection gonococcique de la partie inférieure de l’appareil génito-urinaire, avec abcès périurétral et des glandes annexes;;9;9;j015;j124;K;N;J
+4;T;X;1;A50;A54.2;A54.2;A542;Pelvipéritonite gonococcique et autres infections génito-urinaires gonococciques;Infection gonococcique;Pelvipéritonite gonococcique et autres infections génito-urinaires gonococciques;;9;9;j015;j124;K;N;J
+4;T;X;1;A50;A54.3;A54.3;A543;Infection gonococcique de l’œil;Infection gonococcique;Infection gonococcique de l’œil;;9;9;j015;j124;K;N;J
+4;T;X;1;A50;A54.4;A54.4;A544;Infection gonococcique du système ostéo-articulaire et des muscles;Infection gonococcique;Infection gonococcique du système ostéo-articulaire et des muscles;;9;9;j015;j124;K;N;J
+4;T;X;1;A50;A54.5;A54.5;A545;Pharyngite gonococcique;Infection gonococcique;Pharyngite gonococcique;;9;9;j015;j124;K;N;J
+4;T;X;1;A50;A54.6;A54.6;A546;Infection gonococcique de l’anus et du rectum;Infection gonococcique;Infection gonococcique de l’anus et du rectum;;9;9;j015;j124;K;N;J
+4;T;X;1;A50;A54.8;A54.8;A548;Autres infections gonococciques;Infection gonococcique;Autres infections gonococciques;;9;9;j015;j124;K;N;J
+4;T;X;1;A50;A54.9;A54.9;A549;Infection gonococcique, sans précision;Infection gonococcique;Infection gonococcique, sans précision;;9;9;j015;j124;K;N;J
+3;T;X;1;A50;A55;A55;A55;Lymphogranulomatose vénérienne à Chlamydia;Lymphogranulomatose vénérienne à Chlamydia;;;9;9;j015;j124;K;N;J
+3;N;X;1;A50;A56.-;A56;A56;Autres infections à Chlamydia transmises par voie sexuelle;Autres infections à Chlamydia transmises par voie sexuelle;;;9;9;j015;j124;K;N;J
+4;T;X;1;A50;A56.0;A56.0;A560;Infection à Chlamydia de la partie inférieure de l’appareil génito-urinaire;Autres infections à Chlamydia transmises par voie sexuelle;Infection à Chlamydia de la partie inférieure de l’appareil génito-urinaire;;9;9;j015;j124;K;N;J
+4;T;X;1;A50;A56.1;A56.1;A561;Infection à Chlamydia, pelvi-péritonéale et des autres organes génito-urinaires;Autres infections à Chlamydia transmises par voie sexuelle;Infection à Chlamydia, pelvi-péritonéale et des autres organes génito-urinaires;;9;9;j015;j124;K;N;J
+4;T;X;1;A50;A56.2;A56.2;A562;Infection à Chlamydia de l’appareil génito-urinaire, sans précision;Autres infections à Chlamydia transmises par voie sexuelle;Infection à Chlamydia de l’appareil génito-urinaire, sans précision;;9;9;j015;j124;K;N;J
+4;T;X;1;A50;A56.3;A56.3;A563;Infection à Chlamydia de l’anus et du rectum;Autres infections à Chlamydia transmises par voie sexuelle;Infection à Chlamydia de l’anus et du rectum;;9;9;j015;j124;K;N;J
+4;T;X;1;A50;A56.4;A56.4;A564;Infection à Chlamydia du pharynx;Autres infections à Chlamydia transmises par voie sexuelle;Infection à Chlamydia du pharynx;;9;9;j015;j124;K;N;J
+4;T;X;1;A50;A56.8;A56.8;A568;Infection à Chlamydia transmise par voie sexuelle, autres localisations;Autres infections à Chlamydia transmises par voie sexuelle;Infection à Chlamydia transmise par voie sexuelle, autres localisations;;9;9;j015;j124;K;N;J
+3;T;X;1;A50;A57;A57;A57;Chancre mou;Chancre mou;;;9;9;j015;j124;K;N;J
+3;T;X;1;A50;A58;A58;A58;Granulome inguinal;Granulome inguinal;;;9;9;j015;j124;K;N;J
+3;N;X;1;A50;A59.-;A59;A59;Trichomonase;Trichomonase;;;9;9;j015;j124;K;N;J
+4;T;X;1;A50;A59.0;A59.0;A590;Trichomonase uro-génitale;Trichomonase;Trichomonase uro-génitale;;9;9;j015;j124;K;N;J
+4;T;X;1;A50;A59.8;A59.8;A598;Autres localisations de trichomonase;Trichomonase;Autres localisations de trichomonase;;9;9;j015;j124;K;N;J
+4;T;X;1;A50;A59.9;A59.9;A599;Trichomonase, sans précision;Trichomonase;Trichomonase, sans précision;;9;9;j015;j124;K;N;J
+3;N;X;1;A50;A60.-;A60;A60;Infection ano-génitale par le virus de l’herpès [herpes simplex];Infection ano-génitale par le virus de l’herpès [herpes simplex];;;9;9;j015;j124;K;N;J
+4;T;X;1;A50;A60.0;A60.0;A600;Infection des organes génitaux et de l’appareil génito-urinaire par le virus de l’herpès;Infection ano-génitale par le virus de l’herpès [herpes simplex];Infection des organes génitaux et de l’appareil génito-urinaire par le virus de l’herpès;;9;9;j015;j124;K;N;J
+4;T;X;1;A50;A60.1;A60.1;A601;Infection de la marge cutanée de l’anus et du rectum, par le virus de l’herpès;Infection ano-génitale par le virus de l’herpès [herpes simplex];Infection de la marge cutanée de l’anus et du rectum, par le virus de l’herpès;;9;9;j015;j124;K;N;J
+4;T;X;1;A50;A60.9;A60.9;A609;Infection ano-génitale par le virus de l’herpès, sans précision;Infection ano-génitale par le virus de l’herpès [herpes simplex];Infection ano-génitale par le virus de l’herpès, sans précision;;9;9;j015;j124;K;N;J
+3;N;X;1;A50;A63.-;A63;A63;Autres maladies dont le mode de transmission est essentiellement sexuel, non classées ailleurs;Autres maladies dont le mode de transmission est essentiellement sexuel, non classées ailleurs;;;9;9;j015;j124;K;N;J
+4;T;X;1;A50;A63.0;A63.0;A630;Condylomes ano-génitaux (vénériens);Autres maladies dont le mode de transmission est essentiellement sexuel, non classées ailleurs;Condylomes ano-génitaux (vénériens);;9;9;j015;j124;K;N;J
+4;T;X;1;A50;A63.8;A63.8;A638;Autres maladies précisées dont le mode de transmission est essentiellement sexuel;Autres maladies dont le mode de transmission est essentiellement sexuel, non classées ailleurs;Autres maladies précisées dont le mode de transmission est essentiellement sexuel;;9;9;j015;j124;K;N;J
+3;T;X;1;A50;A64;A64;A64;Maladie sexuellement transmise, sans précision;Maladie sexuellement transmise, sans précision;;;9;9;j015;j124;K;N;J
+3;T;X;1;A65;A65;A65;A65;Syphilis non vénérienne;Syphilis non vénérienne;;;9;9;9999;9999;9;J;J
+3;N;X;1;A65;A66.-;A66;A66;Pian;Pian;;;9;9;9999;9999;9;J;J
+4;T;X;1;A65;A66.0;A66.0;A660;Lésions initiales du pian;Pian;Lésions initiales du pian;;9;9;9999;9999;9;J;J
+4;T;X;1;A65;A66.1;A66.1;A661;Papillomes multiples et pian plantaire humide (pian-crabe);Pian;Papillomes multiples et pian plantaire humide (pian-crabe);;9;9;9999;9999;9;J;J
+4;T;X;1;A65;A66.2;A66.2;A662;Autres lésions cutanées précoces du pian;Pian;Autres lésions cutanées précoces du pian;;9;9;9999;9999;9;J;J
+4;T;X;1;A65;A66.3;A66.3;A663;Hyperkératose pianique;Pian;Hyperkératose pianique;;9;9;9999;9999;9;J;J
+4;T;X;1;A65;A66.4;A66.4;A664;Gommes et ulcères pianiques;Pian;Gommes et ulcères pianiques;;9;9;9999;9999;9;J;J
+4;T;X;1;A65;A66.5;A66.5;A665;Gangosa;Pian;Gangosa;;9;9;9999;9999;9;J;J
+4;T;X;1;A65;A66.6;A66.6;A666;Lésions ostéo-articulaires pianiques;Pian;Lésions ostéo-articulaires pianiques;;9;9;9999;9999;9;J;J
+4;T;X;1;A65;A66.7;A66.7;A667;Autres manifestations du pian;Pian;Autres manifestations du pian;;9;9;9999;9999;9;J;J
+4;T;X;1;A65;A66.8;A66.8;A668;Pian latent;Pian;Pian latent;;9;9;9999;9999;9;J;J
+4;T;X;1;A65;A66.9;A66.9;A669;Pian, sans précision;Pian;Pian, sans précision;;9;9;9999;9999;9;J;J
+3;N;X;1;A65;A67.-;A67;A67;Pinta [caraté];Pinta [caraté];;;9;9;9999;9999;9;J;J
+4;T;X;1;A65;A67.0;A67.0;A670;Lésions initiales de la pinta;Pinta [caraté];Lésions initiales de la pinta;;9;9;9999;9999;9;J;J
+4;T;X;1;A65;A67.1;A67.1;A671;Lésions intermédiaires de la pinta;Pinta [caraté];Lésions intermédiaires de la pinta;;9;9;9999;9999;9;J;J
+4;T;X;1;A65;A67.2;A67.2;A672;Lésions tardives de la pinta;Pinta [caraté];Lésions tardives de la pinta;;9;9;9999;9999;9;J;J
+4;T;X;1;A65;A67.3;A67.3;A673;Lésions mixtes de la pinta;Pinta [caraté];Lésions mixtes de la pinta;;9;9;9999;9999;9;J;J
+4;T;X;1;A65;A67.9;A67.9;A679;Pinta, sans précision;Pinta [caraté];Pinta, sans précision;;9;9;9999;9999;9;J;J
+3;N;X;1;A65;A68.-;A68;A68;Fièvres récurrentes [borrélioses];Fièvres récurrentes [borrélioses];;;9;9;9999;9999;9;J;J
+4;T;X;1;A65;A68.0;A68.0;A680;Fièvre récurrente [borréliose] à poux;Fièvres récurrentes [borrélioses];Fièvre récurrente [borréliose] à poux;;9;9;9999;9999;9;J;J
+4;T;X;1;A65;A68.1;A68.1;A681;Fièvre récurrente [borréliose] à tiques;Fièvres récurrentes [borrélioses];Fièvre récurrente [borréliose] à tiques;;9;9;9999;9999;9;J;J
+4;T;X;1;A65;A68.9;A68.9;A689;Fièvre récurrente [borréliose], sans précision;Fièvres récurrentes [borrélioses];Fièvre récurrente [borréliose], sans précision;;9;9;9999;9999;9;J;J
+3;N;X;1;A65;A69.-;A69;A69;Autres infections à spirochètes;Autres infections à spirochètes;;;9;9;9999;9999;9;N;J
+4;T;X;1;A65;A69.0;A69.0;A690;Stomatite ulcéro-nécrotique;Autres infections à spirochètes;Stomatite ulcéro-nécrotique;;9;9;9999;9999;9;N;J
+4;T;X;1;A65;A69.1;A69.1;A691;Autres infections dites de Vincent;Autres infections à spirochètes;Autres infections dites de Vincent;;9;9;9999;9999;9;N;J
+4;T;X;1;A65;A69.2;A69.2;A692;Maladie de Lyme;Autres infections à spirochètes;Maladie de Lyme;;9;9;9999;9999;9;N;J
+4;T;X;1;A65;A69.8;A69.8;A698;Autres infections à spirochètes précisées;Autres infections à spirochètes;Autres infections à spirochètes précisées;;9;9;9999;9999;9;N;J
+4;T;X;1;A65;A69.9;A69.9;A699;Infection à spirochètes, sans précision;Autres infections à spirochètes;Infection à spirochètes, sans précision;;9;9;9999;9999;9;N;J
+3;T;X;1;A70;A70;A70;A70;Infection à Chlamydia psittaci;Infection à Chlamydia psittaci;;;9;9;9999;9999;9;N;J
+3;N;X;1;A70;A71.-;A71;A71;Trachome;Trachome;;;9;9;9999;9999;9;J;J
+4;T;X;1;A70;A71.0;A71.0;A710;Phase initiale du trachome;Trachome;Phase initiale du trachome;;9;9;9999;9999;9;J;J
+4;T;X;1;A70;A71.1;A71.1;A711;Phase active du trachome;Trachome;Phase active du trachome;;9;9;9999;9999;9;J;J
+4;T;X;1;A70;A71.9;A71.9;A719;Trachome, sans précision;Trachome;Trachome, sans précision;;9;9;9999;9999;9;J;J
+3;N;X;1;A70;A74.-;A74;A74;Autres infections à Chlamydia;Autres infections à Chlamydia;;;9;9;9999;9999;9;N;J
+4;T;X;1;A70;A74.0;A74.0;A740;Conjonctivite à Chlamydia;Autres infections à Chlamydia;Conjonctivite à Chlamydia;;9;9;9999;9999;9;N;J
+4;T;X;1;A70;A74.8;A74.8;A748;Autres infections à Chlamydia précisées;Autres infections à Chlamydia;Autres infections à Chlamydia précisées;;9;9;9999;9999;9;N;J
+4;T;X;1;A70;A74.9;A74.9;A749;Infection à Chlamydia, sans précision;Autres infections à Chlamydia;Infection à Chlamydia, sans précision;;9;9;9999;9999;9;N;J
+3;N;X;1;A75;A75.-;A75;A75;Typhus;Typhus;;;9;9;9999;9999;9;N;J
+4;T;X;1;A75;A75.0;A75.0;A750;Typhus épidémique à poux dû à Rickettsia prowazekii;Typhus;Typhus épidémique à poux dû à Rickettsia prowazekii;;9;9;9999;9999;9;N;J
+4;T;X;1;A75;A75.1;A75.1;A751;Typhus résurgent [maladie de Brill];Typhus;Typhus résurgent [maladie de Brill];;9;9;9999;9999;9;N;J
+4;T;X;1;A75;A75.2;A75.2;A752;Typhus à Rickettsia typhi;Typhus;Typhus à Rickettsia typhi;;9;9;9999;9999;9;N;J
+4;T;X;1;A75;A75.3;A75.3;A753;Typhus à Rickettsia tsutsugamushi;Typhus;Typhus à Rickettsia tsutsugamushi;;9;9;9999;9999;9;N;J
+4;T;X;1;A75;A75.9;A75.9;A759;Typhus, sans précision;Typhus;Typhus, sans précision;;9;9;9999;9999;9;N;J
+3;N;X;1;A75;A77.-;A77;A77;Fièvre pourprée [rickettsioses à tiques];Fièvre pourprée [rickettsioses à tiques];;;9;9;9999;9999;9;J;J
+4;T;X;1;A75;A77.0;A77.0;A770;Fièvre pourprée à Rickettsia rickettsii;Fièvre pourprée [rickettsioses à tiques];Fièvre pourprée à Rickettsia rickettsii;;9;9;9999;9999;9;J;J
+4;T;X;1;A75;A77.1;A77.1;A771;Fièvre pourprée à Rickettsia conorii;Fièvre pourprée [rickettsioses à tiques];Fièvre pourprée à Rickettsia conorii;;9;9;9999;9999;9;J;J
+4;T;X;1;A75;A77.2;A77.2;A772;Fièvre pourprée due à Rickettsia sibirica;Fièvre pourprée [rickettsioses à tiques];Fièvre pourprée due à Rickettsia sibirica;;9;9;9999;9999;9;J;J
+4;T;X;1;A75;A77.3;A77.3;A773;Fièvre pourprée due à Rickettsia australis;Fièvre pourprée [rickettsioses à tiques];Fièvre pourprée due à Rickettsia australis;;9;9;9999;9999;9;J;J
+4;T;X;1;A75;A77.8;A77.8;A778;Autres fièvres pourprées;Fièvre pourprée [rickettsioses à tiques];Autres fièvres pourprées;;9;9;9999;9999;9;J;J
+4;T;X;1;A75;A77.9;A77.9;A779;Fièvre pourprée, sans précision;Fièvre pourprée [rickettsioses à tiques];Fièvre pourprée, sans précision;;9;9;9999;9999;9;J;J
+3;T;X;1;A75;A78;A78;A78;Fièvre Q;Fièvre Q;;;9;9;9999;9999;9;N;J
+3;N;X;1;A75;A79.-;A79;A79;Autres rickettsioses;Autres rickettsioses;;;9;9;9999;9999;9;N;J
+4;T;X;1;A75;A79.0;A79.0;A790;Fièvre des tranchées;Autres rickettsioses;Fièvre des tranchées;;9;9;9999;9999;9;N;J
+4;T;X;1;A75;A79.1;A79.1;A791;Rickettsiose varicelliforme due à Rickettsia akari;Autres rickettsioses;Rickettsiose varicelliforme due à Rickettsia akari;;9;9;9999;9999;9;N;J
+4;T;X;1;A75;A79.8;A79.8;A798;Autres types précisés de rickettsiose;Autres rickettsioses;Autres types précisés de rickettsiose;;9;9;9999;9999;9;N;J
+4;T;X;1;A75;A79.9;A79.9;A799;Rickettsiose, sans précision;Autres rickettsioses;Rickettsiose, sans précision;;9;9;9999;9999;9;N;J
+3;N;X;1;A80;A80.-;A80;A80;Poliomyélite aiguë;Poliomyélite aiguë;;;9;9;9999;9999;9;J;J
+4;T;X;1;A80;A80.0;A80.0;A800;Poliomyélite paralytique aiguë, associée au virus vaccinal;Poliomyélite aiguë;Poliomyélite paralytique aiguë, associée au virus vaccinal;;9;9;9999;9999;9;J;J
+4;T;X;1;A80;A80.1;A80.1;A801;Poliomyélite paralytique aiguë, virus sauvage importé;Poliomyélite aiguë;Poliomyélite paralytique aiguë, virus sauvage importé;;9;9;9999;9999;9;J;J
+4;T;X;1;A80;A80.2;A80.2;A802;Poliomyélite paralytique aiguë, virus sauvage indigène;Poliomyélite aiguë;Poliomyélite paralytique aiguë, virus sauvage indigène;;9;9;9999;9999;9;J;J
+4;T;X;1;A80;A80.3;A80.3;A803;Poliomyélites paralytiques aiguës, autres et sans précision;Poliomyélite aiguë;Poliomyélites paralytiques aiguës, autres et sans précision;;9;9;9999;9999;9;J;J
+4;T;X;1;A80;A80.4;A80.4;A804;Poliomyélite aiguë non paralytique;Poliomyélite aiguë;Poliomyélite aiguë non paralytique;;9;9;9999;9999;9;J;J
+4;T;X;1;A80;A80.9;A80.9;A809;Poliomyélite aiguë, sans précision;Poliomyélite aiguë;Poliomyélite aiguë, sans précision;;9;9;9999;9999;9;J;J
+3;N;X;1;A80;A81.-;A81;A81;Infections atypiques à virus, du système nerveux central;Infections atypiques à virus, du système nerveux central;;;9;9;9999;9999;9;N;J
+4;T;X;1;A80;A81.0;A81.0;A810;Maladie de Creutzfeldt-Jakob;Infections atypiques à virus, du système nerveux central;Maladie de Creutzfeldt-Jakob;;9;9;9999;9999;9;N;J
+4;T;X;1;A80;A81.1;A81.1;A811;Panencéphalite sclérosante subaiguë;Infections atypiques à virus, du système nerveux central;Panencéphalite sclérosante subaiguë;;9;9;9999;9999;9;N;J
+4;T;X;1;A80;A81.2;A81.2;A812;Leucoencéphalopathie multifocale progressive;Infections atypiques à virus, du système nerveux central;Leucoencéphalopathie multifocale progressive;;9;9;9999;9999;9;N;J
+4;T;X;1;A80;A81.8;A81.8;A818;Autres infections atypiques à virus, du système nerveux central;Infections atypiques à virus, du système nerveux central;Autres infections atypiques à virus, du système nerveux central;;9;9;9999;9999;9;N;J
+4;T;X;1;A80;A81.9;A81.9;A819;Infection atypiques à virus, du système nerveux central, sans précision;Infections atypiques à virus, du système nerveux central;Infection atypiques à virus, du système nerveux central, sans précision;;9;9;9999;9999;9;N;J
+3;N;X;1;A80;A82.-;A82;A82;Rage;Rage;;;9;9;9999;9999;9;N;J
+4;T;X;1;A80;A82.0;A82.0;A820;Rage sylvatique;Rage;Rage sylvatique;;9;9;9999;9999;9;N;J
+4;T;X;1;A80;A82.1;A82.1;A821;Rage des rues [rage citadine];Rage;Rage des rues [rage citadine];;9;9;9999;9999;9;N;J
+4;T;X;1;A80;A82.9;A82.9;A829;Rage, sans précision;Rage;Rage, sans précision;;9;9;9999;9999;9;N;J
+3;N;X;1;A80;A83.-;A83;A83;Encéphalite virale transmise par des moustiques;Encéphalite virale transmise par des moustiques;;;9;9;9999;9999;9;J;J
+4;T;X;1;A80;A83.0;A83.0;A830;Encéphalite japonaise;Encéphalite virale transmise par des moustiques;Encéphalite japonaise;;9;9;9999;9999;9;J;J
+4;T;X;1;A80;A83.1;A83.1;A831;Encéphalite équine occidentale;Encéphalite virale transmise par des moustiques;Encéphalite équine occidentale;;9;9;9999;9999;9;J;J
+4;T;X;1;A80;A83.2;A83.2;A832;Encéphalite équine orientale;Encéphalite virale transmise par des moustiques;Encéphalite équine orientale;;9;9;9999;9999;9;J;J
+4;T;X;1;A80;A83.3;A83.3;A833;Encéphalite de Saint-Louis;Encéphalite virale transmise par des moustiques;Encéphalite de Saint-Louis;;9;9;9999;9999;9;J;J
+4;T;X;1;A80;A83.4;A83.4;A834;Encéphalite australienne;Encéphalite virale transmise par des moustiques;Encéphalite australienne;;9;9;9999;9999;9;J;J
+4;T;X;1;A80;A83.5;A83.5;A835;Encéphalite de Californie;Encéphalite virale transmise par des moustiques;Encéphalite de Californie;;9;9;9999;9999;9;J;J
+4;T;X;1;A80;A83.6;A83.6;A836;Maladie à virus de Rocio;Encéphalite virale transmise par des moustiques;Maladie à virus de Rocio;;9;9;9999;9999;9;J;J
+4;T;X;1;A80;A83.8;A83.8;A838;Autres encéphalites virales transmises par des moustiques;Encéphalite virale transmise par des moustiques;Autres encéphalites virales transmises par des moustiques;;9;9;9999;9999;9;J;J
+4;T;X;1;A80;A83.9;A83.9;A839;Encéphalite virale transmise par des moustiques, sans précision;Encéphalite virale transmise par des moustiques;Encéphalite virale transmise par des moustiques, sans précision;;9;9;9999;9999;9;J;J
+3;N;X;1;A80;A84.-;A84;A84;Encéphalite virale transmise par des tiques;Encéphalite virale transmise par des tiques;;;9;9;9999;9999;9;N;J
+4;T;X;1;A80;A84.0;A84.0;A840;Encéphalite de la taïga [encéphalite verno-estivale russe];Encéphalite virale transmise par des tiques;Encéphalite de la taïga [encéphalite verno-estivale russe];;9;9;9999;9999;9;N;J
+4;T;X;1;A80;A84.1;A84.1;A841;Encéphalite d’Europe centrale transmise par des tiques;Encéphalite virale transmise par des tiques;Encéphalite d’Europe centrale transmise par des tiques;;9;9;9999;9999;9;N;J
+4;T;X;1;A80;A84.8;A84.8;A848;Autres encéphalites virales transmises par des tiques;Encéphalite virale transmise par des tiques;Autres encéphalites virales transmises par des tiques;;9;9;9999;9999;9;N;J
+4;T;X;1;A80;A84.9;A84.9;A849;Encéphalite virale transmise par des tiques, sans précision;Encéphalite virale transmise par des tiques;Encéphalite virale transmise par des tiques, sans précision;;9;9;9999;9999;9;N;J
+3;N;X;1;A80;A85.-;A85;A85;Autres encéphalites virales, non classées ailleurs;Autres encéphalites virales, non classées ailleurs;;;9;9;9999;9999;9;N;J
+4;T;X;1;A80;A85.0;A85.0;A850;Encéphalite à entérovirus;Autres encéphalites virales, non classées ailleurs;Encéphalite à entérovirus;;9;9;9999;9999;9;N;J
+4;T;X;1;A80;A85.1;A85.1;A851;Encéphalite à adénovirus;Autres encéphalites virales, non classées ailleurs;Encéphalite à adénovirus;;9;9;9999;9999;9;N;J
+4;T;X;1;A80;A85.2;A85.2;A852;Encéphalite virale transmise par des arthropodes, sans précision;Autres encéphalites virales, non classées ailleurs;Encéphalite virale transmise par des arthropodes, sans précision;;9;9;9999;9999;9;N;J
+4;T;X;1;A80;A85.8;A85.8;A858;Autres encéphalites virales précisées;Autres encéphalites virales, non classées ailleurs;Autres encéphalites virales précisées;;9;9;9999;9999;9;N;J
+3;T;X;1;A80;A86;A86;A86;Encéphalite virale, sans précision;Encéphalite virale, sans précision;;;9;9;9999;9999;9;N;J
+3;N;X;1;A80;A87.-;A87;A87;Méningite virale;Méningite virale;;;9;9;9999;9999;9;N;J
+4;T;X;1;A80;A87.0;A87.0;A870;Méningite à entérovirus;Méningite virale;Méningite à entérovirus;;9;9;9999;9999;9;N;J
+4;T;X;1;A80;A87.1;A87.1;A871;Méningite à adénovirus;Méningite virale;Méningite à adénovirus;;9;9;9999;9999;9;N;J
+4;T;X;1;A80;A87.2;A87.2;A872;Chorioméningite lymphocytaire;Méningite virale;Chorioméningite lymphocytaire;;9;9;9999;9999;9;N;J
+4;T;X;1;A80;A87.8;A87.8;A878;Autres méningites virales;Méningite virale;Autres méningites virales;;9;9;9999;9999;9;N;J
+4;T;X;1;A80;A87.9;A87.9;A879;Méningite virale, sans précision;Méningite virale;Méningite virale, sans précision;;9;9;9999;9999;9;N;J
+3;N;X;1;A80;A88.-;A88;A88;Autres infections virales du système nerveux central, non classées ailleurs;Autres infections virales du système nerveux central, non classées ailleurs;;;9;9;9999;9999;9;N;J
+4;T;X;1;A80;A88.0;A88.0;A880;Fièvre exanthémateuse à entérovirus [exanthème de Boston];Autres infections virales du système nerveux central, non classées ailleurs;Fièvre exanthémateuse à entérovirus [exanthème de Boston];;9;9;9999;9999;9;N;J
+4;T;X;1;A80;A88.1;A88.1;A881;Vertige épidémique;Autres infections virales du système nerveux central, non classées ailleurs;Vertige épidémique;;9;9;9999;9999;9;N;J
+4;T;X;1;A80;A88.8;A88.8;A888;Autres infections virales précisées du système nerveux central;Autres infections virales du système nerveux central, non classées ailleurs;Autres infections virales précisées du système nerveux central;;9;9;9999;9999;9;N;J
+3;T;X;1;A80;A89;A89;A89;Infection virale du système nerveux central, sans précision;Infection virale du système nerveux central, sans précision;;;9;9;9999;9999;9;N;J
+3;N;X;1;A92;A92.-;A92;A92;Autres fièvres virales transmises par des moustiques;Autres fièvres virales transmises par des moustiques;;;9;9;9999;9999;9;J;J
+4;T;X;1;A92;A92.0;A92.0;A920;Fièvre de Chikungunya;Autres fièvres virales transmises par des moustiques;Fièvre de Chikungunya;;9;9;9999;9999;9;J;J
+4;T;X;1;A92;A92.1;A92.1;A921;Fièvre due au virus O’nyong-nyong;Autres fièvres virales transmises par des moustiques;Fièvre due au virus O’nyong-nyong;;9;9;9999;9999;9;J;J
+4;T;X;1;A92;A92.2;A92.2;A922;Fièvre équine vénézuélienne;Autres fièvres virales transmises par des moustiques;Fièvre équine vénézuélienne;;9;9;9999;9999;9;J;J
+4;T;X;1;A92;A92.3;A92.3;A923;Fièvre due au virus West-Nile;Autres fièvres virales transmises par des moustiques;Fièvre due au virus West-Nile;;9;9;9999;9999;9;J;J
+4;T;X;1;A92;A92.4;A92.4;A924;Fièvre de la vallée du Rift;Autres fièvres virales transmises par des moustiques;Fièvre de la vallée du Rift;;9;9;9999;9999;9;J;J
+4;T;X;1;A92;A92.5;A92.5;A925;Maladie à virus Zika;Autres fièvres virales transmises par des moustiques;Maladie à virus Zika;;9;9;9999;9999;9;J;J
+4;T;X;1;A92;A92.8;A92.8;A928;Autres fièvres virales précisées, transmises par des moustiques;Autres fièvres virales transmises par des moustiques;Autres fièvres virales précisées, transmises par des moustiques;;9;9;9999;9999;9;J;J
+4;T;X;1;A92;A92.9;A92.9;A929;Fièvre virale transmise par des moustiques, sans précision;Autres fièvres virales transmises par des moustiques;Fièvre virale transmise par des moustiques, sans précision;;9;9;9999;9999;9;J;J
+3;N;X;1;A92;A93.-;A93;A93;Autres fièvres virales transmises par des arthropodes, non classées ailleurs;Autres fièvres virales transmises par des arthropodes, non classées ailleurs;;;9;9;9999;9999;9;J;J
+4;T;X;1;A92;A93.0;A93.0;A930;Fièvre d’Oropouche;Autres fièvres virales transmises par des arthropodes, non classées ailleurs;Fièvre d’Oropouche;;9;9;9999;9999;9;J;J
+4;T;X;1;A92;A93.1;A93.1;A931;Fièvre à phlébotome;Autres fièvres virales transmises par des arthropodes, non classées ailleurs;Fièvre à phlébotome;;9;9;9999;9999;9;J;J
+4;T;X;1;A92;A93.2;A93.2;A932;Fièvre à tiques du Colorado;Autres fièvres virales transmises par des arthropodes, non classées ailleurs;Fièvre à tiques du Colorado;;9;9;9999;9999;9;J;J
+4;T;X;1;A92;A93.8;A93.8;A938;Autres fièvres virales précisées, transmises par des arthropodes;Autres fièvres virales transmises par des arthropodes, non classées ailleurs;Autres fièvres virales précisées, transmises par des arthropodes;;9;9;9999;9999;9;J;J
+3;T;X;1;A92;A94;A94;A94;Fièvre virale transmise par des arthropodes, sans précision;Fièvre virale transmise par des arthropodes, sans précision;;;9;9;9999;9999;9;N;J
+3;N;X;1;A92;A95.-;A95;A95;Fièvre jaune;Fièvre jaune;;;9;9;9999;9999;9;J;J
+4;T;X;1;A92;A95.0;A95.0;A950;Fièvre jaune sylvatique;Fièvre jaune;Fièvre jaune sylvatique;;9;9;9999;9999;9;J;J
+4;T;X;1;A92;A95.1;A95.1;A951;Fièvre jaune citadine;Fièvre jaune;Fièvre jaune citadine;;9;9;9999;9999;9;J;J
+4;T;X;1;A92;A95.9;A95.9;A959;Fièvre jaune, sans précision;Fièvre jaune;Fièvre jaune, sans précision;;9;9;9999;9999;9;J;J
+3;N;X;1;A92;A96.-;A96;A96;Fièvre hémorragique à arénavirus;Fièvre hémorragique à arénavirus;;;9;9;9999;9999;9;J;J
+4;T;X;1;A92;A96.0;A96.0;A960;Fièvre hémorragique de Junin;Fièvre hémorragique à arénavirus;Fièvre hémorragique de Junin;;9;9;9999;9999;9;J;J
+4;T;X;1;A92;A96.1;A96.1;A961;Fièvre hémorragique de Machupo;Fièvre hémorragique à arénavirus;Fièvre hémorragique de Machupo;;9;9;9999;9999;9;J;J
+4;T;X;1;A92;A96.2;A96.2;A962;Fièvre de Lassa;Fièvre hémorragique à arénavirus;Fièvre de Lassa;;9;9;9999;9999;9;J;J
+4;T;X;1;A92;A96.8;A96.8;A968;Autres fièvres hémorragiques à arénavirus;Fièvre hémorragique à arénavirus;Autres fièvres hémorragiques à arénavirus;;9;9;9999;9999;9;J;J
+4;T;X;1;A92;A96.9;A96.9;A969;Fièvre hémorragique à arénavirus, sans précision;Fièvre hémorragique à arénavirus;Fièvre hémorragique à arénavirus, sans précision;;9;9;9999;9999;9;J;J
+3;N;X;1;A92;A97.-;A97;A97;Dengue;Dengue;;;9;9;9999;9999;9;J;J
+4;T;X;1;A92;A97.0;A97.0;A970;Dengue sans signes d’alerte;Dengue;Dengue sans signes d’alerte;;9;9;9999;9999;9;J;J
+4;T;X;1;A92;A97.1;A97.1;A971;Dengue avec signes d’alerte;Dengue;Dengue avec signes d’alerte;;9;9;9999;9999;9;J;J
+4;T;X;1;A92;A97.2;A97.2;A972;Dengue sévère;Dengue;Dengue sévère;;9;9;9999;9999;9;J;J
+4;T;X;1;A92;A97.9;A97.9;A979;Dengue, sans précision;Dengue;Dengue, sans précision;;9;9;9999;9999;9;J;J
+3;N;X;1;A92;A98.-;A98;A98;Autres fièvres hémorragiques virales, non classées ailleurs;Autres fièvres hémorragiques virales, non classées ailleurs;;;9;9;9999;9999;9;J;J
+4;T;X;1;A92;A98.0;A98.0;A980;Fièvre hémorragique de Crimée [du Congo];Autres fièvres hémorragiques virales, non classées ailleurs;Fièvre hémorragique de Crimée [du Congo];;9;9;9999;9999;9;J;J
+4;T;X;1;A92;A98.1;A98.1;A981;Fièvre hémorragique d’Omsk;Autres fièvres hémorragiques virales, non classées ailleurs;Fièvre hémorragique d’Omsk;;9;9;9999;9999;9;J;J
+4;T;X;1;A92;A98.2;A98.2;A982;Maladie de la forêt de Kyasanur;Autres fièvres hémorragiques virales, non classées ailleurs;Maladie de la forêt de Kyasanur;;9;9;9999;9999;9;J;J
+4;T;X;1;A92;A98.3;A98.3;A983;Maladie de Marburg;Autres fièvres hémorragiques virales, non classées ailleurs;Maladie de Marburg;;9;9;9999;9999;9;J;J
+4;T;X;1;A92;A98.4;A98.4;A984;Maladie à virus Ebola;Autres fièvres hémorragiques virales, non classées ailleurs;Maladie à virus Ebola;;9;9;9999;9999;9;J;J
+4;T;X;1;A92;A98.5;A98.5;A985;Fièvre hémorragique avec syndrome rénal;Autres fièvres hémorragiques virales, non classées ailleurs;Fièvre hémorragique avec syndrome rénal;;9;9;9999;9999;9;J;J
+4;T;X;1;A92;A98.8;A98.8;A988;Autres fièvres hémorragiques virales précisées;Autres fièvres hémorragiques virales, non classées ailleurs;Autres fièvres hémorragiques virales précisées;;9;9;9999;9999;9;J;J
+3;T;X;1;A92;A99;A99;A99;Fièvre hémorragique virale, sans précision;Fièvre hémorragique virale, sans précision;;;9;9;9999;9999;9;N;J
