@@ -1,0 +1,330 @@
+L01.0;Impétigo [tout microorganisme] [toute localisation].
+L01.1;Impétiginisation d'autres dermatoses.
+L02.0;Abcès cutané, furoncle et anthrax de la face.
+L02.1;Abcès cutané, furoncle et anthrax du cou.
+L02.2;Abcès cutané, furoncle et anthrax du tronc.
+L02.3;Abcès cutané, furoncle et anthrax de la fesse.
+L02.4;Abcès cutané, furoncle et anthrax d'un membre.
+L02.8;Abcès cutané, furoncle et anthrax d'autres localisations.
+L02.9;Abcès cutané, furoncle et anthrax, sans précision.
+L03.0;Phlegmon des doigts et des orteils.
+L03.1;Phlegmon d'autres parties d'un membre.
+L03.2;Phlegmon de la face.
+L03.3;Phlegmon du tronc.
+L03.8;Phlegmon d'autres localisations.
+L03.9;Phlegmon, sans précision.
+L04.0;Lymphadénite aigüe de la face, de la tête et du cou.
+L04.1;Lymphadénite aigüe du tronc.
+L04.2;Lymphadénite aigüe d'un membre supérieur.
+L04.3;Lymphadénite aigüe d'un membre inférieur.
+L04.8;Lymphadénite aigüe d'autres localisations.
+L04.9;Lymphadénite aigüe, sans précision.
+L05.0;Sinus pilonidal avec abcès.
+L05.9;Sinus pilonidal sans abcès.
+L08.0;Pyodermite.
+L08.1;Érythrasma.
+L08.8;Autres infections localisées précisées de la peau et du tissu cellulaire souscutané.
+L08.9;Infection localisée de la peau et du tissu cellulaire souscutané, sans précision.
+L10.0;Pemphigus vulgaire.
+L10.1;Pemphigus végétant.
+L10.2;Pemphigus foliacé.
+L10.3;Pemphigus brésilien [fogo selvagem].
+L10.4;Pemphigus érythémateux.
+L10.5;Pemphigus médicamenteux.
+L10.8;Autres formes de pemphigus.
+L10.9;Pemphigus, sans précision.
+L11.0;Kératose folliculaire acquise.
+L11.1;Dermatose acantholytique transitoire [Grover].
+L11.8;Autres formes précisées d'acantholyse.
+L11.9;Acantholyse, sans précision.
+L12.0;Pemphigoïde bulleux.
+L12.1;Pemphigoïde cicatriciel.
+L12.2;Maladie chronique bulleuse de l'enfance.
+L12.3;Épidermolyse bulleuse acquise.
+L12.8;Autres pemphigoïdes.
+L12.9;Pemphigoïde, sans précision.
+L13.0;Dermite herpétiforme.
+L13.1;Pustulose souscornée.
+L13.8;Autres dermatoses bulleuses précisées.
+L13.9;Dermatose bulleuse, sans précision.
+L20.0;Prurigo de Besnier.
+L20.8;Autres dermites atopiques.
+L20.9;Dermite atopique, sans précision.
+L21.0;Séborrhée de la tête.
+L21.1;Dermite séborrhéique infantile.
+L21.8;Autres dermites séborrhéiques.
+L21.9;Dermite séborrhéique, sans précision.
+L23.0;Dermite allergique de contact due aux métaux.
+L23.1;Dermite allergique de contact due aux adhésifs.
+L23.2;Dermite allergique de contact due aux cosmétiques.
+L23.3;Dermite allergique de contact due à des médicaments en contact avec la peau.
+L23.4;Dermite allergique de contact due aux teintures.
+L23.5;Dermite allergique de contact due à d'autres produits chimiques.
+L23.6;Dermite allergique de contact due à des aliments en contact avec la peau.
+L23.7;Dermite allergique de contact due aux végétaux, sauf aliments.
+L23.8;Dermite allergique de contact due à d'autres agents.
+L23.9;Dermite allergique de contact, cause non précisée.
+L24.0;Dermite irritante de contact due aux détergents.
+L24.1;Dermite irritante de contact due aux huiles et aux graisses.
+L24.2;Dermite irritante de contact due aux solvants.
+L24.3;Dermite irritante de contact due aux cosmétiques.
+L24.4;Dermite irritante de contact due à des médicaments en contact avec la peau.
+L24.5;Dermite irritante de contact due à d'autres produits chimiques.
+L24.6;Dermite irritante de contact due à des aliments en contact avec la peau.
+L24.7;Dermite irritante de contact due aux végétaux, sauf aliments.
+L24.8;Dermite irritante de contact due à d'autres agents.
+L24.9;Dermite irritante de contact, cause non précisée.
+L25.0;Dermite de contact, sans précision, due aux cosmétiques.
+L25.1;Dermite de contact, sans précision, due à des médicaments en contact avec la peau.
+L25.2;Dermite de contact, sans précision, due aux teintures.
+L25.3;Dermite de contact, sans précision, due à d'autres produits chimiques.
+L25.4;Dermite de contact, sans précision, due à des aliments en contact avec la peau.
+L25.5;Dermite de contact, sans précision, due aux végétaux, sauf aliments.
+L25.8;Dermite de contact, sans précision, due à d'autres agents.
+L25.9;Dermite de contact, sans précision, de cause non précisée.
+L27.0;Éruption généralisée due à des médicaments.
+L27.1;Éruption localisée due à des médicaments.
+L27.2;Dermite due à l'ingestion d'aliments.
+L27.8;Dermite due à d'autres substances prises par voie interne.
+L27.9;Dermite due à une substance non précisée prise par voie interne.
+L28.0;Lichen simplex chronique.
+L28.1;Prurigo nodulaire de Hyde.
+L28.2;Autres formes de prurigo.
+L29.0;Prurit anal.
+L29.1;Prurit scrotal.
+L29.2;Prurit vulvaire.
+L29.3;Prurit anogénital, sans précision.
+L29.8;Autres prurits.
+L29.9;Prurit, sans précision.
+L30.0;Dermite nummulaire.
+L30.1;Dyshidrose [pompholyx].
+L30.2;Autosensibilisation cutanée.
+L30.3;Dermite infectée.
+L30.4;Intertrigo érythémateux.
+L30.5;Pityriasis alba.
+L30.8;Autres dermites précisées.
+L30.9;Dermite, sans précision.
+L40.0;Psoriasis vulgaris.
+L40.1;Psoriasis pustulaire généralisé.
+L40.2;Acrodermatite continue de Hallopeau.
+L40.3;Pustulose palmaire et plantaire.
+L40.4;Psoriasis en goutte.
+L40.5;Psoriasis arthropathique (M07.0-M07.3*, M09.0*).
+L40.8;Autres psoriasis.
+L40.9;Psoriasis, sans précision.
+L41.0;Pityriasis lichénoïde et varioliforme aigu.
+L41.1;Pityriasis lichénoïde chronique.
+L41.3;Parapsoriasis à petites plaques.
+L41.4;Parapsoriasis à grandes plaques.
+L41.5;Parapsoriasis rétiforme.
+L41.8;Autres parapsoriasis.
+L41.9;Parapsoriasis, sans précision.
+L43.0;Lichen plan hypertrophique.
+L43.1;Lichen plan bulleux.
+L43.2;Réaction lichénoïde médicamenteuse.
+L43.3;Lichen plan subaigu (actif).
+L43.8;Autres lichens plans.
+L43.9;Lichen plan, sans précision.
+L44.0;Pityriasis rubra pilaire.
+L44.1;Lichen nitidus.
+L44.2;Lichen strié.
+L44.3;Lichen ruber moniliforme.
+L44.4;Acrodermatite érythématopapuleuse infantile.
+L44.8;Autres lésions papulosquameuses précisées.
+L44.9;Lésion papulosquameuse, sans précision.
+L50.0;Urticaire allergique.
+L50.1;Urticaire idiopathique.
+L50.2;Urticaire provoquée par le froid et la chaleur.
+L50.3;Dermographisme.
+L50.4;Urticaire provoquée par vibration.
+L50.5;Urticaire cholinergique.
+L50.6;Urticaire de contact.
+L50.8;Autres formes d'urticaire.
+L50.9;Urticaire, sans précision.
+L51.0;Érythème polymorphe non bulleux.
+L51.1;Érythème polymorphe bulleux.
+L51.2;Épidermolyse nécrosante suraigüe [Lyell].
+L51.2;Épidermolyse nécrosante suraigüe [Lyell], avec décollement cutané égal ou supérieur à.
+L51.2;Épidermolyse nécrosante suraigüe [Lyell], avec décollement cutané inférieur à 30% (de la.
+L51.8;Autres formes d'érythème polymorphe.
+L51.9;Érythème polymorphe, sans précision.
+L53.0;Érythème toxique.
+L53.1;Érythème annulaire centrifuge.
+L53.2;Érythème marginé discoïde de Besnier.
+L53.3;Autres formes d'érythème figuré chronique.
+L53.8;Autres formes précisées d'érythème.
+L53.9;Érythème, sans précision.
+L54.0;Érythème marginé discoïde de Besnier au cours d'un rhumatisme articulaire aigu.
+L54.8;Érythème au cours d'autres maladies classées ailleurs.
+L55.0;Coup de soleil du premier degré.
+L55.1;Coup de soleil du deuxième degré.
+L55.2;Coup de soleil du troisième degré.
+L55.8;Autres coups de soleil.
+L55.9;Coup de soleil, sans précision.
+L56.0;Réaction phototoxique à un médicament.
+L56.1;Réaction photoallergique à un médicament.
+L56.2;Dermite de photocontact [dermite de breloque].
+L56.3;Urticaire solaire.
+L56.4;Lucite polymorphe.
+L56.8;Autres modifications aigües précisées de la peau dues aux rayons ultraviolets.
+L56.9;Modification aigüe de la peau due aux rayons ultraviolets, sans précision.
+L57.0;Kératose actinique.
+L57.1;Actinoréticulose.
+L57.2;Cutis rhomboidalis.
+L57.3;Poïkilodermie de Civatte.
+L57.4;Cutis laxa senilis.
+L57.5;Granulome actinique.
+L57.8;Autres modifications de la peau dues à une exposition chronique aux rayonnements.
+L57.9;Modification de la peau due à une exposition chronique aux rayonnements non.
+L58.0;Radiodermite aigüe.
+L58.1;Radiodermite chronique.
+L58.9;Radiodermite, sans précision.
+L59.0;Érythème dû au feu [dermite due au feu].
+L59.8;Autres affections précisées de la peau et du tissu cellulaire souscutané liées à une.
+L59.9;Affection de la peau et du tissu cellulaire souscutané liée à une irradiation, sans.
+L60.0;Ongle incarné.
+L60.1;Onycholyse.
+L60.2;Onychogryphose.
+L60.3;Dystrophie des ongles.
+L60.4;Lignes de Beau.
+L60.5;Syndrome des ongles jaunes 517.
+L60.8;Autres maladies des ongles.
+L60.9;Maladie des ongles, sans précision.
+L62.0;Pachydermopériostose avec ongle hippocratique (M89.4†).
+L62.8;Maladies des ongles au cours d'autres maladies classées ailleurs.
+L63.0;Alopécie totale.
+L63.1;Pelade diffuse.
+L63.2;Ophiase.
+L63.8;Autres formes de pelade.
+L63.9;Pelade, sans précision.
+L64.0;Alopécie androgénique médicamenteuse.
+L64.8;Autres formes d'alopécie androgénique.
+L64.9;Alopécie androgénique, sans précision.
+L65.0;Télogène.
+L65.1;Anagène.
+L65.2;Alopécie mucineuse de Pinkus.
+L65.8;Autres formes non cicatricielles précisées de raréfaction du système pileux.
+L65.9;Raréfaction du système pileux non cicatricielle, sans précision.
+L66.0;Pseudopelade.
+L66.1;Lichen planopilaire.
+L66.2;Folliculite décalvante.
+L66.3;Périfolliculite capitis abscedens.
+L66.4;Folliculite ulérythémateuse réticulée.
+L66.8;Autres formes d'alopécie cicatricielle.
+L66.9;Alopécie cicatricielle, sans précision.
+L67.0;Trichorrhexie noueuse.
+L67.1;Anomalies de la couleur des cheveux.
+L67.8;Autres anomalies de la pigmentation et de la gaine capillaires.
+L67.9;Anomalie de la pigmentation et de la gaine capillaires, sans précision.
+L68.0;Hirsutisme.
+L68.1;Hypertrichose lanugineuse acquise.
+L68.2;Hypertrichose localisée.
+L68.3;Polytrichie.
+L68.8;Autres formes d'hypertrichose.
+L68.9;Hypertrichose, sans précision.
+L70.0;Acné vulgaire.
+L70.1;Acné conglobata.
+L70.2;Acné varioliforme.
+L70.3;Acné tropicale.
+L70.4;Acné infantile.
+L70.5;Acné excoriée.
+L70.8;Autres formes d'acné.
+L70.9;Acné, sans précision.
+L71.0;Dermite périorale.
+L71.1;Rhinophyma.
+L71.8;Autres formes d'acné rosacée.
+L71.9;Acné rosacée, sans précision.
+L72.0;Kyste épidermique.
+L72.1;Kyste sébacé.
+L72.2;Stéatokystose multiple.
+L72.8;Autres formes de kyste folliculaire de la peau et du tissu cellulaire souscutané.
+L72.9;Kyste folliculaire de la peau et du tissu cellulaire souscutané, sans précision.
+L73.0;Acné chéloïde.
+L73.1;Pseudofolliculite de la barbe.
+L73.2;Hidrosadénite suppurée.
+L73.8;Autres formes précisées d'affections folliculaires.
+L73.9;Affection folliculaire, sans précision.
+L74.0;Miliaire rouge.
+L74.1;Miliaire cristalline.
+L74.2;Miliaire profonde.
+L74.3;Miliaire, sans précision.
+L74.4;Anhidrose.
+L74.8;Autres affections des glandes sudoripares exocrines.
+L74.9;Affection des glandes sudoripares exocrines, sans précision.
+L75.0;Bromhidrose.
+L75.1;Chromhidrose.
+L75.2;Miliaire apocrine.
+L75.8;Autres affections des glandes sudoripares apocrines.
+L75.9;Affection des glandes sudoripares apocrines, sans précision.
+L81.0;Hyperpigmentation postinflammatoire.
+L81.1;Chloasma.
+L81.2;Taches de rousseur.
+L81.3;Taches café au lait.
+L81.4;Autres hyperpigmentations par la mélanine.
+L81.5;Leucodermie, non classée ailleurs.
+L81.6;Autres anomalies liées à une diminution de la formation de mélanine.
+L81.7;Dermatose purpurique pigmentée.
+L81.8;Autres anomalies précisées de la pigmentation.
+L81.9;Anomalie de la pigmentation, sans précision.
+L85.0;Ichtyose acquise.
+L85.1;Kératose [kératodermie] palmaire et plantaire acquise.
+L85.2;Kératose ponctuée (palmaire et plantaire).
+L85.3;Xérosis cutané.
+L85.8;Autres formes précisées d'épaississement de l'épiderme.
+L85.9;Épaississement de l'épiderme, sans précision.
+L87.0;Kératose folliculaire et parafolliculaire pénétrant dans la peau [Kyrle].
+L87.1;Collagénome perforant verruciforme.
+L87.2;Élastome perforant serpigineux.
+L87.8;Autres anomalies de l'élimination transépidermique.
+L87.9;Anomalie de l'élimination transépidermique, sans précision.
+L89.0;Zone de pression et ulcère de décubitus de stade I.
+L89.1;Ulcère de décubitus de stade II.
+L89.2;Ulcère de décubitus de stade III.
+L89.3;Ulcère de décubitus de stade IV.
+L89.9;Ulcère de décubitus et zone de pression, sans précision.
+L90.0;Lichen scléreux et atrophique.
+L90.1;Anétodermie de Schweninger–Buzzi.
+L90.2;Anétodermie de Jadassohn–Pellizzari.
+L90.3;Atrophodermie de Pasini et Pierini.
+L90.4;Acrodermatite chronique atrophiante.
+L90.5;Cicatrices et fibrose cutanées.
+L90.6;Stries atrophiques.
+L90.8;Autres affections atrophiques de la peau.
+L90.9;Affection atrophique de la peau, sans précision.
+L91.0;Cicatrice hypertrophique.
+L91.8;Autres affections hypertrophiques de la peau.
+L91.9;Affection hypertrophique de la peau, sans précision.
+L92.0;Granulome annulaire.
+L92.1;Nécrobiose lipoïdique, non classée ailleurs.
+L92.2;Granulome éosinophile de la peau.
+L92.3;Granulome cutané et souscutané dû à la présence d'un corps étranger.
+L92.8;Autres lésions granulomateuses de la peau et du tissu cellulaire souscutané.
+L92.9;Lésion granulomateuse de la peau et du tissu cellulaire souscutané, sans précision.
+L93.0;Lupus érythémateux chronique.
+L93.1;Lupus érythémateux cutané subaigu.
+L93.2;Autres lupus érythémateux localisés.
+L94.0;Sclérodermie localisée [morphée].
+L94.1;Sclérodermie linéaire.
+L94.2;Calcinose cutanée.
+L94.3;Sclérodactylie.
+L94.4;Papules de Gottron.
+L94.5;Poïkilodermie généralisée type Petges–Cléjat [atrophiante vasculaire].
+L94.6;Aïnhum.
+L94.8;Autres affections localisées précisées du tissu conjonctif.
+L94.9;Affection localisée du tissu conjonctif, sans précision.
+L95.0;Vascularite livédoïde.
+L95.1;Erythema elevatum diutinum.
+L95.8;Autres vascularites limitées à la peau.
+L95.9;Vascularite limitée à la peau, sans précision.
+L98.0;Granulome pyogénique.
+L98.1;Dermite factice.
+L98.2;Dermatose neutrophile fébrile [Sweet].
+L98.3;Phlegmon à éosinophiles [Wells].
+L98.4;Ulcérations chroniques de la peau, non classées ailleurs.
+L98.5;Mucinose cutanée.
+L98.6;Autres lésions infiltrantes de la peau et du tissu cellulaire souscutané.
+L98.7;Hypertrophie et affaissement de la peau et du tissu cellulaire souscutané.
+L98.8;Autres affections précisées de la peau et du tissu cellulaire souscutané.
+L98.9;Affection de la peau et du tissu cellulaire souscutané, sans précision.
+L99.0;Amylose cutanée (E85.-†).
+L99.8;Autres affections précisées de la peau et du tissu cellulaire souscutané au cours de.

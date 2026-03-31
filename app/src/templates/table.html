@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Cim-X</title>
+    <link rel="stylesheet" href="../static/home.css">
+    <link rel="stylesheet" href="../static/dropdown.css">
+    <link rel="stylesheet" href="../static/table.css">
+</head>
+<body>
+<!-- NAVBAR -->
+<header class="navbar">
+    <div class="logo">
+        <span>CIM10</span>
+        <small>Classification des maladies</small>
+    </div>
+    <nav>
+        <a href="home#hero">Accueil</a>
+        <a href="home#about-aime">À propos d’AIME</a>
+        <div class="dropdown">
+        <a class="dropdown-btn">Cim-X</a>
+        <div class="dropdown-content">
+            <a href="{{ url_for('codes') }}">Codes</a>
+            <a href="{{ url_for('groupes') }}">Groupes</a>
+            <a href="{{ url_for('chapitres') }}">Chapitres</a>
+            <a href="#">Admin</a>
+        </div></div>
+        <a href="codage">Codage</a>
+        <a href="home">Contact</a>
+    </nav>
+</header>
+<!-- Body -->
+    <h1>{{ data.title }}</h1>
+    <table>
+        <thead>
+            <tr>
+                {% for title in data.colonnes%}
+                <th> {{ title }} </th>
+                {% endfor%}
+            </tr>
+        </thead>
+        <tbody>
+            {% for value in data.data %}
+            <tr>
+                {% for elt in value %}
+                <td>{{ elt }}</td>
+                {% endfor %}
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

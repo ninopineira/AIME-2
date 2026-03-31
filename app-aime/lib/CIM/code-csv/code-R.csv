@@ -1,0 +1,266 @@
+R00.0;Tachycardie, sans précision.
+R00.1;Bradycardie, sans précision.
+R00.2;Palpitations.
+R00.3;Activité électrique sans pouls, non classée ailleurs.
+R00.8;Anomalies du rythme cardiaque, autres et non précisées.
+R01.0;Souffles cardiaques bénins et anodins.
+R01.1;Souffle cardiaque, sans précision.
+R01.2;Autres bruits cardiaques.
+R03.0;Constatation d'une élévation de la tension artérielle, sans diagnostic d'hypertension.
+R03.1;Constatation d'une baisse non spécifique de la tension artérielle.
+R04.0;Épistaxis.
+R04.1;Hémorragie de la gorge.
+R04.2;Hémoptysie.
+R04.8;Hémorragie d'autres parties des voies respiratoires.
+R04.9;Hémorragie des voies respiratoires, sans précision.
+R06.0;Dyspnée.
+R06.1;Stridor.
+R06.2;Sifflement.
+R06.3;Respiration périodique.
+R06.4;Hyperventilation 716.
+R06.5;Respiration par la bouche.
+R06.6;Hoquet.
+R06.7;Éternuement.
+R06.8;Anomalies de la respiration, autres et non précisées.
+R07.0;Douleur de la gorge.
+R07.1;Douleur thoracique respiratoire.
+R07.2;Douleur précordiale.
+R07.3;Autres douleurs thoraciques.
+R07.4;Douleur thoracique, sans précision.
+R09.0;Asphyxie.
+R09.1;Inflammation de la plèvre.
+R09.2;Arrêt respiratoire.
+R09.3;Expectoration anormale.
+R09.8;Autres symptômes et signes précisés relatifs aux appareils circulatoire et.
+R10.0;Syndrome abdominal aigu.
+R10.1;Douleur localisée à la partie supérieure de l'abdomen.
+R10.2;Douleur pelvienne et périnéale.
+R10.3;Douleur localisée à d'autres parties inférieures de l'abdomen.
+R10.4;Douleurs abdominales, autres et non précisées.
+R16.0;Hépatomégalie, non classée ailleurs.
+R16.1;Splénomégalie, non classée ailleurs.
+R16.2;Hépatomégalie avec splénomégalie, non classées ailleurs.
+R17.0;Hyperbilirubinémie, avec mention d'ictère, non classée ailleurs.
+R17.9;Hyperbilirubinémie, sans mention d'ictère, non classée ailleurs.
+R19.0;Tuméfaction et masse intraabdominales et pelviennes.
+R19.1;Bruits abdominaux anormaux.
+R19.2;Péristaltisme apparent.
+R19.3;Contracture abdominale.
+R19.4;Modification du transit intestinal.
+R19.5;Autres anomalies des matières fécales.
+R19.6;Haleine fétide.
+R19.8;Autres symptômes et signes précisés relatifs à l'appareil digestif et à l'abdomen.
+R20.0;Anesthésie cutanée.
+R20.1;Hypoesthésie cutanée.
+R20.2;Paresthésie cutanée.
+R20.3;Hyperesthésie.
+R20.8;Troubles de la sensibilité cutanée, autres et non précisés.
+R22.0;Tuméfaction et masse localisées, au niveau de la tête.
+R22.1;Tuméfaction et masse localisées, au niveau du cou.
+R22.2;Tuméfaction et masse localisées, au niveau du tronc.
+R22.3;Tuméfaction et masse localisées, au niveau du membre supérieur.
+R22.4;Tuméfaction et masse localisées, au niveau du membre inférieur.
+R22.7;Tuméfaction et masse localisées, sièges multiples.
+R22.9;Tuméfaction et masse localisées, sans précision.
+R23.0;Cyanose.
+R23.1;Pâleur.
+R23.2;Rougeur.
+R23.3;Ecchymoses spontanées.
+R23.4;Modifications du tissu cutané.
+R23.8;Modifications de la peau, autres et non précisées.
+R25.0;Mouvements anormaux de la tête.
+R25.1;Tremblement, sans précision.
+R25.2;Crampe et spasme.
+R25.3;Fasciculation.
+R25.8;Mouvements involontaires anormaux, autres et non précisés.
+R26.0;Démarche ataxique.
+R26.1;Démarche paralytique.
+R26.2;Difficulté à la marche, non classée ailleurs.
+R26.3;Immobilité.
+R26.3;État grabataire.
+R26.3;Immobilité, autre et sans précision.
+R26.8;Anomalies de la démarche et de la motilité, autres et non précisées.
+R27.0;Ataxie, sans précision.
+R27.8;Troubles de la coordination, autres et non précisés.
+R29.0;Tétanie.
+R29.1;Méningisme.
+R29.2;Réflexes anormaux.
+R29.3;Posture anormale.
+R29.4;Hanche « à ressort ».
+R29.6;Chutes à répétition, non classées ailleurs.
+R29.8;Symptômes et signes relatifs aux systèmes nerveux et ostéomusculaire, autres et.
+R30.0;Dysurie.
+R30.1;Ténesme vésical 723.
+R30.9;Miction douloureuse, sans précision.
+N39.4;.
+R39.0;Extravasation d'urine.
+R39.1;Autres troubles de la miction.
+R39.2;Urémie extrarénale.
+R39.8;Symptômes et signes relatifs à l'appareil urinaire, autres et non précisés.
+R40.0;Somnolence.
+R40.1;Stupeur.
+R40.1;État paucirelationnel.
+R40.1;Stupeur, autre et sans précision.
+R40.2;Coma, sans précision.
+R40.2;État végétatif chronique.
+R40.2;Coma, autre et sans précision.
+R41.0;Désorientation, sans précision.
+R41.1;Amnésie antérograde.
+R41.2;Amnésie rétrograde.
+R41.3;Autres formes d'amnésie.
+R41.8;Symptômes et signes relatifs aux fonctions cognitives et à la conscience, autres et.
+R43.0;Anosmie.
+R43.1;Parosmie.
+R43.2;Paragueusie.
+R43.8;Troubles de l'odorat et du gout, autres et non précisés.
+R44.0;Hallucinations auditives.
+R44.1;Hallucinations visuelles.
+R44.2;Autres hallucinations.
+R44.3;Hallucinations, sans précision.
+R44.8;Symptômes et signes relatifs aux sensations et aux perceptions générales, autres et.
+R45.0;Nervosité.
+R45.1;Agitation.
+R45.2;Tristesse.
+R45.3;Découragement et apathie.
+R45.4;Irritabilité et colère.
+R45.5;Hostilité.
+R45.6;Violence physique.
+R45.7;État de choc émotionnel et tension, sans précision.
+R45.8;Autres symptômes et signes relatifs à l'humeur.
+R46.0;Hygiène personnelle très défectueuse.
+R46.1;Apparence personnelle bizarre.
+R46.2;Comportement étrange et inexplicable.
+R46.3;Suractivité.
+R46.4;Lenteur et manque de réactivité.
+R46.5;Caractère soupçonneux et évasif.
+R46.6;Inquiétude et préoccupation exagérées pour les événements sources de tension.
+R46.7;Prolixité et détails masquant les raisons de la consultation et gênant le contact.
+R46.8;Autres symptômes et signes relatifs à l'apparence et au comportement.
+R47.0;Dysphasie et aphasie.
+R47.0;Aphasie récente, persistant au-delà de 24 heures.
+R47.0;Aphasie récente, régressive dans les 24 heures.
+R47.0;Aphasie, autre et sans précision.
+R47.0;Dysphasie.
+R47.1;Dysarthrie et anarthrie.
+R47.8;Troubles du langage, autres et non précisés.
+R48.0;Dyslexie et alexie.
+R48.1;Agnosie.
+R48.1;Hémiasomatognosie.
+R48.1;Agnosie, autre et sans précision.
+R48.2;Apraxie.
+R48.8;Troubles de la fonction symbolique, autres et non précisés.
+R49.0;Dysphonie.
+R49.1;Aphonie.
+R49.2;Hypernasalité et hyponasalité.
+R49.8;Troubles de la voix, autres et non précisés.
+R50.2;Fièvre due à des médicaments.
+R50.8;Autres fièvres précisées.
+R50.9;Fièvre, sans précision.
+R52.0;Douleur aigüe.
+R52.1;Douleur chronique irréductible.
+R52.1;Douleur neuropathique.
+R52.1;Douleurs chroniques irréductibles, autres et non précisées.
+R52.2;Autres douleurs chroniques.
+R52.9;Douleur, sans précision.
+R56.0;Convulsions fébriles.
+R56.8;Convulsions, autres et non précisées.
+O08.3;.
+R57.0;Choc cardiogénique.
+R57.1;Choc hypovolémique.
+R57.2;Choc septique.
+R57.8;Autres chocs.
+R57.9;Choc, sans précision.
+R59.0;Adénopathies localisées.
+R59.1;Adénopathies généralisées.
+R59.9;Adénopathie, sans précision.
+R60.0;Œdème localisé.
+R60.1;Œdème généralisé.
+R60.9;Œdème, sans précision.
+R61.0;Hyperhidrose localisée.
+R61.1;Hyperhidrose généralisée.
+R61.9;Hyperhidrose, sans précision.
+R62.0;Maturation retardée.
+R62.8;Autres retards du développement physiologique.
+R62.9;Retard du développement physiologique, sans précision.
+R63.0;Anorexie.
+R63.1;Polydipsie.
+R63.2;Polyphagie.
+R63.3;Difficultés nutritionnelles et nutrition inadaptée.
+R63.4;Perte de poids anormale.
+R63.5;Prise de poids anormale.
+R63.6;Ingestion insuffisante d'aliments et de liquides.
+R63.8;Autres symptômes et signes relatifs à l'absorption d'aliments et de liquides.
+R65.0;Syndrome de réponse inflammatoire systémique d'origine infectieuse sans.
+R65.1;Syndrome de réponse inflammatoire systémique d'origine infectieuse avec.
+R65.2;Syndrome de réponse inflammatoire systémique d'origine non infectieuse sans.
+R65.3;Syndrome de réponse inflammatoire systémique d'origine non infectieuse avec.
+R65.9;Syndrome de réponse inflammatoire systémique, non précisé.
+R68.0;Hypothermie, non associée à une baisse de la température ambiante.
+R68.1;Symptômes non spécifiques propres au nourrisson.
+R68.2;Sécheresse de la bouche, sans précision.
+R68.3;Hippocratisme digital.
+R68.8;Autres symptômes et signes généraux précisés.
+R70.0;Accélération de la vitesse de sédimentation.
+R70.1;Viscosité plasmatique anormale.
+R73.0;Anomalie de l'épreuve de tolérance au glucose.
+R73.9;Hyperglycémie, sans précision.
+R74.0;Augmentation des taux de transaminase et de la lacticodéshydrogénase [LDH].
+R74.8;Anomalies d'autres taux d'enzymes sériques.
+R74.9;Anomalie du taux d'une enzyme sérique, sans précision.
+R76.0;Augmentation du taux d'anticorps.
+R76.1;Réaction anormale au test à la tuberculine.
+R76.2;Résultats faussement positifs au test sérologique de la syphilis.
+R76.8;Autres anomalies précisées de résultats immunologiques sériques.
+R76.9;Anomalie de résultats immunologiques sériques, sans précision.
+R77.0;Anomalie de l'albumine.
+R77.1;Anomalie de la globuline.
+R77.2;Anomalie de l'alphafœtoprotéine.
+R77.8;Autres anomalies précisées des protéines plasmatiques.
+R77.9;Anomalie des protéines plasmatiques, sans précision.
+R78.0;Présence d'alcool dans le sang.
+R78.1;Présence d'opiacé dans le sang.
+R78.2;Présence de cocaïne dans le sang.
+R78.3;Présence d'hallucinogène dans le sang.
+R78.4;Présence dans le sang d'autres substances susceptibles d'entrainer une.
+R78.5;Présence d'une substance psychotrope dans le sang.
+R78.6;Présence d'un produit stéroïdien dans le sang.
+R78.7;Présence d'un taux anormalement élevé de métaux lourds dans le sang.
+R78.8;Présence d'autres substances précisées non trouvées normalement dans le sang.
+R78.9;Présence d'une substance non trouvée normalement dans le sang, sans précision.
+R79.0;Taux anormal de minéraux dans le sang.
+R79.8;Autres résultats anormaux précisés des examens chimiques du sang.
+R79.9;Résultat anormal des examens chimiques du sang, sans précision.
+R82.0;Chylurie.
+R82.1;Myoglobinurie.
+R82.2;Biliurie.
+R82.3;Hémoglobinurie.
+R82.4;Acétonurie.
+R82.5;Augmentation dans les urines du taux de médicaments et de substances.
+R82.6;Taux anormal dans les urines de substances d'origine principalement non.
+R82.7;Résultats anormaux de l'examen microbiologique des urines.
+R82.8;Résultats anormaux de l'examen cytologique et histologique des urines.
+R82.9;Résultats anormaux de l'examen des urines, autres et non précisés.
+R90.0;Lésion intracrânienne.
+R90.8;Autres résultats anormaux d'imagerie diagnostique du système nerveux central.
+R93.0;Résultats anormaux d'imagerie diagnostique du crâne et de la tête, non classés.
+R93.1;Résultats anormaux d'imagerie diagnostique du cœur et de la circulation coronaire.
+R93.2;Résultats anormaux d'imagerie diagnostique du foie et des voies biliaires.
+R93.3;Résultats anormaux d'imagerie diagnostique d'autres parties des voies digestives.
+R93.4;Résultats anormaux d'imagerie diagnostique de l'appareil urinaire.
+R93.5;Résultats anormaux d'imagerie diagnostique d'autres parties de l'abdomen, y.
+R93.6;Résultats anormaux d'imagerie diagnostique des membres.
+R93.7;Résultats anormaux d'imagerie diagnostique d'autres parties du système.
+R93.8;Résultats anormaux d'imagerie diagnostique d'autres parties du corps précisées.
+R94.0;Résultats anormaux d'explorations fonctionnelles du système nerveux central.
+R94.1;Résultats anormaux d'explorations fonctionnelles du système nerveux périphérique.
+R94.2;Résultats anormaux d'explorations fonctionnelles pulmonaires.
+R94.3;Résultats anormaux d'explorations fonctionnelles cardiovasculaires.
+R94.4;Résultats anormaux d'explorations fonctionnelles rénales.
+R94.5;Résultats anormaux d'explorations fonctionnelles hépatiques.
+R94.6;Résultats anormaux d'explorations fonctionnelles thyroïdiennes.
+R94.7;Résultats anormaux d'autres explorations fonctionnelles endocriniennes.
+R94.8;Résultats anormaux d'explorations fonctionnelles d'autres organes et appareils.
+R95.0;Syndrome de la mort subite du nourrisson avec mention d’autopsie.
+R95.9;Syndrome de la mort subite du nourrisson sans mention d’autopsie.
+R96.0;Mort instantanée.
+R96.1;Décès survenant moins de 24 heures après le début des symptômes, sans autre.

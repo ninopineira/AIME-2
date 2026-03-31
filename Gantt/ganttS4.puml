@@ -1,0 +1,70 @@
+@startgantt
+
+Project starts 2026-01-13
+saturday are colored in lightgrey
+sunday are colored in lightgrey
+printscale weekly
+2026-02-16 to 2026-02-20 are colored in lightgrey
+2026-04-13 to 2026-04-17 are colored in lightgrey
+hide footbox
+
+<style>
+ganttDiagram {
+	task { 
+		' FontName Helvetica
+		' FontColor red
+		' FontSize 18
+		' FontStyle bold
+		BackGroundColor #B7C6FF
+		LineColor #3746FF
+	}
+	milestone {
+		' FontColor #FF808B
+		' FontSize 25
+		' FontStyle italic
+		BackGroundColor #FF808B
+		LineColor #FF808B
+	}
+}
+</style>
+
+
+[Revoir Segmentation texte] starts 2026-02-03 and ends 2026-03-02
+--IA--
+[Test SapBERT] starts 2026-02-03 and ends 2026-02-17
+
+--CIM-X--
+[Fonction: Reload CIM-X] starts 2026-02-03 and ends 2026-02-10
+[Fonction: Recompute CIM-X] starts 2026-02-03 and ends 2026-02-10
+[Dictionnaire des Codes] starts 2026-02-03 and ends 2026-03-02
+[Relecture CIM-X] starts 2026-02-03 and ends 2026-03-02
+
+
+--IHM--
+[Schéma IHM] starts 2026-01-20 and ends 2026-01-27
+[IHM (PyQt5)] starts 2026-03-03 and ends 2026-03-23
+[IHM (HTML-CSS-Python)] starts 2026-03-03 and ends 2026-03-23
+[Schéma IHM] displays on same row as [IHM (PyQt5)]
+
+--Tests--
+[Tests Unitaires] starts 2026-02-03 and ends 2026-03-25
+[Validation Fonctionnelle] starts 2026-02-03 and ends 2026-04-06
+
+--Git--
+[mettre au propre nos branches] starts 2026-01-20 and ends 2026-01-26
+[Merge1] as [m1] happens 2026-01-27
+[Merge2] as [m2] happens 2026-03-02
+[Merge3] as [m3] happens 2026-03-23
+[Merge2] displays on same row as [Merge1]
+[Merge3] displays on same row as [Merge1]
+
+--Livrables--
+[Diagramme de Gantt] starts 2026-01-20 and ends 2026-01-21
+[Rapport] starts 2026-04-04 and ends 2026-04-10
+[Diagramme de Gantt] displays on same row as [Rapport]
+[Demonstrateur] starts 2026-04-04 and ends 2026-04-21
+[Rapport à rendre à 18h] happens 2026-04-10
+[Poster?] happens 2026-04-21 
+[Workshop] happens 2026-04-28
+
+@endgantt
