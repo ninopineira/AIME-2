@@ -1,10 +1,6 @@
 # from flask import *
-<<<<<<< HEAD
 from flask import Flask, request, render_template, session, redirect, url_for, jsonify
-=======
-from flask import Flask, request, render_template, session, redirect, url_for
->>>>>>> 2a4a9586aaad926ca1259d3b32928f92488dae64
-# from flask_sqlalchemy import SQLAlchemy
+from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import *
 from .models.orm_cim import ORM
 from .business.matcher import Matcher
@@ -13,11 +9,8 @@ from pathlib import Path
 from .business.syntagme import extract_pathologies
 from .business.paragraphe import extract_text
 import os
-<<<<<<< HEAD
+from dotenv import load_dotenv 
 import threading
-=======
->>>>>>> 2a4a9586aaad926ca1259d3b32928f92488dae64
-from dotenv import load_dotenv
 
 # Charge les variables du fichier .env (à la racine du projet)
 load_dotenv()
@@ -137,7 +130,6 @@ def adminCimX():
         return redirect(url_for('admin'))
     return render_template('cim-x.html')
 
-<<<<<<< HEAD
 # Statut du recalcul des embeddings (partagé entre threads)
 _embed_status = {'running': False, 'done': False, 'error': None}
 
@@ -186,8 +178,6 @@ def adminCimXRechargementStatus():
         return jsonify({'error': 'non autorisé'}), 403
     return jsonify(_embed_status)
 
-=======
->>>>>>> 2a4a9586aaad926ca1259d3b32928f92488dae64
 @app.route('/admin/cim-x/affichage')
 def adminCimXAffichage():
     if not session.get('admin_logged'):
