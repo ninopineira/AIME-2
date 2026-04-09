@@ -25,6 +25,12 @@ class Matcher():
         self.descriptions = orm.codesDescription()
         self.embeddings = orm.embeddings()
 
+    def reload_cim10(self):
+        """Recharge en mémoire les codes, descriptions et embeddings depuis l'ORM."""
+        self.codes = self.db_orm.codes()
+        self.descriptions = self.db_orm.codesDescription()
+        self.embeddings = self.db_orm.embeddings()
+
     def match_cim10(self,bloc2_results):
 
         # Embedding des entités extraites par Bloc_2

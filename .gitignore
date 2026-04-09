@@ -1,5 +1,8 @@
 *.ui
 
+# Variables d'environnement — NE PAS commiter
+.env
+
 # Python
 /.venv
 /lib/models/

@@ -1,8 +1,10 @@
 <header id="header" class="navbar fixed-top">
-    <div class="logo">
-        <span>CIM10</span>
-        <small>Classification des maladies</small>
-    </div>
+    <a href="{{ url_for('home') }}" style="text-decoration: none;">
+        <div class="logo">
+            <span>CIM10</span>
+            <small>Classification des maladies</small>
+        </div>
+    </a>
     <nav>
         <a href="{{ url_for('home') }}">Accueil</a>
         <a href="{{ url_for('home')}}#about-aime">À propos d’AIME</a>

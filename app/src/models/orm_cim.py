@@ -89,6 +89,13 @@ class ORM():
         self.code_from_csv(pathCode)
         self.groupe_from_csv(pathGroupe)
         self.chapitre_from_csv(pathChapitre)
+
+    def reload_codes(self, path):
+        """Supprime tous les codes et les réimporte depuis un nouveau CSV."""
+        with Session(self.engine) as session:
+            session.query(Code).delete()
+            session.commit()
+        self.code_from_csv(path)
     
     ## "getter"
     def codes(self):
