@@ -1,14 +1,26 @@
 # from flask import *
-from flask import Flask, request , render_template
+from flask import Flask, request, render_template, session, redirect, url_for
 # from flask_sqlalchemy import SQLAlchemy
-from sqlalchemy import * 
+from sqlalchemy import *
 from .models.orm_cim import ORM
 from .business.matcher import Matcher
 from .models.models import Groupe, Code, Chapitre
 from pathlib import Path
 from .business.syntagme import extract_pathologies
 from .business.paragraphe import extract_text
+import os
+from dotenv import load_dotenv
+
+# Charge les variables du fichier .env (à la racine du projet)
+load_dotenv()
+
 app = Flask(__name__)
+
+# Clé secrète pour les sessions — définir AIME_SECRET_KEY en variable d'environnement en production
+app.secret_key = os.environ.get('AIME_SECRET_KEY', 'aime-dev-secret-2024-changez-en-prod')
+
+# Code admin — définir AIME_ADMIN_CODE en variable d'environnement pour personnaliser
+ADMIN_CODE = os.environ.get('AIME_ADMIN_CODE', 'AIME-ADMIN-2024')
 # app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///data/test_cim.db'  # Remplacez par votre URI
 
 #chemin vers le script 
@@ -95,10 +107,36 @@ def codage():
         return render_template('codageResults.html',data=data)
 
 
-@app.route('/admin')
+@app.route('/admin', methods=['GET', 'POST'])
 def admin():
+    if request.method == 'POST':
+        code = request.form.get('adminCode', '')
+        if code == ADMIN_CODE:
+            session['admin_logged'] = True
+            return redirect(url_for('adminCimX'))
+        else:
+            return render_template('admin-login.html', error="Code incorrect. Accès refusé.")
     return render_template('admin-login.html')
+
+@app.route('/admin/logout')
+def adminLogout():
+    session.pop('admin_logged', None)
+    return redirect(url_for('admin'))
 
 @app.route('/admin/cim-x')
 def adminCimX():
+    if not session.get('admin_logged'):
+        return redirect(url_for('admin'))
     return render_template('cim-x.html')
+
+@app.route('/admin/cim-x/affichage')
+def adminCimXAffichage():
+    if not session.get('admin_logged'):
+        return redirect(url_for('admin'))
+    codes_list = orm.session.query(Code.cid).all()
+    descriptions = orm.session.query(Code.description).all()
+    values = []
+    for i in range(len(codes_list)):
+        values.append([codes_list[i][0], descriptions[i][0]])
+    data = {'data': values, 'title': 'Liste des codes CIM-10', 'colonnes': ['Code', 'Description']}
+    return render_template('table.html', data=data)

@@ -134,6 +134,7 @@ body {
 .access-cards {
     display: flex;
     justify-content: center;
+    align-items: stretch;
     gap: 50px;
     flex-wrap: wrap;
 }
@@ -144,11 +145,27 @@ body {
     width: 320px;
     border-radius: 16px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 .access-icon {
     font-size: 40px;
     margin-bottom: 15px;
+    width: 70px;
+    height: 70px;
+    background: linear-gradient(135deg, #e8f4fb, #cfe9f6);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.access-icon i {
+    font-size: 30px;
+    color: #2b9bd8;
 }
 
 .access-card h3 {
@@ -160,6 +177,7 @@ body {
     font-size: 14px;
     color: #555;
     margin-bottom: 20px;
+    flex: 1;
 }
 
 .access-btn {
@@ -170,6 +188,7 @@ body {
     border-radius: 10px;
     cursor: pointer;
     font-size: 15px;
+    width: 100%;
 }
 
 .access-btn:hover {
