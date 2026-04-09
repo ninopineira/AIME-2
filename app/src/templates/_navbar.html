@@ -1,0 +1,22 @@
+<header id="header" class="navbar fixed-top">
+    <a href="{{ url_for('home') }}" style="text-decoration: none;">
+        <div class="logo">
+            <span>CIM10</span>
+            <small>Classification des maladies</small>
+        </div>
+    </a>
+    <nav>
+        <a href="{{ url_for('home') }}">Accueil</a>
+        <a href="{{ url_for('home')}}#about-aime">À propos d’AIME</a>
+        <!-- <a href="cim-x.html">CIM-X</a> -->
+        <div class="dropdown">
+        <a class="dropdown-btn">Cim-X</a>
+        <div class="dropdown-content">
+            <a href="{{ url_for('codes') }}">Codes</a>
+            <a href="{{ url_for('groupes') }}">Groupes</a>
+            <a href="{{ url_for('chapitres') }}">Chapitres</a>
+        </div></div>
+        <a href="{{ url_for('codage') }}">Codage</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>

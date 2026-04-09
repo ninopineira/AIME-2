@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Accès Administrateur – AIME</title>
+<link rel="stylesheet" href="../static/home.css">
+<link rel="stylesheet" href="../static/dropdown.css">
+<style>
+  /* CYBER BACKGROUND */
+  #cyber-canvas {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    z-index: 0;
+    pointer-events: none;
+  }
+
+  /* OVERLAY pour lisibilité */
+  .admin-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(232, 244, 251, 0.82);
+    z-index: 1;
+  }
+
+  /* SECTION PRINCIPALE */
+  .admin-login-section {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  /* TITRE */
+  .admin-login-section h2 {
+    font-size: 30px;
+    color: #1a3f5c;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  .admin-subtitle {
+    font-size: 13px;
+    color: #2b9bd8;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    font-weight: 600;
+  }
+
+  /* CARTE LOGIN */
+  .admin-card {
+    background: white;
+    padding: 45px 40px;
+    border-radius: 18px;
+    box-shadow: 0 0 0 1px rgba(43,155,216,0.15),
+                0 12px 40px rgba(26, 63, 92, 0.12),
+                0 0 30px rgba(43,155,216,0.08);
+    max-width: 420px;
+    width: 100%;
+    transition: box-shadow 0.4s ease;
+  }
+
+  .admin-card:hover {
+    box-shadow: 0 0 0 1px rgba(43,155,216,0.3),
+                0 18px 50px rgba(26, 63, 92, 0.15),
+                0 0 50px rgba(43,155,216,0.15);
+  }
+
+  /* ICONE VERROU */
+  .lock-icon {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 20px;
+    background: linear-gradient(135deg, #2b9bd8, #1a7fb8);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    box-shadow: 0 0 18px rgba(43, 155, 216, 0.4);
+    animation: pulse-glow 2.5s ease-in-out infinite;
+  }
+
+  @keyframes pulse-glow {
+    0%, 100% { box-shadow: 0 0 18px rgba(43,155,216,0.4); }
+    50%       { box-shadow: 0 0 35px rgba(43,155,216,0.7), 0 0 60px rgba(43,155,216,0.2); }
+  }
+
+  /* LABEL CYBER */
+  .cyber-label {
+    display: block;
+    font-size: 11px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #2b9bd8;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+
+  /* INPUT */
+  .cyber-input-wrap {
+    position: relative;
+    margin-bottom: 25px;
+  }
+
+  .cyber-input-wrap input[type="password"] {
+    width: 100%;
+    padding: 15px 50px 15px 20px;
+    border-radius: 12px;
+    border: 1.5px solid #cfe9f6;
+    font-size: 18px;
+    letter-spacing: 6px;
+    outline: none;
+    background: #f7fbff;
+    color: #1a3f5c;
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+    font-family: monospace;
+  }
+
+  .cyber-input-wrap input[type="password"]:focus {
+    border-color: #2b9bd8;
+    box-shadow: 0 0 12px rgba(43, 155, 216, 0.25);
+    background: white;
+  }
+
+  /* Indicateur de force du code */
+  .input-indicator {
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    transition: all 0.3s;
+  }
+
+  /* BOUTON */
+  .cyber-btn {
+    width: 100%;
+    background: linear-gradient(135deg, #2b9bd8, #1a3f5c);
+    color: white;
+    font-size: 15px;
+    padding: 15px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .cyber-btn::after {
+    content: '';
+    position: absolute;
+    top: -50%; left: -60%;
+    width: 40%; height: 200%;
+    background: rgba(255,255,255,0.15);
+    transform: skewX(-20deg);
+    transition: left 0.5s ease;
+  }
+
+  .cyber-btn:hover::after { left: 120%; }
+
+  .cyber-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(26, 63, 92, 0.3);
+  }
+
+  /* ERREUR */
+  .admin-error {
+    margin-top: 18px;
+    padding: 10px 16px;
+    background: #fef0f0;
+    border: 1px solid #f5c6c6;
+    border-radius: 10px;
+    color: #c0392b;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  /* SÉPARATEUR */
+  .cyber-sep {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 20px 0;
+    color: #b7dcf3;
+    font-size: 11px;
+    letter-spacing: 2px;
+  }
+  .cyber-sep::before, .cyber-sep::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, #b7dcf3);
+  }
+  .cyber-sep::after {
+    background: linear-gradient(90deg, #b7dcf3, transparent);
+  }
+
+  /* BADGE SECURITE */
+  .security-badge {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-size: 12px;
+    color: #1aa3a3;
+    letter-spacing: 1px;
+  }
+</style>
+</head>
+
+<body>
+
+<!-- CANVAS CYBER BACKGROUND -->
+<canvas id="cyber-canvas"></canvas>
+<div class="admin-overlay"></div>
+
+<!-- NAVBAR -->
+{% include '_navbar.html' %}
+
+<!-- LOGIN SECTION -->
+<section class="admin-login-section">
+
+  <h2>Espace Administrateur</h2>
+  <p class="admin-subtitle">&#x25C6; Accès sécurisé AIME &#x25C6;</p>
+
+  <div class="admin-card">
+
+    <div class="lock-icon">🔐</div>
+
+    <span class="cyber-label">// Authentification requise</span>
+
+    <form action="/admin" method="POST">
+
+      <div class="cyber-input-wrap">
+        <input
+          type="password"
+          id="adminCode"
+          name="adminCode"
+          placeholder="••••••••••••"
+          autocomplete="off"
+          required
+        >
+        <span class="input-indicator" id="indicator">🔒</span>
+      </div>
+
+      <div class="cyber-sep">ACCES RESTREINT</div>
+
+      <button type="submit" class="cyber-btn">
+        &#x25BA;&nbsp; Valider le code
+      </button>
+
+    </form>
+
+    {% if error %}
+    <div class="admin-error">⚠ {{ error }}</div>
+    {% endif %}
+
+    <div class="security-badge">
+      🛡 Connexion chiffrée &nbsp;|&nbsp; Session sécurisée
+    </div>
+
+  </div>
+
+</section>
+
+<script>
+/* ─── CYBER RAIN CANVAS ─── */
+(function() {
+  const canvas = document.getElementById('cyber-canvas');
+  const ctx    = canvas.getContext('2d');
+
+  const CHARS  = '01アイメCIMXABCDEF0123456789╔╗╚╝║═►◄▲▼';
+  const COL_W  = 18;
+  const colors = ['#2b9bd8', '#1aa3a3', '#8fc4f2', '#b7dcf3', '#1a7fb8'];
+
+  let cols, drops;
+
+  function init() {
+    canvas.width  = window.innerWidth;
+    canvas.height = window.innerHeight;
+    cols  = Math.floor(canvas.width / COL_W);
+    drops = Array.from({length: cols}, () => Math.random() * -50);
+  }
+
+  function draw() {
+    ctx.fillStyle = 'rgba(232, 244, 251, 0.06)';
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+    for (let i = 0; i < cols; i++) {
+      const char  = CHARS[Math.floor(Math.random() * CHARS.length)];
+      const color = colors[Math.floor(Math.random() * colors.length)];
+      ctx.fillStyle = color;
+      ctx.font = '13px monospace';
+      ctx.globalAlpha = 0.25 + Math.random() * 0.2;
+      ctx.fillText(char, i * COL_W, drops[i] * COL_W);
+
+      if (drops[i] * COL_W > canvas.height && Math.random() > 0.975) {
+        drops[i] = 0;
+      }
+      drops[i] += 0.4;
+    }
+    ctx.globalAlpha = 1;
+  }
+
+  init();
+  setInterval(draw, 60);
+  window.addEventListener('resize', init);
+})();
+
+/* ─── INDICATEUR INPUT ─── */
+document.getElementById('adminCode').addEventListener('input', function() {
+  const ind = document.getElementById('indicator');
+  ind.textContent = this.value.length >= 4 ? '🔓' : '🔒';
+});
+</script>
+
+</body>
+</html>

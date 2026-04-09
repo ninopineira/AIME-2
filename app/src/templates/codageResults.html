@@ -2,203 +2,397 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Cim-X</title>
+    <title>Résultats d'analyse – AIME</title>
     <link rel="stylesheet" href="../static/home.css">
     <link rel="stylesheet" href="../static/dropdown.css">
-    <link rel="stylesheet" href="../static/table.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+
+    /* PAGE WRAPPER */
+    .results-page {
+        background: linear-gradient(160deg, #e8f4fb 0%, #f7fbff 60%, #cfe9f6 100%);
+        min-height: 100vh;
+        padding: 40px 20px 80px;
+    }
+
+    .results-container {
+        max-width: 960px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 28px;
+    }
+
+    /* HEADER */
+    .results-header {
+        background: linear-gradient(135deg, #1a3f5c, #2b9bd8);
+        border-radius: 20px;
+        padding: 30px 36px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .results-header-left {
+        display: flex;
+        align-items: center;
+        gap: 18px;
+    }
+
+    .results-header-icon {
+        width: 56px;
+        height: 56px;
+        background: rgba(255,255,255,0.15);
+        border-radius: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 28px;
+        flex-shrink: 0;
+    }
+
+    .results-header h1 { font-size: 22px; font-weight: 700; margin: 0 0 4px; }
+    .results-header p  { font-size: 13px; opacity: 0.8; margin: 0; }
+
+    .results-stats { display: flex; gap: 14px; flex-wrap: wrap; }
+
+    .stat-badge {
+        background: rgba(255,255,255,0.15);
+        border: 1px solid rgba(255,255,255,0.25);
+        border-radius: 12px;
+        padding: 10px 18px;
+        text-align: center;
+    }
+
+    .stat-badge .stat-num { display: block; font-size: 22px; font-weight: 700; line-height: 1; }
+    .stat-badge .stat-lbl { display: block; font-size: 11px; opacity: 0.8; letter-spacing: 1px; text-transform: uppercase; margin-top: 3px; }
+
+    /* CARDS */
+    .section-card {
+        background: white;
+        border-radius: 18px;
+        box-shadow: 0 8px 30px rgba(26, 63, 92, 0.08), 0 0 0 1px rgba(43,155,216,0.08);
+        overflow: hidden;
+    }
+
+    .section-card-header {
+        padding: 18px 28px;
+        border-bottom: 1px solid #e8f4fb;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .section-card-header h2 {
+        font-size: 15px;
+        font-weight: 700;
+        color: #1a3f5c;
+        margin: 0;
+        flex: 1;
+    }
+
+    .section-icon {
+        width: 36px; height: 36px;
+        background: linear-gradient(135deg, #e8f4fb, #cfe9f6);
+        border-radius: 10px;
+        display: flex; align-items: center; justify-content: center;
+        font-size: 17px; flex-shrink: 0;
+    }
+
+    .type-tag {
+        font-size: 11px; font-weight: 700; letter-spacing: 1.5px;
+        text-transform: uppercase; padding: 4px 12px; border-radius: 20px;
+        background: linear-gradient(135deg, #e8f4fb, #cfe9f6);
+        color: #2b9bd8; border: 1px solid #b7dcf3;
+    }
+
+    /* TEXTE AFFICHE */
+    .text-display {
+        padding: 24px 28px;
+        font-size: 15px;
+        line-height: 1.85;
+        color: #1c3c55;
+        background: #f7fbff;
+        white-space: pre-wrap;
+        word-break: break-word;
+        max-height: 280px;
+        overflow-y: auto;
+        font-family: "Segoe UI", Arial, sans-serif;
+    }
+
+    .text-display::-webkit-scrollbar { width: 6px; }
+    .text-display::-webkit-scrollbar-track { background: #e8f4fb; border-radius: 3px; }
+    .text-display::-webkit-scrollbar-thumb { background: #8fc4f2; border-radius: 3px; }
+
+    /* TABLE */
+    .results-table-wrap { padding: 0 0 8px; }
+
+    .cimx-table { width: 100%; border-collapse: collapse; }
+
+    .cimx-table thead tr {
+        background: linear-gradient(135deg, #1a3f5c, #1c3c55);
+        color: white;
+    }
+
+    .cimx-table thead th {
+        padding: 14px 20px;
+        text-align: left;
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        white-space: nowrap;
+    }
+
+    .group-divider td { padding: 0; height: 8px; background: #f7fbff; }
+
+    .row-entity-label td {
+        background: linear-gradient(90deg, #e8f4fb, #f7fbff);
+        padding: 10px 20px;
+        border-top: 2px solid #b7dcf3;
+    }
+
+    .entity-chip {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        background: white;
+        border: 1px solid #b7dcf3;
+        border-radius: 20px;
+        padding: 4px 14px 4px 8px;
+        font-size: 12px;
+        font-weight: 600;
+        color: #1a3f5c;
+        box-shadow: 0 2px 6px rgba(43,155,216,0.08);
+    }
+
+    .entity-dot { width: 8px; height: 8px; background: #2b9bd8; border-radius: 50%; flex-shrink: 0; }
+
+    .result-row td {
+        padding: 13px 20px;
+        font-size: 14px;
+        color: #333;
+        border-bottom: 1px solid #e8f4fb;
+        vertical-align: middle;
+        transition: background 0.2s;
+    }
+
+    .result-row.rank-1 td { background: rgba(26,163,163,0.04); }
+    .result-row.rank-2 td { background: rgba(43,155,216,0.03); }
+    .result-row.rank-3 td { background: rgba(183,220,243,0.12); }
+    .result-row.rank-1:hover td { background: rgba(26,163,163,0.09); }
+    .result-row.rank-2:hover td { background: rgba(43,155,216,0.08); }
+    .result-row.rank-3:hover td { background: rgba(183,220,243,0.22); }
+
+    .rank-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 5px;
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 0.8px;
+        padding: 4px 10px;
+        border-radius: 20px;
+        white-space: nowrap;
+    }
+
+    .rank-badge.r1 { background: linear-gradient(135deg,#1aa3a3,#158f8f); color: white; box-shadow: 0 2px 8px rgba(26,163,163,0.3); }
+    .rank-badge.r2 { background: linear-gradient(135deg,#2b9bd8,#1a7fb8); color: white; box-shadow: 0 2px 8px rgba(43,155,216,0.25); }
+    .rank-badge.r3 { background: linear-gradient(135deg,#8fc4f2,#b7dcf3); color: #1a3f5c; }
+
+    .code-chip {
+        display: inline-block;
+        background: #f7fbff;
+        border: 1.5px solid #b7dcf3;
+        border-radius: 8px;
+        padding: 5px 12px;
+        font-family: monospace;
+        font-size: 13px;
+        font-weight: 700;
+        color: #1a3f5c;
+        letter-spacing: 1px;
+    }
+
+    .result-row.rank-1 .code-chip { border-color: #1aa3a3; color: #158f8f; }
+
+    .desc-text { color: #555; font-size: 14px; line-height: 1.5; }
+
+    .empty-state { padding: 50px 20px; text-align: center; color: #8fc4f2; font-size: 15px; }
+
+    /* ACTIONS BAR */
+    .actions-bar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 14px;
+    }
+
+    .actions-info { font-size: 13px; color: #666; display: flex; align-items: center; gap: 8px; }
+
+    .btn-nouvelle-analyse {
+        background: linear-gradient(135deg, #2b9bd8, #1a3f5c);
+        color: white;
+        border: none;
+        padding: 14px 32px;
+        border-radius: 12px;
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 0.8px;
+        cursor: pointer;
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        transition: transform 0.25s, box-shadow 0.25s;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .btn-nouvelle-analyse::after {
+        content: '';
+        position: absolute;
+        top: -50%; left: -60%;
+        width: 40%; height: 200%;
+        background: rgba(255,255,255,0.12);
+        transform: skewX(-20deg);
+        transition: left 0.4s ease;
+    }
+
+    .btn-nouvelle-analyse:hover::after { left: 120%; }
+    .btn-nouvelle-analyse:hover { transform: translateY(-2px); box-shadow: 0 10px 28px rgba(26,63,92,0.25); }
+
+    @media (max-width: 700px) {
+        .results-header { flex-direction: column; align-items: flex-start; }
+        .results-stats { width: 100%; }
+        .stat-badge { flex: 1; }
+        .cimx-table thead th, .cimx-table tbody td { padding: 10px 12px; }
+        .section-card-header { padding: 14px 18px; }
+        .text-display { padding: 18px; }
+    }
+    </style>
 </head>
 <body>
-<!-- NAVBAR -->
-<header class="navbar">
-    <div class="logo">
-        <span>CIM10</span>
-        <small>Classification des maladies</small>
-    </div>
-    <nav>
-        <a href="home#hero">Accueil</a>
-        <a href="home#about-aime">À propos d’AIME</a>
-        <div class="dropdown">
-        <a class="dropdown-btn">Cim-X</a>
-        <div class="dropdown-content">
-            <a href="{{ url_for('codes') }}">Codes</a>
-            <a href="{{ url_for('groupes') }}">Groupes</a>
-            <a href="{{ url_for('chapitres') }}">Chapitres</a>
-        </div></div>
-        <a href="{{ url_for('codage') }}">Codage</a>
-        <a href="home">Contact</a>
-        <a href="#">Admin</a>
-    </nav>
-</header>
-<!-- FORM -->
-<form action="/codage/traitement" method="POST">
-    <p>
-        Pour un courrier medical cocher courrier, pour un texte quelconque cocher texte.
-        <input type = "radio" name = "texte-courrier" value = "1" id = "choix-courrier">
-        <label for="choix-courrier">Courrier</label>
-        <input type = "radio" name = "texte-courrier" value = "0"    id = "choix-texte">
-        <label for="choix-texte">Texte</label>
-    </p>
-    <p>
-        <label for="texte">Entrez votre texte ici :</label>
-        <textarea name="texte" id="texte" rows="10" cols="100">{{ data.texte }}</textarea>
-    </p>
-    <p>
-        <input type = "submit" value="Faire analyser le texte">
-    </p>
-</form>
-<div id="filter-container">
-    <h2>Filtres</h2>
-    <p>Sélectionnez un ou plusieurs chapitres, puis affinez avec les groupes.</p>
-    
-    <div class="filter-section">
-        <label><strong>Chapitres :</strong></label>
-        <div id="chapitre-checkboxes" class="checkbox-scroll-box" style="max-height: 150px; overflow-y: auto; border: 1px solid #ccc; padding: 10px; margin-top: 5px;">
-            <!-- Rempli par JavaScript -->
+
+{% include '_navbar.html' %}
+
+<div class="results-page">
+<div class="results-container">
+
+    <!-- HEADER -->
+    <div class="results-header">
+        <div class="results-header-left">
+            <div class="results-header-icon"><i class="bi bi-bar-chart-fill"></i></div>
+            <div>
+                <h1>Résultats d'analyse CIM-X</h1>
+                <p>Codes proposés à partir du texte clinique</p>
+            </div>
+        </div>
+        <div class="results-stats">
+            <div class="stat-badge">
+                <span class="stat-num">{{ (data.data | length / 3) | int }}</span>
+                <span class="stat-lbl">Pathologies</span>
+            </div>
+            <div class="stat-badge">
+                <span class="stat-num">{{ data.data | length }}</span>
+                <span class="stat-lbl">Codes proposés</span>
+            </div>
         </div>
     </div>
-    
-    <br>
-    
-    <div id="groupe-container" class="filter-section" style="display: none;">
-        <label><strong>Groupes :</strong></label>
-        <div id="groupe-checkboxes" class="checkbox-scroll-box" style="max-height: 150px; overflow-y: auto; border: 1px solid #ccc; padding: 10px; margin-top: 5px;">
-            <!-- Rempli par JavaScript -->
+
+    <!-- TEXTE SAISI -->
+    <div class="section-card">
+        <div class="section-card-header">
+            <div class="section-icon"><i class="bi bi-file-text-fill"></i></div>
+            <h2>Texte analysé</h2>
+            <span class="type-tag">Compte rendu médical</span>
+        </div>
+        <div class="text-display">{{ data.texte }}</div>
+    </div>
+
+    <!-- RÉSULTATS -->
+    <div class="section-card">
+        <div class="section-card-header">
+            <div class="section-icon"><i class="bi bi-tags-fill"></i></div>
+            <h2>Codes CIM-X suggérés</h2>
+        </div>
+
+        <div class="results-table-wrap">
+        {% if data.data %}
+        <table class="cimx-table">
+            <thead>
+                <tr>
+                    <th style="width:110px">Rang</th>
+                    <th style="width:130px">Code CIM-X</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+            {% for i in range(0, data.data | length, 3) %}
+                {% set group = data.data[i:i+3] %}
+
+                {% if i > 0 %}
+                <tr class="group-divider"><td colspan="3"></td></tr>
+                {% endif %}
+
+                <tr class="row-entity-label">
+                    <td colspan="3">
+                        <span class="entity-chip">
+                            <span class="entity-dot"></span>
+                            {{ group[0][0] }}
+                        </span>
+                    </td>
+                </tr>
+
+                {% if group | length >= 1 %}
+                <tr class="result-row rank-1">
+                    <td><span class="rank-badge r1"><i class="bi bi-star-fill"></i> 1er choix</span></td>
+                    <td><span class="code-chip">{{ group[0][1] }}</span></td>
+                    <td><span class="desc-text">{{ group[0][2] }}</span></td>
+                </tr>
+                {% endif %}
+
+                {% if group | length >= 2 %}
+                <tr class="result-row rank-2">
+                    <td><span class="rank-badge r2"><i class="bi bi-diamond-fill"></i> 2e choix</span></td>
+                    <td><span class="code-chip">{{ group[1][1] }}</span></td>
+                    <td><span class="desc-text">{{ group[1][2] }}</span></td>
+                </tr>
+                {% endif %}
+
+                {% if group | length >= 3 %}
+                <tr class="result-row rank-3">
+                    <td><span class="rank-badge r3"><i class="bi bi-diamond"></i> 3e choix</span></td>
+                    <td><span class="code-chip">{{ group[2][1] }}</span></td>
+                    <td><span class="desc-text">{{ group[2][2] }}</span></td>
+                </tr>
+                {% endif %}
+
+            {% endfor %}
+            </tbody>
+        </table>
+
+        {% else %}
+        <div class="empty-state">Aucun code CIM-X trouvé pour ce texte.</div>
+        {% endif %}
         </div>
     </div>
+
+    <!-- ACTIONS -->
+    <div class="actions-bar">
+        <p class="actions-info">
+            <i class="bi bi-shield-fill-check"></i> Les propositions doivent être validées par le médecin
+        </p>
+        <a href="/codage" class="btn-nouvelle-analyse">
+            &#8592; Nouvelle analyse
+        </a>
+    </div>
+
+</div>
 </div>
 
-<div id="results-container" style="display: none; margin-top: 20px;">
-    <h1>{{ data.title}}</h1>
-    <table>
-        <thead>
-            <tr>
-                {% for title in data.colonnes %}
-                <th> {{ title }} </th>
-                {% endfor %}
-            </tr>
-        </thead>
-        <tbody id="results-body">
-            <!-- Rempli par JavaScript -->
-        </tbody>
-    </table>
-</div>
-
-<!-- On passe les données du backend vers JavaScript -->
-<script id="data-json" type="application/json">
-    {{ data.data | tojson }}
-</script>
-
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-        const dataJsonStr = document.getElementById('data-json').textContent;
-        const resultsData = JSON.parse(dataJsonStr);
-        
-        const chapitreCheckboxesContainer = document.getElementById('chapitre-checkboxes');
-        const groupeContainer = document.getElementById('groupe-container');
-        const groupeCheckboxesContainer = document.getElementById('groupe-checkboxes');
-        const resultsContainer = document.getElementById('results-container');
-        const resultsBody = document.getElementById('results-body');
-        
-        let selectedChapitres = [];
-        let selectedGroupes = [];
-
-        // 1. Extraire les chapitres uniques
-        const chapitres = {};
-        resultsData.forEach(item => {
-            if (item.chid && !chapitres[item.chid]) {
-                chapitres[item.chid] = item.chdesc;
-            }
-        });
-        
-        // Fonction utilitaire pour récupérer les valeurs cochées
-        function getCheckedValues(containerId) {
-            const checkboxes = document.querySelectorAll(`#${containerId} input[type="checkbox"]:checked`);
-            return Array.from(checkboxes).map(cb => cb.value);
-        }
-
-        // Peupler la liste des chapitres avec des checkboxes
-        for (const [chid, chdesc] of Object.entries(chapitres)) {
-            const div = document.createElement('div');
-            div.innerHTML = `
-                <input type="checkbox" id="chap_${chid}" value="${chid}" class="chapitre-cb">
-                <label for="chap_${chid}">Chapitre ${chid} - ${chdesc}</label>
-            `;
-            chapitreCheckboxesContainer.appendChild(div);
-        }
-        
-        // 2. Gestion du changement de chapitres
-        chapitreCheckboxesContainer.addEventListener('change', function(e) {
-            if (e.target.classList.contains('chapitre-cb')) {
-                selectedChapitres = getCheckedValues('chapitre-checkboxes');
-                
-                // Réinitialiser les sections suivantes
-                groupeCheckboxesContainer.innerHTML = '';
-                selectedGroupes = [];
-                resultsContainer.style.display = 'none';
-                
-                if (selectedChapitres.length > 0) {
-                    // Trouver les groupes uniques pour les chapitres sélectionnés
-                    const groupes = {};
-                    resultsData.forEach(item => {
-                        if (selectedChapitres.includes(item.chid.toString()) && item.gid && !groupes[item.gid]) {
-                            groupes[item.gid] = item.gdesc;
-                        }
-                    });
-                    
-                    // Peupler la liste des groupes avec des checkboxes
-                    for (const [gid, gdesc] of Object.entries(groupes)) {
-                        const div = document.createElement('div');
-                        div.innerHTML = `
-                            <input type="checkbox" id="grp_${gid}" value="${gid}" class="groupe-cb">
-                            <label for="grp_${gid}">${gid} - ${gdesc}</label>
-                        `;
-                        groupeCheckboxesContainer.appendChild(div);
-                    }
-                    
-                    groupeContainer.style.display = 'block';
-                } else {
-                    groupeContainer.style.display = 'none';
-                }
-            }
-        });
-        
-        // 3. Gestion du changement de groupes
-        groupeCheckboxesContainer.addEventListener('change', function(e) {
-            if (e.target.classList.contains('groupe-cb')) {
-                selectedGroupes = getCheckedValues('groupe-checkboxes');
-                resultsBody.innerHTML = '';
-                
-                if (selectedGroupes.length > 0) {
-                    // Filtrer les résultats par chapitres ET groupes sélectionnés
-                    const filteredResults = resultsData.filter(item => 
-                        selectedChapitres.includes(item.chid.toString()) && 
-                        selectedGroupes.includes(item.gid.toString())
-                    );
-                    
-                    // Afficher les résultats dans le tableau
-                    filteredResults.forEach(item => {
-                        const tr = document.createElement('tr');
-                        tr.innerHTML = `
-                            <td>${item.ref}</td>
-                            <td>${item.code}</td>
-                            <td>${item.description}</td>
-                            <td>${item.gdesc}</td>
-                            <td>${item.chdesc}</td>
-                        `;
-                        resultsBody.appendChild(tr);
-                    });
-                    
-                    resultsContainer.style.display = 'block';
-                } else {
-                    resultsContainer.style.display = 'none';
-                }
-            }
-        });
-        
-        // Si aucun résultat, afficher un message au lieu des filtres
-        if (resultsData.length === 0) {
-            document.getElementById('filter-container').innerHTML = '<p>Aucun résultat trouvé pour cette recherche.</p>';
-        }
-    });
-</script>
 </body>
+</html>

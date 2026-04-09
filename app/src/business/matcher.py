@@ -4,7 +4,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
 from pathlib import Path
 import csv
-from sqlalchemy import * 
+from sqlalchemy import *
 if __name__ == "__main__" :
     import sys
     from os.path import dirname, abspath
@@ -25,6 +25,12 @@ class Matcher():
         self.descriptions = orm.codesDescription()
         self.embeddings = orm.embeddings()
 
+    def reload_cim10(self):
+        """Recharge en mémoire les codes, descriptions et embeddings depuis l'ORM."""
+        self.codes = self.db_orm.codes()
+        self.descriptions = self.db_orm.codesDescription()
+        self.embeddings = self.db_orm.embeddings()
+
     def load_occurrences(self):
         """Charge les occurrences des codes médicaux depuis le fichier JSON."""
         path = Path(__file__).resolve().parent.parent.parent.parent / "lib" / "CIM" / "occurrences.json"
@@ -36,7 +42,7 @@ class Matcher():
 
     def match_cim10(self, bloc2_results, threshold=0.75):
         import math
-        
+
         # Embedding des entités extraites par Bloc_2
         bloc2_embeddings = self.model.encode(bloc2_results)
 
@@ -54,17 +60,17 @@ class Matcher():
             scores = []
             for j, code in enumerate(self.codes):
                 sim = similarities[i][j]
-                
+
                 # Filtre par seuil
                 if sim < threshold:
                     continue
-                    
+
                 # Calcul du poids lié à la fréquence (échelle logarithmique)
                 occ = occ_data.get(code, 1) # 1 par défaut si inconnu
 
                 #À quel point ce code est fréquent par rapport au code le plus fréquent, sur une échelle compressée
                 freq_factor = math.log10(occ + 1) / math.log10(max_occ) if max_occ > 1 else 1.0
-                
+
                 # Score final hybridé
                 #2 citères pour un meilleur matching dans notre cas: cos similarity et fréquence d'occurence
                 weighted_score = sim * freq_factor
@@ -92,7 +98,7 @@ class Matcher():
 
             # Récupération des meilleures correspondances en gardant la structure originale attendue par app.py
             result_dict = {"entity": entity}
-            
+
             prefixes = ["best_", "second_best_", "third_best_"]
             for m_idx in range(3):
                 if m_idx < len(scores):

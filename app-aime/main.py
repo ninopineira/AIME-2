@@ -4,7 +4,7 @@ from py.gui.main_window import Ui_AIME
 from py.gui.a_propos import Ui_A_propos
 from PyQt5.QtCore import QUrl
 
-import py.regex_a as regex_a
+import py.regex as regex
 import py.pathologies as pathologies
 import py.matcher as matcher
 
@@ -43,7 +43,7 @@ class AIME(QtWidgets.QMainWindow, Ui_AIME):
 
         # on vide le champ de texte
         self.plainTextEdit.clear()
-    
+
     def options_clicked(self):
         """Quand le boutton options est cliqué
         """
@@ -53,7 +53,7 @@ class AIME(QtWidgets.QMainWindow, Ui_AIME):
         pass
 
     def valider_clicked(self):
-        """Quand le boutton valider est cliqué 
+        """Quand le boutton valider est cliqué
         """
 
         # page de chargement :
@@ -61,30 +61,30 @@ class AIME(QtWidgets.QMainWindow, Ui_AIME):
 
         text_saisi = self.plainTextEdit.toPlainText()
 
-        # appel de la fonction d'extraction : 
-        texte_interesse = regex_a.extract_text(text_saisi)
+        # appel de la fonction d'extraction :
+        texte_interesse = regex.extract_text(text_saisi)
 
         maladies = []
 
         # appel de la fonction d'extraction :
         for texte in texte_interesse:
             maladies += pathologies.extract_pathologies(texte)
-        
+
         self.codes_finaux = []
-        
+
         # on match avec les CIM10
         for mal in maladies:
             results = matcher.match_cim10([mal])
             self.codes_finaux.extend(results)
-        
-        # affichage des résultats dans le tableau 
+
+        # affichage des résultats dans le tableau
         self.model_table = QtGui.QStandardItemModel()
         self.model_table.setColumnCount(4)
         self.model_table.setHorizontalHeaderLabels(["Code", "Priorité", "Référence à :", "Description"])
 
         self.add_data()
         self.tableView.setModel(self.model_table)
-    
+
     def add_data(self):
         for entity_result in self.codes_finaux:
             entity = entity_result["entity"]
@@ -95,13 +95,13 @@ class AIME(QtWidgets.QMainWindow, Ui_AIME):
                 description = match["desc"]
                 priorite = "haute" if i == 0 else "moyenne"
                 ref = entity if i == 0 else "" # On ne met la référence que sur le premier résultat de l'entité
-                
+
                 # convert to model item
                 code_item = QtGui.QStandardItem(code)
                 description_item = QtGui.QStandardItem(description)
                 priorite_item = QtGui.QStandardItem(priorite)
                 ref_item = QtGui.QStandardItem(ref)
-                
+
                 # add to model
                 self.model_table.appendRow([code_item, priorite_item, ref_item, description_item])
 
