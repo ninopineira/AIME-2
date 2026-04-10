@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Cim-X</title>
+    <link rel="stylesheet" href="../static/home.css">
+    <link rel="stylesheet" href="../static/dropdown.css">
+    <link rel="stylesheet" href="../static/table.css">
+</head>
+<body>
+<!-- NAVBAR -->
+<header class="navbar">
+    <div class="logo">
+        <span>CIM10</span>
+        <small>Classification des maladies</small>
+    </div>
+    <nav>
+        <a href="home#hero">Accueil</a>
+        <a href="home#about-aime">À propos d’AIME</a>
+        <div class="dropdown">
+        <a class="dropdown-btn">Cim-X</a>
+        <div class="dropdown-content">
+            <a href="{{ url_for('codes') }}">Codes</a>
+            <a href="{{ url_for('groupes') }}">Groupes</a>
+            <a href="{{ url_for('chapitres') }}">Chapitres</a>
+        </div></div>
+        <a href="codage.html">Codage</a>
+        <a href="home">Contact</a>
+        <a href="#">Admin</a>
+    </nav>
+</header>
+<!-- FORM -->
+<form action="/codage/traitement" method="POST">
+    <p>
+        Pour un courrier medical cocher courrier, pour un texte quelconque cocher texte.
+        <input type = "radio" name = "texte-courrier" value = "1" id = "choix-courrier">
+        <label for="choix-courrier">Courrier</label>
+        <input type = "radio" name = "texte-courrier" value = "0"    id = "choix-texte">
+        <label for="choix-texte">Texte</label>
+    </p>
+    <p>
+        <label for="texte">Entrez votre texte ici :</label>
+        <textarea name="texte" id="texte" rows="10" cols="100"></textarea>
+    </p>
+    <p>
+        <input type = "submit" value="Faire analyser le texte">
+    </p>
+</form>
+</body>

@@ -1,0 +1,7 @@
+medkit-lib
+PyQt5
+transformers
+torch
+numpy
+sentence-transformers
+Flask

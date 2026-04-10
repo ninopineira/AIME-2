@@ -1,0 +1,411 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: var(--background-color);
+    padding: 20px 0;
+    transition: all 0.5s;
+    z-index: 997;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 60px;
+    background: white;
+}
+
+.logo span {
+    font-weight: bold;
+    font-size: 20px;
+    color: #1aa3a3;
+}
+
+.logo small {
+    display: block;
+    font-size: 12px;
+    color: #777;
+}
+
+.navbar nav a {
+    margin-left: 25px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.navbar nav a:hover {
+    color: #1aa3a3;
+}
+
+/* HERO SECTION */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+    background: linear-gradient(120deg, #e8f4fb, #cfe9f6);
+}
+
+.hero-content {
+    width: 55%;
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    color: #1c3c55;
+    margin-bottom: 40px;
+    line-height: 1.3;
+}
+
+.features {
+    display: flex;
+    gap: 30px;
+}
+
+.feature {
+    display: flex;
+    gap: 15px;
+    max-width: 300px;
+}
+
+.icon {
+    font-size: 28px;
+    background: #2b9bd8;
+    color: white;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature h3 {
+    font-size: 14px;
+    color: #1c3c55;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+}
+
+.feature p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* IMAGE */
+.hero-image {
+    width: 40%;
+    text-align: center;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+}
+/* SECTION AU COEUR D'AIME */
+.aime-core {
+    background: #f7fbff;
+    padding: 80px 60px;
+    text-align: center;
+}
+
+.aime-core h2 {
+    font-size: 32px;
+    color: #1c3c55;
+    margin-bottom: 60px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    justify-items: center;
+}
+
+.card {
+    background: white;
+    padding: 35px 25px;
+    width: 100%;
+    max-width: 320px;
+    border-radius: 14px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+.card-icon {
+    width: 48px;
+    height: 48px;
+    margin: 0 auto 15px;
+    background: #2b9bd8;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.card h3 {
+    color: #1c3c55;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .cards {
+        grid-template-columns: 1fr;
+    }
+}
+/* SECTION A PROPOS D'AIME */
+.about-aime {
+    background: #f3f9fe;
+    padding: 100px 60px;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+/* IMAGES */
+.about-images {
+    position: relative;
+    width: 45%;
+}
+
+.img-main {
+    width: 100%;
+    border-radius: 18px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
+}
+
+.img-overlay {
+    position: absolute;
+    bottom: -40px;
+    right: -30px;
+    background: white;
+    padding: 12px;
+    border-radius: 50%;
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+.img-overlay img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* TEXTE */
+.about-content {
+    width: 50%;
+}
+
+.about-content h2 {
+    font-size: 34px;
+    color: #1c3c55;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    color: #2b9bd8;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.about-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 30px 0 15px;
+}
+
+.arrow {
+    font-size: 22px;
+    color: #2b9bd8;
+}
+
+.about-item h4 {
+    font-size: 18px;
+    color: #1c3c55;
+}
+
+.about-content p {
+    font-size: 15px;
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-images,
+    .about-content {
+        width: 100%;
+    }
+
+    .img-overlay {
+        right: 50%;
+        transform: translateX(50%);
+    }
+
+    .about-item {
+        justify-content: center;
+    }
+}
+/* SECTION FINALE */
+.final-section {
+    width: 100%;
+}
+
+/* IMAGE HERO */
+.final-hero {
+    position: relative;
+    height: 420px;
+    background: url("team.jpg") center/cover no-repeat;
+    border-radius: 20px 20px 0 0;
+    margin: 0 60px;
+    overflow: hidden;
+}
+
+.final-hero .overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 60, 90, 0.55);
+}
+
+.final-content {
+    position: relative;
+    z-index: 2;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 40px;
+}
+
+.final-content h2 {
+    font-size: 34px;
+    margin-bottom: 15px;
+}
+
+.final-content p {
+    font-size: 15px;
+    max-width: 650px;
+    line-height: 1.7;
+}
+
+/* PARTIE BLEUE BAS */
+.final-bottom {
+    position: relative;
+    background: linear-gradient(180deg, #d9eef9, #b7dcf3);
+    padding: 120px 60px 40px;
+}
+
+/* BLASON */
+.shield {
+    position: absolute;
+    top: -55px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.shield-icon {
+    width: 110px;
+    height: 130px;
+    background: #8fc4f2;
+    clip-path: polygon(
+        50% 0%,
+        100% 15%,
+        100% 70%,
+        50% 100%,
+        0% 70%,
+        0% 15%
+    );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    color: white;
+}
+
+/* CONTENU FOOTER */
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.footer-left p {
+    font-size: 14px;
+    color: #1c3c55;
+    margin-bottom: 8px;
+}
+
+.footer-right h4 {
+    font-size: 16px;
+    color: #1c3c55;
+    margin-bottom: 10px;
+}
+
+.footer-right p {
+    font-size: 14px;
+    color: #1c3c55;
+    max-width: 280px;
+}
+
+/* LOGOS */
+.footer-logos {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.footer-logos img {
+    height: 45px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+    .final-hero {
+        margin: 0 20px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .footer-logos {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
