@@ -71,7 +71,7 @@ class ORM():
                     session.add(Groupe(gid=row[gid],chid=int(row[chid]),fin=row[fin],description=row[des]))
                 session.commit()
 
-    def code_from_csv(self,path,cid=6,gid=4,des=8):
+    def code_from_csv(self,path,cid=0,gid=2,des=3):
         """
         path : chemin vers le CSV
         cid,gid,des : colonnes du CSV dans lesquelles sont les informations
@@ -118,7 +118,7 @@ if __name__ == "__main__":
     #chemin vers csv des chapitres
     pathChapitre = current_dir.parent / "data" / "csv-BDD" / "chapitre.csv"
     pathGroupe   = current_dir.parent / "data" / "csv-BDD" / "groupe.csv"
-    pathCode     = current_dir.parent / "data" / "csv-BDD" / "code.csv"
+    pathCode     = current_dir.parent / "data" / "csv-BDD" / "cimxXML.csv"
     # création des tables depuis les csv donné
-    # orm.from_csv(pathChapitre,pathGroupe,pathCode)
+    orm.from_csv(pathChapitre,pathGroupe,pathCode)
     orm.recompute_cim10('FremyCompany/BioLORD-2023-M')
