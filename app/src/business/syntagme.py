@@ -53,14 +53,26 @@ def extract_pathologies(texte):
     )
 
     #detection des entités
+    # On exécute le matcher sur l'ensemble des syntagmes (plus rapide)
     entities = matcher.run(syntagmas)
 
     results = []
 
-    for entity in entities:
-        neg_attr = entity.attrs.get(label="is_negated")[0]
-        if not neg_attr.value and entity.label == "problem":
-            results.append(entity.text)
+    for syntagma in syntagmas:
+        # Vérification de la négation du syntagme
+        neg_attrs = syntagma.attrs.get(label="is_negated")
+        is_negated = neg_attrs[0].value if neg_attrs else False
+        
+        if not is_negated:
+            # On cherche si une entité "problem" a été extraite dans ce syntagme
+            syntagma_entities = [e for e in entities if e.label == "problem" and e.text in syntagma.text]
+            
+            for entity in syntagma_entities:
+                # On extrait spécifiquement le texte du problème précis (ex: "douleur thoracique")
+                # au lieu de tout le contexte pour avoir un matching chirurgical.
+                texte_probleme = entity.text.strip()
+                if texte_probleme not in results:
+                    results.append(texte_probleme)
 
     return(results)
 

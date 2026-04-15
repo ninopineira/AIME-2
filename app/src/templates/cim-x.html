@@ -28,15 +28,15 @@
 <!-- SECTION RECHARGEMENT -->
 <section class="action-section">
 
-    <button class="action-btn">
-        Rechargement de la CIM-X
-    </button>
+    <a href="{{ url_for('adminCimXRechargement') }}" class="action-btn" style="text-decoration:none; display:inline-block;">
+        &#8635; Rechargement de la CIM-X
+    </a>
 
     <div class="info-card">
         <div class="info-icon">🏅</div>
         <div class="info-text">
-            Le rechargement de la CIM-10 consiste à charger la base des codes
-            dans l’application au démarrage ou à la demande.
+            Le rechargement de la CIM-10 consiste à importer un nouveau fichier CSV
+            fourni par le Ministère de la Santé pour mettre à jour la liste des codes.
         </div>
     </div>
 

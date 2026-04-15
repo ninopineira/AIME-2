@@ -1,7 +1,8 @@
 # from flask import *
-from flask import Flask, request, render_template, session, redirect, url_for
-# from flask_sqlalchemy import SQLAlchemy
+from flask import Flask, request, render_template, session, redirect, url_for, jsonify
+from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import *
+from sqlalchemy.orm import joinedload
 from .models.orm_cim import ORM
 from .business.matcher import Matcher
 from .models.models import Groupe, Code, Chapitre
@@ -9,7 +10,8 @@ from pathlib import Path
 from .business.syntagme import extract_pathologies
 from .business.paragraphe import extract_text
 import os
-from dotenv import load_dotenv
+from dotenv import load_dotenv 
+import threading
 
 # Charge les variables du fichier .env (à la racine du projet)
 load_dotenv()
@@ -91,19 +93,41 @@ def codage():
         results = matcher.match_cim10(synt)
         # print(synt)
         # print(results)
+        matched_codes = []
+        for entry in results:
+            if entry.get('best_match_code'): matched_codes.append(entry.get('best_match_code'))
+            if entry.get('second_best_match_code'): matched_codes.append(entry.get('second_best_match_code'))
+            if entry.get('third_match_code') or entry.get('third_best_match_code'):
+                matched_codes.append(entry.get('third_best_match_code') or entry.get('third_match_code'))
+                
+        code_metadata = {}
+        if matched_codes:
+            code_objs = orm.session.query(Code).options(joinedload(Code.groupes).joinedload(Groupe.chapitres)).filter(Code.cid.in_(matched_codes)).all()
+            for c in code_objs:
+                chap_name = c.groupes.chapitres.description if c.groupes and c.groupes.chapitres else "Inconnu"
+                group_name = c.groupes.description if c.groupes else "Inconnu"
+                code_metadata[c.cid] = {"chap": chap_name, "group": group_name}
+
         values = []
         for entry in results :
             ref = entry.get('entity')
             c1 = entry.get('best_match_code')
             d1 = entry.get('best_match_description')
+            m1 = code_metadata.get(c1, {"chap": "Inconnu", "group": "Inconnu"})
+            
             c2 = entry.get('second_best_match_code')
             d2 = entry.get('second_best_match_description')
+            m2 = code_metadata.get(c2, {"chap": "Inconnu", "group": "Inconnu"})
+            
             c3 = entry.get('third_best_match_code')
             d3 = entry.get('third_best_match_description')
-            values.append([ref,c1,d1])
-            values.append([ref,c2,d2])
-            values.append([ref,c3,d3])
-        data = {'texte':texte,'data' : values, 'title':"Resultats de recherche", 'colonnes': ["Référence à","Code","description"]}
+            m3 = code_metadata.get(c3, {"chap": "Inconnu", "group": "Inconnu"})
+            
+            values.append([ref, c1, d1, m1["chap"], m1["group"]])
+            values.append([ref, c2, d2, m2["chap"], m2["group"]])
+            values.append([ref, c3, d3, m3["chap"], m3["group"]])
+            
+        data = {'texte':texte,'data' : values, 'title':"Resultats de recherche", 'colonnes': ["Référence à","Code","description","Chapitre","Groupe"]}
         return render_template('codageResults.html',data=data)
 
 
@@ -128,6 +152,54 @@ def adminCimX():
     if not session.get('admin_logged'):
         return redirect(url_for('admin'))
     return render_template('cim-x.html')
+
+# Statut du recalcul des embeddings (partagé entre threads)
+_embed_status = {'running': False, 'done': False, 'error': None}
+
+@app.route('/admin/cim-x/rechargement', methods=['GET', 'POST'])
+def adminCimXRechargement():
+    if not session.get('admin_logged'):
+        return redirect(url_for('admin'))
+
+    if request.method == 'GET':
+        return render_template('cim-x-rechargement.html')
+
+    fichier = request.files.get('csv_codes')
+    if not fichier or not fichier.filename.lower().endswith('.csv'):
+        return render_template('cim-x.html', error="Fichier CSV invalide ou manquant.")
+
+    upload_path = current_dir / "data" / "csv-BDD" / "code.csv"
+    try:
+        fichier.save(str(upload_path))
+        orm.reload_codes(upload_path)
+    except Exception as e:
+        return render_template('cim-x-rechargement.html', error=f"Erreur lors du rechargement : {e}")
+
+    # Recalcul des embeddings en arrière-plan
+    def _recompute():
+        _embed_status['running'] = True
+        _embed_status['done'] = False
+        _embed_status['error'] = None
+        try:
+            orm.recompute_cim10('FremyCompany/BioLORD-2023-M')
+            matcher.reload_cim10()  # recharge codes + descriptions + embeddings en mémoire
+            _embed_status['done'] = True
+        except Exception as exc:
+            _embed_status['error'] = str(exc)
+        finally:
+            _embed_status['running'] = False
+
+    t = threading.Thread(target=_recompute, daemon=True)
+    t.start()
+
+    return render_template('cim-x-rechargement.html',
+                           success="Codes CIM-X rechargés avec succès. Recalcul des embeddings en cours…")
+
+@app.route('/admin/cim-x/rechargement/status')
+def adminCimXRechargementStatus():
+    if not session.get('admin_logged'):
+        return jsonify({'error': 'non autorisé'}), 403
+    return jsonify(_embed_status)
 
 @app.route('/admin/cim-x/affichage')
 def adminCimXAffichage():

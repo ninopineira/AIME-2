@@ -5,7 +5,7 @@ from sqlalchemy import ForeignKey, create_engine
 from sqlalchemy.orm import scoped_session, sessionmaker , Session
 from sqlalchemy.ext.declarative import declarative_base
 from sentence_transformers import SentenceTransformer
-import numpy as np 
+import numpy as np
 import csv
 from pathlib import Path
 if __name__ == "__main__" :
@@ -29,18 +29,18 @@ class ORM():
         # self.DBSession = sessionmaker(bind=self.engine)
         # self.session = self.DBSession()
 
-    
+
     def tableDrop(self) :
         self.db.metadata.drop_all(bind=self.engine)
         return
 
     def tableCreate(self):# Recréation des tables
         self.db.metadata.create_all(bind=self.engine)
-        return 
+        return
 
     ## "setter"
     def recompute_cim10(self,model_path) :
-        model = SentenceTransformer(model_path) 
+        model = SentenceTransformer(model_path)
         descriptions = self.codesDescription()
         embeddings = model.encode(descriptions)
         np.save(self.path_emb,embeddings)
@@ -58,7 +58,7 @@ class ORM():
                 for row in reader:
                     session.add(Chapitre(chid=int(row[chid]),description=row[des]))
                 session.commit()
-    
+
     def groupe_from_csv(self,path,gid=0,chid=2,fin=1,des=3):
         """
         path : chemin vers le CSV
@@ -82,14 +82,21 @@ class ORM():
                 for row in reader:
                     session.add(Code(cid=row[cid],gid=row[gid],c3c=row[cid][0:3],description=row[des]))
                 session.commit()
-    
+
     def from_csv(self,pathChapitre,pathGroupe,pathCode):
         self.tableDrop()
         self.tableCreate()
         self.code_from_csv(pathCode)
         self.groupe_from_csv(pathGroupe)
         self.chapitre_from_csv(pathChapitre)
-    
+
+    def reload_codes(self, path):
+        """Supprime tous les codes et les réimporte depuis un nouveau CSV."""
+        with Session(self.engine) as session:
+            session.query(Code).delete()
+            session.commit()
+        self.code_from_csv(path)
+
     ## "getter"
     def codes(self):
         codes = self.session.query(Code.cid).all()
@@ -97,20 +104,20 @@ class ORM():
         for i in range (len(codes)) :
             values.append(codes[i][0])
         return values
-    
+
     def codesDescription(self):
         description = self.session.query(Code.description).all()
         values = []
         for i in range (len(description)) :
             values.append(description[i][0])
         return values
-    
+
     def embeddings(self):
         return np.load(self.path_emb)
 
 if __name__ == "__main__":
-    
-    #chemin vers le script 
+
+    #chemin vers le script
     current_dir = Path(__file__).resolve().parent
     pathDB = current_dir.parent / "data" / "aime2-cim.db"
     pathEMB = current_dir.parent / "data" / "aime2-embeddings"
