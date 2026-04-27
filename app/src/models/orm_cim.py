@@ -99,17 +99,17 @@ class ORM():
 
     ## "getter"
     def codes(self):
-        codes = self.session.query(Code.cid).all()
+        codes = self.session.query(Code.cid, Code.description).all()
         values = []
         for i in range (len(codes)) :
             values.append(codes[i][0])
         return values
 
     def codesDescription(self):
-        description = self.session.query(Code.description).all()
+        description = self.session.query(Code.cid, Code.description).all()
         values = []
         for i in range (len(description)) :
-            values.append(description[i][0])
+            values.append(description[i][1])
         return values
 
     def embeddings(self):
