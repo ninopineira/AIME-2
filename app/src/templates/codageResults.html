@@ -503,35 +503,73 @@ document.addEventListener("DOMContentLoaded", function() {
         if(e) entites.add(e);
     });
 
-    function createCheckbox(containerId, value, type) {
+    function createCheckbox(containerId, value, type, isSelectAll = false) {
         const container = document.getElementById(containerId);
         const label = document.createElement('label');
-        label.className = 'checkbox-item';
+        label.className = 'checkbox-item' + (isSelectAll ? ' select-all' : '');
+        if (isSelectAll) {
+            label.style.fontWeight = 'bold';
+            label.style.borderBottom = '1px solid #e8f4fb';
+            label.style.paddingBottom = '8px';
+            label.style.marginBottom = '4px';
+        }
         
         const cb = document.createElement('input');
         cb.type = 'checkbox';
         cb.value = value;
         cb.checked = false; // Par défaut TOUT est décoché (entonnoir)
         cb.dataset.filterType = type;
-        cb.addEventListener('change', filterResults);
+        
+        if (isSelectAll) {
+            cb.addEventListener('change', function(e) {
+                const isChecked = e.target.checked;
+                const checkboxes = container.querySelectorAll('input[type="checkbox"]:not([value="all"])');
+                checkboxes.forEach(checkbox => {
+                    if (checkbox.parentElement.style.display !== 'none') {
+                        checkbox.checked = isChecked;
+                    }
+                });
+                filterResults();
+            });
+        } else {
+            cb.addEventListener('change', function() {
+                filterResults();
+            });
+        }
 
-        const txt = document.createTextNode(value);
+        const txt = document.createTextNode(value === 'all' ? 'Tout sélectionner' : value);
         
         label.appendChild(cb);
         label.appendChild(txt);
         container.appendChild(label);
     }
 
+    if (chapitres.size > 0) createCheckbox('filter-chapitres', 'all', 'chapitre', true);
     [...chapitres].sort().forEach(v => createCheckbox('filter-chapitres', v, 'chapitre'));
+    
+    if (groupes.size > 0) createCheckbox('filter-groupes', 'all', 'groupe', true);
     [...groupes].sort().forEach(v => createCheckbox('filter-groupes', v, 'groupe'));
+    
+    if (entites.size > 0) createCheckbox('filter-entites', 'all', 'entite', true);
     [...entites].sort().forEach(v => createCheckbox('filter-entites', v, 'entite'));
 
     const filterGroupesContainer = document.getElementById('filter-groupes').parentElement;
     const filterEntitesContainer = document.getElementById('filter-entites').parentElement;
     const resultsContainer = document.querySelector('.results-table-wrap');
 
+    function updateSelectAllState(containerId) {
+        const container = document.getElementById(containerId);
+        const selectAllCb = container.querySelector('input[value="all"]');
+        if (selectAllCb) {
+            const visibleCheckboxes = Array.from(container.querySelectorAll('input[type="checkbox"]:not([value="all"])')).filter(c => c.parentElement.style.display !== 'none');
+            const allChecked = visibleCheckboxes.length > 0 && visibleCheckboxes.every(c => c.checked);
+            selectAllCb.checked = allChecked;
+            selectAllCb.parentElement.style.display = visibleCheckboxes.length > 0 ? '' : 'none';
+        }
+    }
+
     function filterResults() {
-        const activeChaps = new Set([...document.querySelectorAll('#filter-chapitres input:checked')].map(i => i.value));
+        const activeChaps = new Set([...document.querySelectorAll('#filter-chapitres input:not([value="all"]):checked')].map(i => i.value));
         
         // Tous les chapitres sont toujours visibles
         document.querySelectorAll('#filter-chapitres .checkbox-item').forEach(lbl => lbl.style.display = '');
@@ -541,6 +579,7 @@ document.addEventListener("DOMContentLoaded", function() {
             filterGroupesContainer.style.display = 'none';
             filterEntitesContainer.style.display = 'none';
             resultsContainer.style.display = 'none';
+            updateSelectAllState('filter-chapitres');
             return;
         }
 
@@ -556,21 +595,24 @@ document.addEventListener("DOMContentLoaded", function() {
         });
 
         document.querySelectorAll('#filter-groupes .checkbox-item').forEach(lbl => {
-            const val = lbl.querySelector('input').value;
-            if (availableGroups.has(val)) {
+            const cb = lbl.querySelector('input');
+            if (cb.value === 'all') return;
+            if (availableGroups.has(cb.value)) {
                 lbl.style.display = '';
             } else {
                 lbl.style.display = 'none';
-                lbl.querySelector('input').checked = false; // On décoche si non disponible
+                cb.checked = false; // On décoche si non disponible
             }
         });
 
-        const activeGroups = new Set([...document.querySelectorAll('#filter-groupes input:checked')].map(i => i.value));
+        const activeGroups = new Set([...document.querySelectorAll('#filter-groupes input:not([value="all"]):checked')].map(i => i.value));
 
         // 3. Si aucun groupe coché, on masque le tableau et entités
         if (activeGroups.size === 0) {
             filterEntitesContainer.style.display = 'none';
             resultsContainer.style.display = 'none';
+            updateSelectAllState('filter-chapitres');
+            updateSelectAllState('filter-groupes');
             return;
         }
 
@@ -588,16 +630,17 @@ document.addEventListener("DOMContentLoaded", function() {
         });
 
         document.querySelectorAll('#filter-entites .checkbox-item').forEach(lbl => {
-            const val = lbl.querySelector('input').value;
-            if (availableEntites.has(val)) {
+            const cb = lbl.querySelector('input');
+            if (cb.value === 'all') return;
+            if (availableEntites.has(cb.value)) {
                 lbl.style.display = '';
             } else {
                 lbl.style.display = 'none';
-                lbl.querySelector('input').checked = false;
+                cb.checked = false;
             }
         });
 
-        const activeEntites = new Set([...document.querySelectorAll('#filter-entites input:checked')].map(i => i.value));
+        const activeEntites = new Set([...document.querySelectorAll('#filter-entites input:not([value="all"]):checked')].map(i => i.value));
         const noEntitesSelected = (activeEntites.size === 0);
 
         // Mise à jour de l'affichage des lignes du tableau
@@ -630,6 +673,10 @@ document.addEventListener("DOMContentLoaded", function() {
             if(divider) divider.style.display = visible ? '' : 'none';
             if(label) label.style.display = visible ? '' : 'none';
         });
+
+        updateSelectAllState('filter-chapitres');
+        updateSelectAllState('filter-groupes');
+        updateSelectAllState('filter-entites');
     }
 
     // Initialiser l'état d'affichage (tout masque sauf Chapitres initialement)
